@@ -98,7 +98,12 @@ def generate_legislator_json():
                                     term['url'] = data['links'][-1].get('url')  # Use the last link as the URL
 
                                 person['terms'].append(term)
-                                person['terms'].reverse()  # Reverse to have most recent term last, to match congressional format
+                            # Most recent term last, to match the congressional
+                            # format. Sort by start date (stable, so undated
+                            # roles keep source order) rather than reversing —
+                            # the old reverse ran once per role and left the
+                            # order scrambled for anyone with 2+ roles.
+                            person['terms'].sort(key=lambda t: str(t.get('start', '')))
 
                         jsonDataList.append(person)
 
