@@ -1,0 +1,45 @@
+name: Refresh municipal office holders
+
+# Weekly Wikidata refresh of mayors (CVQ-61). Opens a PR rather than pushing,
+# so the diff (new mayors, retirements, new municipalities) gets a human look
+# before it reaches the app.
+on:
+  schedule:
+    - cron: "0 12 * * 1" # Mondays 12:00 UTC
+  workflow_dispatch:
+    inputs:
+      state:
+        description: State code (lowercase)
+        default: ca
+      include_council:
+        description: Also refresh council members (best effort)
+        type: boolean
+        default: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml requests
+      - name: Run refresh
+        run: |
+          STATE="${{ github.event.inputs.state || 'ca' }}"
+          EXTRA=""
+          if [ "${{ github.event.inputs.include_council }}" = "true" ]; then EXTRA="--include-council"; fi
+          python3 scripts/wikidata_municipal.py --state "$STATE" $EXTRA | tee refresh-report.txt
+      - name: Open pull request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: auto/municipal-refresh-${{ github.event.inputs.state || 'ca' }}
+          title: "Municipal refresh (${{ github.event.inputs.state || 'ca' }}) from Wikidata"
+          commit-message: "Refresh municipal office holders from Wikidata"
+          body-path: refresh-report.txt
+          labels: data-refresh
+          add-paths: data/

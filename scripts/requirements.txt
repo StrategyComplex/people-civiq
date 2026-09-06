@@ -8,4 +8,4 @@ pyflakes
 pytz
 tweepy
 sparqlwrapper
-postal
+postalrequests

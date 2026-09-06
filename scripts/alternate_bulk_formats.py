@@ -44,6 +44,9 @@ def generate_legislator_json():
                         person['id'] = {}
                         if 'id' in data:
                             person['id']['openstates'] = data['id']
+                        for ident in data.get('other_identifiers') or []:
+                            if ident.get('scheme') == 'wikidata':
+                                person['id']['wikidata'] = ident.get('identifier')
                             
                         person['name'] = {}
                         if 'name' in data:
@@ -96,6 +99,14 @@ def generate_legislator_json():
 
                                 if 'links' in data and len(data['links']) > 0:
                                     term['url'] = data['links'][-1].get('url')  # Use the last link as the URL
+
+                                # Provenance for clients: where the record came from
+                                # and when it was last verified (CVQ-61).
+                                if data.get('sources'):
+                                    term['sources'] = [s['url'] for s in data['sources'] if s.get('url')]
+                                extras = data.get('extras') or {}
+                                if extras.get('verified_at'):
+                                    term['verified_at'] = str(extras['verified_at'])
 
                                 person['terms'].append(term)
                             # Most recent term last, to match the congressional
