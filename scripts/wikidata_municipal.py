@@ -52,44 +52,72 @@ CITY_CLASSES = [
     "Q47133724",  # city of California (if present)
 ]
 
+# Query shape matters: WDQS has a 60 s limit. Start from `head of government`
+# statements (rare) rather than "every entity in California" (huge), bound the
+# located-in walk to city->county->state, and keep OPTIONALs out of the main
+# query — party/image/website come from DETAILS_QUERY, batched by VALUES.
+_IN_STATE = """
+  { ?city wdt:P131 wd:%(state)s . }
+  UNION
+  { ?city wdt:P131/wdt:P131 wd:%(state)s . }
+"""
+
 MAYOR_QUERY = """
-SELECT ?city ?cityLabel ?gnis ?person ?personLabel ?start ?end ?partyLabel ?image ?website ?rank
+SELECT ?city ?cityLabel ?person ?personLabel ?start ?end ?rank
 WHERE {
-  VALUES ?cls { %(classes)s }
-  ?city wdt:P31 ?cls ;
-        wdt:P131* wd:%(state)s .
+  hint:Query hint:optimizer "None" .
   ?city p:P6 ?st .
   ?st ps:P6 ?person ; wikibase:rank ?rank .
   FILTER(?rank != wikibase:DeprecatedRank)
+  VALUES ?cls { %(classes)s }
+  ?city wdt:P31 ?cls .
+  %(in_state)s
   OPTIONAL { ?st pq:P580 ?start . }
   OPTIONAL { ?st pq:P582 ?end . }
-  OPTIONAL { ?city wdt:P590 ?gnis . }
-  OPTIONAL { ?city wdt:P856 ?website . }
-  OPTIONAL { ?person wdt:P102 ?party . }
-  OPTIONAL { ?person wdt:P18 ?image . }
-  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+  ?city rdfs:label ?cityLabel . FILTER(LANG(?cityLabel) = "en")
+  ?person rdfs:label ?personLabel . FILTER(LANG(?personLabel) = "en")
 }
 """
 
 COUNCIL_QUERY = """
-SELECT ?city ?cityLabel ?person ?personLabel ?start ?end ?districtLabel ?partyLabel ?image ?rank
+SELECT ?city ?cityLabel ?person ?personLabel ?start ?end ?districtLabel ?rank
 WHERE {
+  hint:Query hint:optimizer "None" .
+  ?pos wdt:P279* wd:Q708492 .          # city councillor (and subclasses)
+  ?pos wdt:P1001 ?city .
   VALUES ?cls { %(classes)s }
-  ?city wdt:P31 ?cls ;
-        wdt:P131* wd:%(state)s .
-  ?pos wdt:P1001 ?city ;
-       wdt:P279* wd:Q708492 .          # city councillor
+  ?city wdt:P31 ?cls .
+  %(in_state)s
   ?person p:P39 ?st .
   ?st ps:P39 ?pos ; wikibase:rank ?rank .
   FILTER(?rank != wikibase:DeprecatedRank)
   OPTIONAL { ?st pq:P580 ?start . }
   OPTIONAL { ?st pq:P582 ?end . }
-  OPTIONAL { ?st pq:P768 ?district . }
-  OPTIONAL { ?person wdt:P102 ?party . }
-  OPTIONAL { ?person wdt:P18 ?image . }
-  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+  OPTIONAL { ?st pq:P768 ?district . ?district rdfs:label ?districtLabel . FILTER(LANG(?districtLabel) = "en") }
+  ?city rdfs:label ?cityLabel . FILTER(LANG(?cityLabel) = "en")
+  ?person rdfs:label ?personLabel . FILTER(LANG(?personLabel) = "en")
 }
 """
+
+# Per-person / per-city extras, fetched only for the ids the main query found.
+PERSON_DETAILS_QUERY = """
+SELECT ?person ?partyLabel ?image
+WHERE {
+  VALUES ?person { %(ids)s }
+  OPTIONAL { ?person wdt:P102 ?party . ?party rdfs:label ?partyLabel . FILTER(LANG(?partyLabel) = "en") }
+  OPTIONAL { ?person wdt:P18 ?image . }
+}
+"""
+
+CITY_DETAILS_QUERY = """
+SELECT ?city ?website
+WHERE {
+  VALUES ?city { %(ids)s }
+  OPTIONAL { ?city wdt:P856 ?website . }
+}
+"""
+
+DETAILS_BATCH = 150
 
 
 # --------------------------------------------------------------------------- helpers
@@ -132,17 +160,59 @@ def clean_city_label(label):
 
 
 # --------------------------------------------------------------------------- SPARQL
-def run_query(query):
+def run_query(query, attempts=3):
+    """POST to WDQS (GET URLs get long), retrying 429/5xx with backoff."""
+    import time
+
     import requests  # imported lazily so tests with --fixture need no network
 
-    resp = requests.get(
-        SPARQL_ENDPOINT,
-        params={"query": query, "format": "json"},
-        headers={"User-Agent": USER_AGENT, "Accept": "application/sparql-results+json"},
-        timeout=120,
-    )
-    resp.raise_for_status()
-    return resp.json()
+    last = None
+    for attempt in range(attempts):
+        resp = requests.post(
+            SPARQL_ENDPOINT,
+            data={"query": query, "format": "json"},
+            headers={"User-Agent": USER_AGENT, "Accept": "application/sparql-results+json"},
+            timeout=180,
+        )
+        if resp.status_code in (429, 500, 502, 503, 504) and attempt < attempts - 1:
+            wait = int(resp.headers.get("Retry-After", 0)) or 10 * (attempt + 1)
+            print("WDQS %s; retrying in %ss" % (resp.status_code, wait), file=sys.stderr)
+            time.sleep(wait)
+            last = resp
+            continue
+        resp.raise_for_status()
+        return resp.json()
+    last.raise_for_status()
+
+
+def _chunks(seq, n):
+    seq = list(seq)
+    for i in range(0, len(seq), n):
+        yield seq[i:i + n]
+
+
+def fetch_details(rows):
+    """Second pass: party/image per person and website per city, batched so
+    each request stays well inside the WDQS time limit."""
+    party, image, website = {}, {}, {}
+    for chunk in _chunks(sorted({r["person"] for r in rows}), DETAILS_BATCH):
+        q = PERSON_DETAILS_QUERY % {"ids": " ".join("<%s>" % u for u in chunk)}
+        for d in bindings(run_query(q)):
+            party.setdefault(d["person"], d.get("partyLabel"))
+            image.setdefault(d["person"], d.get("image"))
+    for chunk in _chunks(sorted({r["city"] for r in rows}), DETAILS_BATCH):
+        q = CITY_DETAILS_QUERY % {"ids": " ".join("<%s>" % u for u in chunk)}
+        for d in bindings(run_query(q)):
+            website.setdefault(d["city"], d.get("website"))
+    return party, image, website
+
+
+def merge_details(rows, party, image, website):
+    for r in rows:
+        r.setdefault("partyLabel", party.get(r["person"]))
+        r.setdefault("image", image.get(r["person"]))
+        r.setdefault("website", website.get(r["city"]))
+    return rows
 
 
 def bindings(results):
@@ -157,10 +227,16 @@ def fetch(state, include_council, fixture=None):
             data = json.load(f)
         council = data.get("council", {"results": {"bindings": []}}) if include_council else {"results": {"bindings": []}}
         return list(bindings(data["mayors"])), list(bindings(council))
-    params = {"classes": " ".join("wd:" + c for c in CITY_CLASSES), "state": STATE_ENTITY[state]}
+    state_q = STATE_ENTITY[state]
+    params = {
+        "classes": " ".join("wd:" + c for c in CITY_CLASSES),
+        "state": state_q,
+        "in_state": _IN_STATE % {"state": state_q},
+    }
     mayors = list(bindings(run_query(MAYOR_QUERY % params)))
     council = list(bindings(run_query(COUNCIL_QUERY % params))) if include_council else []
-    return mayors, council
+    party, image, website = fetch_details(mayors + council) if (mayors or council) else ({}, {}, {})
+    return merge_details(mayors, party, image, website), merge_details(council, party, image, website)
 
 
 # --------------------------------------------------------------------------- selection
