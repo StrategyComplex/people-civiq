@@ -17,7 +17,7 @@ offices:
   address: Room E2.716, P.O. Box 12910, Austin, TX 78711
   voice: 512-463-0244
 - classification: district
-  address: 18601 Lyndon B. Johnson Freeway Suite 509, Mesquite, TX 75150
+  address: TX
   voice: 469-501-6305
 links:
 - url: https://www.house.texas.gov/members/107
@@ -30,3 +30,4 @@ sources:
 - url: https://en.wikipedia.org/wiki/Linda_Garcia_(politician)
 - url: https://justfacts.votesmart.org/candidate/biography/213480/linda-garcia
 - url: https://www.house.texas.gov/members/107
+- url: https://www.house.texas.gov/members/4485/biography

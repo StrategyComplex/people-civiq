@@ -4,7 +4,7 @@ given_name: Patrick
 family_name: Windhorst
 gender: Male
 email: windhorst@ilhousegop.org
-image: https://ilga.gov/images/members/{547F9C92-7368-4390-B625-5BB795568D50}.jpg
+image: https://cdn.ilga.gov/assets/img/members/{547F9C92-7368-4390-B625-5BB795568D50}.jpg
 party:
 - name: Republican
 roles:
@@ -21,7 +21,7 @@ offices:
   address: Room 314, Capitol Building, Springfield, IL 62706
   voice: 217-782-5131
 - classification: district
-  address: 2 N. Vine St. Suite 5A, Harrisburg, IL 62946
+  address: 3 S. Main St. Suite 2, Harrisburg, IL 62946
   voice: 618-294-8703
 links:
 - url: https://ilga.gov/house/Rep.asp?GA=101&MemberID=2760

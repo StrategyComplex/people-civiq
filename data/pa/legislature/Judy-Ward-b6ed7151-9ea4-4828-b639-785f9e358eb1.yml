@@ -4,7 +4,7 @@ given_name: Judy
 family_name: Ward
 gender: Female
 email: jward@pasen.gov
-image: https://www.legis.state.pa.us/images/members/200/1683.jpg?1703415645672
+image: https://www.palegis.us/resources/images/members/300/1683.jpg
 party:
 - name: Republican
 roles:
@@ -24,7 +24,7 @@ offices:
   address: 1904 N. Juniata St., Hollidaysburg, PA 16648
   voice: 814-695-8386
 - classification: district
-  address: 201 Lincoln Way W. Suite 102, McConnellsburg, PA 17233
+  address: 201 Lincoln Way West Suite 102, McConnellsburg, PA 17233
   voice: 717-485-3616
 - classification: district
   address: 3 W. Market St. Suite 201, Lewistown, PA 17044
@@ -54,12 +54,14 @@ other_identifiers:
 sources:
 - url: https://ballotpedia.org/Judith_Ward
 - url: https://en.wikipedia.org/wiki/Judy_Ward
+- url: https://justfacts.votesmart.org/candidate/biography/150888/judy-ward
 - url: https://senatorjudyward.com
 - url: https://www.legis.state.pa.us/cfdocs/legis/home/member_information/mbrList.cfm?body=S&sort=alpha
 - url: https://www.legis.state.pa.us/cfdocs/legis/home/member_information/Senate_bio.cfm?id=1683
 - url: https://www.legis.state.pa.us/cfdocs/legis/home/member_information/senators_alpha.cfm
 - url: https://www.linkedin.com/in/judy-ward-a8615626
 - url: https://www.palegis.us/senate/members/bio/1683/sen-j-ward
+- url: https://www.palegis.us/senate/members/bio/1683/sen-judy-ward
 extras:
   website: https://senatorjudyward.com/
   Education:

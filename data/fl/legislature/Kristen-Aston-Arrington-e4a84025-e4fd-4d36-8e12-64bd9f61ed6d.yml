@@ -4,8 +4,8 @@ given_name: Kristen
 family_name: Arrington
 birth_date: 1975-08-22
 gender: Female
-email: arrington.kristen@flsenate.gov
-image: https://myfloridahouse.gov//FileStores/Web/Imaging/Member/4774.jpg
+email: arrington.kristen.web@flsenate.gov
+image: https://www.flhouse.gov/FileStores/Web/Imaging/Member/4774.jpg
 party:
 - name: Democratic
 roles:
@@ -39,6 +39,7 @@ other_names:
 sources:
 - url: https://ballotpedia.org/Kristen_Arrington
 - url: https://en.wikipedia.org/wiki/Kristen_Arrington
+- url: https://justfacts.votesmart.org/candidate/biography/194624/kristen-arrington
 - url: https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4774&LegislativeTermId=90
   note: member detail page
 - url: https://www.flsenate.gov/Senators/s25

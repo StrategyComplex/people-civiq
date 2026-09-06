@@ -2,6 +2,7 @@ id: ocd-person/5425612b-fb2c-4857-8f75-31523345eb2b
 name: Brian Fernandez
 given_name: Brian
 family_name: Fernandez
+birth_date: 1977-08-23
 gender: Male
 email: bfernandez@azleg.gov
 image: https://www.azleg.gov/alisImages/MemberPhotos/57leg/Senate/FERNANDEZ.jpg
@@ -35,6 +36,7 @@ other_names:
 sources:
 - url: https://ballotpedia.org/Brian_Fernandez
 - url: https://en.wikipedia.org/wiki/Brian_Fernandez_(politician)
+- url: https://justfacts.votesmart.org/candidate/biography/200733/brian-fernandez
 - url: https://www.azleg.gov/house-member/?legislature=55&session=123&legislator=2101
 - url: https://www.azleg.gov/memberroster/?body=H
 - url: https://www.azleg.gov/memberroster/?body=S

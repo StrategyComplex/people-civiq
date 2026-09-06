@@ -31,9 +31,6 @@ members:
 - name: Gretchen Dobervich
   role: member
   person_id: ocd-person/752ba791-ab73-4945-b632-64fcae50c118
-- name: Josh Boschee
-  role: member
-  person_id: ocd-person/50d67a3d-7267-4f21-93af-6827c45077f0
 - name: Kathy Hogan
   role: member
   person_id: ocd-person/03924b26-a081-4722-947b-2738200f9063
@@ -43,6 +40,9 @@ members:
 - name: Kyle Davison
   role: member
   person_id: ocd-person/4412269d-782d-4ea2-a649-e62a30cd1739
+- name: Mike Berg
+  role: member
+  person_id: ocd-person/00959142-f06a-4e5d-aab2-21abfd9aa261
 - name: Mike Lefor
   role: member
   person_id: ocd-person/813e59ee-0d23-43d7-b6a9-82ff79cf8f4f

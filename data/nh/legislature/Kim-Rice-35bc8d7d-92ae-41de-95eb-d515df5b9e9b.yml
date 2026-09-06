@@ -4,6 +4,7 @@ given_name: Kim
 family_name: Rice
 gender: Female
 email: kimberly.rice@gc.nh.gov
+image: https://storage.googleapis.com/enview-dev-public-general/legislative-people-photos/45117.jpg
 party:
 - name: Republican
 roles:

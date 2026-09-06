@@ -20,6 +20,10 @@ offices:
 - classification: district
   address: 100 Hamilton Plaza Suite 1400, Paterson, NJ 07505
   voice: 973-523-5152
+- classification: district
+  address: 253 Stuyvesant Ave., Lyndhurst, NJ 07071
+- classification: district
+  address: Passaic City Hall 330 Passaic St., Passaic, NJ 07055
 links:
 - url: https://pou.house.gov/
 other_names:

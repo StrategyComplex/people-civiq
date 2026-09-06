@@ -4,7 +4,7 @@ given_name: Peggy
 family_name: Gossett-Seidman
 gender: Female
 email: peggy.gossettseidman@flhouse.gov
-image: https://myfloridahouse.gov//FileStores/Web/Imaging/Member/4891.jpg
+image: https://www.flhouse.gov/FileStores/Web/Imaging/Member/4891.jpg
 party:
 - name: Republican
 roles:
@@ -17,7 +17,7 @@ offices:
   address: Room 212, The Capitol 402 S. Monroe St., Tallahassee, FL 32399
   voice: 850-717-5091
 - classification: district
-  address: 4400 N. Federal Highway, Boca Raton, FL 33431
+  address: 4400 N. Federal Highway Suite 40, Boca Raton, FL 33431
   voice: 561-571-4670
 links:
 - url: https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4891&LegislativeTermId=90
@@ -30,6 +30,7 @@ other_names:
 - name: P. Gossett-Seidman
 sources:
 - url: https://ballotpedia.org/Peggy_Gossett-Seidman
+- url: https://en.wikipedia.org/wiki/Peggy_Gossett-Seidman
 - url: https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4891&LegislativeTermId=90
   note: member detail page
 - url: https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4891

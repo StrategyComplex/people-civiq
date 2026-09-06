@@ -41,9 +41,6 @@ members:
 - name: Harold Pope
   role: advisory
   person_id: ocd-person/713e2881-4ecb-4d66-9bd3-6422c898df91
-- name: Joanne Ferrary
-  role: advisory
-  person_id: ocd-person/05309266-c7a0-455b-94f2-ebf1d436daff
 - name: John Block
   role: advisory
   person_id: ocd-person/fd2e3bdc-3ca7-495c-b853-8a4db020e4d0
@@ -71,6 +68,9 @@ members:
 - name: Reena Szczepanski
   role: advisory
   person_id: ocd-person/0b7d9451-0462-4064-b28e-6d44123edd1e
+- name: Rex Wilson
+  role: advisory
+  person_id: ocd-person/0884aac3-cddb-4374-88e1-94bf623410f3
 - name: Sarah Silva
   role: advisory
   person_id: ocd-person/a9377979-b109-4e11-b338-89b203c04527

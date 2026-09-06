@@ -5,7 +5,7 @@ family_name: McCluskie
 birth_date: 1964-01-12
 gender: Female
 email: julie.mccluskie.house@coleg.gov
-image: http://leg.colorado.gov/sites/default/files/styles/width_300/public/2023b_mccluskie%2C%20julie%20-%20speaker.jpg?itok=Gnk_5Fmt
+image: https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeEpUQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--876516c8bc7b672caf43f253b83440d18b6eba1a/McCluskie,%20Julie.jpg
 party:
 - name: Democratic
 roles:
@@ -13,6 +13,10 @@ roles:
   type: lower
   jurisdiction: ocd-jurisdiction/country:us/state:co/government
   district: '13'
+- end_date: '2023-01-10'
+  type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:co/government
+  district: '61'
 offices:
 - classification: capitol
   address: State Capitol Room 307, Colorado  Building 200 E. Colfax Ave., Denver,
@@ -26,12 +30,17 @@ other_names:
 - name: J.L. McCluskie
 - name: McCluskie J.
 - name: McCluskie, J.
+ids:
+  twitter: McCluskieforCO
+  facebook: McCluskieforCO
+  instagram: mccluskieforco
 sources:
 - url: https://ballotpedia.org/Julie_McCluskie
 - url: https://en.wikipedia.org/wiki/Julie_McCluskie
 - url: https://justfacts.votesmart.org/candidate/biography/181795/julie-mccluskie
 - url: https://leg.colorado.gov/legislators
 - url: https://leg.colorado.gov/legislators/julie-mccluskie
+- url: https://www.cohousedems.com/team/julie-mccluskie
 - url: https://www.linkedin.com/in/juliemccluskie
 extras:
   counties represented:

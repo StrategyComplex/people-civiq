@@ -4,7 +4,7 @@ given_name: Kat
 family_name: McGhee
 gender: Female
 email: kat.mcghee@gc.nh.gov
-image: https://www.gencourt.state.nh.us/house/images/memberpics/408947.jpg
+image: https://storage.googleapis.com/enview-dev-public-general/legislative-people-photos/73176.jpg
 party:
 - name: Democratic
 roles:

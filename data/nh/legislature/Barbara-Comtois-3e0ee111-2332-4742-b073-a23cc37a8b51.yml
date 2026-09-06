@@ -4,7 +4,7 @@ given_name: Barbara
 family_name: Comtois
 gender: Female
 email: barbara.comtois@gc.nh.gov
-image: https://www.gencourt.state.nh.us/house/images/memberpics/408274.jpg
+image: https://storage.googleapis.com/enview-dev-public-general/legislative-people-photos/60988.jpg
 party:
 - name: Republican
 roles:

@@ -5,7 +5,7 @@ family_name: Duran
 birth_date: 1960-01-08
 gender: Female
 email: monica.duran.house@coleg.gov
-image: http://leg.colorado.gov/sites/default/files/styles/width_300/public/2023b_duran%2C%20monica.jpg?itok=weFukimD
+image: https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeDVUQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--807d51d68890b754bbaed0298372904fcf4a75d5/Duran,%20Monica.jpg
 party:
 - name: Democratic
 roles:
@@ -30,6 +30,10 @@ other_names:
 - name: Duran, M.
 - name: M. Duran
 - name: M.I. Duran
+ids:
+  twitter: MonicaDuran23
+  facebook: Monica.Duran.Colorado.House
+  instagram: monicaduranhd23
 sources:
 - url: https://ballotpedia.org/Monica_Duran
 - url: https://en.wikipedia.org/wiki/Monica_Duran

@@ -23,9 +23,6 @@ members:
 - name: Emily Sirota
   role: vice chair
   person_id: ocd-person/c8c1a9c5-c7c2-4894-8829-fc83251bcaf2
-- name: Rick Taggart
-  role: ranking member
-  person_id: ocd-person/5dae0c7f-430e-42a2-906d-9e177782f91b
 - name: Andy Boesenecker
   role: member
   person_id: ocd-person/278f042b-4fe3-4325-ad59-bc240e4fda0c
@@ -44,6 +41,9 @@ members:
 - name: Matt Soper
   role: member
   person_id: ocd-person/9e529237-916b-407c-a60e-abd8e0708329
+- name: Rick Taggart
+  role: member
+  person_id: ocd-person/5dae0c7f-430e-42a2-906d-9e177782f91b
 - name: Scott Bottoms
   role: member
   person_id: ocd-person/66254480-6178-4312-8a18-268ec84153cc

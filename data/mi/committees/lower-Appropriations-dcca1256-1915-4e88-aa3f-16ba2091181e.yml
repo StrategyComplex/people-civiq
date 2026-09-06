@@ -22,6 +22,9 @@ members:
 - name: Ann Bollin
   role: chair
   person_id: ocd-person/3a9d71dc-da5b-4bd3-8062-c8387292dc52
+- name: Joe Tate
+  role: democratic vice chair
+  person_id: ocd-person/19b8cf37-0b98-4194-9d2c-db6da3fae35c
 - name: Matt Maddock
   role: republican vice chair
   person_id: ocd-person/241c969f-c72f-4acb-9a37-529e6ec0d955
@@ -52,9 +55,6 @@ members:
 - name: Greg VanWoerkom
   role: member
   person_id: ocd-person/960d6487-b202-46fa-8905-e001b6954d5a
-- name: J.R. Roth
-  role: member
-  person_id: ocd-person/e1147656-e038-47fa-ad70-4d206233db72
 - name: Jason Morgan
   role: member
   person_id: ocd-person/9b0967d9-1238-4f90-8e03-233a17fc03e0
@@ -64,9 +64,6 @@ members:
 - name: Jim DeSana
   role: member
   person_id: ocd-person/af4a0996-bcf0-4e8f-9165-4290343e905f
-- name: Julie Rogers
-  role: member
-  person_id: ocd-person/5154033e-e367-449c-a719-9437a309e269
 - name: Ken Borton
   role: member
   person_id: ocd-person/f38453af-388f-48fc-a18e-f709dba5153c
@@ -82,9 +79,6 @@ members:
 - name: Nancy Jenkins-Arno
   role: member
   person_id: ocd-person/b8703f11-7463-4df6-aedb-9b3d51560bcb
-- name: Natalie Price
-  role: member
-  person_id: ocd-person/2c6f93a7-f08a-4ad4-9424-cdd857401e6e
 - name: Phil Green
   role: member
   person_id: ocd-person/67081474-baf6-465a-bcd2-b2b84ab5c36b

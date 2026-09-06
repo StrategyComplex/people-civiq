@@ -26,6 +26,9 @@ members:
 - name: Allen Buansi
   role: member
   person_id: ocd-person/95a533af-7933-4992-aea6-dfdc626b7ca6
+- name: Anna Ferguson
+  role: member
+  person_id: ocd-person/5ca31513-814c-44b9-9206-aae55c05d056
 - name: Becky Carney
   role: member
   person_id: ocd-person/367ad234-14bc-4d86-95ee-ab1176890d6e
@@ -68,9 +71,6 @@ members:
 - name: Mark Brody
   role: member
   person_id: ocd-person/cc238a7c-3222-4ac2-8d4d-3884dd342a5f
-- name: Mike Clampitt
-  role: member
-  person_id: ocd-person/7bb5e97d-cc3b-4e78-94b1-92f6ec537afd
 - name: Monika Johnson-Hostler
   role: member
   person_id: ocd-person/018cd1c9-5b84-4f8e-8a1d-6f0326ce1f2f

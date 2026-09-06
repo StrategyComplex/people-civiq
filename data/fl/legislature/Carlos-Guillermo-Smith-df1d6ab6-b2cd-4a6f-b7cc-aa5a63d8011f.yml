@@ -5,7 +5,7 @@ family_name: Smith
 birth_date: 1980-12-31
 gender: Male
 email: smith.carlos.web@flsenate.gov
-image: https://www.myfloridahouse.gov//FileStores/Web/Imaging/Member/4642.jpg
+image: https://www.flhouse.gov/FileStores/Web/Imaging/Member/4642.jpg
 party:
 - name: Democratic
 roles:
@@ -38,6 +38,7 @@ other_identifiers:
 sources:
 - url: https://ballotpedia.org/Carlos_Guillermo_Smith
 - url: https://en.wikipedia.org/wiki/Carlos_Guillermo_Smith
+- url: https://j.futurefacts.votesmart.io/candidate/biography/172901/carlos-smith
 - url: https://www.flsenate.gov/Senators/S17
 - url: https://www.linkedin.com/in/carlosgsmith
 - url: https://www.myfloridahouse.gov/Representatives

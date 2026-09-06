@@ -4,8 +4,11 @@ classification: subcommittee
 name: Judiciary Committee Select Investigation of the Remaining Questions Surrounding
   January 6, 2021
 chamber: lower
-sources: []
+sources:
+- url: https://january6-judiciary.house.gov
 parent: ocd-organization/87d1d54e-6852-588a-9f1c-4cf682d217bb
+links:
+- url: https://january6-judiciary.house.gov
 members:
 - name: Barry Loudermilk
   role: chair
@@ -16,9 +19,6 @@ members:
 - name: Jim Jordan
   role: ex officio
   person_id: ocd-person/bc5dadc9-a085-507e-82e1-1622d9a1fc90
-- name: Eric Swalwell
-  role: ranking member
-  person_id: ocd-person/032302ae-d513-5e31-bafc-8bc3cbb18d7c
 - name: Clay Higgins
   role: member
   person_id: ocd-person/ffc5bfa2-67c8-5743-afa6-3250b0752485

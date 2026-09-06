@@ -4,7 +4,7 @@ given_name: Jason
 family_name: Bunting
 gender: Male
 email: bunting@ilhousegop.org
-image: https://ilga.gov/images/members/{5F0F6F55-F573-4F05-B495-878685C2C00A}.jpg
+image: https://cdn.ilga.gov/assets/img/members/{5F0F6F55-F573-4F05-B495-878685C2C00A}.jpg
 party:
 - name: Republican
 roles:
@@ -17,7 +17,7 @@ offices:
   address: Room 209-N, Stratton Office Building, Springfield, IL 62706
   voice: 217-558-1039
 - classification: district
-  address: 132 E. Main St. Suite 3, Dwight, IL 60420
+  address: 105 S. John St. Suite 3, Dwight, IL 60420
   voice: 779-218-3069
 - classification: district
   address: 342 W. Walnut St. Suite 2, Watseka, IL 60970

@@ -4,7 +4,7 @@ given_name: Nick
 family_name: Hinrichsen
 gender: Male
 email: nick.hinrichsen.senate@coleg.gov
-image: http://leg.colorado.gov/sites/default/files/styles/width_300/public/2023b_hinrichsen%2Cnick.jpg?itok=dwNkn_3k
+image: https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMmhUQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--4b49d3c681dec554da650bb248660b5dca8c032a/Hinrichsen,%20Nick.jpg
 party:
 - name: Democratic
 roles:
@@ -23,9 +23,14 @@ other_names:
 - name: Hinrichsen N.
 - name: Hinrichsen, N.
 - name: N. Hinrichsen
+ids:
+  twitter: NickForCO
+  facebook: NickForColorado
+  instagram: senatorhinrichsen
 sources:
 - url: https://ballotpedia.org/Nick_Hinrichsen
 - url: https://en.wikipedia.org/wiki/Nick_Hinrichsen
+- url: https://justfacts.votesmart.org/candidate/biography/202704/nick-hinrichsen
 - url: https://leg.colorado.gov/legislators
 - url: https://leg.colorado.gov/legislators/nick-hinrichsen
 - url: https://www.linkedin.com/in/nick-hinrichsen-b1722468

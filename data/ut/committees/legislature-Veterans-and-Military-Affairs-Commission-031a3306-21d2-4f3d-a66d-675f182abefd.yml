@@ -11,18 +11,21 @@ links:
 - url: https://le.utah.gov/committee/committee.jsp?year=2025&com=SPEVMA
 - url: https://le.utah.gov/committee/committee.jsp?year=2026&com=SPEVMA
 members:
-- name: Jeff Burton
-  role: chair
-  person_id: ocd-person/1773d5d5-4967-4af5-9880-3106ace372d7
 - name: Todd Weiler
   role: chair
   person_id: ocd-person/6d49f384-ea91-41f2-b703-229a0a7452d9
+- name: Val Peterson
+  role: chair
+  person_id: ocd-person/8662eb2d-1ff1-4bd2-9a3b-41fa8770cc18
+- name: Candice Pierucci
+  role: member
+  person_id: ocd-person/b4977f98-8a0d-4e4b-a43f-b8ee80adba2b
+- name: John Arthur
+  role: member
+  person_id: ocd-person/b5f1d356-e619-413b-8b9a-fec2d3d48362
 - name: Luz Escamilla
   role: member
   person_id: ocd-person/6983c74c-3687-4e48-b462-38a80caeb260
-- name: Val Peterson
-  role: member
-  person_id: ocd-person/8662eb2d-1ff1-4bd2-9a3b-41fa8770cc18
 other_names:
 - name: Committee on Veterans and Military Affairs Commission
 - name: Joint Committee on Veterans and Military Affairs Commission

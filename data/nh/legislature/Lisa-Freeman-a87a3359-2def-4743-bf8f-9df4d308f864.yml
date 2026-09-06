@@ -4,6 +4,7 @@ given_name: Lisa
 family_name: Freeman
 gender: Female
 email: lisa.freeman@gc.nh.gov
+image: https://storage.googleapis.com/enview-dev-public-general/legislative-people-photos/59181.jpg
 party:
 - name: Republican
 roles:

@@ -4,7 +4,7 @@ given_name: Mary Beth
 family_name: Canty
 gender: Female
 email: info@repmbc.com
-image: https://ilga.gov/images/members/{1A73F23E-9C8D-4392-B6BD-154AB570C66E}.jpg
+image: https://cdn.ilga.gov/assets/img/members/{1A73F23E-9C8D-4392-B6BD-154AB570C66E}.jpg
 party:
 - name: Democratic
 roles:
@@ -40,6 +40,7 @@ sources:
 - url: https://ilga.gov/house/default.asp?GA=103
 - url: https://ilga.gov/house/Rep.asp?GA=103&MemberID=3233
 - url: https://justfacts.votesmart.org/candidate/biography/197271/mary-beth-canty
+- url: https://litchfieldcavo.com/attorneys/mary-beth-canty
 - url: https://www.ilga.gov/House/Members/Details/3424
 - url: https://www.ilga.gov/house/Rep.asp?GA=103&MemberID=3233
 - url: https://www.ilga.gov/house/Rep.asp?GA=104&MemberID=3424

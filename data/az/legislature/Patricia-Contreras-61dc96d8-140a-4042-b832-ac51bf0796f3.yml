@@ -4,7 +4,7 @@ given_name: Patty
 family_name: Contreras
 gender: Female
 email: pcontreras@azleg.gov
-image: https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Patty_Contreras.jpeg
+image: https://azleg.gov/alisImages/MemberPhotos/57leg/House/CONTRERAS_P.jpg
 party:
 - name: Democratic
 roles:
@@ -28,6 +28,7 @@ other_names:
 sources:
 - url: https://ballotpedia.org/Patricia_Contreras
 - url: https://en.wikipedia.org/wiki/Patty_Contreras
+- url: https://justfacts.votesmart.org/candidate/biography/205595/patty-contreras
 - url: https://www.azleg.gov/house-member/?legislature=56&session=127&legislator=2157
 - url: https://www.azleg.gov/house-member/?legislature=57&session=129&legislator=2302
 - url: https://www.azleg.gov/memberroster/?body=H

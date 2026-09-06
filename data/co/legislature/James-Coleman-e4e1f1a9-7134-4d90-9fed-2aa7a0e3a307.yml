@@ -4,7 +4,7 @@ given_name: James
 family_name: Coleman
 gender: Male
 email: james.coleman.senate@coleg.gov
-image: http://leg.colorado.gov/sites/default/files/styles/width_300/public/2023b_coleman%2Cjames.jpg?itok=U8FI_CeH
+image: https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBKzVTQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--7a5daba3d83289b2d6431d3200c1731a422d6091/Coleman,%20James%20.jpg
 party:
 - name: Democratic
 roles:
@@ -23,11 +23,16 @@ offices:
   voice: 303-866-4864
 links:
 - url: https://leg.colorado.gov/legislators/james-coleman
+- url: https://www.senatedems.co/james-coleman
 other_names:
 - name: Coleman J.
 - name: Coleman, J.
 - name: J. Coleman
 - name: J.R. Coleman
+ids:
+  twitter: ColemanforCO
+  facebook: colemanforcolorado
+  instagram: colemanforcolorado
 other_identifiers:
 - scheme: legacy_openstates
   identifier: COL000226
@@ -39,6 +44,7 @@ sources:
 - url: https://leg.colorado.gov/legislators
 - url: https://leg.colorado.gov/legislators/james-coleman
 - url: https://www.linkedin.com/in/james-coleman-54206612
+- url: https://www.senatedems.co/james-coleman
 extras:
   title: President Pro Tempore
   counties represented:

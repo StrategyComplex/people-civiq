@@ -4,7 +4,7 @@ given_name: Kelley
 family_name: Potenza
 gender: Female
 email: kelley.potenza@gc.nh.gov
-image: https://www.gencourt.state.nh.us/house/images/memberpics/409156.jpg
+image: https://storage.googleapis.com/enview-dev-public-general/legislative-people-photos/123396.jpg
 party:
 - name: Republican
 roles:

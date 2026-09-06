@@ -12,9 +12,6 @@ links:
 - url: https://www.ncleg.gov/Committees/CommitteeInfo/NonStanding/6508
   note: homepage
 members:
-- name: Bobby Hanig
-  role: vice chair
-  person_id: ocd-person/8911db0d-01aa-4e61-a0f5-727d07a5d232
 - name: Mary Belk
   role: advisory
   person_id: ocd-person/819581b6-a44a-4d4a-8a08-14c2dccd86f5
@@ -33,9 +30,6 @@ members:
 - name: Chris Measmer
   role: member
   person_id: ocd-person/9dfc9308-ec16-4da8-b5c7-8a9cc55df534
-- name: Graig Meyer
-  role: member
-  person_id: ocd-person/dea063a9-3548-4ec7-b226-a126d2eea0b2
 - name: Jay Adams
   role: member
   person_id: ocd-person/1a75f967-8f35-40aa-8b0a-990a135e70cb

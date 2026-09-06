@@ -5,7 +5,7 @@ family_name: Sirota
 birth_date: 1979-08-07
 gender: Female
 email: emily.sirota.house@coleg.gov
-image: http://leg.colorado.gov/sites/default/files/styles/width_300/public/2023b_sirota%2Cemily.jpg?itok=lU6YsziF
+image: https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeTVUQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--14b86aa8d8dc84d49199d71d5ad732b0abe8eb38/Sirota,%20Emily.jpg
 party:
 - name: Democratic
 roles:
@@ -26,9 +26,13 @@ other_names:
 - name: E.L. Sirota
 - name: Sirota E.
 - name: Sirota, E.
+ids:
+  twitter: EmilyForCO
+  facebook: EmilyForColorado
 sources:
 - url: https://ballotpedia.org/Emily_Sirota
 - url: https://en.wikipedia.org/wiki/Emily_Sirota
+- url: https://justfacts.votesmart.org/candidate/biography/181733/emily-sirota
 - url: https://leg.colorado.gov/legislators
 - url: https://leg.colorado.gov/legislators/emily-sirota
 - url: https://www.linkedin.com/in/emilysirota

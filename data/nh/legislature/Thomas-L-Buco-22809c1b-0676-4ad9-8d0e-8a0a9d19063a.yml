@@ -4,7 +4,7 @@ given_name: Tom
 family_name: Buco
 gender: Male
 email: tom.buco@gc.nh.gov
-image: https://www.gencourt.state.nh.us/house/images/memberpics/376645.jpg
+image: https://storage.googleapis.com/enview-dev-public-general/legislative-people-photos/49512.jpg
 party:
 - name: Democratic
 roles:

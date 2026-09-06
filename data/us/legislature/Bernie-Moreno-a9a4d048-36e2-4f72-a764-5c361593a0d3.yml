@@ -4,7 +4,7 @@ given_name: Bernie
 family_name: Moreno
 birth_date: 1967-02-14
 gender: Male
-email: https://www.moreno.senate.gov/share-your-opinion/
+email: https://www.moreno.senate.gov/contact/share-your-opinion/
 party:
 - name: Republican
 roles:
@@ -15,7 +15,7 @@ roles:
   district: Ohio
 offices:
 - classification: capitol
-  address: B33 Russell Senate Office Building, Washington, DC 20510
+  address: 284 Russell Senate Office Building, Washington, DC 20510
   voice: 202-224-2315
 - classification: district
   address: Bricker Federal Building 200 N. High St., Room 618, Columbus, OH 43215
@@ -32,7 +32,10 @@ links:
 - url: https://www.moreno.senate.gov/
 other_names:
 - name: B. Moreno
+- name: B.F. Moreno
 - name: Moreno, B.
+ids:
+  twitter: berniemoreno
 other_identifiers:
 - scheme: bioguide
   identifier: M001242

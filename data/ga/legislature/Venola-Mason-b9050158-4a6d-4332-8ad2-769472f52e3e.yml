@@ -1,0 +1,31 @@
+id: ocd-person/b9050158-4a6d-4332-8ad2-769472f52e3e
+name: Venola Mason
+given_name: Venola
+family_name: Mason
+gender: Female
+email: venola.mason@house.ga.gov
+image: https://venolaforthefuture.com/wp-content/uploads/2026/02/Venola-Campaign-photo-Oval_s.png
+party:
+- name: Democratic
+roles:
+- start_date: 2026-04-18
+  type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ga/government
+  district: '94'
+offices:
+- classification: capitol
+  address: Room 411-B, Coverdell Legislative Office Building, Atlanta, GA 30334
+  voice: 404-656-0126
+links:
+- url: https://www.legis.ga.gov/members/house/5095
+other_names:
+- name: MASON, 94TH
+- name: Mason, V.
+- name: V. Mason
+- name: V.L. Mason
+sources:
+- url: https://ballotpedia.org/Venola_Mason
+- url: https://en.wikipedia.org/wiki/Venola_Mason
+- url: https://venolamason.com
+- url: https://www.legis.ga.gov/members/house/5095
+- url: https://www.linkedin.com/in/masonvenola

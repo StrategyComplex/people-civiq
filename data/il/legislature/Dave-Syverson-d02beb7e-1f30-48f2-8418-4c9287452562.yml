@@ -5,7 +5,7 @@ family_name: Syverson
 birth_date: 1957-06-29
 gender: Male
 email: info@senatordavesyverson.com
-image: https://ilga.gov/images/members/{6FD168B8-C34B-4399-8E39-7373F7600882}.jpg
+image: https://cdn.ilga.gov/assets/img/members/{6FD168B8-C34B-4399-8E39-7373F7600882}.jpg
 party:
 - name: Republican
 roles:
@@ -15,7 +15,7 @@ roles:
   district: '35'
 offices:
 - classification: capitol
-  address: Stratton Office Building Section A, Office Q, Springfield, IL 62706
+  address: Room 108, Capitol Building, Springfield, IL 62706
   voice: 217-782-5413
 - classification: district
   address: 115 W. Oak Knoll Drive, Route 72, Hampshire, IL 60140

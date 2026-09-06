@@ -4,7 +4,7 @@ given_name: Dick
 family_name: Ames
 gender: Male
 email: amesinjaffrey@gmail.com
-image: https://www.gencourt.state.nh.us/house/images/memberpics/377061.jpg
+image: https://storage.googleapis.com/enview-dev-public-general/legislative-people-photos/49436.jpg
 party:
 - name: Democratic
 roles:

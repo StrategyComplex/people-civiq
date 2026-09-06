@@ -4,7 +4,7 @@ given_name: Lorena
 family_name: "Garc\xEDa"
 gender: Female
 email: lorena.garcia.house@coleg.gov
-image: http://leg.colorado.gov/sites/default/files/styles/width_300/public/2023b_garcia%2Clorena.jpg?itok=AB_Ecmz-
+image: https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMVZUQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--000f403a3a00241cbcadbe814acab9558e10dde4/Garcia,%20Lorena.jpg
 party:
 - name: Democratic
 roles:
@@ -27,9 +27,14 @@ other_names:
 - name: "Garc\xEDa, L."
 - name: "L. Garc\xEDa"
 - name: Lorena Garcia
+ids:
+  twitter: RepLorenaGarcia
+  facebook: RepLorenaGarcia
+  instagram: replorenagarciahd35
 sources:
 - url: https://ballotpedia.org/Lorena_Garcia
 - url: https://en.wikipedia.org/wiki/Lorena_Garcia_(politician)
+- url: https://justfacts.votesmart.org/candidate/biography/211290/lorena-garcia
 - url: https://leg.colorado.gov/legislators
 - url: https://leg.colorado.gov/legislators/lorena-garc%C3%ADa
 - url: https://leg.colorado.gov/legislators/lorena-garcia

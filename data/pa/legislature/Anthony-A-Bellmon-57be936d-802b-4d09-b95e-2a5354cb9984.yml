@@ -4,8 +4,8 @@ given_name: Anthony
 family_name: Bellmon
 birth_date: 1990-04-12
 gender: Male
-email: repbellmon@pahouse.com
-image: https://www.legis.state.pa.us/images/members/200/1984.jpg?1703415645672
+email: repbellmon@pahouse.net
+image: https://www.palegis.us/resources/images/members/300/1984.jpg
 party:
 - name: Democratic
 roles:
@@ -36,10 +36,12 @@ ids:
 sources:
 - url: https://ballotpedia.org/Anthony_Bellmon
 - url: https://en.wikipedia.org/wiki/Anthony_A._Bellmon
+- url: https://justfacts.votesmart.org/candidate/biography/204856/anthony-bellmon
 - url: https://www.legis.state.pa.us/cfdocs/legis/home/member_information/House_bio.cfm?id=1984
 - url: https://www.legis.state.pa.us/cfdocs/legis/home/member_information/mbrList.cfm?body=H&sort=alpha
 - url: https://www.linkedin.com/in/anthony-bellmon-b432ba33
 - url: https://www.pahouse.com/Bellmon
+- url: https://www.palegis.us/house/members/bio/1984/rep-anthony-bellmon
 - url: https://www.palegis.us/house/members/bio/1984/rep-bellmon
 extras:
   Education:

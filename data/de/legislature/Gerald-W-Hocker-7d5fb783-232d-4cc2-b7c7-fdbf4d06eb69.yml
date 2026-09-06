@@ -32,6 +32,8 @@ other_names:
 - name: G.W. Hocker
 - name: Gerald W. Hocker
 - name: Hocker, G.
+ids:
+  facebook: Senatorgeraldhocker
 other_identifiers:
 - scheme: legacy_openstates
   identifier: DEL000032
@@ -40,6 +42,7 @@ other_identifiers:
 sources:
 - url: https://ballotpedia.org/Gerald_Hocker
 - url: https://en.wikipedia.org/wiki/Gerald_Hocker
+- url: https://justfacts.votesmart.org/candidate/biography/53669/gerald-hocker
 - url: https://legis.delaware.gov/AssemblyMember/150/Hocker
 - url: https://legis.delaware.gov/json/Senate/GetSenators
 - url: https://legis.delaware.gov/LegislatorDetail?personId=126

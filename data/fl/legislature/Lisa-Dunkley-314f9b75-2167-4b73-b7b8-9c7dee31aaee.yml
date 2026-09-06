@@ -4,7 +4,7 @@ given_name: Lisa
 family_name: Dunkley
 gender: Female
 email: lisa.dunkley@flhouse.gov
-image: https://myfloridahouse.gov//FileStores/Web/Imaging/Member/4893.jpg
+image: https://www.flhouse.gov/FileStores/Web/Imaging/Member/4893.jpg
 party:
 - name: Democratic
 roles:
@@ -30,6 +30,7 @@ other_names:
 - name: L.A. Dunkley
 sources:
 - url: https://ballotpedia.org/Lisa_Dunkley
+- url: https://en.wikipedia.org/wiki/Lisa_Dunkley
 - url: https://justfacts.votesmart.org/candidate/biography/209448/lisa-dunkley
 - url: https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4893&LegislativeTermId=90
   note: member detail page

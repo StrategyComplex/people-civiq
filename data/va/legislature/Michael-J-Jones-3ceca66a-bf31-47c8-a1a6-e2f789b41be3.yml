@@ -2,6 +2,7 @@ id: ocd-person/3ceca66a-bf31-47c8-a1a6-e2f789b41be3
 name: Mike Jones
 given_name: Mike
 family_name: Jones
+birth_date: 1967-07-14
 gender: Male
 email: senatorjones@senate.virginia.gov
 image: https://apps.senate.virginia.gov/Senator/images/member_photos/Jones15
@@ -19,7 +20,7 @@ roles:
   district: '77'
 offices:
 - classification: capitol
-  address: Room 616, General Assembly Building P.O. Box 396, Richmond, VA 23218
+  address: Room 604, General Assembly Building P.O. Box 396, Richmond, VA 23218
   voice: 804-698-7515
   fax: 804-698-7651
 links:

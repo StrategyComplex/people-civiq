@@ -22,7 +22,7 @@ members:
 - name: Khyl Powell
   role: vice chair
   person_id: ocd-person/bd3fb0ce-720a-4137-bd45-87fb6bcf8649
-- name: Alexander Kolodin
+- name: Alex Kolodin
   role: member
   person_id: ocd-person/102ffcb1-3028-401f-b74f-6f45db25e05e
 - name: "Alma Hern\xE1ndez"
@@ -31,9 +31,6 @@ members:
 - name: Brian Garcia
   role: member
   person_id: ocd-person/c13f449f-0423-4ad5-836b-69913aad6600
-- name: David Marshall
-  role: member
-  person_id: ocd-person/8bc6f450-7fc4-4258-bf5a-86465e85b9fb
 - name: Lupe Contreras
   role: member
   person_id: ocd-person/095a6754-d7ca-4f1f-b562-974d92e7eb3c

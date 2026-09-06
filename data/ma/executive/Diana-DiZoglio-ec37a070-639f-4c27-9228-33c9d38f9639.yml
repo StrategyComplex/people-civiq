@@ -1,0 +1,43 @@
+id: ocd-person/ec37a070-639f-4c27-9228-33c9d38f9639
+name: Diana DiZoglio
+given_name: Diana
+family_name: DiZoglio
+gender: Female
+email: Auditor@sao.state.ma.us
+image: https://upload.wikimedia.org/wikipedia/commons/d/d3/Diana_DiZoglio%2C_State_Auditor.png
+party:
+- name: Democratic
+roles:
+- start_date: 2013-01-01
+  end_date: 2018-12-31
+  type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ma/government
+  district: 14th Essex
+- start_date: 2019-01-01
+  end_date: '2023-01-04'
+  type: upper
+  jurisdiction: ocd-jurisdiction/country:us/state:ma/government
+  district: First Essex
+- end_date: '2027-01-06'
+  type: auditor
+  jurisdiction: ocd-jurisdiction/country:us/state:ma/government
+offices:
+- classification: capitol
+  address: State House, Room 230; Boston, MA 02133
+  voice: 617-727-2075
+  fax: 617-727-3014
+links:
+- url: https://www.mass.gov/orgs/office-of-the-state-auditor
+other_identifiers:
+- scheme: legacy_openstates
+  identifier: MAL000429
+- scheme: legacy_openstates
+  identifier: MAL000226
+- scheme: openstates
+  identifier: ocd-person/a7896d17-c4a8-4f48-9c9f-08d459f446b5
+sources:
+- url: https://www.sec.state.ma.us/divisions/cis/government/constitutional-officers.htm
+- url: https://www.mass.gov/orgs/office-of-the-state-auditor
+- url: https://malegislature.gov/Legislators/Profile/D_D0
+extras:
+  member code: D_D0

@@ -4,8 +4,7 @@ given_name: Joe
 family_name: Pittman
 birth_date: 1977-03-31
 gender: Male
-email: joe.pittman@pasenator41.com
-image: https://www.legis.state.pa.us/images/members/200/1870.jpg?1703415645672
+image: https://www.palegis.us/resources/images/members/300/1870.jpg
 party:
 - name: Republican
 roles:
@@ -47,3 +46,4 @@ sources:
 - url: https://www.legis.state.pa.us/cfdocs/legis/home/member_information/Senate_bio.cfm?id=1870
 - url: https://www.legis.state.pa.us/cfdocs/legis/home/member_information/senators_alpha.cfm
 - url: https://www.palegis.us/senate/members/bio/1870/sen-pittman
+- url: https://www.palegis.us/senate/members/bio/1870/senator-joe-pittman

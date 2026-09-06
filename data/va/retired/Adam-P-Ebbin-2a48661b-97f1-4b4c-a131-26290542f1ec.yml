@@ -1,0 +1,64 @@
+id: ocd-person/2a48661b-97f1-4b4c-a131-26290542f1ec
+name: Adam Ebbin
+given_name: Adam
+family_name: Ebbin
+birth_date: 1963-11-10
+gender: Male
+email: senatorebbin@senate.virginia.gov
+image: https://apps.senate.virginia.gov/Senator/images/member_photos/Ebbin39
+party:
+- name: Democratic
+roles:
+- start_date: 2024-01-10
+  end_date: 2026-02-18
+  type: upper
+  jurisdiction: ocd-jurisdiction/country:us/state:va/government
+  district: '39'
+- start_date: 2012-01-11
+  end_date: 2024-01-08
+  type: upper
+  jurisdiction: ocd-jurisdiction/country:us/state:va/government
+  district: '30'
+offices:
+- classification: capitol
+  address: Room 611, General Assembly Building P.O. Box 396, Richmond, VA 23218
+  voice: 804-698-7539
+- classification: district-mail
+  address: P.O. Box 26415, Alexandria, VA 22313
+  voice: 571-384-8957
+links:
+- url: https://apps.senate.virginia.gov/Senator/memberpage.php?id=S85
+- url: https://lis.virginia.gov/cgi-bin/legp604.exe?191+mbr+S85
+- url: https://lis.virginia.gov/cgi-bin/legp604.exe?201+mbr+S85
+- url: https://lis.virginia.gov/cgi-bin/legp604.exe?221+mbr+S85
+- url: https://lis.virginia.gov/cgi-bin/legp604.exe?241+mbr+S85
+- url: https://www.adamebbin.com/
+other_names:
+- name: A. Ebbin
+- name: A.P. Ebbin
+- name: Adam P. Ebbin
+- name: Adam Paul Ebbin
+- name: Ebbin, A.
+- name: Ebbin, Adam P.
+ids:
+  twitter: AdamEbbin
+  facebook: EbbinCampaign
+other_identifiers:
+- scheme: legacy_openstates
+  identifier: VAL000066
+- scheme: legacy_openstates
+  identifier: VAL000150
+sources:
+- url: https://apps.senate.virginia.gov/Senator/memberpage.php?id=S85
+- url: https://ballotpedia.org/Adam_Ebbin
+- url: https://en.wikipedia.org/wiki/Adam_Ebbin
+- url: https://justfacts.votesmart.org/candidate/biography/50868/adam-ebbin
+- url: https://lis.virginia.gov/191/mbr/MBR.HTM
+- url: https://lis.virginia.gov/201/mbr/MBR.HTM
+- url: https://lis.virginia.gov/cgi-bin/legp604.exe?191+mbr+S85
+- url: https://lis.virginia.gov/cgi-bin/legp604.exe?201+mbr+S85
+- url: https://lis.virginia.gov/cgi-bin/legp604.exe?221+mbr+S85
+- url: https://lis.virginia.gov/cgi-bin/legp604.exe?241+mbr+S85
+- url: https://www.adamebbin.com
+- url: https://www.adamebbin.com/about.html
+- url: https://www.linkedin.com/in/adamebbin

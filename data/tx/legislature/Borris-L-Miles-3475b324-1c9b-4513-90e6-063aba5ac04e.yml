@@ -20,7 +20,7 @@ roles:
   district: '146'
 offices:
 - classification: capitol
-  address: Room 3E.12, P.O. Box 12068 Capitol Station, Austin, TX 78711
+  address: P.O. Box 12068 Capitol Station, Austin, TX 78711
   voice: 512-463-0113
 - classification: district
   address: 2440 Texas Parkway Suite 110, Missouri City, TX 77489

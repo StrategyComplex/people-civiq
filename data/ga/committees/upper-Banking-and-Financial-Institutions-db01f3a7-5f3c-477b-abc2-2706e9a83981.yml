@@ -29,6 +29,9 @@ members:
 - name: Jason Dickerson
   role: secretary
   person_id: ocd-person/584267b0-e40b-4d6e-a7fe-4c076eb6214c
+- name: Adrienne White
+  role: member
+  person_id: ocd-person/3cfc8d4f-68d4-44b2-81f4-a162465e1aed
 - name: Brian Strickland
   role: member
   person_id: ocd-person/3a5721a0-d848-40d0-a48a-66b797e7d7d9
@@ -38,14 +41,15 @@ members:
 - name: Harold Jones
   role: member
   person_id: ocd-person/d7bfd125-d343-4acd-a4dc-480daf241af3
-- name: Nabilah Parkes
+- name: Lanny Thomas
   role: member
-  person_id: ocd-person/23ffff2b-3ce6-46dc-996c-7b4fd71607bc
+  person_id: ocd-person/ae6e08e3-6971-4cd2-982a-48d650a343d5
 - name: Randal Mangham
   role: member
   person_id: ocd-person/8798a822-fee8-4546-bcdd-455f788bef44
 - name: Steven McNeel
   role: member
+  person_id: ocd-person/516cb969-9467-490f-9a05-02c3e7decae3
 other_names:
 - name: Senate Banking and Financial Institutions
 - name: Senate Banking and Financial Institutions Committee

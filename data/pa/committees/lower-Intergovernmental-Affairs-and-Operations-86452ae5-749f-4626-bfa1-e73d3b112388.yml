@@ -11,6 +11,9 @@ members:
 - name: Dave Delloso
   role: chair
   person_id: ocd-person/c05046a6-87dd-4956-a172-cad035960391
+- name: Lisa Borowski
+  role: vice chair
+  person_id: ocd-person/d927a6f9-9878-4375-ac7d-9996e8968c9d
 - name: Craig Staats
   role: republican chair
   person_id: ocd-person/bb324f66-3a5c-4e90-9c75-d142cce81c92
@@ -20,18 +23,24 @@ members:
 - name: Thomas Kutz
   role: republican vice chair
   person_id: ocd-person/932682ef-c7da-4383-8c50-58879fba0ca6
+- name: Abigail Salisbury
+  role: secretary
+  person_id: ocd-person/4bc74848-3896-4a0a-9310-970458f48d1a
 - name: Aaron Bernstine
   role: member
   person_id: ocd-person/844f3ed7-03df-420f-81bd-3f547c12e61e
 - name: Abby Major
   role: member
   person_id: ocd-person/db196239-5fca-4218-82ee-ce1f6cf03ec4
-- name: Abigail Salisbury
+- name: Ana Tiburcio
   role: member
-  person_id: ocd-person/4bc74848-3896-4a0a-9310-970458f48d1a
+  person_id: ocd-person/19dca465-48d8-4b4a-84e2-79ef9797c986
 - name: Andre Carroll
   role: member
   person_id: ocd-person/628312bf-7920-44b7-b226-90c92f92a123
+- name: Catherine Wallen
+  role: member
+  person_id: ocd-person/d881386d-8aad-45c7-8705-27f3288f20ea
 - name: Dan Goughnour
   role: member
   person_id: ocd-person/b42a625f-25e4-4f25-b942-928c8a3e0bb2
@@ -59,27 +68,18 @@ members:
 - name: Kyle Donahue
   role: member
   person_id: ocd-person/009be4f2-d613-4353-8126-6b5642d868bc
-- name: Lisa Borowski
-  role: member
-  person_id: ocd-person/d927a6f9-9878-4375-ac7d-9996e8968c9d
 - name: Mike Jones
   role: member
   person_id: ocd-person/ce5d2c01-e29c-4eac-b06b-208d8c302dff
 - name: Nate Davidson
   role: member
   person_id: ocd-person/c7f76970-11d0-483e-81b4-b4750220932c
-- name: Nikki Rivera
-  role: member
-  person_id: ocd-person/5df981dc-0f0f-498e-8e0e-72cfa5410b2a
 - name: Sean Dougherty
   role: member
   person_id: ocd-person/d8624d56-a38e-4918-98ac-d7795569ad06
 - name: Stephanie Borowicz
   role: member
   person_id: ocd-person/bccfe530-42ce-47b0-aadf-ae863b37cf9a
-- name: Steve Mentzer
-  role: member
-  person_id: ocd-person/4463dd94-6a9d-41bd-830f-0d03e192f896
 - name: Tarah Probst
   role: member
   person_id: ocd-person/8caab7df-f601-45f0-9be5-35d94175e766

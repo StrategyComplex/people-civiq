@@ -4,7 +4,7 @@ given_name: Katherine
 family_name: Prudhomme-O'Brien
 gender: Female
 email: kpo@gc.nh.gov
-image: https://www.gencourt.state.nh.us/house/images/memberpics/377258.jpg
+image: https://storage.googleapis.com/enview-dev-public-general/legislative-people-photos/45619.jpg
 party:
 - name: Republican
 roles:
@@ -12,24 +12,20 @@ roles:
   type: lower
   jurisdiction: ocd-jurisdiction/country:us/state:nh/government
   district: Rockingham 13
-- end_date: 2016-12-06
-  type: lower
-  jurisdiction: ocd-jurisdiction/country:us/state:nh/government
-  district: Rockingham 13
-  start_date: 2022-12-07
 - start_date: 2018-12-05
   end_date: 2022-12-06
   type: lower
   jurisdiction: ocd-jurisdiction/country:us/state:nh/government
   district: Rockingham 13
-- end_date: 2022-12-07
+- start_date: 2015-01-01
+  end_date: 2016-12-31
   type: lower
   jurisdiction: ocd-jurisdiction/country:us/state:nh/government
   district: Rockingham 6
 offices:
 - classification: capitol
   address: State House 107 N. Main St., Concord, NH 03301
-  voice: 603-425-6605
+  voice: 603-339-4598
 links:
 - url: https://gc.nh.gov/house/members/member.aspx?member=377258
 - url: https://gencourt.state.nh.us/downloads/Members.txt
@@ -41,6 +37,8 @@ other_names:
 - name: Katherine T. Prudhomme-O'Brien
 - name: Prudhomme-O'Brien, K.
 other_identifiers:
+- scheme: legacy_openstates
+  identifier: NHL001175
 - scheme: openstates
   identifier: ocd-person/96098adb-d1e5-481f-910c-157adb0ef37b
 sources:

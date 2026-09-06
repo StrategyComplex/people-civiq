@@ -17,9 +17,6 @@ members:
 - name: Tom McInnis
   role: chair
   person_id: ocd-person/81a19cd2-9493-4b85-b92b-44df8777530e
-- name: Bobby Hanig
-  role: member
-  person_id: ocd-person/8911db0d-01aa-4e61-a0f5-727d07a5d232
 - name: Brent Jackson
   role: member
   person_id: ocd-person/23f1da0b-34b2-4347-adb4-f5fc26e0475d
@@ -35,9 +32,12 @@ members:
 - name: Dave Craven
   role: member
   person_id: ocd-person/7074c9f6-6a8e-4c63-b0b3-ae43b9cfba0d
-- name: Graig Meyer
+- name: Haseeb Fatmi
   role: member
-  person_id: ocd-person/dea063a9-3548-4ec7-b226-a126d2eea0b2
+  person_id: ocd-person/e94fc39b-d33c-4d24-81c7-2cd2cc5aa997
+- name: Jonah Garson
+  role: member
+  person_id: ocd-person/3622ded7-77d3-46f8-a62b-dad1c8f3e589
 - name: Lisa Barnes
   role: member
   person_id: ocd-person/21577fbd-e06f-4bc3-8717-e050ff165a74
@@ -53,9 +53,6 @@ members:
 - name: Sophia Chitlik
   role: member
   person_id: ocd-person/c8c4c09a-5b3a-4521-82d4-2e2ded1b6b0a
-- name: Terence Everitt
-  role: member
-  person_id: ocd-person/1217dc52-8590-4c6b-832b-666b57ef121c
 - name: Vickie Sawyer
   role: member
   person_id: ocd-person/ece1f23b-841d-4145-9719-3807bf29f861

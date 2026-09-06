@@ -1,0 +1,64 @@
+id: ocd-person/7e086fc4-85ff-58af-a436-5f6fa7bfa527
+name: Tony Gonzales
+given_name: Tony
+family_name: Gonzales
+birth_date: 1980-10-10
+gender: Male
+email: https://gonzales.house.gov/contact
+image: https://unitedstates.github.io/images/congress/450x550/G000594.jpg
+party:
+- name: Republican
+roles:
+- start_date: 2021-01-03
+  end_date: 2026-04-22
+  type: lower
+  jurisdiction: ocd-jurisdiction/country:us/government
+  district: TX-23
+- start_date: 2023-01-03
+  end_date: 2025-01-03
+  type: lower
+  jurisdiction: ocd-jurisdiction/country:us/government
+  district: TX-23
+- start_date: 2021-01-03
+  end_date: 2023-01-03
+  type: lower
+  jurisdiction: ocd-jurisdiction/country:us/government
+  district: TX-23
+offices: []
+links:
+- url: https://gonzales.house.gov
+  note: website
+- url: https://gonzales.house.gov/
+other_names:
+- name: E.A. Gonzales
+- name: Gonzales, T.
+- name: T. Gonzales
+ids:
+  twitter: RepTonyGonzales
+other_identifiers:
+- scheme: bioguide
+  identifier: G000594
+- scheme: fec
+  identifier: H0TX35015
+- scheme: google_entity_id
+  identifier: kg:/g/11fs52clcr
+- scheme: govtrack
+  identifier: '456849'
+- scheme: opensecrets
+  identifier: N00044592
+- scheme: pictorial
+  identifier: '13280'
+- scheme: wikidata
+  identifier: Q104648170
+- scheme: wikipedia
+  identifier: Tony Gonzales
+sources:
+- url: https://ballotpedia.org/Tony_Gonzales
+- url: https://en.wikipedia.org/wiki/Tony_Gonzales
+- url: https://gonzales.house.gov
+- url: https://justfacts.votesmart.org/candidate/biography/188225/tony-gonzales
+- url: https://unitedstates.github.io
+- url: https://unitedstates.github.io/
+- url: https://www.govtrack.us/congress/members/ernest_gonzales/456849
+- url: https://www.linkedin.com/in/tony-gonzales-58891696
+- url: https://www.linkedin.com/in/tony-gonzales-a60816143

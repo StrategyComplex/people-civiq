@@ -4,8 +4,8 @@ given_name: Kimberly
 family_name: Lightford
 birth_date: 1968-05-10
 gender: Female
-email: klightford@senatedem.ilga.gov
-image: https://ilga.gov/images/members/{7FBA8DB0-281E-406F-BF9F-ABEB75B7B38E}.jpg
+email: majorityleader@senatorlightford.com
+image: https://cdn.ilga.gov/assets/img/members/{7FBA8DB0-281E-406F-BF9F-ABEB75B7B38E}.jpg
 party:
 - name: Democratic
 roles:
@@ -54,6 +54,7 @@ sources:
 - url: https://ilga.gov/senate/Senator.asp?GA=101&MemberID=2535
 - url: https://ilga.gov/senate/Senator.asp?GA=102&MemberID=2795
 - url: https://ilga.gov/senate/Senator.asp?GA=103&MemberID=3023
+- url: https://justfacts.votesmart.org/candidate/biography/18241/kimberly-lightford
 - url: https://www.ilga.gov/Senate/Members/Details/3264
 - url: https://www.ilga.gov/senate/Senator.asp?GA=103&MemberID=3023
 - url: https://www.ilga.gov/senate/Senator.asp?GA=104&MemberID=3264

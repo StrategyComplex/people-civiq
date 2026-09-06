@@ -5,11 +5,16 @@ family_name: Green
 birth_date: 1959-06-09
 gender: Female
 email: repgreen@pahouse.net
-image: https://www.legis.state.pa.us/images/members/200/1874.jpg?1703415645672
+image: https://www.palegis.us/resources/images/members/300/1874.jpg
 party:
 - name: Democratic
 roles:
 - start_date: 2022-12-01
+  type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:pa/government
+  district: '190'
+- start_date: '2020-03-16'
+  end_date: '2020-11-30'
   type: lower
   jurisdiction: ocd-jurisdiction/country:us/state:pa/government
   district: '190'
@@ -22,6 +27,7 @@ offices:
   voice: 833-321-9070
 - classification: district
   address: 3333 W. Hunting Park Ave., Philadelphia, PA 19132
+  voice: 267-439-4732
 links:
 - url: https://www.legis.state.pa.us/cfdocs/legis/home/member_information/House_bio.cfm?id=1874
   note: homepage
@@ -37,6 +43,7 @@ ids:
   facebook: RepRoniGreen
 sources:
 - url: https://ballotpedia.org/Roni_Green
+- url: https://en.wikipedia.org/wiki/G._Roni_Green
 - url: https://www.legis.state.pa.us/cfdocs/legis/home/member_information/House_bio.cfm?id=1874
 - url: https://www.legis.state.pa.us/cfdocs/legis/home/member_information/mbrList.cfm?body=H&sort=alpha
 - url: https://www.linkedin.com/in/ronigreenbuildingpower

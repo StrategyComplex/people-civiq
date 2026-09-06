@@ -14,7 +14,7 @@ roles:
   district: '4'
 offices:
 - classification: capitol
-  address: Room 733, 11 S. Union St., Montgomery, AL 36130
+  address: Room 722, 11 S. Union St., Montgomery, AL 36130
   voice: 334-261-0855
 links:
 - url: https://alison.legislature.state.al.us/senate-leaders-members
@@ -36,5 +36,7 @@ sources:
 - url: https://www.legislature.state.al.us/aliswww/ISD/ALSenator.aspx?OID_SPONSOR=100447&OID_PERSON=8481
 - url: https://www.legislature.state.al.us/aliswww/ISD/Senate/ALSenators.aspx
 - url: https://www.linkedin.com/in/garlan-gudger-939a3564
+- url: https://www.senatorgarlangudger.com
+- url: https://www.senatorgarlangudger.com/about
 extras:
   counties: Cullman County, Marion County, Winston County

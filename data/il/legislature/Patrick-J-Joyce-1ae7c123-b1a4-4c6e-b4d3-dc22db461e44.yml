@@ -4,7 +4,7 @@ given_name: Patrick
 family_name: Joyce
 gender: Male
 email: pjoyce2133@yahoo.com
-image: https://ilga.gov/images/members/{39D6F100-DAEC-4C4B-A4F5-F20299B79152}.jpg
+image: https://cdn.ilga.gov/assets/img/members/{39D6F100-DAEC-4C4B-A4F5-F20299B79152}.jpg
 party:
 - name: Democratic
 roles:
@@ -18,6 +18,9 @@ offices:
   voice: 217-782-7419
 - classification: district
   address: 179 S. Wall St., Kankakee, IL 60901
+  voice: 708-756-0882
+- classification: district
+  address: 195 W. Joe Orr Road Suite 201, Chicago Heights, IL 60411
   voice: 708-756-0882
 links:
 - url: https://ilga.gov/senate/Senator.asp?GA=101&MemberID=2774

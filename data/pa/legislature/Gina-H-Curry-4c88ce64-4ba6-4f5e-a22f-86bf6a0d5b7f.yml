@@ -5,7 +5,7 @@ family_name: Curry
 birth_date: 1972-10-23
 gender: Female
 email: repcurry@pahouse.net
-image: https://www.legis.state.pa.us/images/members/200/1932.jpg?1703415645672
+image: https://www.palegis.us/resources/images/members/300/1932.jpg
 party:
 - name: Democratic
 roles:
@@ -15,11 +15,13 @@ roles:
   district: '164'
 offices:
 - classification: capitol
-  address: Room 25A, East Wing P.O. Box 202164, Harrisburg, PA 17120
+  address: Room 111, Irvis Office Building P.O. Box 202164, Harrisburg, PA 17120
   voice: 717-783-4907
+  fax: 717-780-4750
 - classification: district
   address: Barclay Square Shopping Center 1500 Garrett Road, Upper Darby, PA 19082
   voice: 610-259-7016
+  fax: 610-259-5575
 links:
 - url: https://www.legis.state.pa.us/cfdocs/legis/home/member_information/House_bio.cfm?id=1932
   note: homepage
@@ -36,7 +38,9 @@ sources:
 - url: https://www.legis.state.pa.us/cfdocs/legis/home/member_information/House_bio.cfm?id=1932
 - url: https://www.legis.state.pa.us/cfdocs/legis/home/member_information/mbrList.cfm?body=H&sort=alpha
 - url: https://www.linkedin.com/in/gina-hackett-curry-09603411
+- url: https://www.linkedin.com/in/ginahackettcurryms
 - url: https://www.pahouse.com/Curry
+- url: https://www.pahouse.com/Curry/About/Biography
 - url: https://www.palegis.us/house/members/bio/1932/rep-curry
 extras:
   Education:

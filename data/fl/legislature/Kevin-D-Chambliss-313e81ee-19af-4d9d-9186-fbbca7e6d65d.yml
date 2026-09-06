@@ -5,7 +5,7 @@ family_name: Chambliss
 birth_date: 1981-06-08
 gender: Male
 email: kevin.chambliss@flhouse.gov
-image: https://myfloridahouse.gov//FileStores/Web/Imaging/Member/4798.jpg
+image: https://www.flhouse.gov/FileStores/Web/Imaging/Member/4798.jpg
 party:
 - name: Democratic
 roles:
@@ -35,6 +35,8 @@ other_names:
 - name: Kevin D. Chambliss
 sources:
 - url: https://ballotpedia.org/Kevin_Chambliss
+- url: https://en.wikipedia.org/wiki/Kevin_Chambliss
+- url: https://justfacts.votesmart.org/candidate/115433/kevin-chambliss
 - url: https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4798&LegislativeTermId=90
   note: member detail page
 - url: https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4798

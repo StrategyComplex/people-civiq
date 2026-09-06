@@ -5,7 +5,7 @@ family_name: Daley
 birth_date: 1949-09-16
 gender: Female
 email: repmaryjodaley@pahouse.net
-image: https://www.legis.state.pa.us/images/members/200/1622.jpg?1703415645672
+image: https://www.palegis.us/resources/images/members/300/1622.jpg
 party:
 - name: Democratic
 roles:
@@ -40,12 +40,14 @@ other_identifiers:
 sources:
 - url: https://ballotpedia.org/Mary_Jo_Daley
 - url: https://en.wikipedia.org/wiki/Mary_Jo_Daley
+- url: https://justfacts.votesmart.org/candidate/biography/143452/mary-jo-daley
 - url: https://www.legis.state.pa.us/cfdocs/legis/home/member_information/House_bio.cfm?id=1622
 - url: https://www.legis.state.pa.us/cfdocs/legis/home/member_information/mbrList.cfm?body=H&sort=alpha
 - url: https://www.legis.state.pa.us/cfdocs/legis/home/member_information/representatives_alpha.cfm
 - url: https://www.linkedin.com/in/mary-jo-daley-21a87722
 - url: https://www.pahouse.com/MDaley
 - url: https://www.palegis.us/house/members/bio/1622/rep-daley
+- url: https://www.palegis.us/house/members/bio/1622/rep-mary-jo-daley
 extras:
   Education:
   - Archbishop Prendergast High School, 1967

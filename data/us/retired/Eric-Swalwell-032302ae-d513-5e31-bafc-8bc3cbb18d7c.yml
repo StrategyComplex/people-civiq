@@ -1,0 +1,95 @@
+id: ocd-person/032302ae-d513-5e31-bafc-8bc3cbb18d7c
+name: Eric Swalwell
+given_name: Eric
+family_name: Swalwell
+birth_date: 1980-11-16
+gender: Male
+email: https://swalwell.house.gov/address_authentication?form=/contact
+image: https://unitedstates.github.io/images/congress/450x550/S001193.jpg
+party:
+- name: Democratic
+roles:
+- start_date: 2023-01-03
+  end_date: 2026-04-22
+  type: lower
+  jurisdiction: ocd-jurisdiction/country:us/government
+  district: CA-14
+- start_date: 2023-01-03
+  end_date: 2025-01-03
+  type: lower
+  jurisdiction: ocd-jurisdiction/country:us/government
+  district: CA-14
+- start_date: 2021-01-03
+  end_date: 2023-01-03
+  type: lower
+  jurisdiction: ocd-jurisdiction/country:us/government
+  district: CA-15
+- start_date: 2019-01-03
+  end_date: 2021-01-03
+  type: lower
+  jurisdiction: ocd-jurisdiction/country:us/government
+  district: CA-15
+- start_date: 2017-01-03
+  end_date: 2019-01-03
+  type: lower
+  jurisdiction: ocd-jurisdiction/country:us/government
+  district: CA-15
+- start_date: 2015-01-06
+  end_date: 2017-01-03
+  type: lower
+  jurisdiction: ocd-jurisdiction/country:us/government
+  district: CA-15
+- start_date: 2013-01-03
+  end_date: 2015-01-03
+  type: lower
+  jurisdiction: ocd-jurisdiction/country:us/government
+  district: CA-15
+offices: []
+links:
+- url: https://swalwell.house.gov
+  note: website
+- url: https://swalwell.house.gov/
+other_names:
+- name: E. Swalwell
+- name: E.M. Swalwell
+- name: Swalwell, E.
+ids:
+  twitter: RepSwalwell
+  youtube: UCKvwsFNGD4sDkE_9g-2ft0w
+  facebook: CongressmanEricSwalwell
+other_identifiers:
+- scheme: ballotpedia
+  identifier: Eric Swalwell
+- scheme: bioguide
+  identifier: S001193
+- scheme: cspan
+  identifier: '79729'
+- scheme: fec
+  identifier: H2CA15094
+- scheme: google_entity_id
+  identifier: kg:/m/0ncq55g
+- scheme: govtrack
+  identifier: '412514'
+- scheme: icpsr
+  identifier: '21306'
+- scheme: maplight
+  identifier: '1738'
+- scheme: opensecrets
+  identifier: N00033508
+- scheme: pictorial
+  identifier: '12928'
+- scheme: thomas
+  identifier: '02104'
+- scheme: votesmart
+  identifier: '129529'
+- scheme: wikidata
+  identifier: Q3466996
+sources:
+- url: https://ballotpedia.org/Eric_Swalwell
+- url: https://en.wikipedia.org/wiki/Eric_Swalwell
+- url: https://justfacts.votesmart.org/candidate/biography/129529/eric-swalwell
+- url: https://swalwell.house.gov
+- url: https://unitedstates.github.io
+- url: https://unitedstates.github.io/
+- url: https://www.govtrack.us/congress/members/eric_swalwell/412514
+- url: https://www.linkedin.com/in/eric-swalwell-2346aa4b

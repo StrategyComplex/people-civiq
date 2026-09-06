@@ -38,12 +38,16 @@ members:
   person_id: ocd-person/3b0de391-3f75-564b-9b1c-c793300ff1a9
 - name: James Walkinshaw
   role: member
+  person_id: ocd-person/1e692f82-663e-46f8-aa96-88207dab107f
 - name: John McGuire
   role: member
   person_id: ocd-person/f41db99d-4852-4347-ae03-5be5d66f5fe4
 - name: Kweisi Mfume
   role: member
   person_id: ocd-person/79575558-ef44-5bb5-9c64-3d3fe3fb4427
+- name: Lateefah Simon
+  role: member
+  person_id: ocd-person/aa578bb8-0e69-45d5-ba94-d52d6043caf1
 - name: Michael Cloud
   role: member
   person_id: ocd-person/da5e831e-227c-58a1-bf1a-86782158fb57

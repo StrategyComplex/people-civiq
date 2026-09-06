@@ -8,16 +8,13 @@ sources:
 links:
 - url: https://apps.azleg.gov/BillStatus/CommitteeOverView/?commid=2188&sessionId=129
 members:
-- name: David Marshall
-  role: chair
-  person_id: ocd-person/8bc6f450-7fc4-4258-bf5a-86465e85b9fb
 - name: Pamela Carter
   role: vice chair
   person_id: ocd-person/d78cb0f9-fd3c-472e-aeb8-716abd42f26e
-- name: Aaron Marquez
+- name: "Aaron M\xE1rquez"
   role: member
   person_id: ocd-person/c6a181c7-b58e-4c2a-aa2d-9ca31fc6548f
-- name: Alexander Kolodin
+- name: Alex Kolodin
   role: member
   person_id: ocd-person/102ffcb1-3028-401f-b74f-6f45db25e05e
 - name: Anna Abeytia

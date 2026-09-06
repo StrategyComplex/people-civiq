@@ -4,7 +4,7 @@ given_name: Jeanine
 family_name: Notter
 gender: Female
 email: jeanine.notter@gc.nh.gov
-image: https://www.gencourt.state.nh.us/house/images/memberpics/376991.jpg
+image: https://storage.googleapis.com/enview-dev-public-general/legislative-people-photos/50434.jpg
 party:
 - name: Republican
 roles:
@@ -54,6 +54,7 @@ sources:
 - url: https://www.gencourt.state.nh.us/downloads/Members.txt
 - url: https://www.gencourt.state.nh.us/house/members/member.aspx?member=376991
 - url: https://www.gencourt.state.nh.us/house/members/member.aspx?pid=639
+- url: https://www.linkedin.com/in/jeanine-notter-3b2b69407
 - url: https://www.linkedin.com/in/rep-jeanine-notter-337983b
 extras:
   county: Hillsborough

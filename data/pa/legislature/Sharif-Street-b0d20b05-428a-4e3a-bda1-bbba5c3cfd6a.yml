@@ -5,7 +5,7 @@ family_name: Street
 birth_date: 1974-03-29
 gender: Male
 email: street@pasenate.com
-image: https://www.legis.state.pa.us/images/members/200/1767.jpg?1703415645672
+image: https://www.palegis.us/resources/images/members/300/1767.jpg
 party:
 - name: Democratic
 roles:
@@ -31,6 +31,7 @@ links:
 - url: https://www.senatorsharifstreet.com/
 other_names:
 - name: S. Street
+- name: S.T. Street
 - name: Street, S.
 ids:
   twitter: SenSharifStreet
@@ -42,6 +43,8 @@ other_identifiers:
 sources:
 - url: https://ballotpedia.org/Sharif_Street
 - url: https://en.wikipedia.org/wiki/Sharif_Street
+- url: https://justfacts.votesmart.org/candidate/biography/46939/sharif-street
+- url: https://senatorsharifstreet.com/about
 - url: https://www.legis.state.pa.us/cfdocs/legis/home/member_information/mbrList.cfm?body=S&sort=alpha
 - url: https://www.legis.state.pa.us/cfdocs/legis/home/member_information/Senate_bio.cfm?id=1767
 - url: https://www.legis.state.pa.us/cfdocs/legis/home/member_information/senators_alpha.cfm

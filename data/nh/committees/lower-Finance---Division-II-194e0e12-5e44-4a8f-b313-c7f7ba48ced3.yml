@@ -25,15 +25,15 @@ members:
 - name: Eileen Kelly
   role: member
   person_id: ocd-person/956f70c5-6a5c-455f-b17d-c25f04b25db1
-- name: Kate Murray
-  role: member
-  person_id: ocd-person/79bb2147-ea4b-4706-8b38-ee2309613ea0
 - name: Ken Weyler
   role: member
   person_id: ocd-person/e2f9dd7e-b221-4cf0-b7de-5daa70658669
 - name: Mary Hakken-Phillips
   role: member
   person_id: ocd-person/0929165d-f73c-4820-8820-209de58c1e78
+- name: Terry Spilsbury
+  role: member
+  person_id: ocd-person/236f5df6-87b6-488d-86cd-a1ed3a5adb81
 other_names:
 - name: Finance - Division II
 - name: House Committee on Finance Committee Division II

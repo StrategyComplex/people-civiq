@@ -4,8 +4,8 @@ given_name: Ryan
 family_name: Bizzarro
 birth_date: 1985-11-13
 gender: Male
-email: ryanbizzarroerie@gmail.com
-image: https://www.legis.state.pa.us/images/members/200/1619.jpg?1703415645672
+email: repbizzarro@pahouse.net
+image: https://www.palegis.us/resources/images/members/300/1619.jpg
 party:
 - name: Democratic
 roles:
@@ -48,6 +48,7 @@ sources:
 - url: https://www.linkedin.com/in/ryanbizzarro
 - url: https://www.pahouse.com/Bizzarro
 - url: https://www.palegis.us/house/members/bio/1619/rep-bizzarro
+- url: https://www.palegis.us/house/members/bio/1619/representative-ryan-bizzarro
 extras:
   Education:
   - McDowell High School, 2004

@@ -40,6 +40,9 @@ members:
 - name: Alec Ryncavage
   role: member
   person_id: ocd-person/be809fa5-6ef4-4071-bb94-ed10fb051f69
+- name: Ana Tiburcio
+  role: member
+  person_id: ocd-person/19dca465-48d8-4b4a-84e2-79ef9797c986
 - name: Andre Carroll
   role: member
   person_id: ocd-person/628312bf-7920-44b7-b226-90c92f92a123
@@ -49,6 +52,9 @@ members:
 - name: Dallas Kephart
   role: member
   person_id: ocd-person/70d0ff46-746e-47a0-8c5f-cbe73dbf72ce
+- name: Dane Watro
+  role: member
+  person_id: ocd-person/d4de5cc2-b3b9-49a0-9f20-62c6f4f6a052
 - name: Greg Scott
   role: member
   person_id: ocd-person/969ce6cb-ddcb-4347-b69d-2019cfbd6e18
@@ -85,12 +91,6 @@ members:
 - name: Paul Friel
   role: member
   person_id: ocd-person/494797a5-3d84-414a-9c8c-caaadd621cdd
-- name: Rob Matzie
-  role: member
-  person_id: ocd-person/a7b2e50f-90a6-4f35-b1fb-c33406dc4277
-- name: Ryan Warner
-  role: member
-  person_id: ocd-person/0d747b7a-0a5a-42cf-8bb6-1eb0fa69090f
 - name: Sean Dougherty
   role: member
   person_id: ocd-person/d8624d56-a38e-4918-98ac-d7795569ad06

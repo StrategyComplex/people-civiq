@@ -5,7 +5,7 @@ family_name: Merski
 birth_date: 1975-05-14
 gender: Male
 email: rmerski@pahouse.net
-image: https://www.legis.state.pa.us/images/members/200/1822.jpg?1703415645672
+image: https://www.palegis.us/resources/images/members/300/1822.jpg
 party:
 - name: Democratic
 roles:
@@ -46,5 +46,6 @@ sources:
 - url: https://www.linkedin.com/in/bobmerski
 - url: https://www.pahouse.com/merski
 - url: https://www.palegis.us/house/members/bio/1822/rep-merski
+- url: https://www.palegis.us/house/members/bio/1822/representative-robert-merski
 extras:
   website: http://www.pahouse.com/merski

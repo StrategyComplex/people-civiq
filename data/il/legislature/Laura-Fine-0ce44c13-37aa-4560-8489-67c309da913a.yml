@@ -3,8 +3,8 @@ name: Laura Fine
 given_name: Laura
 family_name: Fine
 gender: Female
-email: laura@senatorfine.com
-image: https://ilga.gov/images/members/{A4F70929-881C-4003-B10A-D1A775D3D94B}.jpg
+email: info@senatorfine.com
+image: https://cdn.ilga.gov/assets/img/members/{A4F70929-881C-4003-B10A-D1A775D3D94B}.jpg
 party:
 - name: Democratic
 roles:
@@ -49,6 +49,7 @@ sources:
 - url: https://ilga.gov/senate/Senator.asp?GA=101&MemberID=2724
 - url: https://ilga.gov/senate/Senator.asp?GA=102&MemberID=2929
 - url: https://ilga.gov/senate/Senator.asp?GA=103&MemberID=3127
+- url: https://justfacts.votesmart.org/candidate/biography/135036/laura-fine
 - url: https://www.ilga.gov/Senate/Members/Details/3338
 - url: https://www.ilga.gov/senate/Senator.asp?GA=103&MemberID=3127
 - url: https://www.ilga.gov/senate/Senator.asp?GA=104&MemberID=3338

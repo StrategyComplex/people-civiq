@@ -4,6 +4,7 @@ given_name: Sue
 family_name: DeLemus
 gender: Female
 email: susan.delemus@gc.nh.gov
+image: https://storage.googleapis.com/enview-dev-public-general/legislative-people-photos/50473.jpg
 party:
 - name: Republican
 roles:

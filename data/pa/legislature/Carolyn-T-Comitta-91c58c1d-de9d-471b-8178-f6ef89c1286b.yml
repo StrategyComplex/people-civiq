@@ -4,8 +4,8 @@ given_name: Carolyn
 family_name: Comitta
 birth_date: 1952-04-27
 gender: Female
-email: carolyn@carolyncomitta.com
-image: https://www.legis.state.pa.us/images/members/200/1790.jpg?1703415645672
+email: senatorcomitta@pasenate.com
+image: https://www.palegis.us/resources/images/members/300/1790.jpg
 party:
 - name: Democratic
 roles:
@@ -61,6 +61,7 @@ sources:
 - url: https://www.linkedin.com/in/carolyncomitta
 - url: https://www.palegis.us/senate/members/bio/1790/sen-comitta
 - url: https://www.pasenatorcomitta.com
+- url: https://www.pasenatorcomitta.com/biography
 extras:
   website: https://www.pasenatorcomitta.com/
   Education:

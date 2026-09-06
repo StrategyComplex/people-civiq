@@ -30,3 +30,11 @@
   id: ocd-jurisdiction/country:us/state:wi/place:sun_prairie/government
 - name: Janesville
   id: ocd-jurisdiction/country:us/state:wi/place:janesville/government
+- name: River Falls
+  id: ocd-jurisdiction/country:us/state:wi/place:river_falls/government
+- name: Germantown
+  id: ocd-jurisdiction/country:us/state:wi/place:germantown/government
+- name: Stoddard
+  id: ocd-jurisdiction/country:us/state:wi/place:stoddard/government
+- name: Marshfield
+  id: ocd-jurisdiction/country:us/state:wi/place:marshfield/government

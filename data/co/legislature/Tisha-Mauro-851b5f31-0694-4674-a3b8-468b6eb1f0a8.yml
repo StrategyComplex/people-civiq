@@ -4,7 +4,7 @@ given_name: Tisha
 family_name: Mauro
 gender: Female
 email: tisha.mauro.house@coleg.gov
-image: http://leg.colorado.gov/sites/default/files/styles/width_300/public/2023b_t%20mauro.jpg?itok=05-hhChK
+image: https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMlJUQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--c083d9d0c61aec511c97d0802cd5873416f901d9/Mauro,%20Tisha.jpg
 party:
 - name: Democratic
 roles:
@@ -24,8 +24,12 @@ other_names:
 - name: Mauro T.
 - name: Mauro, T.
 - name: T. Mauro
+ids:
+  facebook: tishamauroforhousedistrict46
 sources:
 - url: https://ballotpedia.org/Tisha_Mauro
+- url: https://en.wikipedia.org/wiki/Tisha_Mauro
+- url: https://justfacts.votesmart.org/candidate/biography/206211/tisha-mauro
 - url: https://leg.colorado.gov/legislators
 - url: https://leg.colorado.gov/legislators/tisha-mauro
 - url: https://www.linkedin.com/in/tisha-mauro-248a5733

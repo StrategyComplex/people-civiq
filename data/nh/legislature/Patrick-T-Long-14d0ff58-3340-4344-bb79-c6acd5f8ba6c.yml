@@ -4,7 +4,7 @@ given_name: Pat
 family_name: Long
 gender: Male
 email: pat.long@gc.nh.gov
-image: https://swww.gencourt.state.nh.us/house/images/memberpics/376696.jpg
+image: https://storage.googleapis.com/enview-dev-public-general/legislative-people-photos/50199.jpg
 party:
 - name: Democratic
 roles:
@@ -57,6 +57,7 @@ other_names:
 - name: Long, P.
 - name: P. Long
 - name: P.T. Long
+- name: Pat Long
 - name: Patrick Long
 - name: Patrick T. Long
 other_identifiers:

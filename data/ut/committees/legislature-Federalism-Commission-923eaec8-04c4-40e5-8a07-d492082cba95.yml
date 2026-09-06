@@ -32,9 +32,6 @@ members:
 - name: Jason Thompson
   role: member
   person_id: ocd-person/d7b06a16-ad92-4d55-af46-93a1f13253e7
-- name: Jeff Burton
-  role: member
-  person_id: ocd-person/1773d5d5-4967-4af5-9880-3106ace372d7
 - name: Jen Dailey-Provost
   role: member
   person_id: ocd-person/b32f9174-73af-4db3-877b-1c368bd4e62e
@@ -50,6 +47,9 @@ members:
 - name: Mike Petersen
   role: member
   person_id: ocd-person/e9792114-e077-4663-96c4-94d679c66ace
+- name: Rob Bishop
+  role: member
+  person_id: ocd-person/b68ab473-0a2e-41f5-9732-fbffd6738865
 - name: Rosalba Dominguez
   role: member
   person_id: ocd-person/6944b102-0d94-4267-916f-59fbd6f2bb18

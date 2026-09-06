@@ -4,10 +4,12 @@ classification: committee
 name: Financial Institutions and Pensions
 chamber: lower
 sources:
+- url: https://www.kslegislature.gov/committees/ctte_h_financial_institutions_and_pensions_1
 - url: https://www.kslegislature.gov/li/b2025_26/committees/ctte_h_financial_institutions_and_pensions_1
 - url: https://www.kslegislature.org/li/b2023_24/committees/ctte_h_financial_institutions_and_pensions_1
 - url: https://www.kslegislature.org/li/b2023_24/committees/ctte_h_financial_institutions_and_pensions_1/
 links:
+- url: https://www.kslegislature.gov/committees/ctte_h_financial_institutions_and_pensions_1
 - url: https://www.kslegislature.gov/li/b2025_26/committees/ctte_h_financial_institutions_and_pensions_1
 - url: https://www.kslegislature.org/li/b2023_24/committees/ctte_h_financial_institutions_and_pensions_1
 - url: https://www.kslegislature.org/li/b2023_24/committees/ctte_h_financial_institutions_and_pensions_1/
@@ -58,7 +60,7 @@ members:
 - name: Suzanne Wikle
   role: member
   person_id: ocd-person/e8b970b6-7dee-4073-bc8a-2e6d00193742
-- name: Valdenia Winn
+- name: Val Winn
   role: member
   person_id: ocd-person/8d608ede-12f3-4ec4-8206-2c3dde0db6b7
 - name: Virgil Weigel

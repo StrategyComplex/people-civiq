@@ -5,7 +5,7 @@ family_name: Addabbo
 birth_date: 1964-05-13
 gender: Male
 email: addabbo@nysenate.gov
-image: https://www.nysenate.gov/sites/default/files/styles/160x160/public/headshot_addabbo-hs-profile.jpg?itok=gdgS9QTR
+image: https://www.nysenate.gov/sites/default/files/styles/senator_hero/public/01-04-23_300-01-461.jpg
 party:
 - name: Democratic
 roles:
@@ -17,12 +17,15 @@ offices:
 - classification: capitol
   address: Room 811, Legislative Office Building 188 State Street, Albany, NY 12247
   voice: 518-455-2322
+  fax: 518-426-6875
 - classification: district
   address: 66-85 73rd Place, Middle Village, NY 11379
   voice: 718-497-1630
+  fax: 718-497-1761
 - classification: district
   address: 84-16 Jamaica Ave., Woodhaven, NY 11421
   voice: 718-738-1111
+  fax: 718-296-0495
 links:
 - url: https://www.nysenate.gov/senators-committees
 - url: https://www.nysenate.gov/senators/joseph-p-addabbo-jr
@@ -42,6 +45,7 @@ other_identifiers:
 sources:
 - url: https://ballotpedia.org/Joseph_Addabbo
 - url: https://en.wikipedia.org/wiki/Joseph_Addabbo,_Jr.
+- url: https://en.wikipedia.org/wiki/Joseph_Addabbo_Jr.
 - url: https://justfacts.votesmart.org/candidate/44931/joseph-addabbo-jr
 - url: https://www.nysenate.gov/senators/joseph-p-addabbo-jr
 - url: https://www.nysenate.gov/senators/joseph-p-addabbo-jr/contact

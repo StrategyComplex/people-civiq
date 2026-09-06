@@ -22,6 +22,9 @@ offices:
   address: 1000 Liberty Ave. Suite 1811, Pittsburgh, PA 15222
   voice: 412-803-3501
 - classification: district
+  address: 112 W. Foster Ave. Suite 302, State College, PA 16801
+  voice: 582-833-7050
+- classification: district
   address: 17 S. Park Row Suite B-120,, Erie, PA 16501
   voice: 814-453-3010
 - classification: district
@@ -33,7 +36,7 @@ offices:
 - classification: district
   address: Stegmaier Federal Office Building 7 N. Wilkes-Barre Blvd., Suite 406, Wilkes-Barre,
     PA 18702
-  voice: 507-820-4088
+  voice: 570-820-4088
 links:
 - url: https://www.fetterman.senate.gov
   note: website
@@ -44,6 +47,8 @@ other_names:
 - name: Fetterman, J.
 - name: J. Fetterman
 - name: J.K. Fetterman
+ids:
+  twitter: SenFettermanPA
 other_identifiers:
 - scheme: ballotpedia
   identifier: John Fetterman

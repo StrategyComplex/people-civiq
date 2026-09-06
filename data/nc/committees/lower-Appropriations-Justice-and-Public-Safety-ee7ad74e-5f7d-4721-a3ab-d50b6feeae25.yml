@@ -33,6 +33,9 @@ members:
 - name: Abe Jones
   role: member
   person_id: ocd-person/559521af-e5f9-43c3-a75e-de9b242d364f
+- name: Anna Ferguson
+  role: member
+  person_id: ocd-person/5ca31513-814c-44b9-9206-aae55c05d056
 - name: Bryan Cohn
   role: member
   person_id: ocd-person/e596d2ce-a208-475c-a9c1-15e25ccb3404
@@ -45,15 +48,9 @@ members:
 - name: Marcia Morey
   role: member
   person_id: ocd-person/be5acee4-3874-4414-9aff-77043943c1c1
-- name: Mike Clampitt
-  role: member
-  person_id: ocd-person/7bb5e97d-cc3b-4e78-94b1-92f6ec537afd
 - name: Robert Reives
   role: member
   person_id: ocd-person/3aa6f3c5-cd15-42e1-907e-92e6f5362c8f
-- name: Sarah Stevens
-  role: member
-  person_id: ocd-person/09099128-27fc-463f-af36-28253d1e7a60
 other_names:
 - name: House Appropriations, Justice and Public Safety
 - name: House Appropriations, Justice and Public Safety Committee

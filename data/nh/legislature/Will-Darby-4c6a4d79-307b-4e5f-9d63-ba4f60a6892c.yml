@@ -4,7 +4,7 @@ given_name: Will
 family_name: Darby
 gender: Male
 email: will.darby@gc.nh.gov
-image: https://www.gencourt.state.nh.us/house/images/memberpics/409086.jpg
+image: https://storage.googleapis.com/enview-dev-public-general/legislative-people-photos/123118.jpg
 party:
 - name: Democratic
 roles:

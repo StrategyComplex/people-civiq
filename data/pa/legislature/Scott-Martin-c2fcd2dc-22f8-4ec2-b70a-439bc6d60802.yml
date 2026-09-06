@@ -4,7 +4,7 @@ given_name: Scott
 family_name: Martin
 gender: Male
 email: smartin@pasen.gov
-image: https://www.legis.state.pa.us/images/members/200/1763.jpg?1703415645672
+image: https://www.palegis.us/resources/images/members/300/1763.jpg
 party:
 - name: Republican
 roles:
@@ -39,6 +39,7 @@ sources:
 - url: https://en.wikipedia.org/wiki/Scott_Martin_(Pennsylvania_politician)
 - url: https://justfacts.votesmart.org/candidate/biography/107945/scott-martin
 - url: https://senatorscottmartinpa.com
+- url: https://senatorscottmartinpa.com/biography
 - url: https://www.legis.state.pa.us/cfdocs/legis/home/member_information/mbrList.cfm?body=S&sort=alpha
 - url: https://www.legis.state.pa.us/cfdocs/legis/home/member_information/Senate_bio.cfm?id=1763
 - url: https://www.legis.state.pa.us/cfdocs/legis/home/member_information/senators_alpha.cfm

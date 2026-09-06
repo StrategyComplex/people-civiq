@@ -1,0 +1,30 @@
+id: ocd-person/b4f97e46-d8cd-45f7-88c4-94926b0bf60b
+name: Dru Tarr
+given_name: Dru
+family_name: Tarr
+gender: Male
+email: andrew.tarr@mahouse.gov
+image: https://malegislature.gov/Legislators/Profile/170/AFT1.jpg
+party:
+- name: Democratic
+roles:
+- start_date: 2026-04-15
+  type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ma/government
+  district: 5th Essex
+offices:
+- classification: capitol
+  address: Room 39, State House 24 Beacon St., Boston, MA 02133
+  voice: 617-722-2014
+links:
+- url: https://malegislature.gov/Legislators/Profile/AFT1
+other_names:
+- name: A. Tarr
+- name: A.F.R. Tarr
+- name: D. Tarr
+- name: Tarr, D.
+sources:
+- url: https://ballotpedia.org/Andrew_Tarr
+- url: https://en.wikipedia.org/wiki/Andrew_Tarr
+- url: https://malegislature.gov/Legislators/Profile/AFT1
+- url: https://www.linkedin.com/in/dru-tarr-454579120

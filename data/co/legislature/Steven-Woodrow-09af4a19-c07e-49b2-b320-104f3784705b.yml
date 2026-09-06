@@ -4,7 +4,7 @@ given_name: Steven
 family_name: Woodrow
 gender: Male
 email: steven.woodrow.house@coleg.gov
-image: http://leg.colorado.gov/sites/default/files/styles/width_300/public/2023b_woodrow%2Csteven-.jpg?itok=s0Qxv3Oj
+image: https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMXhUQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--b28a2d8e234c37d646a99efd0b7aea44a198fe9d/Woodrow,Steven-.jpg
 party:
 - name: Democratic
 roles:
@@ -24,11 +24,17 @@ other_names:
 - name: S.L. Woodrow
 - name: Woodrow S.
 - name: Woodrow, S.
+ids:
+  twitter: WoodrowForCO
+  facebook: woodrowforco
+  instagram: representative_steven_woodrow
 sources:
 - url: https://ballotpedia.org/Steven_Woodrow
 - url: https://en.wikipedia.org/wiki/Steven_Woodrow
+- url: https://justfacts.votesmart.org/candidate/biography/189634/steven-woodrow
 - url: https://leg.colorado.gov/legislators
 - url: https://leg.colorado.gov/legislators/steven-woodrow
+- url: https://www.cohousedems.com/team/steven-woodrow
 - url: https://www.linkedin.com/in/stevenlezell
 extras:
   counties represented:

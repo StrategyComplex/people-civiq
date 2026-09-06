@@ -24,7 +24,13 @@ other_names:
 - name: Gonzalez R.
 - name: Gonzalez, R.
 - name: R. Gonzalez
+ids:
+  twitter: RyanGonzalezCO
+  facebook: Gonzalezfor50
+  instagram: ryangonzalezco
 sources:
 - url: https://ballotpedia.org/Ryan_Gonzalez
+- url: https://en.wikipedia.org/wiki/Ryan_Gonzalez
+- url: https://justfacts.votesmart.org/candidate/biography/206221/ryan-gonzalez
 - url: https://leg.colorado.gov/legislators/ryan-gonzalez
 - url: https://www.linkedin.com/in/ryanagonzalez

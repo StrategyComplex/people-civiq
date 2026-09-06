@@ -3,8 +3,8 @@ name: Laura Ellman
 given_name: Laura
 family_name: Ellman
 gender: Female
-email: ellman@senatedem.illinois.gov
-image: https://ilga.gov/images/members/{423E6DDE-1AFB-4F10-A767-C869B0E51483}.jpg
+email: info@senatorlauraellman.com
+image: https://cdn.ilga.gov/assets/img/members/{423E6DDE-1AFB-4F10-A767-C869B0E51483}.jpg
 party:
 - name: Democratic
 roles:
@@ -41,6 +41,7 @@ sources:
 - url: https://ilga.gov/senate/Senator.asp?GA=101&MemberID=2725
 - url: https://ilga.gov/senate/Senator.asp?GA=102&MemberID=2930
 - url: https://ilga.gov/senate/Senator.asp?GA=103&MemberID=3128
+- url: https://justfacts.votesmart.org/candidate/177105/laura-ellman
 - url: https://www.ilga.gov/Senate/Members/Details/3339
 - url: https://www.ilga.gov/senate/Senator.asp?GA=103&MemberID=3128
 - url: https://www.ilga.gov/senate/Senator.asp?GA=104&MemberID=3339

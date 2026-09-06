@@ -4,7 +4,7 @@ given_name: Steve
 family_name: Bogert
 gender: Male
 email: steven.bogert@gc.nh.gov
-image: https://www.gencourt.state.nh.us/house/images/memberpics/409069.jpg
+image: https://storage.googleapis.com/enview-dev-public-general/legislative-people-photos/123172.jpg
 party:
 - name: Republican
 roles:

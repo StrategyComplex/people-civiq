@@ -4,7 +4,7 @@ given_name: Sallie
 family_name: Fellows
 gender: Female
 email: sallie.fellows@gc.nh.gov
-image: https://www.gencourt.state.nh.us/house/images/memberpics/408836.jpg
+image: https://storage.googleapis.com/enview-dev-public-general/legislative-people-photos/73134.jpg
 party:
 - name: Democratic
 roles:

@@ -5,7 +5,7 @@ family_name: Williams
 birth_date: 1957-02-28
 gender: Male
 email: williams@pasenate.com
-image: https://www.legis.state.pa.us/images/members/200/153.jpg?1703415645672
+image: https://www.palegis.us/resources/images/members/300/153.jpg
 party:
 - name: Democratic
 roles:
@@ -55,6 +55,7 @@ sources:
 - url: https://www.linkedin.com/in/anthony-h-williams-57022226
 - url: https://www.palegis.us/senate/members/bio/153/sen-a-williams
 - url: https://www.senatoranthonyhwilliams.com
+- url: https://www.senatoranthonyhwilliams.com/about
 extras:
   website: http://senatoranthonyhwilliams.com
   Education:

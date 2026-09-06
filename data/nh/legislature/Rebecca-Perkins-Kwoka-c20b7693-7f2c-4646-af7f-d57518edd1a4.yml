@@ -4,7 +4,7 @@ given_name: Rebecca
 family_name: Perkins Kwoka
 gender: Female
 email: rebecca.perkinskwoka@gc.nh.gov
-image: https://www.gencourt.state.nh.us/Senate/images/senators/21.jpg
+image: https://storage.googleapis.com/enview-dev-public-general/legislative-people-photos/93795.jpg
 party:
 - name: Democratic
 roles:

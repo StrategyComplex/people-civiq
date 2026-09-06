@@ -4,7 +4,7 @@ given_name: Peggy
 family_name: Balboni
 gender: Female
 email: peggy.balboni@gc.nh.gov
-image: https://www.gencourt.state.nh.us/house/images/memberpics/409063.jpg
+image: https://storage.googleapis.com/enview-dev-public-general/legislative-people-photos/123163.jpg
 party:
 - name: Democratic
 roles:

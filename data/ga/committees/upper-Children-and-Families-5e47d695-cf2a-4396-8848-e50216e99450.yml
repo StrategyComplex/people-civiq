@@ -28,6 +28,9 @@ members:
 - name: Matt Brass
   role: secretary
   person_id: ocd-person/81b84318-8c9f-467f-a7c1-776d9c415f51
+- name: Adrienne White
+  role: member
+  person_id: ocd-person/3cfc8d4f-68d4-44b2-81f4-a162465e1aed
 - name: Derek Mallow
   role: member
   person_id: ocd-person/73918c45-83c1-4d52-a84d-3ad7ad8de40b
@@ -37,9 +40,6 @@ members:
 - name: Max Burns
   role: member
   person_id: ocd-person/918888ac-edc7-4178-9133-d058f0f21010
-- name: Nabilah Parkes
-  role: member
-  person_id: ocd-person/23ffff2b-3ce6-46dc-996c-7b4fd71607bc
 - name: Sally Harrell
   role: member
   person_id: ocd-person/218a4fc4-a568-4b78-b350-0d60c6b12d4c

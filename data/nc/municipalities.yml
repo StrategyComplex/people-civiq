@@ -76,3 +76,9 @@
   id: ocd-jurisdiction/country:us/state:nc/place:wilson/government
 - name: Belmont
   id: ocd-jurisdiction/country:us/state:nc/place:belmont/government
+- name: Laurinburg
+  id: ocd-jurisdiction/country:us/state:nc/place:laurinburg/government
+- name: Hickory
+  id: ocd-jurisdiction/country:us/state:nc/place:hickory/government
+- name: New Bern
+  id: ocd-jurisdiction/country:us/state:nc/place:new_bern/government

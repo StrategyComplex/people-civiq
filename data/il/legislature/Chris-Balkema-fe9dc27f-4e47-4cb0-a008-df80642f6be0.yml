@@ -3,8 +3,8 @@ name: Chris Balkema
 given_name: Chris
 family_name: Balkema
 gender: Male
-email: chris@chrisbalkema.com
-image: https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/ChrisBalkema.jpg
+email: balkema@ilsenategop.org
+image: https://cdn.ilga.gov/assets/img/members/{29C38AB6-DBAB-4E53-A4B1-9DA8D64AD699}.jpg
 party:
 - name: Republican
 roles:
@@ -14,14 +14,11 @@ roles:
   district: '53'
 offices:
 - classification: capitol
-  address: Stratton Office Building Section A, Office E, Springfield, IL 62706
+  address: Stratton Office Building Section A, Office C, Springfield, IL 62706
   voice: 217-782-6597
 - classification: district
   address: 125 W. Front St., El Paso, IL 61738
   voice: 815-844-9179
-- classification: district
-  address: 132 E. Main St., Dwight, IL 61738
-  voice: 815-432-0106
 - classification: district
   address: 305 W. Madison St., Pontiac, IL 61764
   voice: 815-844-9179
@@ -36,6 +33,7 @@ other_names:
 - name: C.A. Balkema
 sources:
 - url: https://ballotpedia.org/Chris_Balkema
+- url: https://en.wikipedia.org/wiki/Chris_Balkema
 - url: https://justfacts.votesmart.org/candidate/biography/131351/chris-balkema
 - url: https://www.ilga.gov/Senate/Members/Details/3413
 - url: https://www.ilga.gov/senate/Senator.asp?GA=104&MemberID=3413

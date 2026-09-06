@@ -5,7 +5,7 @@ family_name: Flynn
 birth_date: 1975-09-18
 gender: Male
 email: flynn@pasenate.com
-image: https://www.legis.state.pa.us/images/members/200/1626.jpg?1703415645672
+image: https://www.palegis.us/resources/images/members/300/1626.jpg
 party:
 - name: Democratic
 roles:
@@ -57,6 +57,7 @@ sources:
 - url: https://www.linkedin.com/in/marty-flynn-6a34575a
 - url: https://www.palegis.us/senate/members/bio/1626/sen-flynn
 - url: https://www.senatorflynn.com
+- url: https://www.senatorflynn.com/about
 extras:
   Education:
   - Scranton Preparatory School, 1994

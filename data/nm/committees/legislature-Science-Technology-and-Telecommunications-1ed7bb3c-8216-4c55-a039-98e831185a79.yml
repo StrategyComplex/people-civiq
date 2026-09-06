@@ -8,12 +8,12 @@ sources:
 links:
 - url: https://www.nmlegis.gov/Committee/Interim_Committee?CommitteeCode=STTC
 members:
-- name: "Debbie Sari\xF1ana"
-  role: chair
-  person_id: ocd-person/8cb27ec7-dc78-49b1-bc3f-18ad2beb76b6
 - name: Heather Berghmans
-  role: vice chair
+  role: chair
   person_id: ocd-person/e5d44d75-76df-41fc-87ae-27bc4c943d50
+- name: "Debbie Sari\xF1ana"
+  role: vice chair
+  person_id: ocd-person/8cb27ec7-dc78-49b1-bc3f-18ad2beb76b6
 - name: Charlotte Little
   role: advisory
   person_id: ocd-person/052e06cd-7f58-4c3c-8640-be1d8842a19b
@@ -32,6 +32,9 @@ members:
 - name: Larry Scott
   role: advisory
   person_id: ocd-person/febbd8f4-a85e-476c-b96f-52f4f759f8c7
+- name: Linda Serrato
+  role: advisory
+  person_id: ocd-person/570bb94a-0500-44de-8983-ca259e0d4a60
 - name: Linda Trujillo
   role: advisory
   person_id: ocd-person/4cbcf352-3f7a-412d-afc6-568dc4b94400

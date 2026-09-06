@@ -4,7 +4,7 @@ given_name: John
 family_name: Curran
 gender: Male
 email: senatorcurran@gmail.com
-image: https://ilga.gov/images/members/{7FC724D0-C297-4D20-AC25-3D879DE286B8}.jpg
+image: https://cdn.ilga.gov/assets/img/members/{7FC724D0-C297-4D20-AC25-3D879DE286B8}.jpg
 party:
 - name: Republican
 roles:
@@ -14,11 +14,11 @@ roles:
   district: '41'
 offices:
 - classification: capitol
-  address: Room 110 D, Capitol Building, Springfield, IL 62706
+  address: Room 309-G, Capitol Building, Springfield, IL 62706
   voice: 217-782-9407
 - classification: district
-  address: 1011 State St. Suite 205, Lemont, IL 60439
-  voice: 630-914-5733
+  address: 6900 Main St. Suite 200, Downers Grove, IL 60516
+  voice: 630-297-8058
 links:
 - url: https://ilga.gov/senate/Senator.asp?GA=101&MemberID=2699
 - url: https://ilga.gov/senate/Senator.asp?GA=102&MemberID=2915
@@ -47,6 +47,7 @@ sources:
 - url: https://ilga.gov/senate/Senator.asp?GA=101&MemberID=2699
 - url: https://ilga.gov/senate/Senator.asp?GA=102&MemberID=2915
 - url: https://ilga.gov/senate/Senator.asp?GA=103&MemberID=3115
+- url: https://justfacts.votesmart.org/candidate/74860/john-curran
 - url: https://senatorcurran.com
 - url: https://www.ilga.gov/Senate/Members/Details/3329
 - url: https://www.ilga.gov/senate/Senator.asp?GA=103&MemberID=3115

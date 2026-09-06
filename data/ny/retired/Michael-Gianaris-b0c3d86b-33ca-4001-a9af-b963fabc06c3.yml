@@ -1,0 +1,40 @@
+id: ocd-person/b0c3d86b-33ca-4001-a9af-b963fabc06c3
+name: Mike Gianaris
+given_name: Mike
+family_name: Gianaris
+birth_date: 1970-04-23
+gender: Male
+email: gianaris@nysenate.gov
+image: https://www.nysenate.gov/sites/default/files/styles/4_3_medium/public/hs_3.jpg
+party:
+- name: Democratic/Working Families
+roles:
+- start_date: 2019-03-04
+  type: upper
+  jurisdiction: ocd-jurisdiction/country:us/state:ny/government
+  district: '12'
+  end_date: 2026-08-07
+offices: []
+links:
+- url: https://www.nysenate.gov/senators-committees
+- url: https://www.nysenate.gov/senators/michael-gianaris
+- url: https://www.nysenate.gov/senators/michael-gianaris/contact
+other_names:
+- name: Gianaris, M.
+- name: M. Gianaris
+- name: M.N. Gianaris
+- name: Michael Gianaris
+- name: Michael N. Gianaris
+ids:
+  twitter: SenGianaris
+other_identifiers:
+- scheme: legacy_openstates
+  identifier: NYL000018
+- scheme: legacy_openstates
+  identifier: NYL000415
+sources:
+- url: https://ballotpedia.org/Michael_Gianaris
+- url: https://en.wikipedia.org/wiki/Michael_Gianaris
+- url: https://justfacts.votesmart.org/candidate/biography/55455/michael-gianaris
+- url: https://www.nysenate.gov/senators/michael-gianaris
+- url: https://www.nysenate.gov/senators/michael-gianaris/contact

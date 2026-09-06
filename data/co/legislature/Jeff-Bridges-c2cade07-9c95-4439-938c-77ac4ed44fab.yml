@@ -4,7 +4,7 @@ given_name: Jeff
 family_name: Bridges
 gender: Male
 email: jeff.bridges.senate@coleg.gov
-image: http://leg.colorado.gov/sites/default/files/styles/width_300/public/2023b_bridges%2Cjeff.jpg?itok=7ZsoC6-F
+image: https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeWhwQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--1f18e804077a78214975ed08168ecc3aa4c6f896/Bridges,Jeff.jpg
 party:
 - name: Democratic
 roles:
@@ -28,11 +28,16 @@ other_names:
 - name: Bridges, J.
 - name: J. Bridges
 - name: J.K. Bridges
+ids:
+  twitter: JeffBridges
+  facebook: bridgesforcolorado
+  instagram: jeffbridges
 other_identifiers:
 - scheme: legacy_openstates
   identifier: COL000239
 sources:
 - url: https://ballotpedia.org/Jeff_Bridges
+- url: https://ballotpedia.org/Jeff_Bridges_(Colorado)
 - url: https://en.wikipedia.org/wiki/Jeff_Bridges_(politician)
 - url: https://justfacts.votesmart.org/candidate/biography/169966/jeff-bridges
 - url: https://leg.colorado.gov/legislators
