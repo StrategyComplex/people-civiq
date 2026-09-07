@@ -60,8 +60,11 @@ class SourceRefresher(wm.Refresher):
             same = [r for r in roles if r.get("type") == role_type and r.get("jurisdiction") == jid]
             if same:
                 cur = same[-1]
+                cur_end = wm.datestr(cur.get("end_date"))
                 cur.update(role)
-                if not seat.get("end_date"):
+                # The source confirms the seat is held today. Keep a known future
+                # end date it doesn't mention; only a past one is stale.
+                if not seat.get("end_date") and cur_end and cur_end < wm.today():
                     cur.pop("end_date", None)
                 cur.pop("end_reason", None)
             else:
