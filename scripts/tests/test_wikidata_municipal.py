@@ -116,7 +116,34 @@ class RefreshTest(unittest.TestCase):
         self.run_refresh("--dry-run")
         self.assertEqual(before, load_all(self.data))
 
+    def test_stale_wikidata_claim_does_not_displace_newer_incumbent(self):
+        """Real-data case (Fremont, Oakland...): Wikidata's P6 still names an
+        old mayor with no end date; upstream already has the new one."""
+        import json
+        stale = os.path.join(self.tmp, "stale.json")
+        with open(stale, "w") as f:
+            json.dump({"mayors": {"results": {"bindings": [
+                {"city": {"value": "http://www.wikidata.org/entity/Q846914"}, "cityLabel": {"value": "Hawthorne"},
+                 "person": {"value": "http://www.wikidata.org/entity/Q99999903"}, "personLabel": {"value": "Old Mayor"},
+                 "start": {"value": "2016-01-01T00:00:00Z"}, "rank": {"value": "http://wikiba.se/ontology#NormalRank"}},
+            ]}}}, f)
+        r = wm.Refresher(self.data, "ca", dry_run=True)
+        vargas = next(p for p in r.people.values() if p["name"] == "Alex Vargas")
+        vargas["roles"][0]["end_date"] = "2028-12-31"  # undated start, known future term
+        mayors, _ = wm.fetch("ca", False, fixture=stale)
+        report = r.run(mayors, [])
+        self.assertEqual(report["retired"], [])
+        self.assertEqual(report["created"], [])
+        self.assertEqual(len(report["conflicts"]), 1)
+        self.assertEqual(report["conflicts"][0][0], "Old Mayor")
+
     def test_helpers(self):
+        self.assertEqual(wm.name_key("Eunice M. Ulloa"), wm.name_key("Eunice Ulloa"))
+        self.assertEqual(wm.name_key("James T. Butts Jr."), wm.name_key("James Butts"))
+        self.assertNotEqual(wm.name_key("John Franklin"), wm.name_key("Patrick Johnson"))
+        import datetime
+        self.assertTrue(wm.is_current(datetime.date(2099, 1, 1)))
+        self.assertFalse(wm.is_current("2001-01-01"))
         self.assertEqual(wm.slugify_place("Rancho Santa Margarita"), "rancho_santa_margarita")
         self.assertEqual(wm.slugify_place("St. Helena"), "st_helena")
         self.assertEqual(wm.clean_city_label("Poway, California"), "Poway")

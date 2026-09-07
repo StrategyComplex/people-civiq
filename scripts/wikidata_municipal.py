@@ -146,12 +146,42 @@ def today():
     return dt.date.today().isoformat()
 
 
+def datestr(value):
+    """People YAML loads dates as datetime.date; compare everything as ISO strings."""
+    if value is None:
+        return None
+    if isinstance(value, (dt.date, dt.datetime)):
+        return value.isoformat()[:10]
+    return str(value)[:10]
+
+
+RECENT_YEARS = 2
+
+
+def recent_cutoff():
+    t = dt.date.today()
+    return t.replace(year=t.year - RECENT_YEARS).isoformat()
+
+
 def is_current(end):
+    end = datestr(end)
     return end is None or end >= today()
 
 
 def normalize_name(name):
     return re.sub(r"[^a-z]", "", name.lower())
+
+
+_SUFFIXES = {"jr", "sr", "ii", "iii", "iv"}
+
+
+def name_key(name):
+    """first + last token, ignoring middle names/initials and suffixes, so
+    'Eunice M. Ulloa' and 'John B. Franklin' match their Wikidata labels."""
+    toks = [t for t in re.sub(r"[^a-z ]", "", (name or "").lower()).split() if t not in _SUFFIXES]
+    if len(toks) < 2:
+        return "".join(toks)
+    return toks[0] + toks[-1]
 
 
 def clean_city_label(label):
@@ -337,7 +367,7 @@ class Refresher:
             for fn in os.listdir(self.muni_dir):
                 if fn.endswith(".yml"):
                     self.people[os.path.join(self.muni_dir, fn)] = load_yaml(os.path.join(self.muni_dir, fn))
-        self.report = {"created": [], "updated": [], "retired": [], "new_municipalities": [], "skipped": []}
+        self.report = {"created": [], "updated": [], "retired": [], "new_municipalities": [], "skipped": [], "conflicts": []}
 
     # ---- lookup
     def jurisdiction_for(self, city_label):
@@ -360,7 +390,40 @@ class Refresher:
                 r.get("jurisdiction") == jid for r in p.get("roles", []) or []
             ):
                 return path, p
+        for path, p in self.people.items():
+            if name_key(p.get("name", "")) == name_key(name) and any(
+                r.get("jurisdiction") == jid for r in p.get("roles", []) or []
+            ):
+                return path, p
         return None, None
+
+    def newer_incumbent(self, holder, role_type, jid):
+        """Someone other than `holder` already holds this seat with an
+        open-ended role that started no earlier than Wikidata's claim.
+        Wikidata P6 is often stale (old mayor never end-dated); upstream
+        openstates/people data that is newer wins, and the row is reported
+        as a conflict for a human to settle."""
+        q = qid(holder["person"])
+        wd_start = holder.get("start") or ""
+        for path, p in self.people.items():
+            if any(i.get("scheme") == "wikidata" and i.get("identifier") == q for i in p.get("other_identifiers", []) or []):
+                continue
+            if name_key(p.get("name", "")) == name_key(holder["name"]):
+                continue
+            for r in p.get("roles", []) or []:
+                if r.get("type") == role_type and r.get("jurisdiction") == jid and is_current(r.get("end_date")):
+                    ex_start = datestr(r.get("start_date"))
+                    # Displace only when Wikidata's claim is strictly newer than
+                    # the existing holder's known start, or -- when that start
+                    # is unknown -- when the claim began recently enough to be
+                    # a deliberate update rather than an old never-closed row.
+                    if not wd_start:
+                        return p.get("name"), ex_start
+                    if ex_start is not None and ex_start >= wd_start:
+                        return p.get("name"), ex_start
+                    if ex_start is None and wd_start < recent_cutoff():
+                        return p.get("name"), ex_start
+        return None
 
     # ---- apply
     def apply(self, holder, role_type, jid):
@@ -430,6 +493,10 @@ class Refresher:
                 self.report["skipped"].append(city)
                 continue
             jid, _ = self.jurisdiction_for(holder["city_label"])
+            clash = self.newer_incumbent(holder, "mayor", jid)
+            if clash:
+                self.report["conflicts"].append((holder["name"], holder.get("start"), clash[0], clash[1], holder["city_label"]))
+                continue
             path = self.apply(holder, "mayor", jid)
             self.retire_others(jid, "mayor", {path})
         for city, holders in current_office_holders(council).items():
@@ -459,15 +526,18 @@ class Refresher:
 
 def print_report(report, dry_run):
     tag = "[dry-run] " if dry_run else ""
-    print("%screated %d, updated %d, retired %d, new municipalities %d, skipped %d" % (
+    print("%screated %d, updated %d, retired %d, new municipalities %d, skipped %d, conflicts %d" % (
         tag, len(report["created"]), len(report["updated"]), len(report["retired"]),
-        len(report["new_municipalities"]), len(report["skipped"])))
+        len(report["new_municipalities"]), len(report["skipped"]), len(report["conflicts"])))
     for name, role, city in report["created"]:
         print("  + %s (%s, %s)" % (name, role, city))
     for name, role, jid in report["retired"]:
         print("  - retired %s (%s, %s)" % (name, role, jid))
     for city in report["new_municipalities"]:
         print("  * new municipality %s" % city)
+    for wd_name, wd_start, cur_name, cur_start, city in report["conflicts"]:
+        print("  ! conflict %s: Wikidata says %s (from %s) but %s (from %s) is current; kept existing" % (
+            city, wd_name, wd_start or "?", cur_name, cur_start or "?"))
 
 
 def main(argv=None):
