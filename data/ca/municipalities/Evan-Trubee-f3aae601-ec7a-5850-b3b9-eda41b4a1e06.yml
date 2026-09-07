@@ -1,0 +1,13 @@
+id: ocd-person/f3aae601-ec7a-5850-b3b9-eda41b4a1e06
+name: Evan Trubee
+given_name: Evan
+family_name: Trubee
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:palm_desert/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

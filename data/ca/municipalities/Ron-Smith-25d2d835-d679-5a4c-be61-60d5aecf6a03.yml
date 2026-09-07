@@ -1,0 +1,13 @@
+id: ocd-person/25d2d835-d679-5a4c-be61-60d5aecf6a03
+name: Ron Smith
+given_name: Ron
+family_name: Smith
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:california_city/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/7ad6c7a7-67eb-5fa6-8924-b8ee75156ca4
+name: Cory Morse
+given_name: Cory
+family_name: Morse
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:maricopa/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/c70c23f2-8f6b-52d7-a605-be4afb2222df
+name: Lisa Lomeli
+given_name: Lisa
+family_name: Lomeli
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:corning/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

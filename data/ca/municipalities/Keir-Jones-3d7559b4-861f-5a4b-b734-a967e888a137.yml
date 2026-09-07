@@ -1,0 +1,13 @@
+id: ocd-person/3d7559b4-861f-5a4b-b734-a967e888a137
+name: Keir Jones
+given_name: Keir
+family_name: Jones
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:signal_hill/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

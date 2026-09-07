@@ -1,0 +1,13 @@
+id: ocd-person/3832651d-786f-5cd8-8b83-1adf3f98bd6b
+name: Minnie Diallo
+given_name: Minnie
+family_name: Diallo
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:lathrop/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

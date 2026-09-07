@@ -1,0 +1,13 @@
+id: ocd-person/c5772b02-5d1f-563e-a466-49b3f13dd31d
+name: Dennis Donohue
+given_name: Dennis
+family_name: Donohue
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:salinas/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

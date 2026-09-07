@@ -1,0 +1,14 @@
+id: ocd-person/725d5071-5a39-5c95-bb50-015f96c5c163
+name: Anthony Otero
+given_name: Anthony
+family_name: Otero
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:la_mirada/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

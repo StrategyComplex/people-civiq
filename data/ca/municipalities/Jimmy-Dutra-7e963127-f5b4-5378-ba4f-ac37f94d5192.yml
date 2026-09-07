@@ -1,0 +1,13 @@
+id: ocd-person/7e963127-f5b4-5378-ba4f-ac37f94d5192
+name: Jimmy Dutra
+given_name: Jimmy
+family_name: Dutra
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:watsonville/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

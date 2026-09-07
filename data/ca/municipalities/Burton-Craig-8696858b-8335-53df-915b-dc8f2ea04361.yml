@@ -1,0 +1,13 @@
+id: ocd-person/8696858b-8335-53df-915b-dc8f2ea04361
+name: Burton Craig
+given_name: Burton
+family_name: Craig
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:monte_sereno/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

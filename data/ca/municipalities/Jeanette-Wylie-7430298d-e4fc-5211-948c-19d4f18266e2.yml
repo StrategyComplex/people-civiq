@@ -1,0 +1,13 @@
+id: ocd-person/7430298d-e4fc-5211-948c-19d4f18266e2
+name: Jeanette Wylie
+given_name: Jeanette
+family_name: Wylie
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:vacaville/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

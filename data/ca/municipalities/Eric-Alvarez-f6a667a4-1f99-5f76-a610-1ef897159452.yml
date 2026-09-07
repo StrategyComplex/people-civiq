@@ -1,0 +1,13 @@
+id: ocd-person/f6a667a4-1f99-5f76-a610-1ef897159452
+name: Eric Alvarez
+given_name: Eric
+family_name: Alvarez
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:modesto/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

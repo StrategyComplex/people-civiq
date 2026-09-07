@@ -1,0 +1,13 @@
+id: ocd-person/004db395-1c74-5cc4-8fc6-475c0fcbd23f
+name: Blair Stewart
+given_name: Blair
+family_name: Stewart
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:brea/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/b0a69493-ea75-5554-bb37-eb29620750a6
+name: JoAnne Pogue
+given_name: JoAnne
+family_name: Pogue
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:needles/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

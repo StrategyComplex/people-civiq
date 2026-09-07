@@ -1,0 +1,13 @@
+id: ocd-person/1675d664-b31e-5538-837b-cd95cb16c892
+name: Sally Meadows
+given_name: Sally
+family_name: Meadows
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:los_altos/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

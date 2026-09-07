@@ -1,0 +1,13 @@
+id: ocd-person/cda601be-6431-537f-8f62-c08dab512387
+name: Marisela Councilmember
+given_name: Marisela
+family_name: Councilmember
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:perris/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

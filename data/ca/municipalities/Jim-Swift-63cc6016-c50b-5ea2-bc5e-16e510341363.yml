@@ -1,0 +1,13 @@
+id: ocd-person/63cc6016-c50b-5ea2-bc5e-16e510341363
+name: Jim Swift
+given_name: Jim
+family_name: Swift
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:sutter_creek/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

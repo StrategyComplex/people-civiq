@@ -1,0 +1,13 @@
+id: ocd-person/94e0f9ed-6d76-5801-95d2-a89a776e5e9e
+name: Traci Park
+given_name: Traci
+family_name: Park
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:los_angeles/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/9220a074-0139-5e07-b0e3-03331ec4e78c
+name: William Valero
+given_name: William
+family_name: Valero
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:woodlake/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/8eace49c-514a-5fce-af32-93de776ca193
+name: Jacob Del Bosque
+given_name: Jacob
+family_name: Bosque
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:orange_cove/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -5,6 +5,8 @@ family_name: Poochigian
 roles:
 - type: mayor
   jurisdiction: ocd-jurisdiction/country:us/state:ca/place:visalia/government
+  end_date: '2026-09-07'
+  end_reason: superseded per Wikidata refresh
 links:
 - url: https://www.visalia.city/
   note: city website

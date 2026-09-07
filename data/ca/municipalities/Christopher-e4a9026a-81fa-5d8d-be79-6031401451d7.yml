@@ -1,0 +1,13 @@
+id: ocd-person/e4a9026a-81fa-5d8d-be79-6031401451d7
+name: Christopher
+given_name: Christopher
+family_name: ''
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:burbank/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

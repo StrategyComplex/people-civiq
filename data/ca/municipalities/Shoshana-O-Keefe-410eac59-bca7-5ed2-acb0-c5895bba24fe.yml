@@ -1,0 +1,13 @@
+id: ocd-person/410eac59-bca7-5ed2-acb0-c5895bba24fe
+name: Shoshana O'Keefe
+given_name: Shoshana
+family_name: O'Keefe
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:berkeley/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

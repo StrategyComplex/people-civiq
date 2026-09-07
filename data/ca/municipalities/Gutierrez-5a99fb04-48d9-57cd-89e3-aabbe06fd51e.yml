@@ -1,0 +1,13 @@
+id: ocd-person/5a99fb04-48d9-57cd-89e3-aabbe06fd51e
+name: Gutierrez
+given_name: Gutierrez
+family_name: ''
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:west_covina/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

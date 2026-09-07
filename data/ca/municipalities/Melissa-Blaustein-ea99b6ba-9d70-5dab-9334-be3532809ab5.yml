@@ -1,0 +1,13 @@
+id: ocd-person/ea99b6ba-9d70-5dab-9334-be3532809ab5
+name: Melissa Blaustein
+given_name: Melissa
+family_name: Blaustein
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:sausalito/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

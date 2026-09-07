@@ -1,0 +1,13 @@
+id: ocd-person/6fb6b667-7f9c-578b-acde-c5fdc82fb8d4
+name: Kuldip Thusu
+given_name: Kuldip
+family_name: Thusu
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:dinuba/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

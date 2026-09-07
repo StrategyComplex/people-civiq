@@ -1,0 +1,13 @@
+id: ocd-person/3481075e-6692-5183-ab98-523034c9852d
+name: Maribel Aguilera
+given_name: Maribel
+family_name: Aguilera
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:santa_maria/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/50e33955-1ce2-5201-aae2-65f2425efebe
+name: John A. Mirisch
+given_name: John
+family_name: Mirisch
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:beverly_hills/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

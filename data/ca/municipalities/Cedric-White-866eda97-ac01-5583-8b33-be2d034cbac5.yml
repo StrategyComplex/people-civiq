@@ -1,0 +1,13 @@
+id: ocd-person/866eda97-ac01-5583-8b33-be2d034cbac5
+name: Cedric White
+given_name: Cedric
+family_name: White
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:lancaster/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/1464a8c9-de62-5015-98d3-e212631dd405
+name: Pat Carapiet
+given_name: Pat
+family_name: Carapiet
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:belvedere/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

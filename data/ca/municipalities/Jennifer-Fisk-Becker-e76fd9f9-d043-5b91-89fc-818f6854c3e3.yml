@@ -1,0 +1,13 @@
+id: ocd-person/e76fd9f9-d043-5b91-89fc-818f6854c3e3
+name: Jennifer Fisk-Becker
+given_name: Jennifer
+family_name: Fisk-Becker
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:ferndale/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

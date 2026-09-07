@@ -1,0 +1,13 @@
+id: ocd-person/49941160-1e6d-5a75-b20a-88538c1501bf
+name: Robert White
+given_name: Robert
+family_name: White
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:greenfield/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

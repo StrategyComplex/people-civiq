@@ -1,0 +1,13 @@
+id: ocd-person/84dcec3a-9375-5172-b206-90cabb030dd2
+name: Toper Taylor
+given_name: Toper
+family_name: Taylor
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:indian_wells/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

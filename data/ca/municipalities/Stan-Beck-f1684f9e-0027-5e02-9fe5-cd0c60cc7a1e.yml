@@ -1,0 +1,13 @@
+id: ocd-person/f1684f9e-0027-5e02-9fe5-cd0c60cc7a1e
+name: Stan Beck
+given_name: Stan
+family_name: Beck
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:dorris/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

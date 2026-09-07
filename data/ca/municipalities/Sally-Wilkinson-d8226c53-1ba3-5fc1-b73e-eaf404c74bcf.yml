@@ -1,0 +1,14 @@
+id: ocd-person/d8226c53-1ba3-5fc1-b73e-eaf404c74bcf
+name: Sally Wilkinson
+given_name: Sally
+family_name: Wilkinson
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:belvedere/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

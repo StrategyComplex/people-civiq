@@ -1,0 +1,14 @@
+id: ocd-person/8a9c551f-b724-5f2b-9d66-2abe028a060e
+name: Adam Kline
+given_name: Adam
+family_name: Kline
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:nevada_city/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

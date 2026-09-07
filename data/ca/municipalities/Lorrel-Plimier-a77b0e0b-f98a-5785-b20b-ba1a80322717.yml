@@ -1,0 +1,13 @@
+id: ocd-person/a77b0e0b-f98a-5785-b20b-ba1a80322717
+name: Lorrel Plimier
+given_name: Lorrel
+family_name: Plimier
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:piedmont/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

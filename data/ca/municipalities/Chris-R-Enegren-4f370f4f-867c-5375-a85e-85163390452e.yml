@@ -1,0 +1,13 @@
+id: ocd-person/4f370f4f-867c-5375-a85e-85163390452e
+name: Chris R. Enegren
+given_name: Chris
+family_name: Enegren
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:moorpark/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

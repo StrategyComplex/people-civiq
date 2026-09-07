@@ -1,0 +1,13 @@
+id: ocd-person/8e6273ec-b863-54b4-a3ca-14327f12f4df
+name: Karla Perez
+given_name: Karla
+family_name: Perez
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:rialto/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

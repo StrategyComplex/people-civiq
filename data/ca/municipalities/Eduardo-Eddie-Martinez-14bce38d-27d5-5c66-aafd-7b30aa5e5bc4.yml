@@ -1,0 +1,14 @@
+id: ocd-person/14bce38d-27d5-5c66-aafd-7b30aa5e5bc4
+name: Eduardo "Eddie" Martinez
+given_name: Eduardo
+family_name: Martinez
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:huntington_park/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

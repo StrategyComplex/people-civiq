@@ -1,0 +1,13 @@
+id: ocd-person/ea7c1a65-f606-5534-9cb0-02afc3c73b5c
+name: Lee Fink
+given_name: Lee
+family_name: Fink
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:tustin/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

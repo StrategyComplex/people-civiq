@@ -1,0 +1,13 @@
+id: ocd-person/94d319e5-b877-57e8-9a2f-38e6a40fa400
+name: Orchel Krier
+given_name: Orchel
+family_name: Krier
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:taft/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

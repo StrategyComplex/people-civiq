@@ -1,0 +1,13 @@
+id: ocd-person/6151b5b6-c78e-589c-adab-f8551e98c8fd
+name: Igor Tregub
+given_name: Igor
+family_name: Tregub
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:berkeley/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

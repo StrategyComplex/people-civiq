@@ -1,0 +1,13 @@
+id: ocd-person/cb4b6252-4e25-5ef3-9724-0b3a991bfbba
+name: Jeff Wood
+given_name: Jeff
+family_name: Wood
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:lakewood/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

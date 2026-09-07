@@ -1,0 +1,13 @@
+id: ocd-person/8859ff95-b123-5418-aa3a-5ceb3587e6f6
+name: Jim Koogle
+given_name: Jim
+family_name: Koogle
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:point_arena/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

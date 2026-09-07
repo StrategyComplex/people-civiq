@@ -4,8 +4,7 @@ given_name: Tom
 family_name: Stallard
 email: tom.stallard@cityofwoodland.org
 roles:
-- end_date: 2024-11-05
-  type: mayor
+- type: mayor
   jurisdiction: ocd-jurisdiction/country:us/state:ca/place:woodland/government
 offices:
 - classification: primary
@@ -13,3 +12,8 @@ offices:
   voice: 530-661-5800
 sources:
 - url: https://www.cityofwoodland.org/608/City-Council
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

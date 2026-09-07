@@ -1,0 +1,14 @@
+id: ocd-person/b719a208-05ab-5e39-80f8-8285722e0382
+name: Teresa Proano
+given_name: Teresa
+family_name: Proano
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:daly_city/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

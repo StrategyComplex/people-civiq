@@ -1,0 +1,13 @@
+id: ocd-person/f461c13d-331d-5049-a06b-fdd481f4807c
+name: Betsy Smegal Andersen
+given_name: Betsy
+family_name: Andersen
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:piedmont/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

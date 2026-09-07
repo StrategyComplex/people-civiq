@@ -1,0 +1,13 @@
+id: ocd-person/4b798ca0-8fc8-5761-a80d-d2166ab01e93
+name: Deborah Dill
+given_name: Deborah
+family_name: Dill
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:plymouth/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

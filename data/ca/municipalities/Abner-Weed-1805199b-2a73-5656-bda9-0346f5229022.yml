@@ -1,0 +1,13 @@
+id: ocd-person/1805199b-2a73-5656-bda9-0346f5229022
+name: Abner Weed
+given_name: Abner
+family_name: Weed
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:dorris/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

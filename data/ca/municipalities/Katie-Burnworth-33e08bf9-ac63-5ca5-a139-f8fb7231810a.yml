@@ -1,0 +1,13 @@
+id: ocd-person/33e08bf9-ac63-5ca5-a139-f8fb7231810a
+name: Katie Burnworth
+given_name: Katie
+family_name: Burnworth
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:imperial/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

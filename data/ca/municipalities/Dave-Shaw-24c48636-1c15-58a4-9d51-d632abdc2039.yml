@@ -1,0 +1,13 @@
+id: ocd-person/24c48636-1c15-58a4-9d51-d632abdc2039
+name: Dave Shaw
+given_name: Dave
+family_name: Shaw
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:yuba_city/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

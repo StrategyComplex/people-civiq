@@ -1,0 +1,14 @@
+id: ocd-person/70307616-467d-5b29-abee-1ab5f81a4580
+name: Kevin Lainez
+given_name: Kevin
+family_name: Lainez
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:commerce/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

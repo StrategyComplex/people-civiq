@@ -1,0 +1,13 @@
+id: ocd-person/ad0a9ce6-c220-575a-afca-b58e7562d6c2
+name: Tanica Garcia-Cadena
+given_name: Tanica
+family_name: Garcia-Cadena
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:woodland/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

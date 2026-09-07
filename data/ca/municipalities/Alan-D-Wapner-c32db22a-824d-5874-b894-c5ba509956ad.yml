@@ -1,0 +1,14 @@
+id: ocd-person/c32db22a-824d-5874-b894-c5ba509956ad
+name: Alan D. Wapner
+given_name: Alan
+family_name: Wapner
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:ontario/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

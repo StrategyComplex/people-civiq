@@ -1,0 +1,13 @@
+id: ocd-person/40fff1a9-e6ab-5438-9952-f78fc358d5ba
+name: Anders Fung
+given_name: Anders
+family_name: Fung
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:millbrae/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

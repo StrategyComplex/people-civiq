@@ -1,0 +1,13 @@
+id: ocd-person/49de2eea-43dd-59da-b96c-593a12564a6d
+name: Scott Donaldson
+given_name: Scott
+family_name: Donaldson
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:del_rey_oaks/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

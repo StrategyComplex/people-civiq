@@ -1,0 +1,13 @@
+id: ocd-person/7ee5a187-101d-59c7-b29d-b5967cee2603
+name: Bill Luffee
+given_name: Bill
+family_name: Luffee
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:morro_bay/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

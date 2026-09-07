@@ -1,0 +1,13 @@
+id: ocd-person/0bf3a371-bacf-5cec-be59-0f6d391481b4
+name: Charlie Goeken
+given_name: Charlie
+family_name: Goeken
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:waterford/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

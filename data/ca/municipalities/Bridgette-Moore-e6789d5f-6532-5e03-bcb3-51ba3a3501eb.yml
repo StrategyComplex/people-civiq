@@ -1,0 +1,13 @@
+id: ocd-person/e6789d5f-6532-5e03-bcb3-51ba3a3501eb
+name: Bridgette Moore
+given_name: Bridgette
+family_name: Moore
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:wildomar/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/8fabd53b-5a69-57e3-8058-016d0d0c812c
+name: Perry Monita
+given_name: Perry
+family_name: Monita
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:brawley/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

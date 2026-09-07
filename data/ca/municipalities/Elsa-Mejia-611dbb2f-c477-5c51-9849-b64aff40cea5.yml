@@ -1,0 +1,13 @@
+id: ocd-person/611dbb2f-c477-5c51-9849-b64aff40cea5
+name: Elsa Mejia
+given_name: Elsa
+family_name: Mejia
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:madera/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

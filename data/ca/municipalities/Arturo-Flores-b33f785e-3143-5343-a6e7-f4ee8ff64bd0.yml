@@ -1,0 +1,13 @@
+id: ocd-person/b33f785e-3143-5343-a6e7-f4ee8ff64bd0
+name: Arturo Flores
+given_name: Arturo
+family_name: Flores
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:huntington_park/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

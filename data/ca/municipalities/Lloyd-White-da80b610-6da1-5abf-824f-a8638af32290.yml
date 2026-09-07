@@ -1,0 +1,14 @@
+id: ocd-person/da80b610-6da1-5abf-824f-a8638af32290
+name: Lloyd White
+given_name: Lloyd
+family_name: White
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:beaumont/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

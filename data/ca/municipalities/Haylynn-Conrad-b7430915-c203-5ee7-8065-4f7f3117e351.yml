@@ -1,0 +1,13 @@
+id: ocd-person/b7430915-c203-5ee7-8065-4f7f3117e351
+name: Haylynn Conrad
+given_name: Haylynn
+family_name: Conrad
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:malibu/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

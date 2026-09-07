@@ -1,0 +1,13 @@
+id: ocd-person/ce33dd89-946e-5b8d-8452-5271dc46c748
+name: Leroy Miller
+given_name: Leroy
+family_name: Miller
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:banning/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

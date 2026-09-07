@@ -1,0 +1,13 @@
+id: ocd-person/c534f68b-ad93-57f2-9ba4-c1b3c772dc2d
+name: George Carr
+given_name: George
+family_name: Carr
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:hughson/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

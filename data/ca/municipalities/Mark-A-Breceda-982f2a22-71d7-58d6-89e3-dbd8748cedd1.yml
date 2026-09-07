@@ -1,0 +1,13 @@
+id: ocd-person/982f2a22-71d7-58d6-89e3-dbd8748cedd1
+name: Mark A. Breceda
+given_name: Mark
+family_name: Breceda
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:irwindale/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

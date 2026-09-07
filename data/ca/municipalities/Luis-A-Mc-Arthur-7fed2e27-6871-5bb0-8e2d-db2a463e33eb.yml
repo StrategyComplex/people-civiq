@@ -1,0 +1,13 @@
+id: ocd-person/7fed2e27-6871-5bb0-8e2d-db2a463e33eb
+name: Luis A. Mc Arthur
+given_name: Luis
+family_name: Arthur
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:oxnard/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

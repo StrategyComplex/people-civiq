@@ -1,0 +1,13 @@
+id: ocd-person/c6b23522-df6c-58d2-8e08-289b834f67fb
+name: Tara Campbell
+given_name: Tara
+family_name: Campbell
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:yorba_linda/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/215cd288-3642-520d-ae8e-0705beecfeee
+name: Eileen Wang
+given_name: Eileen
+family_name: Wang
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:arcadia/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

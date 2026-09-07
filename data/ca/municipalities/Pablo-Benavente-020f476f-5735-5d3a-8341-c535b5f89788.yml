@@ -1,0 +1,13 @@
+id: ocd-person/020f476f-5735-5d3a-8341-c535b5f89788
+name: Pablo Benavente
+given_name: Pablo
+family_name: Benavente
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:concord/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

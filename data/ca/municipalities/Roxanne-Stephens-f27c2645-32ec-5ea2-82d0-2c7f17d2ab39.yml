@@ -1,0 +1,13 @@
+id: ocd-person/f27c2645-32ec-5ea2-82d0-2c7f17d2ab39
+name: Roxanne Stephens
+given_name: Roxanne
+family_name: Stephens
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:hollister/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

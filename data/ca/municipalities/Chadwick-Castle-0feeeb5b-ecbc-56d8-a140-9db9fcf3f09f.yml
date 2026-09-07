@@ -1,0 +1,13 @@
+id: ocd-person/0feeeb5b-ecbc-56d8-a140-9db9fcf3f09f
+name: Chadwick Castle
+given_name: Chadwick
+family_name: Castle
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:redondo_beach/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/0f07c77f-34e1-582a-91b9-8b71cf353531
+name: KATE DUNLAP
+given_name: KATE
+family_name: DUNLAP
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:williams/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/1d62f994-0f73-5bab-b633-1f32485386f2
+name: Jeffrey Kelley
+given_name: Jeffrey
+family_name: Kelley
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:amador_city/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

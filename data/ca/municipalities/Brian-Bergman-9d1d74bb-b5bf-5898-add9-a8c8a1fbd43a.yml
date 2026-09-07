@@ -1,0 +1,13 @@
+id: ocd-person/9d1d74bb-b5bf-5898-add9-a8c8a1fbd43a
+name: Brian Bergman
+given_name: Brian
+family_name: Bergman
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:la_habra_heights/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/01c20913-2dcf-551c-a949-a9d5306c4e36
+name: Mr. Jeff
+given_name: Mr.
+family_name: Jeff
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:chowchilla/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

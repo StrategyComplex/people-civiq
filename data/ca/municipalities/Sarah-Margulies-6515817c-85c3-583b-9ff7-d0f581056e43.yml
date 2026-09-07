@@ -1,0 +1,13 @@
+id: ocd-person/6515817c-85c3-583b-9ff7-d0f581056e43
+name: Sarah Margulies
+given_name: Sarah
+family_name: Margulies
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:larkspur/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

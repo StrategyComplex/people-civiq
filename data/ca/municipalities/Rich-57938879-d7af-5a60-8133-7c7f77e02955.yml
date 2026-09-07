@@ -1,0 +1,13 @@
+id: ocd-person/57938879-d7af-5a60-8133-7c7f77e02955
+name: Rich
+given_name: Rich
+family_name: ''
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:woodland/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

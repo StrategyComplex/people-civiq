@@ -1,0 +1,13 @@
+id: ocd-person/c66aec54-e40a-52af-8480-30bc474fad78
+name: Chris Barrett
+given_name: Chris
+family_name: Barrett
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:moorpark/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

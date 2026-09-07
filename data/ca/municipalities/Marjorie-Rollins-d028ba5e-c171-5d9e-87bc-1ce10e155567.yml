@@ -1,0 +1,13 @@
+id: ocd-person/d028ba5e-c171-5d9e-87bc-1ce10e155567
+name: Marjorie Rollins
+given_name: Marjorie
+family_name: Rollins
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:marysville/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

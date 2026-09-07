@@ -1,0 +1,13 @@
+id: ocd-person/99e7e907-345c-5575-b1b7-2744b150cee4
+name: Barbara Leary
+given_name: Barbara
+family_name: Leary
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:folsom/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

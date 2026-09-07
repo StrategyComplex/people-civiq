@@ -1,0 +1,13 @@
+id: ocd-person/8a9f68dd-15e6-5cc4-875e-d6f283618980
+name: Mike Gallagher
+given_name: Mike
+family_name: Gallagher
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:anderson/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

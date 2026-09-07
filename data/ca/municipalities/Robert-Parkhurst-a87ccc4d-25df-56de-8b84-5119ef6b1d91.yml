@@ -1,0 +1,13 @@
+id: ocd-person/a87ccc4d-25df-56de-8b84-5119ef6b1d91
+name: Robert Parkhurst
+given_name: Robert
+family_name: Parkhurst
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:sierra_madre/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

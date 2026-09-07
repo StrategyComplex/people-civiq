@@ -1,0 +1,13 @@
+id: ocd-person/9bd470f2-f0f7-572d-8bc9-5acd0dbd5381
+name: Brian Tisdale
+given_name: Brian
+family_name: Tisdale
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:lake_elsinore/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

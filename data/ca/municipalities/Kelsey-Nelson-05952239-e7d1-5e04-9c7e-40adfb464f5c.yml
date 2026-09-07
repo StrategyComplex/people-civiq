@@ -1,0 +1,13 @@
+id: ocd-person/05952239-e7d1-5e04-9c7e-40adfb464f5c
+name: Kelsey Nelson
+given_name: Kelsey
+family_name: Nelson
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:citrus_heights/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

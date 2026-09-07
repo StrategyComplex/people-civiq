@@ -1,0 +1,13 @@
+id: ocd-person/9d02cf67-8c28-5d9d-82a0-31683a293d8c
+name: Gordon Johnson
+given_name: Gordon
+family_name: Johnson
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:rio_dell/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

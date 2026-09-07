@@ -1,0 +1,14 @@
+id: ocd-person/12ee8937-05fd-50a1-b3a6-1b257446e0fe
+name: Debbie Baker
+given_name: Debbie
+family_name: Baker
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:la_palma/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

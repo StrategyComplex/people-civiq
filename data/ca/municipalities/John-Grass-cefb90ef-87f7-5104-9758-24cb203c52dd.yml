@@ -1,0 +1,13 @@
+id: ocd-person/cefb90ef-87f7-5104-9758-24cb203c52dd
+name: John Grass
+given_name: John
+family_name: Grass
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:brawley/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

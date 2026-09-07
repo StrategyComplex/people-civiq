@@ -1,0 +1,14 @@
+id: ocd-person/bad41fe7-8d8d-5ed5-8d97-5a639095be03
+name: Marilyn Librers
+given_name: Marilyn
+family_name: Librers
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:morgan_hill/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

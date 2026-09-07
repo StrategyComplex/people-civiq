@@ -1,0 +1,13 @@
+id: ocd-person/1ca3ded8-ceca-5314-8a37-fc898a4f9c6c
+name: Thai Viet Phan
+given_name: Thai
+family_name: Phan
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:santa_ana/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/72e99449-8a11-5cf6-ab48-7424413ca790
+name: Pedro Chavez
+given_name: Pedro
+family_name: Chavez
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:santa_paula/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

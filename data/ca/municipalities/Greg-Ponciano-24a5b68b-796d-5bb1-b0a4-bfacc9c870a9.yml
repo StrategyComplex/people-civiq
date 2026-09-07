@@ -1,0 +1,13 @@
+id: ocd-person/24a5b68b-796d-5bb1-b0a4-bfacc9c870a9
+name: Greg Ponciano
+given_name: Greg
+family_name: Ponciano
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:colusa/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

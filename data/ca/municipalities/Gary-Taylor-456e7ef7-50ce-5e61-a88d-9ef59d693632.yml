@@ -1,0 +1,14 @@
+id: ocd-person/456e7ef7-50ce-5e61-a88d-9ef59d693632
+name: Gary Taylor
+given_name: Gary
+family_name: Taylor
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:stanton/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

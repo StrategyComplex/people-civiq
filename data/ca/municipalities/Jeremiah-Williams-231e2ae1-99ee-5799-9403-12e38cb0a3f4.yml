@@ -1,0 +1,14 @@
+id: ocd-person/231e2ae1-99ee-5799-9403-12e38cb0a3f4
+name: Jeremiah Williams
+given_name: Jeremiah
+family_name: Williams
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:modesto/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

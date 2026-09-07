@@ -1,0 +1,13 @@
+id: ocd-person/af92aa5c-736f-5960-8620-1b78eba274f3
+name: Ron Waldrop
+given_name: Ron
+family_name: Waldrop
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:taft/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

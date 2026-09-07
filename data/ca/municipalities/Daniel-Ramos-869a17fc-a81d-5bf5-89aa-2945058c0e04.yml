@@ -1,0 +1,14 @@
+id: ocd-person/869a17fc-a81d-5bf5-89aa-2945058c0e04
+name: Daniel Ramos
+given_name: Daniel
+family_name: Ramos
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:adelanto/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

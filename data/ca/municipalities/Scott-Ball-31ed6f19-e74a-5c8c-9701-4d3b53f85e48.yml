@@ -1,0 +1,14 @@
+id: ocd-person/31ed6f19-e74a-5c8c-9701-4d3b53f85e48
+name: Scott Ball
+given_name: Scott
+family_name: Ball
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:newman/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

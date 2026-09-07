@@ -1,0 +1,13 @@
+id: ocd-person/61ffe9e6-f11c-57ba-84ad-6251a992d04d
+name: Peggy McQuaid
+given_name: Peggy
+family_name: McQuaid
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:albany/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

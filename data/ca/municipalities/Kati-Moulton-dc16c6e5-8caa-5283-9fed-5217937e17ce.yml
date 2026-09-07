@@ -1,0 +1,13 @@
+id: ocd-person/dc16c6e5-8caa-5283-9fed-5217937e17ce
+name: Kati Moulton
+given_name: Kati
+family_name: Moulton
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:eureka/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

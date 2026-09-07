@@ -1,0 +1,13 @@
+id: ocd-person/776024b0-20e2-58ea-ba72-27ef584c0c67
+name: Javier Amezcua
+given_name: Javier
+family_name: Amezcua
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:calipatria/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

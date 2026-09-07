@@ -1,0 +1,13 @@
+id: ocd-person/d70d45c1-9ef6-551c-b19a-d1ad1ce5de80
+name: Evan Hutson
+given_name: Evan
+family_name: Hutson
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:willows/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

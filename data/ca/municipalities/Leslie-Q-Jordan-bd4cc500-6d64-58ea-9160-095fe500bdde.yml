@@ -1,0 +1,13 @@
+id: ocd-person/bd4cc500-6d64-58ea-9160-095fe500bdde
+name: Leslie Q. Jordan
+given_name: Leslie
+family_name: Jordan
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:san_juan_bautista/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

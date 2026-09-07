@@ -1,0 +1,14 @@
+id: ocd-person/b63b6748-969d-534e-a4c8-543e80fc4be6
+name: Robert Robert
+given_name: Robert
+family_name: Robert
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:grover_beach/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

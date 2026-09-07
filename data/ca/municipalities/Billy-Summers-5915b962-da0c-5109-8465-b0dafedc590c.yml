@@ -1,0 +1,13 @@
+id: ocd-person/5915b962-da0c-5109-8465-b0dafedc590c
+name: Billy Summers
+given_name: Billy
+family_name: Summers
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:st_helena/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

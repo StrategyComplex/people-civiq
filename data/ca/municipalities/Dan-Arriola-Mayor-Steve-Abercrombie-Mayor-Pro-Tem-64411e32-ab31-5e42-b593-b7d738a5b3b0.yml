@@ -1,0 +1,13 @@
+id: ocd-person/64411e32-ab31-5e42-b593-b7d738a5b3b0
+name: Dan Arriola - Mayor Steve Abercrombie - Mayor Pro Tem
+given_name: Dan
+family_name: Tem
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:tracy/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,14 @@
+id: ocd-person/7bbad65e-ce40-51c4-bdf6-ab0300b2a90a
+name: Satinder S. Malhi
+given_name: Satinder
+family_name: Malhi
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:martinez/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

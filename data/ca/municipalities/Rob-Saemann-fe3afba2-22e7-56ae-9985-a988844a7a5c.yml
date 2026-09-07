@@ -1,0 +1,13 @@
+id: ocd-person/fe3afba2-22e7-56ae-9985-a988844a7a5c
+name: Rob Saemann
+given_name: Rob
+family_name: Saemann
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:hermosa_beach/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

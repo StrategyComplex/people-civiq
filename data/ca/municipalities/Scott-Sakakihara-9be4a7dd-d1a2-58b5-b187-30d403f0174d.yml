@@ -1,0 +1,13 @@
+id: ocd-person/9be4a7dd-d1a2-58b5-b187-30d403f0174d
+name: '- Scott Sakakihara'
+given_name: '-'
+family_name: Sakakihara
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:union_city/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

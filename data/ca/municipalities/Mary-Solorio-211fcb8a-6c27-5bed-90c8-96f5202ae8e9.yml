@@ -1,0 +1,13 @@
+id: ocd-person/211fcb8a-6c27-5bed-90c8-96f5202ae8e9
+name: Mary Solorio
+given_name: Mary
+family_name: Solorio
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:san_fernando/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

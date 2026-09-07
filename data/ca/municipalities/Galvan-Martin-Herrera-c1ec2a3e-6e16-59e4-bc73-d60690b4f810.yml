@@ -1,0 +1,13 @@
+id: ocd-person/c1ec2a3e-6e16-59e4-bc73-d60690b4f810
+name: Galvan; Martin Herrera
+given_name: Galvan;
+family_name: Herrera
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:el_monte/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

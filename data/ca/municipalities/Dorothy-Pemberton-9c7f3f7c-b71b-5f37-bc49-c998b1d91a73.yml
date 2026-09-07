@@ -1,0 +1,14 @@
+id: ocd-person/9c7f3f7c-b71b-5f37-bc49-c998b1d91a73
+name: Dorothy Pemberton
+given_name: Dorothy
+family_name: Pemberton
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:downey/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

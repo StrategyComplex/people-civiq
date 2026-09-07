@@ -1,0 +1,13 @@
+id: ocd-person/7c9b9827-cdc7-5214-ac3a-7cf712c6c9a0
+name: Jodie Larranaga
+given_name: Jodie
+family_name: Larranaga
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:alturas/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

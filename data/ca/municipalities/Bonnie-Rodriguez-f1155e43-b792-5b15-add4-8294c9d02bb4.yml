@@ -1,0 +1,13 @@
+id: ocd-person/f1155e43-b792-5b15-add4-8294c9d02bb4
+name: Bonnie Rodriguez
+given_name: Bonnie
+family_name: Rodriguez
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:galt/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

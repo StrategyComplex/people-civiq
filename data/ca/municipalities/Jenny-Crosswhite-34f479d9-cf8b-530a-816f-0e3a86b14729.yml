@@ -1,0 +1,14 @@
+id: ocd-person/34f479d9-cf8b-530a-816f-0e3a86b14729
+name: Jenny Crosswhite
+given_name: Jenny
+family_name: Crosswhite
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:santa_paula/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

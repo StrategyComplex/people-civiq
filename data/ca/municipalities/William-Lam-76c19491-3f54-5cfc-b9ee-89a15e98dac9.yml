@@ -1,0 +1,13 @@
+id: ocd-person/76c19491-3f54-5cfc-b9ee-89a15e98dac9
+name: William Lam
+given_name: William
+family_name: Lam
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:milpitas/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

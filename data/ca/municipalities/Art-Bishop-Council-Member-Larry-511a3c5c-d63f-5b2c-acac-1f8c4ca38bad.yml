@@ -1,0 +1,13 @@
+id: ocd-person/511a3c5c-d63f-5b2c-acac-1f8c4ca38bad
+name: Art Bishop; Council Member Larry
+given_name: Art
+family_name: Larry
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:apple_valley/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

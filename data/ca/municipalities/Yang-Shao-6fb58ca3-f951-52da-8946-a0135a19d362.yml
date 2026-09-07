@@ -1,0 +1,13 @@
+id: ocd-person/6fb58ca3-f951-52da-8946-a0135a19d362
+name: Yang Shao
+given_name: Yang
+family_name: Shao
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:fremont/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

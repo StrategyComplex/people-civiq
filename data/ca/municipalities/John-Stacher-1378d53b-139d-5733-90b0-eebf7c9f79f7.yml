@@ -1,0 +1,13 @@
+id: ocd-person/1378d53b-139d-5733-90b0-eebf7c9f79f7
+name: John Stacher
+given_name: John
+family_name: Stacher
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:etna/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

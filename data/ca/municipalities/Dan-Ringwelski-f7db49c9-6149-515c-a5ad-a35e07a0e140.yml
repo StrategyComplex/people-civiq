@@ -1,0 +1,13 @@
+id: ocd-person/f7db49c9-6149-515c-a5ad-a35e07a0e140
+name: Dan Ringwelski
+given_name: Dan
+family_name: Ringwelski
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:shasta_lake/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/c9ae0c4d-d63c-5f98-a0c1-d91f9d6522fb
+name: George Lewis
+given_name: George
+family_name: Lewis
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:rancho_palos_verdes/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

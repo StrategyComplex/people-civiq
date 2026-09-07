@@ -1,0 +1,14 @@
+id: ocd-person/24ff0c10-6766-54ea-95e2-4cfe85d05541
+name: Chris Clark
+given_name: Chris
+family_name: Clark
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:mountain_view/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

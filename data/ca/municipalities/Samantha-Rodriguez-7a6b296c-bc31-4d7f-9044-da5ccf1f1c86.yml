@@ -7,6 +7,8 @@ roles:
 - end_date: 2022-12-12
   type: mayor
   jurisdiction: ocd-jurisdiction/country:us/state:ca/place:rohnert_park/government
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:rohnert_park/government
 offices:
 - classification: primary
   address: City Hall, 130 Avram Avenue;Rohnert Park, CA 94928
@@ -14,3 +16,8 @@ offices:
 sources:
 - url: https://www.rpcity.org
 - url: https://www.rpcity.org/cms/One.aspx?portalId=3037873&pageId=18593094
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

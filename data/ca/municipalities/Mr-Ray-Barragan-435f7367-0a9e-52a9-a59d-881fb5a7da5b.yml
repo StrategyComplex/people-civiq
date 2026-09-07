@@ -1,0 +1,14 @@
+id: ocd-person/435f7367-0a9e-52a9-a59d-881fb5a7da5b
+name: Mr. Ray Barragan
+given_name: Mr.
+family_name: Barragan
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:chowchilla/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

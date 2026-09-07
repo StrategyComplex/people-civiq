@@ -1,0 +1,13 @@
+id: ocd-person/844b3709-0b41-58ba-913a-374214a8e201
+name: John Pespisa
+given_name: John
+family_name: Pespisa
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:la_habra_heights/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

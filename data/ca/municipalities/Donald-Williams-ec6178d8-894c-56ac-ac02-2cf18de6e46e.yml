@@ -1,0 +1,13 @@
+id: ocd-person/ec6178d8-894c-56ac-ac02-2cf18de6e46e
+name: Donald Williams
+given_name: Donald
+family_name: Williams
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:calistoga/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

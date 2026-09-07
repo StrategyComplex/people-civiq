@@ -1,0 +1,13 @@
+id: ocd-person/16303570-d7d6-5f6a-bcdd-bbc27df789e2
+name: Kate Anderson
+given_name: Kate
+family_name: Anderson
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:agoura_hills/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

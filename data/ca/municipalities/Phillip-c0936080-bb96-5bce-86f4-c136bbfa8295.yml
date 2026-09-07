@@ -1,0 +1,13 @@
+id: ocd-person/c0936080-bb96-5bce-86f4-c136bbfa8295
+name: Phillip
+given_name: Phillip
+family_name: ''
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:ferndale/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,14 @@
+id: ocd-person/27147151-27c3-565e-88af-636d417a78ea
+name: Fernando Cabrera
+given_name: Fernando
+family_name: Cabrera
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:soledad/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

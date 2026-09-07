@@ -1,0 +1,13 @@
+id: ocd-person/e0caf1e4-8938-5aa8-9679-7aba1975a4c0
+name: Dan Hall
+given_name: Dan
+family_name: Hall
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:santa_monica/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

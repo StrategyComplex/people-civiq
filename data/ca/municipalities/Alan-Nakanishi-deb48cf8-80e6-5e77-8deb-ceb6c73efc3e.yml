@@ -1,0 +1,13 @@
+id: ocd-person/deb48cf8-80e6-5e77-8deb-ceb6c73efc3e
+name: Alan Nakanishi
+given_name: Alan
+family_name: Nakanishi
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:lodi/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

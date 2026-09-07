@@ -1,0 +1,13 @@
+id: ocd-person/4f687441-c43a-559c-9bde-27a587f48d78
+name: Tasha Cerda
+given_name: Tasha
+family_name: Cerda
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:gardena/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

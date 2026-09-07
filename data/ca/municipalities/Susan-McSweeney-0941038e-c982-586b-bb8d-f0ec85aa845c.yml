@@ -1,0 +1,13 @@
+id: ocd-person/0941038e-c982-586b-bb8d-f0ec85aa845c
+name: Susan McSweeney
+given_name: Susan
+family_name: McSweeney
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:westlake_village/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

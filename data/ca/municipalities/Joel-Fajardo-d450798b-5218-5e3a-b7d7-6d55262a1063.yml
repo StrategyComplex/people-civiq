@@ -1,0 +1,13 @@
+id: ocd-person/d450798b-5218-5e3a-b7d7-6d55262a1063
+name: Joel Fajardo
+given_name: Joel
+family_name: Fajardo
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:san_fernando/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

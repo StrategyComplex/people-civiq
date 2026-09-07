@@ -1,0 +1,13 @@
+id: ocd-person/d1bac0f5-2e8f-5e16-86a7-4e12b220f7c0
+name: Lisa Diaz Nash
+given_name: Lisa
+family_name: Nash
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:san_mateo/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

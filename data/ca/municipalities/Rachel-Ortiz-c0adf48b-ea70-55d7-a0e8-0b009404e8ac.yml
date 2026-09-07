@@ -1,0 +1,13 @@
+id: ocd-person/c0adf48b-ea70-55d7-a0e8-0b009404e8ac
+name: Rachel Ortiz
+given_name: Rachel
+family_name: Ortiz
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:greenfield/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

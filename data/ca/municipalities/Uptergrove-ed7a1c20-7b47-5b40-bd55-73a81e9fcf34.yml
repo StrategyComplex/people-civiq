@@ -1,0 +1,13 @@
+id: ocd-person/ed7a1c20-7b47-5b40-bd55-73a81e9fcf34
+name: Uptergrove
+given_name: Uptergrove
+family_name: ''
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:adelanto/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

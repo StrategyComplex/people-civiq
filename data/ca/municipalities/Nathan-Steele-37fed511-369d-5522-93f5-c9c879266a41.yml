@@ -1,0 +1,13 @@
+id: ocd-person/37fed511-369d-5522-93f5-c9c879266a41
+name: Nathan Steele
+given_name: Nathan
+family_name: Steele
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:seal_beach/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

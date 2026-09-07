@@ -1,0 +1,13 @@
+id: ocd-person/05c0c476-e7f7-5774-ac58-038cbf8a8e2b
+name: John Gurney
+given_name: John
+family_name: Gurney
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:sonoma/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

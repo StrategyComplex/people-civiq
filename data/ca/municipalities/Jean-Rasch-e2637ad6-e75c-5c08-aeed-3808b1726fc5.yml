@@ -1,0 +1,13 @@
+id: ocd-person/e2637ad6-e75c-5c08-aeed-3808b1726fc5
+name: Jean Rasch
+given_name: Jean
+family_name: Rasch
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:monterey/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

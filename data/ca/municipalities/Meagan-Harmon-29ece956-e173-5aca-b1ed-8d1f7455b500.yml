@@ -1,0 +1,13 @@
+id: ocd-person/29ece956-e173-5aca-b1ed-8d1f7455b500
+name: Meagan Harmon
+given_name: Meagan
+family_name: Harmon
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:santa_barbara/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

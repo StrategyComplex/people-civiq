@@ -1,0 +1,13 @@
+id: ocd-person/0d75c03a-605a-5634-8a3b-8f13c3de213d
+name: Rowena Brown
+given_name: Rowena
+family_name: Brown
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:oakland/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

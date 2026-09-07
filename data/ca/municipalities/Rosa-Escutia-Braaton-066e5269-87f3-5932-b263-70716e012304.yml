@@ -1,0 +1,13 @@
+id: ocd-person/066e5269-87f3-5932-b263-70716e012304
+name: Rosa Escutia-Braaton
+given_name: Rosa
+family_name: Escutia-Braaton
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:modesto/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

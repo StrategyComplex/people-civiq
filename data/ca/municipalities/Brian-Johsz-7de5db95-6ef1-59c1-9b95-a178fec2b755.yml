@@ -1,0 +1,13 @@
+id: ocd-person/7de5db95-6ef1-59c1-9b95-a178fec2b755
+name: Brian Johsz
+given_name: Brian
+family_name: Johsz
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:chino_hills/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

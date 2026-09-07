@@ -1,0 +1,13 @@
+id: ocd-person/963cf17f-88e8-56d7-9280-c83a360d0a81
+name: Mr. Kelly Smith
+given_name: Mr.
+family_name: Smith
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:chowchilla/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,14 @@
+id: ocd-person/58e47c04-8c74-5e96-bbe6-791fa5037086
+name: Stacey Mattina
+given_name: Stacey
+family_name: Mattina
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:lakeport/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

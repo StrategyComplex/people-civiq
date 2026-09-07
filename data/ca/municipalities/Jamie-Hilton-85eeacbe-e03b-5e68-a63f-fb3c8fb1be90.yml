@@ -1,0 +1,14 @@
+id: ocd-person/85eeacbe-e03b-5e68-a63f-fb3c8fb1be90
+name: Jamie Hilton
+given_name: Jamie
+family_name: Hilton
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:waterford/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

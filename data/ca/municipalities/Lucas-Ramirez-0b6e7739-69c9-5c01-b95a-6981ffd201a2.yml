@@ -1,0 +1,13 @@
+id: ocd-person/0b6e7739-69c9-5c01-b95a-6981ffd201a2
+name: Lucas Ramirez
+given_name: Lucas
+family_name: Ramirez
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:mountain_view/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

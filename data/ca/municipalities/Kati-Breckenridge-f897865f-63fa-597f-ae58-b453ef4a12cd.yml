@@ -1,0 +1,13 @@
+id: ocd-person/f897865f-63fa-597f-ae58-b453ef4a12cd
+name: Kati Breckenridge
+given_name: Kati
+family_name: Breckenridge
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:trinidad/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

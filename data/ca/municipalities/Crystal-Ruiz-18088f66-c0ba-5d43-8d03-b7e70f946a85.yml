@@ -1,0 +1,13 @@
+id: ocd-person/18088f66-c0ba-5d43-8d03-b7e70f946a85
+name: Crystal Ruiz
+given_name: Crystal
+family_name: Ruiz
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:san_jacinto/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/ad3665f7-4d0c-50f4-bdd2-22291392ceb0
+name: Bob Dias
+given_name: Bob
+family_name: Dias
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:hemet/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

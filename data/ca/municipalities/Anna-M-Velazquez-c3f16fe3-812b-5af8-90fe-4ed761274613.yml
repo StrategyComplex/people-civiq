@@ -1,0 +1,13 @@
+id: ocd-person/c3f16fe3-812b-5af8-90fe-4ed761274613
+name: Anna M. Velazquez
+given_name: Anna
+family_name: Velazquez
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:soledad/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

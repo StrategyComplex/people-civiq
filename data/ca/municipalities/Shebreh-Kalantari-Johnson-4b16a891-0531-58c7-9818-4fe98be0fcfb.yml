@@ -1,0 +1,14 @@
+id: ocd-person/4b16a891-0531-58c7-9818-4fe98be0fcfb
+name: Shebreh Kalantari-Johnson
+given_name: Shebreh
+family_name: Kalantari-Johnson
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:santa_cruz/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/862fe769-486b-5d19-99a2-25ea428403af
+name: Kalisa Rochester
+given_name: Kalisa
+family_name: Rochester
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:atwater/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

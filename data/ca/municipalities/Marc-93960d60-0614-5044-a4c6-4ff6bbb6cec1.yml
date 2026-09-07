@@ -1,0 +1,13 @@
+id: ocd-person/93960d60-0614-5044-a4c6-4ff6bbb6cec1
+name: Marc
+given_name: Marc
+family_name: ''
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:chino/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

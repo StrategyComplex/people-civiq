@@ -1,0 +1,13 @@
+id: ocd-person/ed74f03d-48b8-52e1-8f7c-8cac0117efc8
+name: Jose Aranda
+given_name: Jose
+family_name: Aranda
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:san_juan_bautista/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

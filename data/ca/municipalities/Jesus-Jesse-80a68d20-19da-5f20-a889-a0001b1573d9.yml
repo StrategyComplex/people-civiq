@@ -1,0 +1,13 @@
+id: ocd-person/80a68d20-19da-5f20-a889-a0001b1573d9
+name: Jesus "Jesse"
+given_name: Jesus
+family_name: '"Jesse"'
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:fontana/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

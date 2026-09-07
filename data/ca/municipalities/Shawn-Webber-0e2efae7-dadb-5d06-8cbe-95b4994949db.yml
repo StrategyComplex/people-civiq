@@ -1,0 +1,13 @@
+id: ocd-person/0e2efae7-dadb-5d06-8cbe-95b4994949db
+name: Shawn Webber
+given_name: Shawn
+family_name: Webber
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:oroville/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

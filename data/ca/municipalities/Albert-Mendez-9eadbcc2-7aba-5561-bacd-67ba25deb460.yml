@@ -1,0 +1,13 @@
+id: ocd-person/9eadbcc2-7aba-5561-bacd-67ba25deb460
+name: Albert Mendez
+given_name: Albert
+family_name: Mendez
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:fillmore/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

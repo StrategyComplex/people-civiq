@@ -1,0 +1,13 @@
+id: ocd-person/fcb2b9f6-a419-5c4e-85b3-a9463d797798
+name: Chad Givens
+given_name: Chad
+family_name: Givens
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:shafter/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

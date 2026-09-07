@@ -1,0 +1,13 @@
+id: ocd-person/2d56fe87-46f3-504f-92e1-07e60f3d94f2
+name: Margaux Morgan
+given_name: Margaux
+family_name: Morgan
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:capitola/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

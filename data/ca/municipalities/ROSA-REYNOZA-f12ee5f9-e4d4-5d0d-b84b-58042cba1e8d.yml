@@ -1,0 +1,13 @@
+id: ocd-person/f12ee5f9-e4d4-5d0d-b84b-58042cba1e8d
+name: ROSA REYNOZA
+given_name: ROSA
+family_name: REYNOZA
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:windsor/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

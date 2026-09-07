@@ -1,0 +1,13 @@
+id: ocd-person/2689a5eb-40d3-59c0-abe2-4897bc73007f
+name: Robert Uranga
+given_name: Robert
+family_name: Uranga
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:long_beach/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

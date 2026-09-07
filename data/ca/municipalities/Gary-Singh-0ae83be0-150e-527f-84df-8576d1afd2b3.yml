@@ -1,0 +1,13 @@
+id: ocd-person/0ae83be0-150e-527f-84df-8576d1afd2b3
+name: Gary Singh
+given_name: Gary
+family_name: Singh
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:union_city/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/f15f5b6a-5179-5799-a537-5bc70ca1dae6
+name: Wendy Lau
+given_name: Wendy
+family_name: Lau
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:la_verne/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

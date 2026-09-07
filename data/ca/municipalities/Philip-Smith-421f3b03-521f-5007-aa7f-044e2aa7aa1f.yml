@@ -1,0 +1,13 @@
+id: ocd-person/421f3b03-521f-5007-aa7f-044e2aa7aa1f
+name: Philip Smith
+given_name: Philip
+family_name: Smith
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:tehachapi/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

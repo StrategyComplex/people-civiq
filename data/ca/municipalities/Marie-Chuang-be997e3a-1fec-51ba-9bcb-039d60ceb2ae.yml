@@ -1,0 +1,13 @@
+id: ocd-person/be997e3a-1fec-51ba-9bcb-039d60ceb2ae
+name: Marie Chuang
+given_name: Marie
+family_name: Chuang
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:hillsborough/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

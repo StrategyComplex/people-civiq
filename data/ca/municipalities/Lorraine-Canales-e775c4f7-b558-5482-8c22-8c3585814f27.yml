@@ -1,0 +1,13 @@
+id: ocd-person/e775c4f7-b558-5482-8c22-8c3585814f27
+name: Lorraine Canales
+given_name: Lorraine
+family_name: Canales
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:pomona/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

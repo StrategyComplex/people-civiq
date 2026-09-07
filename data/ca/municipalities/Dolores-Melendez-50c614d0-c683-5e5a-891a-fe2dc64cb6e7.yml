@@ -1,0 +1,13 @@
+id: ocd-person/50c614d0-c683-5e5a-891a-fe2dc64cb6e7
+name: Dolores Melendez
+given_name: Dolores
+family_name: Melendez
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:sanger/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

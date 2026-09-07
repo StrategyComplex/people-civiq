@@ -1,0 +1,13 @@
+id: ocd-person/84f05717-6091-5135-b1d7-e3277c8b3879
+name: Lori Woods
+given_name: Lori
+family_name: Woods
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:signal_hill/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

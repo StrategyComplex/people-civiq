@@ -1,0 +1,13 @@
+id: ocd-person/e6fd9ef2-45f3-54d9-954f-4ba3d702e448
+name: Susana Reyes
+given_name: Susana
+family_name: Reyes
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:arvin/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

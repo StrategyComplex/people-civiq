@@ -1,0 +1,13 @@
+id: ocd-person/a336433b-aba5-539c-95e2-41e5cef70e34
+name: Carl Anduri
+given_name: Carl
+family_name: Anduri
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:lafayette/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

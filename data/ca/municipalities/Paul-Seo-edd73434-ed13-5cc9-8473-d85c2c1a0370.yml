@@ -1,0 +1,13 @@
+id: ocd-person/edd73434-ed13-5cc9-8473-d85c2c1a0370
+name: Paul Seo
+given_name: Paul
+family_name: Seo
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:rancho_palos_verdes/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

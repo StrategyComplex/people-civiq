@@ -1,0 +1,13 @@
+id: ocd-person/d408aeb2-ab76-5c93-a837-f4d36714b044
+name: Chris Kelley
+given_name: Chris
+family_name: Kelley
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:hercules/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

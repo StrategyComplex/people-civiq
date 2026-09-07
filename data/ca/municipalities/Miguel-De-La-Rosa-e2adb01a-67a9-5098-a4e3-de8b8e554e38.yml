@@ -1,0 +1,13 @@
+id: ocd-person/e2adb01a-67a9-5098-a4e3-de8b8e554e38
+name: Miguel De La Rosa
+given_name: Miguel
+family_name: Rosa
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:bell_gardens/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

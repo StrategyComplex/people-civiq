@@ -1,0 +1,13 @@
+id: ocd-person/a36eb15b-cc9f-5fd9-9334-2dc1f6a314e5
+name: David Brown
+given_name: David
+family_name: Brown
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:solvang/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

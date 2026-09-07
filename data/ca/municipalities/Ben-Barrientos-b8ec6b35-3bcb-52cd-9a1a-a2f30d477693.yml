@@ -1,0 +1,13 @@
+id: ocd-person/b8ec6b35-3bcb-52cd-9a1a-a2f30d477693
+name: Ben Barrientos
+given_name: Ben
+family_name: Barrientos
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:livermore/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

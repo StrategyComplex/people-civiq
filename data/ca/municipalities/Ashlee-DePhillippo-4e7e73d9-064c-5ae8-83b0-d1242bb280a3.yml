@@ -1,0 +1,13 @@
+id: ocd-person/4e7e73d9-064c-5ae8-83b0-d1242bb280a3
+name: Ashlee DePhillippo
+given_name: Ashlee
+family_name: DePhillippo
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:wildomar/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

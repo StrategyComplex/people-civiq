@@ -1,0 +1,13 @@
+id: ocd-person/eb947ff7-5109-5115-827f-09924e5c7492
+name: Cody Bass
+given_name: Cody
+family_name: Bass
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:south_lake_tahoe/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

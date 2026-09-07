@@ -1,0 +1,13 @@
+id: ocd-person/3ed26369-e3e2-585f-a20e-d51352f3e386
+name: Robert Lombardo
+given_name: Robert
+family_name: Lombardo
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:yucca_valley/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

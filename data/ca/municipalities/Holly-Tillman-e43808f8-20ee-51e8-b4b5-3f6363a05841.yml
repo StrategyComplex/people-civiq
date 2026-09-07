@@ -1,0 +1,13 @@
+id: ocd-person/e43808f8-20ee-51e8-b4b5-3f6363a05841
+name: Holly Tillman
+given_name: Holly
+family_name: Tillman
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:clayton/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

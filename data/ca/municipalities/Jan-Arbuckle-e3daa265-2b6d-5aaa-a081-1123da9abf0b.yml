@@ -1,0 +1,13 @@
+id: ocd-person/e3daa265-2b6d-5aaa-a081-1123da9abf0b
+name: Jan Arbuckle
+given_name: Jan
+family_name: Arbuckle
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:grass_valley/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

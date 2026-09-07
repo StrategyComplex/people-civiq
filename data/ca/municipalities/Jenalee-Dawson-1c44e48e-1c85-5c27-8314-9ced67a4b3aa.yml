@@ -1,0 +1,14 @@
+id: ocd-person/1c44e48e-1c85-5c27-8314-9ced67a4b3aa
+name: Jenalee Dawson
+given_name: Jenalee
+family_name: Dawson
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:suisun_city/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

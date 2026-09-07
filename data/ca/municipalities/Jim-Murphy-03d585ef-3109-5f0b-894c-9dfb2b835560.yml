@@ -1,0 +1,13 @@
+id: ocd-person/03d585ef-3109-5f0b-894c-9dfb2b835560
+name: Jim Murphy
+given_name: Jim
+family_name: Murphy
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:portola/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

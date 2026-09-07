@@ -1,0 +1,13 @@
+id: ocd-person/3b4823fa-3e35-5585-8f8f-6c4dd2e61bfc
+name: C. Tie Gutierrez
+given_name: C.
+family_name: Gutierrez
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:thousand_oaks/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

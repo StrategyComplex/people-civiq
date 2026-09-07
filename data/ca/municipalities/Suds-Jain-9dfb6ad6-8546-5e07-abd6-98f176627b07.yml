@@ -1,0 +1,13 @@
+id: ocd-person/9dfb6ad6-8546-5e07-abd6-98f176627b07
+name: Suds Jain
+given_name: Suds
+family_name: Jain
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:santa_clara/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

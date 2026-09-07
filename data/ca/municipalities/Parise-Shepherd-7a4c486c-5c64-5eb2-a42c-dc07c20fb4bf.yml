@@ -1,0 +1,13 @@
+id: ocd-person/7a4c486c-5c64-5eb2-a42c-dc07c20fb4bf
+name: Parise Shepherd
+given_name: Parise
+family_name: Shepherd
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:suisun_city/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

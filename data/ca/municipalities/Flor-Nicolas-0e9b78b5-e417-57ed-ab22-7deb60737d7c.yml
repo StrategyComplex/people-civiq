@@ -1,0 +1,13 @@
+id: ocd-person/0e9b78b5-e417-57ed-ab22-7deb60737d7c
+name: Flor Nicolas
+given_name: Flor
+family_name: Nicolas
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:south_san_francisco/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

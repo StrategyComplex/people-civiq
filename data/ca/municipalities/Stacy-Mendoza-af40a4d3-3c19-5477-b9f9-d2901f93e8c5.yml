@@ -1,0 +1,14 @@
+id: ocd-person/af40a4d3-3c19-5477-b9f9-d2901f93e8c5
+name: Stacy Mendoza
+given_name: Stacy
+family_name: Mendoza
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:imperial/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

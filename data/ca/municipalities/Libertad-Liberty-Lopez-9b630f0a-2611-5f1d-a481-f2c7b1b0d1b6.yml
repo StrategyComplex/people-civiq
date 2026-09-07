@@ -1,0 +1,13 @@
+id: ocd-person/9b630f0a-2611-5f1d-a481-f2c7b1b0d1b6
+name: Libertad "Liberty" Lopez
+given_name: Libertad
+family_name: Lopez
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:mendota/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/c2a3041f-6a0b-5581-9e8d-57b95d114eb5
+name: Steven Woodside
+given_name: Steven
+family_name: Woodside
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:sausalito/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

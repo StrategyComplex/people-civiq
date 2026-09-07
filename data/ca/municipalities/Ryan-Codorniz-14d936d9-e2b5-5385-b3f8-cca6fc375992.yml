@@ -1,0 +1,13 @@
+id: ocd-person/14d936d9-e2b5-5385-b3f8-cca6fc375992
+name: Ryan Codorniz
+given_name: Ryan
+family_name: Codorniz
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:colusa/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

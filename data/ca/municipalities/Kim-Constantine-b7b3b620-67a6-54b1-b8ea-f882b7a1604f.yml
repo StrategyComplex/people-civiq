@@ -1,0 +1,13 @@
+id: ocd-person/b7b3b620-67a6-54b1-b8ea-f882b7a1604f
+name: Kim Constantine
+given_name: Kim
+family_name: Constantine
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:fountain_valley/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

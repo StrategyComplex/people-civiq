@@ -1,0 +1,13 @@
+id: ocd-person/c3abedbf-19c3-5be0-8f8b-f3e58eb01bda
+name: Tyler Maxwell
+given_name: Tyler
+family_name: Maxwell
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:fresno/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

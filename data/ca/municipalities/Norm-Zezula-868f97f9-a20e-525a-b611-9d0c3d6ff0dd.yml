@@ -1,0 +1,13 @@
+id: ocd-person/868f97f9-a20e-525a-b611-9d0c3d6ff0dd
+name: Norm Zezula
+given_name: Norm
+family_name: Zezula
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:la_habra_heights/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

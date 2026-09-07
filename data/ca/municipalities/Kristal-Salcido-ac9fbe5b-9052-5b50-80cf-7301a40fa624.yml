@@ -1,0 +1,13 @@
+id: ocd-person/ac9fbe5b-9052-5b50-80cf-7301a40fa624
+name: Kristal Salcido
+given_name: Kristal
+family_name: Salcido
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:watsonville/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/efe251ec-e1d2-5e23-b63d-c0632f8b20e5
+name: Tracy Mendonsa
+given_name: Tracy
+family_name: Mendonsa
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:roseville/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

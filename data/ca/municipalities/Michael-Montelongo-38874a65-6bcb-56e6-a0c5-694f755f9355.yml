@@ -1,0 +1,13 @@
+id: ocd-person/38874a65-6bcb-56e6-a0c5-694f755f9355
+name: Michael Montelongo
+given_name: Michael
+family_name: Montelongo
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:sanger/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

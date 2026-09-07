@@ -1,0 +1,13 @@
+id: ocd-person/d961c784-beb4-52b0-92a3-18189a99274a
+name: Steve Young
+given_name: Steve
+family_name: Young
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:benicia/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

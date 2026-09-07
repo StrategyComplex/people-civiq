@@ -1,0 +1,13 @@
+id: ocd-person/29635a76-7f5c-50de-adea-64a8e2967431
+name: Elaine Holmes
+given_name: Elaine
+family_name: Holmes
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:indio/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

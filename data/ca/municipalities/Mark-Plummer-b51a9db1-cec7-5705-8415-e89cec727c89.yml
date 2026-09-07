@@ -1,0 +1,13 @@
+id: ocd-person/b51a9db1-cec7-5705-8415-e89cec727c89
+name: Mark Plummer
+given_name: Mark
+family_name: Plummer
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:sonora/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

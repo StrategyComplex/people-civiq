@@ -1,0 +1,13 @@
+id: ocd-person/f346b1bd-0d10-5a26-bc4a-8a7638e031b3
+name: Robert Pequeño
+given_name: Robert
+family_name: Pequeño
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:lake_forest/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

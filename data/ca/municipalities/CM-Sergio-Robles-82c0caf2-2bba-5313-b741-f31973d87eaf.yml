@@ -1,0 +1,13 @@
+id: ocd-person/82c0caf2-2bba-5313-b741-f31973d87eaf
+name: CM Sergio Robles
+given_name: CM
+family_name: Robles
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:elk_grove/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

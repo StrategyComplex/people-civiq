@@ -1,0 +1,14 @@
+id: ocd-person/129641dd-00ca-5f4c-9d6c-0ef93b66e243
+name: Devin T. Murphy
+given_name: Devin
+family_name: Murphy
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:pinole/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/fd0a31f0-c928-5a20-b591-22f47ba16229
+name: Chris Bausch
+given_name: Chris
+family_name: Bausch
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:paso_robles/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

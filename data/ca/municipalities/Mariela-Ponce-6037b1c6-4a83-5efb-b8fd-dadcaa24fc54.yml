@@ -1,0 +1,13 @@
+id: ocd-person/6037b1c6-4a83-5efb-b8fd-dadcaa24fc54
+name: Mariela Ponce
+given_name: Mariela
+family_name: Ponce
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:stockton/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

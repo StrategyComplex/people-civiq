@@ -1,0 +1,14 @@
+id: ocd-person/77ac8351-3622-5c49-8a98-598f4161bd7d
+name: Gurpal Samra
+given_name: Gurpal
+family_name: Samra
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:livingston/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

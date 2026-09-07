@@ -1,0 +1,13 @@
+id: ocd-person/45c74afc-2d64-5b7e-a68b-95793f67f9c6
+name: Trish Kelley
+given_name: Trish
+family_name: Kelley
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:mission_viejo/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/7cfce22b-2af6-5625-b3a1-a3dbb62fe0b6
+name: Belen Garcia
+given_name: Belen
+family_name: Garcia
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:greenfield/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

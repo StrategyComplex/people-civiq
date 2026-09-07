@@ -1,0 +1,13 @@
+id: ocd-person/65b3eb21-c780-534c-84b5-58fce1fb9945
+name: Rachel Lang
+given_name: Rachel
+family_name: Lang
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:ojai/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

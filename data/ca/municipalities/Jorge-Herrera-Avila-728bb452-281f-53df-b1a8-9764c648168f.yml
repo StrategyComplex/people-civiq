@@ -1,0 +1,13 @@
+id: ocd-person/728bb452-281f-53df-b1a8-9764c648168f
+name: Jorge Herrera Avila
+given_name: Jorge
+family_name: Avila
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:san_gabriel/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

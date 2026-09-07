@@ -1,0 +1,13 @@
+id: ocd-person/19cc878c-dc05-596f-a16f-812920ff012b
+name: Marjorie Morgenstern
+given_name: Marjorie
+family_name: Morgenstern
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:cloverdale/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

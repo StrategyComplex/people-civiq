@@ -1,0 +1,13 @@
+id: ocd-person/9f28aae0-a739-521d-ad2c-53bbe40f9583
+name: Greg Newton
+given_name: Greg
+family_name: Newton
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:norco/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

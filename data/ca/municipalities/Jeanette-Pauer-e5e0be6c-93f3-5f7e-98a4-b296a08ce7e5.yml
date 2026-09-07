@@ -1,0 +1,14 @@
+id: ocd-person/e5e0be6c-93f3-5f7e-98a4-b296a08ce7e5
+name: Jeanette Pauer
+given_name: Jeanette
+family_name: Pauer
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:tehachapi/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

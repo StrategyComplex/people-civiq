@@ -1,0 +1,13 @@
+id: ocd-person/84c99175-80b2-5cfe-8ff5-bd330319e9c1
+name: John Wentworth
+given_name: John
+family_name: Wentworth
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:mammoth_lakes/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

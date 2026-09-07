@@ -1,0 +1,13 @@
+id: ocd-person/9120c331-dfa0-50f6-8a45-4127f2f4f73d
+name: Chris Sturken
+given_name: Chris
+family_name: Sturken
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:redwood_city/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

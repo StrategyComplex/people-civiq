@@ -1,0 +1,13 @@
+id: ocd-person/a2e952a2-b90c-5c34-9e23-08602f6ade83
+name: Ben Ford
+given_name: Ben
+family_name: Ford
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:cotati/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

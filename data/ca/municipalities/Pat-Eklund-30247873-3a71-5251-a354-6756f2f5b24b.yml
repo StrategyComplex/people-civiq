@@ -1,0 +1,13 @@
+id: ocd-person/30247873-3a71-5251-a354-6756f2f5b24b
+name: Pat Eklund
+given_name: Pat
+family_name: Eklund
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:novato/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

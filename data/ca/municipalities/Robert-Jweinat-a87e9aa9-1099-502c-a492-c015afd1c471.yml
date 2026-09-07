@@ -1,0 +1,13 @@
+id: ocd-person/a87e9aa9-1099-502c-a492-c015afd1c471
+name: Robert Jweinat
+given_name: Robert
+family_name: Jweinat
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:san_ramon/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/aabeea5f-a738-5dba-b027-e4bb220dd8cf
+name: Daniel Harrision
+given_name: Daniel
+family_name: Harrision
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:mountain_house/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

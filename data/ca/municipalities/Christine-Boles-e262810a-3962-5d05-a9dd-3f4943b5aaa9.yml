@@ -1,0 +1,13 @@
+id: ocd-person/e262810a-3962-5d05-a9dd-3f4943b5aaa9
+name: Christine Boles
+given_name: Christine
+family_name: Boles
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:pacifica/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

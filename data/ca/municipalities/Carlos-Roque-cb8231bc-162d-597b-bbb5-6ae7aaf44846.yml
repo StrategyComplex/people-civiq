@@ -1,0 +1,14 @@
+id: ocd-person/cb8231bc-162d-597b-bbb5-6ae7aaf44846
+name: Carlos Roque
+given_name: Carlos
+family_name: Roque
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:patterson/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

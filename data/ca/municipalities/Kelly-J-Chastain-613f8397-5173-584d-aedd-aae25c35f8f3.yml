@@ -1,0 +1,14 @@
+id: ocd-person/613f8397-5173-584d-aedd-aae25c35f8f3
+name: Kelly J. Chastain
+given_name: Kelly
+family_name: Chastain
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:colton/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

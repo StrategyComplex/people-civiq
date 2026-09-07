@@ -1,0 +1,14 @@
+id: ocd-person/ef1e5c8a-4783-5fce-aebc-70959e1dce79
+name: Ellen Campbell
+given_name: Ellen
+family_name: Campbell
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:needles/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,14 @@
+id: ocd-person/c627a2ed-928f-5e69-bb18-cf2390d054bf
+name: Larry Lang
+given_name: Larry
+family_name: Lang
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:los_altos/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

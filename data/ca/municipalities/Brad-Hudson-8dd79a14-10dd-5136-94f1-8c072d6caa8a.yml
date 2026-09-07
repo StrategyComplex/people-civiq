@@ -1,0 +1,13 @@
+id: ocd-person/8dd79a14-10dd-5136-94f1-8c072d6caa8a
+name: Brad Hudson
+given_name: Brad
+family_name: Hudson
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:marysville/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

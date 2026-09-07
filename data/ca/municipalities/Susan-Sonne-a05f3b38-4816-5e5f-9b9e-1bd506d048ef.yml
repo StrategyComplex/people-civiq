@@ -1,0 +1,13 @@
+id: ocd-person/a05f3b38-4816-5e5f-9b9e-1bd506d048ef
+name: Susan Sonne
+given_name: Susan
+family_name: Sonne
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:buena_park/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

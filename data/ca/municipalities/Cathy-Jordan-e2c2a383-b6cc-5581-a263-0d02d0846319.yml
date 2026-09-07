@@ -1,0 +1,14 @@
+id: ocd-person/e2c2a383-b6cc-5581-a263-0d02d0846319
+name: Cathy Jordan
+given_name: Cathy
+family_name: Jordan
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:belmont/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/febade08-2146-5f2b-b560-cac9ba07c9d6
+name: Dr. Jeannette Sánchez-Palacios
+given_name: Dr.
+family_name: Sánchez-Palacios
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:san_buenaventura_ventura/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

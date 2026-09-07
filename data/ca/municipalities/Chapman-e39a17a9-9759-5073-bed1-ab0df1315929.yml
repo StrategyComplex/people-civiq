@@ -1,0 +1,13 @@
+id: ocd-person/e39a17a9-9759-5073-bed1-ab0df1315929
+name: Chapman
+given_name: Chapman
+family_name: ''
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:davis/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

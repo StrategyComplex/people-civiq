@@ -1,0 +1,14 @@
+id: ocd-person/0bb55bc3-51e7-58d2-9e30-f6e9db9472d0
+name: Bryan "Bubba" Fish
+given_name: Bryan
+family_name: Fish
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:culver_city/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

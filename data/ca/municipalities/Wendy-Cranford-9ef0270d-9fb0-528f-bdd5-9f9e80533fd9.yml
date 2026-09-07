@@ -1,0 +1,13 @@
+id: ocd-person/9ef0270d-9fb0-528f-bdd5-9f9e80533fd9
+name: Wendy Cranford
+given_name: Wendy
+family_name: Cranford
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:plymouth/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

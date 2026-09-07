@@ -1,0 +1,13 @@
+id: ocd-person/a712a636-ef4c-5088-bdd6-7a0b8b4e7ac2
+name: Cindy Warren
+given_name: Cindy
+family_name: Warren
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:murrieta/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

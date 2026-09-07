@@ -1,0 +1,13 @@
+id: ocd-person/b7a096ee-dd4a-5481-be60-027484a56a7a
+name: 's: Carlos Escobedo'
+given_name: 's:'
+family_name: Escobedo
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:santa_maria/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

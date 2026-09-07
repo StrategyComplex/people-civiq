@@ -1,0 +1,14 @@
+id: ocd-person/f6c8149b-6629-54bd-92bb-465eaa71c1b4
+name: Brian Penna
+given_name: Brian
+family_name: Penna
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:indian_wells/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

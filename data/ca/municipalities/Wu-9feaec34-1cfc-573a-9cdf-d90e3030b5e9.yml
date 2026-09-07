@@ -1,0 +1,13 @@
+id: ocd-person/9feaec34-1cfc-573a-9cdf-d90e3030b5e9
+name: Wu
+given_name: Wu
+family_name: ''
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:west_covina/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

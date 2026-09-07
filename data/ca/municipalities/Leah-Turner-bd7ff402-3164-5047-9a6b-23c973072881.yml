@@ -1,0 +1,13 @@
+id: ocd-person/bd7ff402-3164-5047-9a6b-23c973072881
+name: Leah Turner
+given_name: Leah
+family_name: Turner
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:portola/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

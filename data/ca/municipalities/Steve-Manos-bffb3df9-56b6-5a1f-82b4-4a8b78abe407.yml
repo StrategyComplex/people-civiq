@@ -1,0 +1,13 @@
+id: ocd-person/bffb3df9-56b6-5a1f-82b4-4a8b78abe407
+name: Steve Manos
+given_name: Steve
+family_name: Manos
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:lake_elsinore/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

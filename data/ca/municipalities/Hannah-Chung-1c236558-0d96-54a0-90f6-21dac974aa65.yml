@@ -1,0 +1,13 @@
+id: ocd-person/1c236558-0d96-54a0-90f6-21dac974aa65
+name: Hannah Chung
+given_name: Hannah
+family_name: Chung
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:tehachapi/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

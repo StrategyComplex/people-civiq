@@ -1,0 +1,14 @@
+id: ocd-person/432391fa-06cc-5066-acaa-f67d4241a3e9
+name: Greer Stone
+given_name: Greer
+family_name: Stone
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:palo_alto/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

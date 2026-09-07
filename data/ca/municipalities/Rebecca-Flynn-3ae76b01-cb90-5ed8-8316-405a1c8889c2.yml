@@ -1,0 +1,13 @@
+id: ocd-person/3ae76b01-cb90-5ed8-8316-405a1c8889c2
+name: Rebecca Flynn
+given_name: Rebecca
+family_name: Flynn
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:portola_valley/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

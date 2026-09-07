@@ -1,0 +1,13 @@
+id: ocd-person/467386fd-58f3-5569-bbdc-4524aca33ee6
+name: Rose Espinoza
+given_name: Rose
+family_name: Espinoza
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:la_habra/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

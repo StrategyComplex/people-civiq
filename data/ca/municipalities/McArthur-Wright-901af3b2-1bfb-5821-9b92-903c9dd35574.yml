@@ -1,0 +1,13 @@
+id: ocd-person/901af3b2-1bfb-5821-9b92-903c9dd35574
+name: McArthur Wright
+given_name: McArthur
+family_name: Wright
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:twentynine_palms/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

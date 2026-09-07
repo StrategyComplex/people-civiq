@@ -1,0 +1,14 @@
+id: ocd-person/0db9299a-d00a-523b-9fa2-861e75e7c58c
+name: Dennis
+given_name: Dennis
+family_name: ''
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:bishop/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

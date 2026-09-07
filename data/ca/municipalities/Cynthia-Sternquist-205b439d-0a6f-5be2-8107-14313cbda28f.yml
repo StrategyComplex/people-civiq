@@ -1,0 +1,13 @@
+id: ocd-person/205b439d-0a6f-5be2-8107-14313cbda28f
+name: Cynthia Sternquist
+given_name: Cynthia
+family_name: Sternquist
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:temple_city/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

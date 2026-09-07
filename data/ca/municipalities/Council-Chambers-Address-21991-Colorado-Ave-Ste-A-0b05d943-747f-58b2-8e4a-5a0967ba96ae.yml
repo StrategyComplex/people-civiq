@@ -1,0 +1,13 @@
+id: ocd-person/0b05d943-747f-58b2-8e4a-5a0967ba96ae
+name: 'Council Chambers Address: 21991 Colorado Ave. Ste. A'
+given_name: Council
+family_name: A
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:san_joaquin/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

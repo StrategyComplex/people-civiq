@@ -1,0 +1,13 @@
+id: ocd-person/0435179d-5502-5647-a70f-92a38546b691
+name: Kenneth Parlet
+given_name: Kenneth
+family_name: Parlet
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:lakeport/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/2cbf835b-ad1c-5107-91df-d627e2f15b58
+name: Carrie Broggie
+given_name: Carrie
+family_name: Broggie
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:fillmore/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/e41b75f3-aa4e-58b6-b642-74df900011cc
+name: Bruce Burton
+given_name: Bruce
+family_name: Burton
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:willits/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

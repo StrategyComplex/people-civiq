@@ -1,0 +1,13 @@
+id: ocd-person/afe910b9-6ba8-5506-8696-ff2037866187
+name: Leslie Rule
+given_name: Leslie
+family_name: Rule
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:ojai/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

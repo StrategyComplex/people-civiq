@@ -1,0 +1,13 @@
+id: ocd-person/a8cf0f9c-e749-5236-87d2-982094019e8e
+name: Pro-Tem
+given_name: Pro-Tem
+family_name: ''
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:ridgecrest/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/2b313b8e-88cd-567b-9607-f787b823ee64
+name: Alex Rounaghi
+given_name: Alex
+family_name: Rounaghi
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:laguna_beach/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

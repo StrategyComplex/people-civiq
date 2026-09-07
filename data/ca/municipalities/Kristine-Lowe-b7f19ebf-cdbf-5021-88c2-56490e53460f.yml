@@ -1,0 +1,13 @@
+id: ocd-person/b7f19ebf-cdbf-5021-88c2-56490e53460f
+name: Kristine Lowe
+given_name: Kristine
+family_name: Lowe
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:sierra_madre/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

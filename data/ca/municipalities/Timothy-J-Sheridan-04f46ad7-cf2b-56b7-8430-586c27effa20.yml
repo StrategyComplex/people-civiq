@@ -1,0 +1,14 @@
+id: ocd-person/04f46ad7-cf2b-56b7-8430-586c27effa20
+name: Timothy J. Sheridan
+given_name: Timothy
+family_name: Sheridan
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:lake_elsinore/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

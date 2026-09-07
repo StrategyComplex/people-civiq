@@ -1,0 +1,13 @@
+id: ocd-person/76c087c0-5357-508a-9679-ebde391224cf
+name: Karen Schwartz
+given_name: Karen
+family_name: Schwartz
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:bishop/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

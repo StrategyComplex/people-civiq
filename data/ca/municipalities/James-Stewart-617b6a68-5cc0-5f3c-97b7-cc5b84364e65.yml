@@ -1,0 +1,13 @@
+id: ocd-person/617b6a68-5cc0-5f3c-97b7-cc5b84364e65
+name: James Stewart
+given_name: James
+family_name: Stewart
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:temecula/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/5d168d44-b3ce-59de-a839-0f065f44a3b2
+name: II; Kim Costa; Christina Price
+given_name: II;
+family_name: Price
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:lakeport/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

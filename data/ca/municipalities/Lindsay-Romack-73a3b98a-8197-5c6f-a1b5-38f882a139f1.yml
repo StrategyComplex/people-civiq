@@ -1,0 +1,13 @@
+id: ocd-person/73a3b98a-8197-5c6f-a1b5-38f882a139f1
+name: Lindsay Romack
+given_name: Lindsay
+family_name: Romack
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:truckee/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

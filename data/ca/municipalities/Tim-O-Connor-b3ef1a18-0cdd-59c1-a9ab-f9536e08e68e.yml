@@ -1,0 +1,13 @@
+id: ocd-person/b3ef1a18-0cdd-59c1-a9ab-f9536e08e68e
+name: Tim O'Connor
+given_name: Tim
+family_name: O'Connor
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:novato/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

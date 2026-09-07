@@ -1,0 +1,13 @@
+id: ocd-person/15a79b7c-40e0-55a7-b5f4-e7f4d1b985a3
+name: Michael Brownrigg
+given_name: Michael
+family_name: Brownrigg
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:burlingame/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,14 @@
+id: ocd-person/5eb7bdd1-e652-5935-945a-f35d583cdebf
+name: Marty Simonoff
+given_name: Marty
+family_name: Simonoff
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:brea/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

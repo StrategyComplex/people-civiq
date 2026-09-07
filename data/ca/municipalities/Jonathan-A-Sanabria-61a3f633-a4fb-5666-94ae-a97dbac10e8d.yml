@@ -1,0 +1,13 @@
+id: ocd-person/61a3f633-a4fb-5666-94ae-a97dbac10e8d
+name: Jonathan A. Sanabria
+given_name: Jonathan
+family_name: Sanabria
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:huntington_park/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

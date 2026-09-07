@@ -1,0 +1,13 @@
+id: ocd-person/97b6ea42-cec7-5f9e-b38e-bcd30c5db987
+name: Michael T. Davitt
+given_name: Michael
+family_name: Davitt
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:la_ca_ada_flintridge/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

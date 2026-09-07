@@ -1,0 +1,13 @@
+id: ocd-person/1eed4ea9-ced9-5521-aafb-31004a0c8602
+name: Mark Laskey
+given_name: Mark
+family_name: Laskey
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:cloverdale/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

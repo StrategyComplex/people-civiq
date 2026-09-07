@@ -1,0 +1,13 @@
+id: ocd-person/776542b8-bf58-55c9-898d-764e58b10dd1
+name: Lauren Meister
+given_name: Lauren
+family_name: Meister
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:west_hollywood/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

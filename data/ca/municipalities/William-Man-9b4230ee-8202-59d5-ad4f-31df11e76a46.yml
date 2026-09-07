@@ -1,0 +1,13 @@
+id: ocd-person/9b4230ee-8202-59d5-ad4f-31df11e76a46
+name: William Man
+given_name: William
+family_name: Man
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:temple_city/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

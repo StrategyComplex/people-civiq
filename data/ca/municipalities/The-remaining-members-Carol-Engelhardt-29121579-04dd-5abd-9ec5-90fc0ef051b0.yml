@@ -1,0 +1,13 @@
+id: ocd-person/29121579-04dd-5abd-9ec5-90fc0ef051b0
+name: 'The remaining members: Carol Engelhardt'
+given_name: The
+family_name: Engelhardt
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:la_habra_heights/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

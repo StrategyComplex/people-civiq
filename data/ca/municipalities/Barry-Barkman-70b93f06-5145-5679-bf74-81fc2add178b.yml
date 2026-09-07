@@ -1,0 +1,13 @@
+id: ocd-person/70b93f06-5145-5679-bf74-81fc2add178b
+name: Barry Barkman
+given_name: Barry
+family_name: Barkman
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:dorris/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,14 @@
+id: ocd-person/af78591a-ba34-5a7d-9822-d19b4b07607d
+name: Michael Keegan
+given_name: Michael
+family_name: Keegan
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:hermosa_beach/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

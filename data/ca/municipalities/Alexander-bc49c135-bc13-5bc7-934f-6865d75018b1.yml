@@ -1,0 +1,13 @@
+id: ocd-person/bc49c135-bc13-5bc7-934f-6865d75018b1
+name: Alexander
+given_name: Alexander
+family_name: ''
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:fort_jones/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

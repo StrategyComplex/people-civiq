@@ -1,0 +1,13 @@
+id: ocd-person/9c5d2006-f195-5944-9fa9-3fbf3ff21ee8
+name: Benjamin Yu
+given_name: Benjamin
+family_name: Yu
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:lake_forest/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

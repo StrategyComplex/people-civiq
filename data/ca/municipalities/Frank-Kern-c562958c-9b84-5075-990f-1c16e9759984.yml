@@ -1,0 +1,13 @@
+id: ocd-person/c562958c-9b84-5075-990f-1c16e9759984
+name: Frank Kern
+given_name: Frank
+family_name: Kern
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:brisbane/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

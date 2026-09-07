@@ -1,0 +1,13 @@
+id: ocd-person/6cec2fc7-6755-5d6c-bd8b-c058c1fe8632
+name: Jessica Romero
+given_name: Jessica
+family_name: Romero
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:patterson/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

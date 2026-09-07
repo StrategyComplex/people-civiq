@@ -1,0 +1,13 @@
+id: ocd-person/0cb55453-bc64-5a71-a164-9e5a0215dbbe
+name: Hudson Hornick
+given_name: Hudson
+family_name: Hornick
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:buellton/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

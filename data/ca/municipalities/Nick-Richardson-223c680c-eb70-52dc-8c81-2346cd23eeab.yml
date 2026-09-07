@@ -1,0 +1,13 @@
+id: ocd-person/223c680c-eb70-52dc-8c81-2346cd23eeab
+name: Nick Richardson
+given_name: Nick
+family_name: Richardson
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:fresno/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

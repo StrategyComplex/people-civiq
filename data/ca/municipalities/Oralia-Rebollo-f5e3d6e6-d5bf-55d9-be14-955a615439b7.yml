@@ -1,0 +1,13 @@
+id: ocd-person/f5e3d6e6-d5bf-55d9-be14-955a615439b7
+name: Oralia Rebollo
+given_name: Oralia
+family_name: Rebollo
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:commerce/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

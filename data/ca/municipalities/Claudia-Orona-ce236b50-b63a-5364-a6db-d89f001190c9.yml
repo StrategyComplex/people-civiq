@@ -1,0 +1,13 @@
+id: ocd-person/ce236b50-b63a-5364-a6db-d89f001190c9
+name: Claudia Orona
+given_name: Claudia
+family_name: Orona
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:solvang/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

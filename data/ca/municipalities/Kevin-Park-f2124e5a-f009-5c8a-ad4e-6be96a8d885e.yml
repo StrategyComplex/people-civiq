@@ -1,0 +1,13 @@
+id: ocd-person/f2124e5a-f009-5c8a-ad4e-6be96a8d885e
+name: Kevin Park
+given_name: Kevin
+family_name: Park
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:santa_clara/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

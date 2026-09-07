@@ -1,0 +1,13 @@
+id: ocd-person/0f4326a9-ea65-54c1-a6f8-e0723add5603
+name: Louis Gravelle
+given_name: Louis
+family_name: Gravelle
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:avenal/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

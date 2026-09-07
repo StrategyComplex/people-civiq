@@ -1,0 +1,14 @@
+id: ocd-person/a9cbf2e2-9619-5603-a2ce-bb5e57dbfcef
+name: Mike Frost
+given_name: Mike
+family_name: Frost
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:dana_point/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

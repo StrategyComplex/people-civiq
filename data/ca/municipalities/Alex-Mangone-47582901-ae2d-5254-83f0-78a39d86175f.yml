@@ -1,0 +1,13 @@
+id: ocd-person/47582901-ae2d-5254-83f0-78a39d86175f
+name: Alex Mangone
+given_name: Alex
+family_name: Mangone
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:san_buenaventura_ventura/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

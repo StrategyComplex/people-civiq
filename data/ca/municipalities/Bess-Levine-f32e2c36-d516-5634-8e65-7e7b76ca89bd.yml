@@ -1,0 +1,13 @@
+id: ocd-person/f32e2c36-d516-5634-8e65-7e7b76ca89bd
+name: Bess Levine
+given_name: Bess
+family_name: Levine
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:sonora/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

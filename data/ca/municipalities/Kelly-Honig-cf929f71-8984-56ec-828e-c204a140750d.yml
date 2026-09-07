@@ -1,0 +1,13 @@
+id: ocd-person/cf929f71-8984-56ec-828e-c204a140750d
+name: Kelly Honig
+given_name: Kelly
+family_name: Honig
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:westlake_village/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

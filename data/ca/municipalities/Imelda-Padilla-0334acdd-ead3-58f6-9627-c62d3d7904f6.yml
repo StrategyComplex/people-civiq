@@ -1,0 +1,13 @@
+id: ocd-person/0334acdd-ead3-58f6-9627-c62d3d7904f6
+name: Imelda Padilla
+given_name: Imelda
+family_name: Padilla
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:los_angeles/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

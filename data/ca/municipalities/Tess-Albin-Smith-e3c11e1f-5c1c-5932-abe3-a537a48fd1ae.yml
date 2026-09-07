@@ -1,0 +1,13 @@
+id: ocd-person/e3c11e1f-5c1c-5932-abe3-a537a48fd1ae
+name: Tess Albin-Smith
+given_name: Tess
+family_name: Albin-Smith
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:fort_bragg/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

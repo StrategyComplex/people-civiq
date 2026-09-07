@@ -1,0 +1,13 @@
+id: ocd-person/49d17f3f-f92a-5d21-a8e5-0cf60f8cc9b9
+name: Chuck Page
+given_name: Chuck
+family_name: Page
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:saratoga/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

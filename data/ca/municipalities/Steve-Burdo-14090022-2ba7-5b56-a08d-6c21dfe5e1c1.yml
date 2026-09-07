@@ -1,0 +1,13 @@
+id: ocd-person/14090022-2ba7-5b56-a08d-6c21dfe5e1c1
+name: Steve Burdo
+given_name: Steve
+family_name: Burdo
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:san_anselmo/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

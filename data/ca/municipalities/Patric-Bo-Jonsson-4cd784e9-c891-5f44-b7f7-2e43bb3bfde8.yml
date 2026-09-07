@@ -1,0 +1,13 @@
+id: ocd-person/4cd784e9-c891-5f44-b7f7-2e43bb3bfde8
+name: Patric Bo Jonsson
+given_name: Patric
+family_name: Jonsson
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:half_moon_bay/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

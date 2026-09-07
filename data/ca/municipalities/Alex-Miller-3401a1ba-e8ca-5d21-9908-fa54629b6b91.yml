@@ -1,0 +1,13 @@
+id: ocd-person/3401a1ba-e8ca-5d21-9908-fa54629b6b91
+name: Alex Miller
+given_name: Alex
+family_name: Miller
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:seaside/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

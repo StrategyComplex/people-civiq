@@ -7,6 +7,8 @@ roles:
 - end_date: '2025-12-31'
   type: mayor
   jurisdiction: ocd-jurisdiction/country:us/state:ca/place:yorba_linda/government
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:yorba_linda/government
 offices:
 - classification: primary
   address: 4845 Casa Loma Avenue;Yorba Linda, CA 92886
@@ -15,3 +17,9 @@ links:
 - url: https://www.yorbalindaca.gov/194/Mayor-Peggy-Huang
 sources:
 - url: https://www.yorbalindaca.gov/194/Mayor-Peggy-Huang
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

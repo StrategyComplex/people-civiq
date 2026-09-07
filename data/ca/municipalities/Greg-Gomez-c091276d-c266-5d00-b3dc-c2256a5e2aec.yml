@@ -1,0 +1,13 @@
+id: ocd-person/c091276d-c266-5d00-b3dc-c2256a5e2aec
+name: Greg Gomez
+given_name: Greg
+family_name: Gomez
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:farmersville/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

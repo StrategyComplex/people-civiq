@@ -1,0 +1,13 @@
+id: ocd-person/69445653-3b86-564d-9577-6cd023fec064
+name: Brian Dombkowski
+given_name: Brian
+family_name: Dombkowski
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:woodside/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

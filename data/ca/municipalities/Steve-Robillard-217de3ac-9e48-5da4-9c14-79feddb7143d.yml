@@ -1,0 +1,13 @@
+id: ocd-person/217de3ac-9e48-5da4-9c14-79feddb7143d
+name: Steve Robillard
+given_name: Steve
+family_name: Robillard
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:riverside/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

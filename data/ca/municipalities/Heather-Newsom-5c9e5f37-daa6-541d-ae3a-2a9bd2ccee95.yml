@@ -1,0 +1,13 @@
+id: ocd-person/5c9e5f37-daa6-541d-ae3a-2a9bd2ccee95
+name: Heather Newsom
+given_name: Heather
+family_name: Newsom
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:atascadero/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

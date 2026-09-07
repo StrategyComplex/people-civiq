@@ -1,0 +1,13 @@
+id: ocd-person/261cc5c0-065f-50bb-a6ae-9b452cfe9c50
+name: Daniel E. Furtado
+given_name: Daniel
+family_name: Furtado
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:campbell/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

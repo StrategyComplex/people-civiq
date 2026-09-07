@@ -1,0 +1,13 @@
+id: ocd-person/75c04c9f-04ce-5a0c-af82-8d9f02cc529d
+name: Michael Cacciotti
+given_name: Michael
+family_name: Cacciotti
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:south_pasadena/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/03e8481d-0015-5e38-a6ca-41b74b4c458f
+name: Jim Avalos
+given_name: Jim
+family_name: Avalos
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:selma/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/a4c6a20b-8b7b-5d17-bc45-ce11e15bd9a9
+name: Christina Villaseñor
+given_name: Christina
+family_name: Villaseñor
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:fillmore/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

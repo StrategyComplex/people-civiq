@@ -1,0 +1,13 @@
+id: ocd-person/537fd94d-187c-59c7-b344-cb36f5cfb310
+name: James Gazeley
+given_name: James
+family_name: Gazeley
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:lomita/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/b52b2a7b-0463-5144-a00e-e4089b50d4c3
+name: Shivinder Singh
+given_name: Shivinder
+family_name: Singh
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:yorba_linda/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

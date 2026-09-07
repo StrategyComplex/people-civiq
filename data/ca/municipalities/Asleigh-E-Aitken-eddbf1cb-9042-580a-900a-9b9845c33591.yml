@@ -1,0 +1,13 @@
+id: ocd-person/eddbf1cb-9042-580a-900a-9b9845c33591
+name: Asleigh E. Aitken
+given_name: Asleigh
+family_name: Aitken
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:anaheim/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

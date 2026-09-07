@@ -1,0 +1,13 @@
+id: ocd-person/4ff75469-3053-5300-b50a-3ac09b70c009
+name: Joe Little
+given_name: Joe
+family_name: Little
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:rancho_cordova/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

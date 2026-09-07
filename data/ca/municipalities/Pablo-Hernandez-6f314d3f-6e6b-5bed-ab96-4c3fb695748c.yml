@@ -1,0 +1,14 @@
+id: ocd-person/6f314d3f-6e6b-5bed-ab96-4c3fb695748c
+name: Pablo Hernandez
+given_name: Pablo
+family_name: Hernandez
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:avenal/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

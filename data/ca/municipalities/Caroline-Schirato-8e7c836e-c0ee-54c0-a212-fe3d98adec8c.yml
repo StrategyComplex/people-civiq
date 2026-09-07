@@ -1,0 +1,13 @@
+id: ocd-person/8e7c836e-c0ee-54c0-a212-fe3d98adec8c
+name: Caroline Schirato
+given_name: Caroline
+family_name: Schirato
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:angels_camp_angels/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

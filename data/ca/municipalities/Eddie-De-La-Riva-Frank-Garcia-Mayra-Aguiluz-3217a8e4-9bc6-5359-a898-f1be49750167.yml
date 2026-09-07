@@ -1,0 +1,13 @@
+id: ocd-person/3217a8e4-9bc6-5359-a898-f1be49750167
+name: Eddie De La Riva; Frank Garcia; Mayra Aguiluz
+given_name: Eddie
+family_name: Aguiluz
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:maywood/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

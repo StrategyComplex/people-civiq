@@ -1,0 +1,13 @@
+id: ocd-person/a888f97a-bab8-5d9b-b8c6-0138f35bb067
+name: Carlos Victoria
+given_name: Carlos
+family_name: Victoria
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:king_city/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

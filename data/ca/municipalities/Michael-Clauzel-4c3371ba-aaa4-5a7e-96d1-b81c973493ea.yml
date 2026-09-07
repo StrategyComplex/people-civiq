@@ -1,0 +1,13 @@
+id: ocd-person/4c3371ba-aaa4-5a7e-96d1-b81c973493ea
+name: Michael Clauzel
+given_name: Michael
+family_name: Clauzel
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:patterson/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

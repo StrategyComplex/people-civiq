@@ -1,0 +1,13 @@
+id: ocd-person/4338299f-7657-52a5-8412-d3069f0d1a6d
+name: Toni Cole
+given_name: Toni
+family_name: Cole
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:yuba_city/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

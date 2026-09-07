@@ -1,0 +1,13 @@
+id: ocd-person/a75b89a3-06c6-5a3a-b734-db97ca2c3ab3
+name: Kathleen Treseder
+given_name: Kathleen
+family_name: Treseder
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:irvine/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

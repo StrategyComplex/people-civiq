@@ -1,0 +1,13 @@
+id: ocd-person/ba63f379-091b-54ec-890c-ada37c96afad
+name: Kara Scott
+given_name: Kara
+family_name: Scott
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:angels_camp_angels/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

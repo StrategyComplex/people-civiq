@@ -1,0 +1,13 @@
+id: ocd-person/c322b7c1-0485-5148-8b74-c73a75f10a6c
+name: SHERRI MARSIGLI; BLAKE GILES; MARK
+given_name: SHERRI
+family_name: MARK
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:gustine/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

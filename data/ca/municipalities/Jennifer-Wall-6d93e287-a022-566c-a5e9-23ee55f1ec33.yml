@@ -1,0 +1,13 @@
+id: ocd-person/6d93e287-a022-566c-a5e9-23ee55f1ec33
+name: Jennifer Wall
+given_name: Jennifer
+family_name: Wall
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:woodside/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

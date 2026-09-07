@@ -6,6 +6,8 @@ roles:
 - type: mayor
   jurisdiction: ocd-jurisdiction/country:us/state:ca/place:port_hueneme/government
   start_date: '2018-11-06'
+  end_date: '2026-09-07'
+  end_reason: superseded per Wikidata refresh
 links:
 - url: http://www.ci.port-hueneme.ca.us
   note: city website

@@ -1,0 +1,13 @@
+id: ocd-person/2de458d6-c9d4-57c9-be67-34d222363b0f
+name: Joy Markum
+given_name: Joy
+family_name: Markum
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:loyalton/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

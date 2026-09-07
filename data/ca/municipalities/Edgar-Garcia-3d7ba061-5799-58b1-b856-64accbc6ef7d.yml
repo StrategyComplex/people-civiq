@@ -1,0 +1,13 @@
+id: ocd-person/3d7ba061-5799-58b1-b856-64accbc6ef7d
+name: Edgar Garcia
+given_name: Edgar
+family_name: Garcia
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:calimesa/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/628d14b9-bf3c-58bc-9e30-b68183e561a1
+name: Rachel Hernandez
+given_name: Rachel
+family_name: Hernandez
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:riverbank/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

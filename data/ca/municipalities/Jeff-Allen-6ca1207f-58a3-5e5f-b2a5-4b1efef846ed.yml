@@ -1,0 +1,13 @@
+id: ocd-person/6ca1207f-58a3-5e5f-b2a5-4b1efef846ed
+name: Jeff Allen
+given_name: Jeff
+family_name: Allen
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:grand_terrace/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

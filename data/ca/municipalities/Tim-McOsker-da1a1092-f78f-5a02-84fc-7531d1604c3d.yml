@@ -1,0 +1,13 @@
+id: ocd-person/da1a1092-f78f-5a02-84fc-7531d1604c3d
+name: Tim McOsker
+given_name: Tim
+family_name: McOsker
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:los_angeles/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

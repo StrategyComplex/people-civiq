@@ -1,0 +1,13 @@
+id: ocd-person/fea9edb1-8bbb-5a81-8897-43b2439921a3
+name: Mary Luros
+given_name: Mary
+family_name: Luros
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:napa/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

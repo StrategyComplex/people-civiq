@@ -1,0 +1,13 @@
+id: ocd-person/23aaaa08-5a31-5131-a3d4-a851fadccf66
+name: Laurene Weste
+given_name: Laurene
+family_name: Weste
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:santa_clarita/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

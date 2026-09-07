@@ -1,0 +1,13 @@
+id: ocd-person/6b435577-cfd0-5c7c-b31a-240993d491f3
+name: Jeremy Engle
+given_name: Jeremy
+family_name: Engle
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:escalon/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

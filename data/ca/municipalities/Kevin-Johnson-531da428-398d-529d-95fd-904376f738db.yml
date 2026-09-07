@@ -1,0 +1,13 @@
+id: ocd-person/531da428-398d-529d-95fd-904376f738db
+name: Kevin Johnson
+given_name: Kevin
+family_name: Johnson
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:dixon/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

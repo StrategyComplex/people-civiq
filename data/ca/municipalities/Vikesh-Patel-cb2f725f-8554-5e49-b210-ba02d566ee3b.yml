@@ -1,0 +1,13 @@
+id: ocd-person/cb2f725f-8554-5e49-b210-ba02d566ee3b
+name: Vikesh Patel
+given_name: Vikesh
+family_name: Patel
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:la_palma/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

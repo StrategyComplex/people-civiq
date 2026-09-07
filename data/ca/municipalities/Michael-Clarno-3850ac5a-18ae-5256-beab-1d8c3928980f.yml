@@ -1,0 +1,13 @@
+id: ocd-person/3850ac5a-18ae-5256-beab-1d8c3928980f
+name: Michael Clarno
+given_name: Michael
+family_name: Clarno
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:dunsmuir/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

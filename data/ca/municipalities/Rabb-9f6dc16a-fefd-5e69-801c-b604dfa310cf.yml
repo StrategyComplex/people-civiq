@@ -1,0 +1,13 @@
+id: ocd-person/9f6dc16a-fefd-5e69-801c-b604dfa310cf
+name: Rabb
+given_name: Rabb
+family_name: ''
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:perris/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

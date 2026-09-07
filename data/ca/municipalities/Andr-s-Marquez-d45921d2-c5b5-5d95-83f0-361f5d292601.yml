@@ -1,0 +1,13 @@
+id: ocd-person/d45921d2-c5b5-5d95-83f0-361f5d292601
+name: Andrés Marquez
+given_name: Andrés
+family_name: Marquez
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:cloverdale/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/befc5c33-d104-51fc-9b16-27f24049c37a
+name: Bill Uphoff
+given_name: Bill
+family_name: Uphoff
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:lomita/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

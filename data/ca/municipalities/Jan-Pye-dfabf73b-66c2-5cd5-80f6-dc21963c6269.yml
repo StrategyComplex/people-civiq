@@ -1,0 +1,13 @@
+id: ocd-person/dfabf73b-66c2-5cd5-80f6-dc21963c6269
+name: ; Jan Pye
+given_name: ;
+family_name: Pye
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:desert_hot_springs/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

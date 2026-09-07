@@ -1,0 +1,13 @@
+id: ocd-person/856db34d-4697-525c-9268-12cd40c6f606
+name: Szakats
+given_name: Szakats
+family_name: ''
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:pleasant_hill/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

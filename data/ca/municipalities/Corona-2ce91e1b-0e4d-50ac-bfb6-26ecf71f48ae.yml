@@ -1,0 +1,13 @@
+id: ocd-person/2ce91e1b-0e4d-50ac-bfb6-26ecf71f48ae
+name: Corona
+given_name: Corona
+family_name: ''
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:perris/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

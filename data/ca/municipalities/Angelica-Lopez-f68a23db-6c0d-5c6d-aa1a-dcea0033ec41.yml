@@ -1,0 +1,14 @@
+id: ocd-person/f68a23db-6c0d-5c6d-aa1a-dcea0033ec41
+name: Angelica Lopez
+given_name: Angelica
+family_name: Lopez
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:pittsburg/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/b9bca9eb-bcf0-5f3a-b1d7-4f0a82487aa1
+name: Latika Malkani
+given_name: Latika
+family_name: Malkani
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:orinda/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

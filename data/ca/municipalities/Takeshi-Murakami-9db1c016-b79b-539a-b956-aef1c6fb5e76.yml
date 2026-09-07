@@ -1,0 +1,13 @@
+id: ocd-person/9db1c016-b79b-539a-b956-aef1c6fb5e76
+name: Takeshi Murakami
+given_name: Takeshi
+family_name: Murakami
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:montague/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

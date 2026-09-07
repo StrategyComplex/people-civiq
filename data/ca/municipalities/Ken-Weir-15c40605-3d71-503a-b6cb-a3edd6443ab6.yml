@@ -1,0 +1,13 @@
+id: ocd-person/15c40605-3d71-503a-b6cb-a3edd6443ab6
+name: Ken Weir
+given_name: Ken
+family_name: Weir
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:bakersfield/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

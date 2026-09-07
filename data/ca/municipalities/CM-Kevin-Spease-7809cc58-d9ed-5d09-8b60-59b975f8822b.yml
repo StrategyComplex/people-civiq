@@ -1,0 +1,13 @@
+id: ocd-person/7809cc58-d9ed-5d09-8b60-59b975f8822b
+name: CM Kevin Spease
+given_name: CM
+family_name: Spease
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:elk_grove/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

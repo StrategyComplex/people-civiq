@@ -1,0 +1,13 @@
+id: ocd-person/92e72d11-0566-5c35-9320-21685b11b992
+name: Amit Pal
+given_name: Amit
+family_name: Pal
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:suisun_city/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

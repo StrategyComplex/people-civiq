@@ -1,0 +1,13 @@
+id: ocd-person/36f05d64-127b-5423-8b52-8611474f8c05
+name: Mark Mazzoni
+given_name: Mark
+family_name: Mazzoni
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:weed/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

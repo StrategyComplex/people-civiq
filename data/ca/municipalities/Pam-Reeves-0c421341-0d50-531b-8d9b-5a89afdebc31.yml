@@ -1,0 +1,14 @@
+id: ocd-person/0c421341-0d50-531b-8d9b-5a89afdebc31
+name: Pam Reeves
+given_name: Pam
+family_name: Reeves
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:yountville/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

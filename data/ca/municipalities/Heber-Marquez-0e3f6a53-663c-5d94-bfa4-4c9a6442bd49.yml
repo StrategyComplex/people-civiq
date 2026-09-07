@@ -1,0 +1,13 @@
+id: ocd-person/0e3f6a53-663c-5d94-bfa4-4c9a6442bd49
+name: Heber Marquez
+given_name: Heber
+family_name: Marquez
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:maywood/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

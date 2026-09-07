@@ -1,0 +1,13 @@
+id: ocd-person/1b733308-55a2-59a0-b86e-6c16a32bdf10
+name: Laura North
+given_name: Laura
+family_name: North
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:kingsburg/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

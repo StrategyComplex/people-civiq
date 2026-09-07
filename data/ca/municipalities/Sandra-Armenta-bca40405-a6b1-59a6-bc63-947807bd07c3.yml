@@ -1,0 +1,13 @@
+id: ocd-person/bca40405-a6b1-59a6-bc63-947807bd07c3
+name: Sandra Armenta
+given_name: Sandra
+family_name: Armenta
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:rosemead/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

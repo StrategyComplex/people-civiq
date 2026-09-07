@@ -1,0 +1,13 @@
+id: ocd-person/7d4fa08c-880a-59bd-a383-5458b6541d78
+name: Michelle Jackson
+given_name: Michelle
+family_name: Jackson
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:montague/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

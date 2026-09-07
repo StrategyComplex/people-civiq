@@ -1,0 +1,13 @@
+id: ocd-person/d86ea4f5-69f7-5717-83ab-d59bfca1ab51
+name: Darrell Parham
+given_name: Darrell
+family_name: Parham
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:weed/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/ff2127f3-62f7-531b-9d3c-e5737f644628
+name: Amelia M. Villegas
+given_name: Amelia
+family_name: Villegas
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:guadalupe/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

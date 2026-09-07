@@ -1,0 +1,13 @@
+id: ocd-person/21bef118-9055-54b8-ad24-c275da272aa2
+name: Krista Jett
+given_name: Krista
+family_name: Jett
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:scotts_valley/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

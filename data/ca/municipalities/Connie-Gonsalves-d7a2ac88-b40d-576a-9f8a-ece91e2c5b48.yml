@@ -1,0 +1,13 @@
+id: ocd-person/d7a2ac88-b40d-576a-9f8a-ece91e2c5b48
+name: Connie Gonsalves
+given_name: Connie
+family_name: Gonsalves
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:jackson/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

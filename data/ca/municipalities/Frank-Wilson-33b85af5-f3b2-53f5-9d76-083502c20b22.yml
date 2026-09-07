@@ -1,0 +1,13 @@
+id: ocd-person/33b85af5-f3b2-53f5-9d76-083502c20b22
+name: Frank Wilson
+given_name: Frank
+family_name: Wilson
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:rio_dell/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

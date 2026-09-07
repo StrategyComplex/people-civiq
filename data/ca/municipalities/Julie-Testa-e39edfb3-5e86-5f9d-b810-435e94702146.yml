@@ -1,0 +1,13 @@
+id: ocd-person/e39edfb3-5e86-5f9d-b810-435e94702146
+name: Julie Testa
+given_name: Julie
+family_name: Testa
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:pleasanton/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

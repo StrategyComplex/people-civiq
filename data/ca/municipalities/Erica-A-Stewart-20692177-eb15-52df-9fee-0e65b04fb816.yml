@@ -1,0 +1,13 @@
+id: ocd-person/20692177-eb15-52df-9fee-0e65b04fb816
+name: Erica A. Stewart
+given_name: Erica
+family_name: Stewart
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:san_luis_obispo/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

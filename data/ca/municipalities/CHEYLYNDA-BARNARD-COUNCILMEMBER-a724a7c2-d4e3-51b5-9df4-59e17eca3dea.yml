@@ -1,0 +1,13 @@
+id: ocd-person/a724a7c2-d4e3-51b5-9df4-59e17eca3dea
+name: CHEYLYNDA BARNARD - COUNCILMEMBER
+given_name: CHEYLYNDA
+family_name: COUNCILMEMBER
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:moreno_valley/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

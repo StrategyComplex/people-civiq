@@ -1,0 +1,13 @@
+id: ocd-person/d83fd284-c1c5-51e0-9e38-e644c688f1ef
+name: Joseph D. Ayala
+given_name: Joseph
+family_name: Ayala
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:simi_valley/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

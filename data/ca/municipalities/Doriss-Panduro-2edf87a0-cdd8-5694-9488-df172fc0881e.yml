@@ -1,0 +1,13 @@
+id: ocd-person/2edf87a0-cdd8-5694-9488-df172fc0881e
+name: Doriss Panduro
+given_name: Doriss
+family_name: Panduro
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:fairfield/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

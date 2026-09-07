@@ -15,3 +15,8 @@ links:
 - url: https://www.cityofpacificgrove.gov/our_city/city_council_/nick_smith_biography.php
 sources:
 - url: https://www.cityofpacificgrove.gov/our_city/city_council_/nick_smith_biography.php
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

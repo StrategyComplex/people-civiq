@@ -1,0 +1,13 @@
+id: ocd-person/dda226df-ec31-54ab-8350-8661b95e3ff2
+name: Soraida Iwanaga
+given_name: Soraida
+family_name: Iwanaga
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:morgan_hill/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

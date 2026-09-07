@@ -1,0 +1,13 @@
+id: ocd-person/5b510537-ab10-54a0-94d9-72e6896a2615
+name: Alan McFadon
+given_name: Alan
+family_name: McFadon
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:hughson/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

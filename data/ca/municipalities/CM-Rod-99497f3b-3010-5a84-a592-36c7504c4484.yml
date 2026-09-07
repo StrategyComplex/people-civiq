@@ -1,0 +1,13 @@
+id: ocd-person/99497f3b-3010-5a84-a592-36c7504c4484
+name: CM Rod
+given_name: CM
+family_name: Rod
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:elk_grove/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

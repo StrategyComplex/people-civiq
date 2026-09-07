@@ -1,0 +1,13 @@
+id: ocd-person/11965966-616e-544b-ab5a-65e6a0128407
+name: Matt Dorsey
+given_name: Matt
+family_name: Dorsey
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:san_francisco/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

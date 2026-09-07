@@ -1,0 +1,13 @@
+id: ocd-person/e5d02adb-4237-5b82-a7fc-2ea9623b26d5
+name: Kalimah Priforce
+given_name: Kalimah
+family_name: Priforce
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:emeryville/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

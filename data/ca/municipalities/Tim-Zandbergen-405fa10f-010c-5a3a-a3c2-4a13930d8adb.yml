@@ -1,0 +1,13 @@
+id: ocd-person/405fa10f-010c-5a3a-a3c2-4a13930d8adb
+name: Tim Zandbergen
+given_name: Tim
+family_name: Zandbergen
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:aliso_viejo/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

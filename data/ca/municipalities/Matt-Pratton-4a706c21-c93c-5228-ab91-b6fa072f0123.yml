@@ -1,0 +1,13 @@
+id: ocd-person/4a706c21-c93c-5228-ab91-b6fa072f0123
+name: Matt Pratton
+given_name: Matt
+family_name: Pratton
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:galt/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

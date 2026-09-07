@@ -1,0 +1,13 @@
+id: ocd-person/ccbcab9f-f4e1-5dc9-892a-633710ca0177
+name: Steve Sanchez
+given_name: Steve
+family_name: Sanchez
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:la_quinta/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

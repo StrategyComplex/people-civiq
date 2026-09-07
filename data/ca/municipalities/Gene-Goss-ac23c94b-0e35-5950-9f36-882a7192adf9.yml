@@ -1,0 +1,14 @@
+id: ocd-person/ac23c94b-0e35-5950-9f36-882a7192adf9
+name: Gene Goss
+given_name: Gene
+family_name: Goss
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:sierra_madre/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

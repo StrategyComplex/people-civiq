@@ -1,0 +1,13 @@
+id: ocd-person/dba25b63-4300-5536-8a77-dd667b6905a2
+name: John R. Hamon, Jr.
+given_name: John
+family_name: Jr.
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:paso_robles/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

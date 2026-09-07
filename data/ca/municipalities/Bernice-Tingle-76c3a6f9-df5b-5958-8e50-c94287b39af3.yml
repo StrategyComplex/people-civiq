@@ -1,0 +1,13 @@
+id: ocd-person/76c3a6f9-df5b-5958-8e50-c94287b39af3
+name: Bernice Tingle
+given_name: Bernice
+family_name: Tingle
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:mountain_house/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

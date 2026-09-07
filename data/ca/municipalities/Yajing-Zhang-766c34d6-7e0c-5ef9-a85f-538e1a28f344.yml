@@ -1,0 +1,13 @@
+id: ocd-person/766c34d6-7e0c-5ef9-a85f-538e1a28f344
+name: Yajing Zhang
+given_name: Yajing
+family_name: Zhang
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:fremont/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

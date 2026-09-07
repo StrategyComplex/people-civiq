@@ -1,0 +1,13 @@
+id: ocd-person/9360f625-5d37-5c35-9d64-3bb300d50638
+name: Misty Wallace
+given_name: Misty
+family_name: Wallace
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:woodlake/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

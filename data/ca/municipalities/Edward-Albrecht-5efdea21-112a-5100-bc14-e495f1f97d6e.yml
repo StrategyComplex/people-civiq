@@ -1,0 +1,14 @@
+id: ocd-person/5efdea21-112a-5100-bc14-e495f1f97d6e
+name: Edward Albrecht
+given_name: Edward
+family_name: Albrecht
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:calabasas/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

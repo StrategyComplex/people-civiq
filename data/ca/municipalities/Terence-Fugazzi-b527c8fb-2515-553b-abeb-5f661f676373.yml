@@ -1,0 +1,13 @@
+id: ocd-person/b527c8fb-2515-553b-abeb-5f661f676373
+name: Terence Fugazzi
+given_name: Terence
+family_name: Fugazzi
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:gilroy/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

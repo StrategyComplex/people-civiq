@@ -1,0 +1,14 @@
+id: ocd-person/25b3cdfe-6c3b-560e-bb47-e9aa08d0df7a
+name: Ryan Baldino
+given_name: Ryan
+family_name: Baldino
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:el_segundo/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

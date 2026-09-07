@@ -1,0 +1,14 @@
+id: ocd-person/0046fa3c-10f6-5bd1-be36-51e7db1a45a6
+name: Omari Ferguson
+given_name: Omari
+family_name: Ferguson
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:south_pasadena/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/f6f9bb45-35d9-51fd-94fe-20229817f453
+name: Michael K. Hannon
+given_name: Michael
+family_name: Hannon
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:newark/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

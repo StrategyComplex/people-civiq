@@ -1,0 +1,13 @@
+id: ocd-person/c16d86ab-d601-5657-96f4-0bb2c1a1a0c7
+name: Juan Antonio Banales
+given_name: Juan
+family_name: Banales
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:pittsburg/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

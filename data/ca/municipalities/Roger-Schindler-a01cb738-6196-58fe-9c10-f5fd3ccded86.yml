@@ -1,0 +1,14 @@
+id: ocd-person/a01cb738-6196-58fe-9c10-f5fd3ccded86
+name: Roger Schindler
+given_name: Roger
+family_name: Schindler
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:coalinga/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

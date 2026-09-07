@@ -1,0 +1,13 @@
+id: ocd-person/9fe014ff-56bd-5013-9da2-57cb9877b1c0
+name: Rhodes Rigsby
+given_name: Rhodes
+family_name: Rigsby
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:loma_linda/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

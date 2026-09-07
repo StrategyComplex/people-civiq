@@ -1,0 +1,13 @@
+id: ocd-person/c971dc61-e7c9-5025-992f-8d9d44d1628f
+name: Hon Lien
+given_name: Hon
+family_name: Lien
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:milpitas/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

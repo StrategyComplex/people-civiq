@@ -476,3 +476,507 @@
   id: ocd-jurisdiction/country:us/state:ca/place:solana_beach/government
 - name: Del Mar
   id: ocd-jurisdiction/country:us/state:ca/place:del_mar/government
+- name: Adelanto
+  id: ocd-jurisdiction/country:us/state:ca/place:adelanto/government
+- name: Agoura Hills
+  id: ocd-jurisdiction/country:us/state:ca/place:agoura_hills/government
+- name: Alturas
+  id: ocd-jurisdiction/country:us/state:ca/place:alturas/government
+- name: Amador City
+  id: ocd-jurisdiction/country:us/state:ca/place:amador_city/government
+- name: American Canyon
+  id: ocd-jurisdiction/country:us/state:ca/place:american_canyon/government
+- name: Angels Camp (Angels)
+  id: ocd-jurisdiction/country:us/state:ca/place:angels_camp_angels/government
+- name: Apple Valley
+  id: ocd-jurisdiction/country:us/state:ca/place:apple_valley/government
+- name: Artesia
+  id: ocd-jurisdiction/country:us/state:ca/place:artesia/government
+- name: Atherton
+  id: ocd-jurisdiction/country:us/state:ca/place:atherton/government
+- name: Atwater
+  id: ocd-jurisdiction/country:us/state:ca/place:atwater/government
+- name: Auburn
+  id: ocd-jurisdiction/country:us/state:ca/place:auburn/government
+- name: Avalon
+  id: ocd-jurisdiction/country:us/state:ca/place:avalon/government
+- name: Avenal
+  id: ocd-jurisdiction/country:us/state:ca/place:avenal/government
+- name: Barstow
+  id: ocd-jurisdiction/country:us/state:ca/place:barstow/government
+- name: Beaumont
+  id: ocd-jurisdiction/country:us/state:ca/place:beaumont/government
+- name: Bell
+  id: ocd-jurisdiction/country:us/state:ca/place:bell/government
+- name: Bell Gardens
+  id: ocd-jurisdiction/country:us/state:ca/place:bell_gardens/government
+- name: Belmont
+  id: ocd-jurisdiction/country:us/state:ca/place:belmont/government
+- name: Belvedere
+  id: ocd-jurisdiction/country:us/state:ca/place:belvedere/government
+- name: Benicia
+  id: ocd-jurisdiction/country:us/state:ca/place:benicia/government
+- name: Biggs
+  id: ocd-jurisdiction/country:us/state:ca/place:biggs/government
+- name: Big Bear Lake
+  id: ocd-jurisdiction/country:us/state:ca/place:big_bear_lake/government
+- name: Bishop
+  id: ocd-jurisdiction/country:us/state:ca/place:bishop/government
+- name: Blue Lake
+  id: ocd-jurisdiction/country:us/state:ca/place:blue_lake/government
+- name: Blythe
+  id: ocd-jurisdiction/country:us/state:ca/place:blythe/government
+- name: Bradbury
+  id: ocd-jurisdiction/country:us/state:ca/place:bradbury/government
+- name: Brawley
+  id: ocd-jurisdiction/country:us/state:ca/place:brawley/government
+- name: Brea
+  id: ocd-jurisdiction/country:us/state:ca/place:brea/government
+- name: Brisbane
+  id: ocd-jurisdiction/country:us/state:ca/place:brisbane/government
+- name: Buellton
+  id: ocd-jurisdiction/country:us/state:ca/place:buellton/government
+- name: Burlingame
+  id: ocd-jurisdiction/country:us/state:ca/place:burlingame/government
+- name: Calabasas
+  id: ocd-jurisdiction/country:us/state:ca/place:calabasas/government
+- name: California City
+  id: ocd-jurisdiction/country:us/state:ca/place:california_city/government
+- name: Calipatria
+  id: ocd-jurisdiction/country:us/state:ca/place:calipatria/government
+- name: Calistoga
+  id: ocd-jurisdiction/country:us/state:ca/place:calistoga/government
+- name: Canyon Lake
+  id: ocd-jurisdiction/country:us/state:ca/place:canyon_lake/government
+- name: Capitola
+  id: ocd-jurisdiction/country:us/state:ca/place:capitola/government
+- name: Carmel-by-the-Sea
+  id: ocd-jurisdiction/country:us/state:ca/place:carmel_by_the_sea/government
+- name: Carpinteria
+  id: ocd-jurisdiction/country:us/state:ca/place:carpinteria/government
+- name: Chowchilla
+  id: ocd-jurisdiction/country:us/state:ca/place:chowchilla/government
+- name: Clayton
+  id: ocd-jurisdiction/country:us/state:ca/place:clayton/government
+- name: Cloverdale
+  id: ocd-jurisdiction/country:us/state:ca/place:cloverdale/government
+- name: Coachella
+  id: ocd-jurisdiction/country:us/state:ca/place:coachella/government
+- name: Coalinga
+  id: ocd-jurisdiction/country:us/state:ca/place:coalinga/government
+- name: Colfax
+  id: ocd-jurisdiction/country:us/state:ca/place:colfax/government
+- name: Colma
+  id: ocd-jurisdiction/country:us/state:ca/place:colma/government
+- name: Colton
+  id: ocd-jurisdiction/country:us/state:ca/place:colton/government
+- name: Colusa
+  id: ocd-jurisdiction/country:us/state:ca/place:colusa/government
+- name: Commerce
+  id: ocd-jurisdiction/country:us/state:ca/place:commerce/government
+- name: Corcoran
+  id: ocd-jurisdiction/country:us/state:ca/place:corcoran/government
+- name: Corning
+  id: ocd-jurisdiction/country:us/state:ca/place:corning/government
+- name: Corte Madera
+  id: ocd-jurisdiction/country:us/state:ca/place:corte_madera/government
+- name: Cotati
+  id: ocd-jurisdiction/country:us/state:ca/place:cotati/government
+- name: Crescent City
+  id: ocd-jurisdiction/country:us/state:ca/place:crescent_city/government
+- name: Cudahy
+  id: ocd-jurisdiction/country:us/state:ca/place:cudahy/government
+- name: Cypress
+  id: ocd-jurisdiction/country:us/state:ca/place:cypress/government
+- name: Dana Point
+  id: ocd-jurisdiction/country:us/state:ca/place:dana_point/government
+- name: Del Rey Oaks
+  id: ocd-jurisdiction/country:us/state:ca/place:del_rey_oaks/government
+- name: Delano
+  id: ocd-jurisdiction/country:us/state:ca/place:delano/government
+- name: Desert Hot Springs
+  id: ocd-jurisdiction/country:us/state:ca/place:desert_hot_springs/government
+- name: Diamond Bar
+  id: ocd-jurisdiction/country:us/state:ca/place:diamond_bar/government
+- name: Dinuba
+  id: ocd-jurisdiction/country:us/state:ca/place:dinuba/government
+- name: Dixon
+  id: ocd-jurisdiction/country:us/state:ca/place:dixon/government
+- name: Dorris
+  id: ocd-jurisdiction/country:us/state:ca/place:dorris/government
+- name: Dos Palos
+  id: ocd-jurisdiction/country:us/state:ca/place:dos_palos/government
+- name: Dunsmuir
+  id: ocd-jurisdiction/country:us/state:ca/place:dunsmuir/government
+- name: East Palo Alto
+  id: ocd-jurisdiction/country:us/state:ca/place:east_palo_alto/government
+- name: El Segundo
+  id: ocd-jurisdiction/country:us/state:ca/place:el_segundo/government
+- name: Escalon
+  id: ocd-jurisdiction/country:us/state:ca/place:escalon/government
+- name: Etna
+  id: ocd-jurisdiction/country:us/state:ca/place:etna/government
+- name: Exeter
+  id: ocd-jurisdiction/country:us/state:ca/place:exeter/government
+- name: Fairfax
+  id: ocd-jurisdiction/country:us/state:ca/place:fairfax/government
+- name: Farmersville
+  id: ocd-jurisdiction/country:us/state:ca/place:farmersville/government
+- name: Ferndale
+  id: ocd-jurisdiction/country:us/state:ca/place:ferndale/government
+- name: Fillmore
+  id: ocd-jurisdiction/country:us/state:ca/place:fillmore/government
+- name: Firebaugh
+  id: ocd-jurisdiction/country:us/state:ca/place:firebaugh/government
+- name: Fort Bragg
+  id: ocd-jurisdiction/country:us/state:ca/place:fort_bragg/government
+- name: Fort Jones
+  id: ocd-jurisdiction/country:us/state:ca/place:fort_jones/government
+- name: Fortuna
+  id: ocd-jurisdiction/country:us/state:ca/place:fortuna/government
+- name: Foster City
+  id: ocd-jurisdiction/country:us/state:ca/place:foster_city/government
+- name: Fowler
+  id: ocd-jurisdiction/country:us/state:ca/place:fowler/government
+- name: Gonzales
+  id: ocd-jurisdiction/country:us/state:ca/place:gonzales/government
+- name: Grand Terrace
+  id: ocd-jurisdiction/country:us/state:ca/place:grand_terrace/government
+- name: Grass Valley
+  id: ocd-jurisdiction/country:us/state:ca/place:grass_valley/government
+- name: Gridley
+  id: ocd-jurisdiction/country:us/state:ca/place:gridley/government
+- name: Grover Beach
+  id: ocd-jurisdiction/country:us/state:ca/place:grover_beach/government
+- name: Guadalupe
+  id: ocd-jurisdiction/country:us/state:ca/place:guadalupe/government
+- name: Gustine
+  id: ocd-jurisdiction/country:us/state:ca/place:gustine/government
+- name: Half Moon Bay
+  id: ocd-jurisdiction/country:us/state:ca/place:half_moon_bay/government
+- name: Hanford
+  id: ocd-jurisdiction/country:us/state:ca/place:hanford/government
+- name: Hawaiian Gardens
+  id: ocd-jurisdiction/country:us/state:ca/place:hawaiian_gardens/government
+- name: Healdsburg
+  id: ocd-jurisdiction/country:us/state:ca/place:healdsburg/government
+- name: Hercules
+  id: ocd-jurisdiction/country:us/state:ca/place:hercules/government
+- name: Hidden Hills
+  id: ocd-jurisdiction/country:us/state:ca/place:hidden_hills/government
+- name: Highland
+  id: ocd-jurisdiction/country:us/state:ca/place:highland/government
+- name: Hillsborough
+  id: ocd-jurisdiction/country:us/state:ca/place:hillsborough/government
+- name: Hollister
+  id: ocd-jurisdiction/country:us/state:ca/place:hollister/government
+- name: Holtville
+  id: ocd-jurisdiction/country:us/state:ca/place:holtville/government
+- name: Hughson
+  id: ocd-jurisdiction/country:us/state:ca/place:hughson/government
+- name: Huron
+  id: ocd-jurisdiction/country:us/state:ca/place:huron/government
+- name: Indian Wells
+  id: ocd-jurisdiction/country:us/state:ca/place:indian_wells/government
+- name: Industry
+  id: ocd-jurisdiction/country:us/state:ca/place:industry/government
+- name: Ione
+  id: ocd-jurisdiction/country:us/state:ca/place:ione/government
+- name: Irwindale
+  id: ocd-jurisdiction/country:us/state:ca/place:irwindale/government
+- name: Isleton
+  id: ocd-jurisdiction/country:us/state:ca/place:isleton/government
+- name: Jackson
+  id: ocd-jurisdiction/country:us/state:ca/place:jackson/government
+- name: Kerman
+  id: ocd-jurisdiction/country:us/state:ca/place:kerman/government
+- name: King City
+  id: ocd-jurisdiction/country:us/state:ca/place:king_city/government
+- name: Kingsburg
+  id: ocd-jurisdiction/country:us/state:ca/place:kingsburg/government
+- name: La Cañada Flintridge
+  id: ocd-jurisdiction/country:us/state:ca/place:la_ca_ada_flintridge/government
+- name: La Habra Heights
+  id: ocd-jurisdiction/country:us/state:ca/place:la_habra_heights/government
+- name: La Palma
+  id: ocd-jurisdiction/country:us/state:ca/place:la_palma/government
+- name: La Quinta
+  id: ocd-jurisdiction/country:us/state:ca/place:la_quinta/government
+- name: La Verne
+  id: ocd-jurisdiction/country:us/state:ca/place:la_verne/government
+- name: Laguna Beach
+  id: ocd-jurisdiction/country:us/state:ca/place:laguna_beach/government
+- name: Laguna Woods
+  id: ocd-jurisdiction/country:us/state:ca/place:laguna_woods/government
+- name: Lakeport
+  id: ocd-jurisdiction/country:us/state:ca/place:lakeport/government
+- name: Larkspur
+  id: ocd-jurisdiction/country:us/state:ca/place:larkspur/government
+- name: Lathrop
+  id: ocd-jurisdiction/country:us/state:ca/place:lathrop/government
+- name: Lawndale
+  id: ocd-jurisdiction/country:us/state:ca/place:lawndale/government
+- name: Lemoore
+  id: ocd-jurisdiction/country:us/state:ca/place:lemoore/government
+- name: Lincoln
+  id: ocd-jurisdiction/country:us/state:ca/place:lincoln/government
+- name: Lindsay
+  id: ocd-jurisdiction/country:us/state:ca/place:lindsay/government
+- name: Live Oak
+  id: ocd-jurisdiction/country:us/state:ca/place:live_oak/government
+- name: Livingston
+  id: ocd-jurisdiction/country:us/state:ca/place:livingston/government
+- name: Loma Linda
+  id: ocd-jurisdiction/country:us/state:ca/place:loma_linda/government
+- name: Lomita
+  id: ocd-jurisdiction/country:us/state:ca/place:lomita/government
+- name: Loomis
+  id: ocd-jurisdiction/country:us/state:ca/place:loomis/government
+- name: Los Alamitos
+  id: ocd-jurisdiction/country:us/state:ca/place:los_alamitos/government
+- name: Los Banos
+  id: ocd-jurisdiction/country:us/state:ca/place:los_banos/government
+- name: Los Gatos
+  id: ocd-jurisdiction/country:us/state:ca/place:los_gatos/government
+- name: Loyalton
+  id: ocd-jurisdiction/country:us/state:ca/place:loyalton/government
+- name: Madera
+  id: ocd-jurisdiction/country:us/state:ca/place:madera/government
+- name: Malibu
+  id: ocd-jurisdiction/country:us/state:ca/place:malibu/government
+- name: Mammoth Lakes
+  id: ocd-jurisdiction/country:us/state:ca/place:mammoth_lakes/government
+- name: Maricopa
+  id: ocd-jurisdiction/country:us/state:ca/place:maricopa/government
+- name: Marina
+  id: ocd-jurisdiction/country:us/state:ca/place:marina/government
+- name: Maywood
+  id: ocd-jurisdiction/country:us/state:ca/place:maywood/government
+- name: Mendota
+  id: ocd-jurisdiction/country:us/state:ca/place:mendota/government
+- name: Mill Valley
+  id: ocd-jurisdiction/country:us/state:ca/place:mill_valley/government
+- name: Millbrae
+  id: ocd-jurisdiction/country:us/state:ca/place:millbrae/government
+- name: Monrovia
+  id: ocd-jurisdiction/country:us/state:ca/place:monrovia/government
+- name: Montague
+  id: ocd-jurisdiction/country:us/state:ca/place:montague/government
+- name: Montclair
+  id: ocd-jurisdiction/country:us/state:ca/place:montclair/government
+- name: Monte Sereno
+  id: ocd-jurisdiction/country:us/state:ca/place:monte_sereno/government
+- name: Monterey
+  id: ocd-jurisdiction/country:us/state:ca/place:monterey/government
+- name: Moraga
+  id: ocd-jurisdiction/country:us/state:ca/place:moraga/government
+- name: Morgan Hill
+  id: ocd-jurisdiction/country:us/state:ca/place:morgan_hill/government
+- name: Morro Bay
+  id: ocd-jurisdiction/country:us/state:ca/place:morro_bay/government
+- name: Mountain House
+  id: ocd-jurisdiction/country:us/state:ca/place:mountain_house/government
+- name: Needles
+  id: ocd-jurisdiction/country:us/state:ca/place:needles/government
+- name: Newark
+  id: ocd-jurisdiction/country:us/state:ca/place:newark/government
+- name: Newman
+  id: ocd-jurisdiction/country:us/state:ca/place:newman/government
+- name: Norco
+  id: ocd-jurisdiction/country:us/state:ca/place:norco/government
+- name: Oakdale
+  id: ocd-jurisdiction/country:us/state:ca/place:oakdale/government
+- name: Ojai
+  id: ocd-jurisdiction/country:us/state:ca/place:ojai/government
+- name: Orange Cove
+  id: ocd-jurisdiction/country:us/state:ca/place:orange_cove/government
+- name: Orinda
+  id: ocd-jurisdiction/country:us/state:ca/place:orinda/government
+- name: Orland
+  id: ocd-jurisdiction/country:us/state:ca/place:orland/government
+- name: Palm Desert
+  id: ocd-jurisdiction/country:us/state:ca/place:palm_desert/government
+- name: Palos Verdes Estates
+  id: ocd-jurisdiction/country:us/state:ca/place:palos_verdes_estates/government
+- name: Paradise
+  id: ocd-jurisdiction/country:us/state:ca/place:paradise/government
+- name: Paramount
+  id: ocd-jurisdiction/country:us/state:ca/place:paramount/government
+- name: Parlier
+  id: ocd-jurisdiction/country:us/state:ca/place:parlier/government
+- name: Paso Robles
+  id: ocd-jurisdiction/country:us/state:ca/place:paso_robles/government
+- name: Patterson
+  id: ocd-jurisdiction/country:us/state:ca/place:patterson/government
+- name: Piedmont
+  id: ocd-jurisdiction/country:us/state:ca/place:piedmont/government
+- name: Pinole
+  id: ocd-jurisdiction/country:us/state:ca/place:pinole/government
+- name: Pismo Beach
+  id: ocd-jurisdiction/country:us/state:ca/place:pismo_beach/government
+- name: Placerville
+  id: ocd-jurisdiction/country:us/state:ca/place:placerville/government
+- name: Pleasant Hill
+  id: ocd-jurisdiction/country:us/state:ca/place:pleasant_hill/government
+- name: Plymouth
+  id: ocd-jurisdiction/country:us/state:ca/place:plymouth/government
+- name: Point Arena
+  id: ocd-jurisdiction/country:us/state:ca/place:point_arena/government
+- name: Porterville
+  id: ocd-jurisdiction/country:us/state:ca/place:porterville/government
+- name: Portola
+  id: ocd-jurisdiction/country:us/state:ca/place:portola/government
+- name: Portola Valley
+  id: ocd-jurisdiction/country:us/state:ca/place:portola_valley/government
+- name: Rancho Palos Verdes
+  id: ocd-jurisdiction/country:us/state:ca/place:rancho_palos_verdes/government
+- name: Reedley
+  id: ocd-jurisdiction/country:us/state:ca/place:reedley/government
+- name: Ridgecrest
+  id: ocd-jurisdiction/country:us/state:ca/place:ridgecrest/government
+- name: Rio Dell
+  id: ocd-jurisdiction/country:us/state:ca/place:rio_dell/government
+- name: Rio Vista
+  id: ocd-jurisdiction/country:us/state:ca/place:rio_vista/government
+- name: Ripon
+  id: ocd-jurisdiction/country:us/state:ca/place:ripon/government
+- name: Riverbank
+  id: ocd-jurisdiction/country:us/state:ca/place:riverbank/government
+- name: Rolling Hills
+  id: ocd-jurisdiction/country:us/state:ca/place:rolling_hills/government
+- name: Rosemead
+  id: ocd-jurisdiction/country:us/state:ca/place:rosemead/government
+- name: Ross
+  id: ocd-jurisdiction/country:us/state:ca/place:ross/government
+- name: San Bruno
+  id: ocd-jurisdiction/country:us/state:ca/place:san_bruno/government
+- name: San Buenaventura (Ventura)
+  id: ocd-jurisdiction/country:us/state:ca/place:san_buenaventura_ventura/government
+- name: San Carlos
+  id: ocd-jurisdiction/country:us/state:ca/place:san_carlos/government
+- name: San Dimas
+  id: ocd-jurisdiction/country:us/state:ca/place:san_dimas/government
+- name: San Fernando
+  id: ocd-jurisdiction/country:us/state:ca/place:san_fernando/government
+- name: San Gabriel
+  id: ocd-jurisdiction/country:us/state:ca/place:san_gabriel/government
+- name: San Jacinto
+  id: ocd-jurisdiction/country:us/state:ca/place:san_jacinto/government
+- name: San Joaquin
+  id: ocd-jurisdiction/country:us/state:ca/place:san_joaquin/government
+- name: San Juan Bautista
+  id: ocd-jurisdiction/country:us/state:ca/place:san_juan_bautista/government
+- name: San Juan Capistrano
+  id: ocd-jurisdiction/country:us/state:ca/place:san_juan_capistrano/government
+- name: San Marino
+  id: ocd-jurisdiction/country:us/state:ca/place:san_marino/government
+- name: Sand City
+  id: ocd-jurisdiction/country:us/state:ca/place:sand_city/government
+- name: Sanger
+  id: ocd-jurisdiction/country:us/state:ca/place:sanger/government
+- name: Santa Fe Springs
+  id: ocd-jurisdiction/country:us/state:ca/place:santa_fe_springs/government
+- name: Santa Paula
+  id: ocd-jurisdiction/country:us/state:ca/place:santa_paula/government
+- name: Saratoga
+  id: ocd-jurisdiction/country:us/state:ca/place:saratoga/government
+- name: Sausalito
+  id: ocd-jurisdiction/country:us/state:ca/place:sausalito/government
+- name: Scotts Valley
+  id: ocd-jurisdiction/country:us/state:ca/place:scotts_valley/government
+- name: Seal Beach
+  id: ocd-jurisdiction/country:us/state:ca/place:seal_beach/government
+- name: Seaside
+  id: ocd-jurisdiction/country:us/state:ca/place:seaside/government
+- name: Selma
+  id: ocd-jurisdiction/country:us/state:ca/place:selma/government
+- name: Shafter
+  id: ocd-jurisdiction/country:us/state:ca/place:shafter/government
+- name: Shasta Lake
+  id: ocd-jurisdiction/country:us/state:ca/place:shasta_lake/government
+- name: Sierra Madre
+  id: ocd-jurisdiction/country:us/state:ca/place:sierra_madre/government
+- name: Signal Hill
+  id: ocd-jurisdiction/country:us/state:ca/place:signal_hill/government
+- name: Soledad
+  id: ocd-jurisdiction/country:us/state:ca/place:soledad/government
+- name: Solvang
+  id: ocd-jurisdiction/country:us/state:ca/place:solvang/government
+- name: Sonoma
+  id: ocd-jurisdiction/country:us/state:ca/place:sonoma/government
+- name: Sonora
+  id: ocd-jurisdiction/country:us/state:ca/place:sonora/government
+- name: South El Monte
+  id: ocd-jurisdiction/country:us/state:ca/place:south_el_monte/government
+- name: St. Helena
+  id: ocd-jurisdiction/country:us/state:ca/place:st_helena/government
+- name: Stanton
+  id: ocd-jurisdiction/country:us/state:ca/place:stanton/government
+- name: Suisun City
+  id: ocd-jurisdiction/country:us/state:ca/place:suisun_city/government
+- name: Susanville
+  id: ocd-jurisdiction/country:us/state:ca/place:susanville/government
+- name: Sutter Creek
+  id: ocd-jurisdiction/country:us/state:ca/place:sutter_creek/government
+- name: Taft
+  id: ocd-jurisdiction/country:us/state:ca/place:taft/government
+- name: Tehachapi
+  id: ocd-jurisdiction/country:us/state:ca/place:tehachapi/government
+- name: Tehama
+  id: ocd-jurisdiction/country:us/state:ca/place:tehama/government
+- name: Temple City
+  id: ocd-jurisdiction/country:us/state:ca/place:temple_city/government
+- name: Tiburon
+  id: ocd-jurisdiction/country:us/state:ca/place:tiburon/government
+- name: Trinidad
+  id: ocd-jurisdiction/country:us/state:ca/place:trinidad/government
+- name: Tulare
+  id: ocd-jurisdiction/country:us/state:ca/place:tulare/government
+- name: Tulelake
+  id: ocd-jurisdiction/country:us/state:ca/place:tulelake/government
+- name: Ukiah
+  id: ocd-jurisdiction/country:us/state:ca/place:ukiah/government
+- name: Vernon
+  id: ocd-jurisdiction/country:us/state:ca/place:vernon/government
+- name: Villa Park
+  id: ocd-jurisdiction/country:us/state:ca/place:villa_park/government
+- name: Wasco
+  id: ocd-jurisdiction/country:us/state:ca/place:wasco/government
+- name: Waterford
+  id: ocd-jurisdiction/country:us/state:ca/place:waterford/government
+- name: Weed
+  id: ocd-jurisdiction/country:us/state:ca/place:weed/government
+- name: West Sacramento
+  id: ocd-jurisdiction/country:us/state:ca/place:west_sacramento/government
+- name: Westlake Village
+  id: ocd-jurisdiction/country:us/state:ca/place:westlake_village/government
+- name: Westmorland
+  id: ocd-jurisdiction/country:us/state:ca/place:westmorland/government
+- name: Wheatland
+  id: ocd-jurisdiction/country:us/state:ca/place:wheatland/government
+- name: Wildomar
+  id: ocd-jurisdiction/country:us/state:ca/place:wildomar/government
+- name: Williams
+  id: ocd-jurisdiction/country:us/state:ca/place:williams/government
+- name: Willits
+  id: ocd-jurisdiction/country:us/state:ca/place:willits/government
+- name: Willows
+  id: ocd-jurisdiction/country:us/state:ca/place:willows/government
+- name: Windsor
+  id: ocd-jurisdiction/country:us/state:ca/place:windsor/government
+- name: Winters
+  id: ocd-jurisdiction/country:us/state:ca/place:winters/government
+- name: Woodlake
+  id: ocd-jurisdiction/country:us/state:ca/place:woodlake/government
+- name: Woodside
+  id: ocd-jurisdiction/country:us/state:ca/place:woodside/government
+- name: Yountville
+  id: ocd-jurisdiction/country:us/state:ca/place:yountville/government
+- name: Yreka
+  id: ocd-jurisdiction/country:us/state:ca/place:yreka/government
+- name: Yuba City
+  id: ocd-jurisdiction/country:us/state:ca/place:yuba_city/government
+- name: Yucaipa
+  id: ocd-jurisdiction/country:us/state:ca/place:yucaipa/government
+- name: Yucca Valley
+  id: ocd-jurisdiction/country:us/state:ca/place:yucca_valley/government

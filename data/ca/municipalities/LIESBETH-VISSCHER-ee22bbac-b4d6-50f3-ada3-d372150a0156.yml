@@ -1,0 +1,14 @@
+id: ocd-person/ee22bbac-b4d6-50f3-ada3-d372150a0156
+name: LIESBETH VISSCHER
+given_name: LIESBETH
+family_name: VISSCHER
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:marina/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

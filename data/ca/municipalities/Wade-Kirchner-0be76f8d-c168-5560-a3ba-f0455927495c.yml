@@ -1,0 +1,13 @@
+id: ocd-person/0be76f8d-c168-5560-a3ba-f0455927495c
+name: Wade Kirchner
+given_name: Wade
+family_name: Kirchner
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:yuba_city/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

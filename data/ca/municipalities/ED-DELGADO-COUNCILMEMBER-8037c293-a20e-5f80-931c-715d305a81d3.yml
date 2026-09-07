@@ -1,0 +1,13 @@
+id: ocd-person/8037c293-a20e-5f80-931c-715d305a81d3
+name: ED DELGADO - COUNCILMEMBER
+given_name: ED
+family_name: COUNCILMEMBER
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:moreno_valley/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

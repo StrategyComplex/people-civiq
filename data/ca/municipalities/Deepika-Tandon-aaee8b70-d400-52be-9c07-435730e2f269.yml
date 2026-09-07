@@ -1,0 +1,13 @@
+id: ocd-person/aaee8b70-d400-52be-9c07-435730e2f269
+name: Deepika Tandon
+given_name: Deepika
+family_name: Tandon
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:chico/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

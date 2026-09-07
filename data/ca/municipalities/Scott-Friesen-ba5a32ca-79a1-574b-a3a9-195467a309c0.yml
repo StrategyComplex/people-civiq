@@ -1,0 +1,13 @@
+id: ocd-person/ba5a32ca-79a1-574b-a3a9-195467a309c0
+name: Scott Friesen
+given_name: Scott
+family_name: Friesen
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:reedley/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

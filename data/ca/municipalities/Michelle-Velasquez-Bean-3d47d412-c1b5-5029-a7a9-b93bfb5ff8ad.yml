@@ -1,0 +1,13 @@
+id: ocd-person/3d47d412-c1b5-5029-a7a9-b93bfb5ff8ad
+name: Michelle Velasquez Bean
+given_name: Michelle
+family_name: Bean
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:la_mirada/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

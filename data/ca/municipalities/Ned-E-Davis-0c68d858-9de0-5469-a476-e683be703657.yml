@@ -1,0 +1,13 @@
+id: ocd-person/0c68d858-9de0-5469-a476-e683be703657
+name: Ned E Davis
+given_name: Ned
+family_name: Davis
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:westlake_village/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/a4bbab70-b13c-5f45-94e4-3c8f56be34be
+name: Pat Ravasio
+given_name: Pat
+family_name: Ravasio
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:corte_madera/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

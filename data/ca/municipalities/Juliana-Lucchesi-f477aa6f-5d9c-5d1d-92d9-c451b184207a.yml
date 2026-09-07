@@ -1,0 +1,13 @@
+id: ocd-person/f477aa6f-5d9c-5d1d-92d9-c451b184207a
+name: Juliana Lucchesi
+given_name: Juliana
+family_name: Lucchesi
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:dunsmuir/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

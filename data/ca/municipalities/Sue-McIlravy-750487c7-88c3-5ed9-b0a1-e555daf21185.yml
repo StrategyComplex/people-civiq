@@ -1,0 +1,13 @@
+id: ocd-person/750487c7-88c3-5ed9-b0a1-e555daf21185
+name: Sue McIlravy
+given_name: Sue
+family_name: McIlravy
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:loyalton/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

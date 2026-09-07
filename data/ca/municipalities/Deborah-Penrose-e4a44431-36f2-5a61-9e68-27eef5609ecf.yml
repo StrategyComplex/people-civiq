@@ -1,0 +1,14 @@
+id: ocd-person/e4a44431-36f2-5a61-9e68-27eef5609ecf
+name: Deborah Penrose
+given_name: Deborah
+family_name: Penrose
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:half_moon_bay/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

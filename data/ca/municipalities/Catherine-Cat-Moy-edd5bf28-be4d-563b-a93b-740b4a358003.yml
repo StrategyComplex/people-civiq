@@ -1,0 +1,13 @@
+id: ocd-person/edd5bf28-be4d-563b-a93b-740b4a358003
+name: Catherine "Cat" Moy
+given_name: Catherine
+family_name: Moy
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:fairfield/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/a2b7cd89-441f-58c4-afe9-6a059f0ba0c2
+name: Jarod Pitassi
+given_name: Jarod
+family_name: Pitassi
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:oakdale/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

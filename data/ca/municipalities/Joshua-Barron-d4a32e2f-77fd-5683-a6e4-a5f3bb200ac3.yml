@@ -1,0 +1,13 @@
+id: ocd-person/d4a32e2f-77fd-5683-a6e4-a5f3bb200ac3
+name: Joshua Barron
+given_name: Joshua
+family_name: Barron
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:south_gate/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

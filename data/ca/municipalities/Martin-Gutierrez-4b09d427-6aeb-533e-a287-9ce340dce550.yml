@@ -1,0 +1,13 @@
+id: ocd-person/4b09d427-6aeb-533e-a287-9ce340dce550
+name: Martin Gutierrez
+given_name: Martin
+family_name: Gutierrez
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:mc_farland/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

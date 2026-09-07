@@ -1,0 +1,14 @@
+id: ocd-person/ee745441-9778-5eb9-991c-eab99b117322
+name: Lamiya Hoque, Vice Mayor
+given_name: Lamiya
+family_name: Mayor
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:buena_park/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

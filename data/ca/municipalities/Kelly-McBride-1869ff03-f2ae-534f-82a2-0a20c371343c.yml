@@ -1,0 +1,13 @@
+id: ocd-person/1869ff03-f2ae-534f-82a2-0a20c371343c
+name: Kelly McBride
+given_name: Kelly
+family_name: McBride
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:villa_park/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

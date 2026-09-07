@@ -1,0 +1,13 @@
+id: ocd-person/d9916bf8-79fb-501b-825c-ab8d9d0f7118
+name: Brianne Zorn
+given_name: Brianne
+family_name: Zorn
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:martinez/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,14 @@
+id: ocd-person/640bfe21-1afc-5bbc-8ad5-5123c651b000
+name: Annie McCary
+given_name: Annie
+family_name: McCary
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:laguna_woods/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

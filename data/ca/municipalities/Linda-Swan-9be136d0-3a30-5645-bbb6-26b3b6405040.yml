@@ -1,0 +1,13 @@
+id: ocd-person/9be136d0-3a30-5645-bbb6-26b3b6405040
+name: Linda Swan
+given_name: Linda
+family_name: Swan
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:los_altos_hills/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

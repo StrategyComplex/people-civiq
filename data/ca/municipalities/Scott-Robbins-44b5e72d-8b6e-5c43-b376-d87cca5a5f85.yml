@@ -1,0 +1,13 @@
+id: ocd-person/44b5e72d-8b6e-5c43-b376-d87cca5a5f85
+name: Scott Robbins
+given_name: Scott
+family_name: Robbins
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:south_lake_tahoe/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

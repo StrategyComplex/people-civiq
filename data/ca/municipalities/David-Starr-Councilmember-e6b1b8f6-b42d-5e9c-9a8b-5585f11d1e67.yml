@@ -1,0 +1,13 @@
+id: ocd-person/e6b1b8f6-b42d-5e9c-9a8b-5585f11d1e67
+name: David Starr Councilmember
+given_name: David
+family_name: Councilmember
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:perris/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

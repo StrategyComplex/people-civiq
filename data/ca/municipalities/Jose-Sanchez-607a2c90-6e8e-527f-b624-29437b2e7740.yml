@@ -1,0 +1,13 @@
+id: ocd-person/607a2c90-6e8e-527f-b624-29437b2e7740
+name: Jose Sanchez
+given_name: Jose
+family_name: Sanchez
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:monterey_park/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

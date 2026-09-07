@@ -1,0 +1,15 @@
+id: ocd-person/b1cae807-4caf-5026-bce2-d6b15673560c
+name: Debra L. Garnes
+given_name: Debra
+family_name: Garnes
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:rio_dell/government
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:rio_dell/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

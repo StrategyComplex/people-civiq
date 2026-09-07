@@ -1,0 +1,13 @@
+id: ocd-person/88e6d775-705a-54f9-9841-4fa52f532336
+name: Eunisses Hernandez
+given_name: Eunisses
+family_name: Hernandez
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:los_angeles/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

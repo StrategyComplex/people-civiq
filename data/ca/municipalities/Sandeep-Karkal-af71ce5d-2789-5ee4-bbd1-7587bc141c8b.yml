@@ -1,0 +1,13 @@
+id: ocd-person/af71ce5d-2789-5ee4-bbd1-7587bc141c8b
+name: Sandeep Karkal
+given_name: Sandeep
+family_name: Karkal
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:novato/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

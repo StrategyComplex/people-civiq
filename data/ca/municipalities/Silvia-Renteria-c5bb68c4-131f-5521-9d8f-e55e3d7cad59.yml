@@ -1,0 +1,14 @@
+id: ocd-person/c5bb68c4-131f-5521-9d8f-e55e3d7cad59
+name: Silvia Renteria
+given_name: Silvia
+family_name: Renteria
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:firebaugh/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

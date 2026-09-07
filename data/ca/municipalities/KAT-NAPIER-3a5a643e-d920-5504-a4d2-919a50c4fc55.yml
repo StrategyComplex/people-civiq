@@ -1,0 +1,13 @@
+id: ocd-person/3a5a643e-d920-5504-a4d2-919a50c4fc55
+name: KAT NAPIER
+given_name: KAT
+family_name: NAPIER
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:blue_lake/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

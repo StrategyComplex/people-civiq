@@ -1,0 +1,13 @@
+id: ocd-person/94aaaaaf-6686-55a9-ab89-40a2817e9bae
+name: Dennis A. Mederos
+given_name: Dennis
+family_name: Mederos
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:tulare/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

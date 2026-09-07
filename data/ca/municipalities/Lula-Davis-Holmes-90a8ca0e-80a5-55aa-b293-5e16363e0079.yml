@@ -1,0 +1,13 @@
+id: ocd-person/90a8ca0e-80a5-55aa-b293-5e16363e0079
+name: Lula Davis Holmes
+given_name: Lula
+family_name: Holmes
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:carson/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

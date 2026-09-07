@@ -1,0 +1,13 @@
+id: ocd-person/7e2881ab-736f-58b0-841e-d40d558273a1
+name: Holly Andreatta
+given_name: Holly
+family_name: Andreatta
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:lincoln/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

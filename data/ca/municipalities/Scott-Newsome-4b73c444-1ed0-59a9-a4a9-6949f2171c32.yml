@@ -1,0 +1,13 @@
+id: ocd-person/4b73c444-1ed0-59a9-a4a9-6949f2171c32
+name: Scott Newsome
+given_name: Scott
+family_name: Newsome
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:santa_cruz/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -26,3 +26,8 @@ other_identifiers:
 sources:
 - url: ftp://www.leginfo.ca.gov/pub/bill/
 - url: https://mayor.lacity.gov
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

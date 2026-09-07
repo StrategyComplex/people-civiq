@@ -1,0 +1,13 @@
+id: ocd-person/19408b1c-e4c4-5fab-9b3c-3340639f277b
+name: Armando Carmona
+given_name: Armando
+family_name: Carmona
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:jurupa_valley/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

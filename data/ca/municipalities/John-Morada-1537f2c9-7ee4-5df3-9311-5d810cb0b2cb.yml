@@ -1,0 +1,13 @@
+id: ocd-person/1537f2c9-7ee4-5df3-9311-5d810cb0b2cb
+name: John Morada
+given_name: John
+family_name: Morada
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:dublin/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

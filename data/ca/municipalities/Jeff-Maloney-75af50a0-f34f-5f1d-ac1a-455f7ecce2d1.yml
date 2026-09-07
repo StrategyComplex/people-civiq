@@ -1,0 +1,13 @@
+id: ocd-person/75af50a0-f34f-5f1d-ac1a-455f7ecce2d1
+name: Jeff Maloney
+given_name: Jeff
+family_name: Maloney
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:alhambra/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

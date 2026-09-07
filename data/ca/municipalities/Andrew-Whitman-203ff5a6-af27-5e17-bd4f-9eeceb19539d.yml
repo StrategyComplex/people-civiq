@@ -1,0 +1,13 @@
+id: ocd-person/203ff5a6-af27-5e17-bd4f-9eeceb19539d
+name: Andrew Whitman
+given_name: Andrew
+family_name: Whitman
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:ojai/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

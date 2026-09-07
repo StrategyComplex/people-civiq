@@ -1,0 +1,13 @@
+id: ocd-person/08925453-ef42-5e00-b265-c090af6ead6b
+name: Jody Maita
+given_name: Jody
+family_name: Maita
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:ione/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

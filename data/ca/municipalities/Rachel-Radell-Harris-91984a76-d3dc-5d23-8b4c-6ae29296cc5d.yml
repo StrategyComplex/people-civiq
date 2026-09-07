@@ -1,0 +1,14 @@
+id: ocd-person/91984a76-d3dc-5d23-8b4c-6ae29296cc5d
+name: Rachel Radell-Harris
+given_name: Rachel
+family_name: Radell-Harris
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:auburn/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

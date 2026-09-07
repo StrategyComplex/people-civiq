@@ -1,0 +1,13 @@
+id: ocd-person/6678313a-7401-5dc6-b87f-2ef5166aa448
+name: Miriam Vega
+given_name: Miriam
+family_name: Vega
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:morgan_hill/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

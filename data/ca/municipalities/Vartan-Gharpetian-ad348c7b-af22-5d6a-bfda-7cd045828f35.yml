@@ -1,0 +1,13 @@
+id: ocd-person/ad348c7b-af22-5d6a-bfda-7cd045828f35
+name: Vartan Gharpetian
+given_name: Vartan
+family_name: Gharpetian
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:glendale/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

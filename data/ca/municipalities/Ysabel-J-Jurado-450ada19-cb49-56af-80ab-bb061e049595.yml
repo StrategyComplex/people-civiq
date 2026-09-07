@@ -1,0 +1,13 @@
+id: ocd-person/450ada19-cb49-56af-80ab-bb061e049595
+name: Ysabel J. Jurado
+given_name: Ysabel
+family_name: Jurado
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:los_angeles/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

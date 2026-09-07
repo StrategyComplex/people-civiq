@@ -1,0 +1,13 @@
+id: ocd-person/a6ff762b-7336-57c5-9d67-df97a5c9ed38
+name: Hans Buder
+given_name: Hans
+family_name: Buder
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:carmel_by_the_sea/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

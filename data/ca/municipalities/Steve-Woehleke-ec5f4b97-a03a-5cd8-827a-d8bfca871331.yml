@@ -1,0 +1,13 @@
+id: ocd-person/ec5f4b97-a03a-5cd8-827a-d8bfca871331
+name: Steve Woehleke
+given_name: Steve
+family_name: Woehleke
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:moraga/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

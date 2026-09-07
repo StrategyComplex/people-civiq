@@ -1,0 +1,13 @@
+id: ocd-person/9b810ad7-0fac-5bd4-bd94-dec75a3badc8
+name: Jason Greenough
+given_name: Jason
+family_name: Greenough
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:crescent_city/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

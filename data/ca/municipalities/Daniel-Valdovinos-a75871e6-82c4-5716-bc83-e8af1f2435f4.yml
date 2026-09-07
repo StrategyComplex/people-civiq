@@ -1,0 +1,13 @@
+id: ocd-person/a75871e6-82c4-5716-bc83-e8af1f2435f4
+name: Daniel Valdovinos
+given_name: Daniel
+family_name: Valdovinos
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:farmersville/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

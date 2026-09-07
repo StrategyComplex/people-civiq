@@ -1,0 +1,13 @@
+id: ocd-person/39877862-fc20-53eb-a82e-3bbc7471e698
+name: Lindy Peters
+given_name: Lindy
+family_name: Peters
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:fort_bragg/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

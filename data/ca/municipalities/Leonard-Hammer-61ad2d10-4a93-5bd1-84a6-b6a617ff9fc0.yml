@@ -1,0 +1,13 @@
+id: ocd-person/61ad2d10-4a93-5bd1-84a6-b6a617ff9fc0
+name: Leonard Hammer
+given_name: Leonard
+family_name: Hammer
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:fowler/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/cc5e9bf8-0ccd-53e9-8a11-5b5891c6c388
+name: Jeramy Chapdelaine
+given_name: Jeramy
+family_name: Chapdelaine
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:live_oak/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

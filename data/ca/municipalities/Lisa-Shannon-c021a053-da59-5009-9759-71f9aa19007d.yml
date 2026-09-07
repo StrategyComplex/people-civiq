@@ -1,0 +1,14 @@
+id: ocd-person/c021a053-da59-5009-9759-71f9aa19007d
+name: Lisa Shannon
+given_name: Lisa
+family_name: Shannon
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:monte_sereno/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

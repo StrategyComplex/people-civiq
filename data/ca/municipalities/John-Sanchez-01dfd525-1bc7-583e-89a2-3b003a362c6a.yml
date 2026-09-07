@@ -1,0 +1,13 @@
+id: ocd-person/01dfd525-1bc7-583e-89a2-3b003a362c6a
+name: John Sanchez
+given_name: John
+family_name: Sanchez
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:buellton/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

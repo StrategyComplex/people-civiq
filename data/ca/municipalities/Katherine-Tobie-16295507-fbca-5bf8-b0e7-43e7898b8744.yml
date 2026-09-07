@@ -1,0 +1,13 @@
+id: ocd-person/16295507-fbca-5bf8-b0e7-43e7898b8744
+name: Katherine Tobie
+given_name: Katherine
+family_name: Tobie
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:amador_city/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

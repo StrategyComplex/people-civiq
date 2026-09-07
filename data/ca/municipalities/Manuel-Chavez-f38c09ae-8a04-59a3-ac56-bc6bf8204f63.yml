@@ -1,0 +1,14 @@
+id: ocd-person/f38c09ae-8a04-59a3-ac56-bc6bf8204f63
+name: Manuel Chavez
+given_name: Manuel
+family_name: Chavez
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:costa_mesa/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

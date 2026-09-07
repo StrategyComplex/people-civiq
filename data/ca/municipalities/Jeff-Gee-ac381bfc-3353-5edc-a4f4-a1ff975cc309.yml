@@ -1,0 +1,13 @@
+id: ocd-person/ac381bfc-3353-5edc-a4f4-a1ff975cc309
+name: Jeff Gee
+given_name: Jeff
+family_name: Gee
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:redwood_city/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

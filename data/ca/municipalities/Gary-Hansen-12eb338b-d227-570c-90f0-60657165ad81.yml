@@ -1,0 +1,13 @@
+id: ocd-person/12eb338b-d227-570c-90f0-60657165ad81
+name: Gary Hansen
+given_name: Gary
+family_name: Hansen
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:willows/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

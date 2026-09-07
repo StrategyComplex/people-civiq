@@ -1,0 +1,13 @@
+id: ocd-person/42691725-95fd-534a-8a9e-6c1642c28049
+name: Chris Bubser
+given_name: Chris
+family_name: Bubser
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:mammoth_lakes/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,14 @@
+id: ocd-person/e1b8a947-e092-5450-92d1-e1f10ea5f590
+name: John McCormick
+given_name: John
+family_name: McCormick
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:lafayette/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

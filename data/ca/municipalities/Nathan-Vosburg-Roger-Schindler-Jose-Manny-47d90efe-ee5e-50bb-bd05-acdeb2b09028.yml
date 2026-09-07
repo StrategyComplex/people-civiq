@@ -1,0 +1,13 @@
+id: ocd-person/47d90efe-ee5e-50bb-bd05-acdeb2b09028
+name: Nathan Vosburg; Roger Schindler; Jose "Manny"
+given_name: Nathan
+family_name: '"Manny"'
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:coalinga/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

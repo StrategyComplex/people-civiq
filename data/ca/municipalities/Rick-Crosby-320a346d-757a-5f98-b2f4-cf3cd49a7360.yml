@@ -1,0 +1,13 @@
+id: ocd-person/320a346d-757a-5f98-b2f4-cf3cd49a7360
+name: Rick Crosby
+given_name: Rick
+family_name: Crosby
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:la_verne/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

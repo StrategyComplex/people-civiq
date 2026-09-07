@@ -1,0 +1,13 @@
+id: ocd-person/5089e2bb-3551-5454-a901-affe4ccdd0c4
+name: Gary Loe
+given_name: Gary
+family_name: Loe
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:los_alamitos/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

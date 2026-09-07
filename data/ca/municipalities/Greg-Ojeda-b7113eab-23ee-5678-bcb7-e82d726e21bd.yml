@@ -1,0 +1,13 @@
+id: ocd-person/b7113eab-23ee-5678-bcb7-e82d726e21bd
+name: Greg Ojeda
+given_name: Greg
+family_name: Ojeda
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:corcoran/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

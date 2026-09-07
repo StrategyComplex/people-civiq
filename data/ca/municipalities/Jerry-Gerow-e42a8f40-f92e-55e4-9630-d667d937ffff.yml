@@ -1,0 +1,13 @@
+id: ocd-person/e42a8f40-f92e-55e4-9630-d667d937ffff
+name: Jerry Gerow
+given_name: Jerry
+family_name: Gerow
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:loyalton/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/fda99fa1-5fc3-532a-9096-743a4196bcc1
+name: Trinity Burruss
+given_name: Trinity
+family_name: Burruss
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:colfax/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

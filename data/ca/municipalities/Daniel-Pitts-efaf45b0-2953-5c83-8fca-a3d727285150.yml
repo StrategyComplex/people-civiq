@@ -1,0 +1,13 @@
+id: ocd-person/efaf45b0-2953-5c83-8fca-a3d727285150
+name: ; Daniel Pitts
+given_name: ;
+family_name: Pitts
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:desert_hot_springs/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

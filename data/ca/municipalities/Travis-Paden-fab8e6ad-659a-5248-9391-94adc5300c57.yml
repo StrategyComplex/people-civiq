@@ -1,0 +1,13 @@
+id: ocd-person/fab8e6ad-659a-5248-9391-94adc5300c57
+name: Travis Paden
+given_name: Travis
+family_name: Paden
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:hanford/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

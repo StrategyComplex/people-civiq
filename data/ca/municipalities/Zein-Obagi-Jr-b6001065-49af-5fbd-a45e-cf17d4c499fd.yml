@@ -1,0 +1,13 @@
+id: ocd-person/b6001065-49af-5fbd-a45e-cf17d4c499fd
+name: Zein Obagi, Jr.
+given_name: Zein
+family_name: Jr.
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:redondo_beach/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/fbaebc99-9463-578c-aa23-3be4c0d2ef04
+name: Daisy Macias
+given_name: Daisy
+family_name: Macias
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:ontario/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

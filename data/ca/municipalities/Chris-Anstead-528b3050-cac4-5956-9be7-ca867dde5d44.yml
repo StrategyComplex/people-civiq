@@ -1,0 +1,13 @@
+id: ocd-person/528b3050-cac4-5956-9be7-ca867dde5d44
+name: Chris Anstead
+given_name: Chris
+family_name: Anstead
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:agoura_hills/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

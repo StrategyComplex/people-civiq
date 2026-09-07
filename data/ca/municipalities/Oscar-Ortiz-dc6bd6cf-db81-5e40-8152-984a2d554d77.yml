@@ -1,0 +1,13 @@
+id: ocd-person/dc6bd6cf-db81-5e40-8152-984a2d554d77
+name: Oscar Ortiz
+given_name: Oscar
+family_name: Ortiz
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:indio/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

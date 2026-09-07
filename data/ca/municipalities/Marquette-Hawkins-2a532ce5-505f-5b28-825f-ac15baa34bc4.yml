@@ -1,0 +1,13 @@
+id: ocd-person/2a532ce5-505f-5b28-825f-ac15baa34bc4
+name: Marquette Hawkins
+given_name: Marquette
+family_name: Hawkins
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:california_city/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

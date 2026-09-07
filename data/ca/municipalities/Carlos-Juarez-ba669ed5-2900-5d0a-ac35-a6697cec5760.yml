@@ -1,0 +1,13 @@
+id: ocd-person/ba669ed5-2900-5d0a-ac35-a6697cec5760
+name: Carlos Juarez
+given_name: Carlos
+family_name: Juarez
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:santa_paula/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

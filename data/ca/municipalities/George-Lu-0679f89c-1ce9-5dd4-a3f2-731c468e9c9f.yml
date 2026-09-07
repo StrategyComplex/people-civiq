@@ -1,0 +1,13 @@
+id: ocd-person/0679f89c-1ce9-5dd4-a3f2-731c468e9c9f
+name: George Lu
+given_name: George
+family_name: Lu
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:palo_alto/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/c37fda1f-65be-5110-be91-966a6f74ca26
+name: Charles Hicks, Jr.
+given_name: Charles
+family_name: Jr.
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:big_bear_lake/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

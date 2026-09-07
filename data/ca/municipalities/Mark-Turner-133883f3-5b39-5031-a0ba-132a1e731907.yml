@@ -1,0 +1,13 @@
+id: ocd-person/133883f3-5b39-5031-a0ba-132a1e731907
+name: Mark Turner
+given_name: Mark
+family_name: Turner
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:morgan_hill/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

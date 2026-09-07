@@ -1,0 +1,13 @@
+id: ocd-person/7c1d86e0-cfd5-51fa-b462-d0314c3f3255
+name: Ray Pearl
+given_name: Ray
+family_name: Pearl
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:westlake_village/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

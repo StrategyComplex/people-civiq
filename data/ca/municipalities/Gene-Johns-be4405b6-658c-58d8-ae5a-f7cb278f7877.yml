@@ -1,0 +1,13 @@
+id: ocd-person/be4405b6-658c-58d8-ae5a-f7cb278f7877
+name: Gene Johns
+given_name: Gene
+family_name: Johns
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:laguna_niguel/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

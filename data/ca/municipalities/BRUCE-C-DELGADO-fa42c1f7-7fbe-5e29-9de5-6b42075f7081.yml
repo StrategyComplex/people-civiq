@@ -1,0 +1,13 @@
+id: ocd-person/fa42c1f7-7fbe-5e29-9de5-6b42075f7081
+name: BRUCE C. DELGADO
+given_name: BRUCE
+family_name: DELGADO
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:marina/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

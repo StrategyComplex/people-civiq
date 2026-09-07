@@ -1,0 +1,13 @@
+id: ocd-person/81287821-7d67-5e90-83f3-c0c5f1924859
+name: Cerina Otero
+given_name: Cerina
+family_name: Otero
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:ceres/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

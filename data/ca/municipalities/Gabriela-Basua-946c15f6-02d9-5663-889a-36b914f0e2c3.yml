@@ -1,0 +1,13 @@
+id: ocd-person/946c15f6-02d9-5663-889a-36b914f0e2c3
+name: Gabriela Basua
+given_name: Gabriela
+family_name: Basua
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:oxnard/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

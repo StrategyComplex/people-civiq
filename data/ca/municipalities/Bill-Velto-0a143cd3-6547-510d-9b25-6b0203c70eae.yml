@@ -1,0 +1,13 @@
+id: ocd-person/0a143cd3-6547-510d-9b25-6b0203c70eae
+name: Bill Velto
+given_name: Bill
+family_name: Velto
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:upland/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/18a7a220-fb57-55f2-a2be-56d3e612dc0a
+name: Eve Fromberg Edelstein
+given_name: Eve
+family_name: Edelstein
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:rancho_mirage/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/e18e590e-62e6-5106-bb5b-4ee82b0e10ca
+name: Laurie Davies Adams
+given_name: Laurie
+family_name: Adams
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:hillsborough/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/e473bd53-ef26-5baf-ac78-8e85485c6b06
+name: Lisel Blash
+given_name: Lisel
+family_name: Blash
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:fairfax/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

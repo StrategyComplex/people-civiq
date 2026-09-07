@@ -1,0 +1,13 @@
+id: ocd-person/6dbf79d4-352f-540e-a1d9-e48ef749bc21
+name: Eric Arias
+given_name: Eric
+family_name: Arias
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:bakersfield/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

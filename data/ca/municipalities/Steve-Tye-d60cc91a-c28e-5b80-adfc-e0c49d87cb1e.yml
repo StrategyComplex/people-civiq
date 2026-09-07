@@ -1,0 +1,13 @@
+id: ocd-person/d60cc91a-c28e-5b80-adfc-e0c49d87cb1e
+name: Steve Tye
+given_name: Steve
+family_name: Tye
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:diamond_bar/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

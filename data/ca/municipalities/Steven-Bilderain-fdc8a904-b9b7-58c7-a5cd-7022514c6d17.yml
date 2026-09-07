@@ -1,0 +1,13 @@
+id: ocd-person/fdc8a904-b9b7-58c7-a5cd-7022514c6d17
+name: Steven Bilderain
+given_name: Steven
+family_name: Bilderain
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:twentynine_palms/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/f9059c67-4ab0-5470-9803-a9f7d9a55df2
+name: Kate Spadarotto
+given_name: Kate
+family_name: Spadarotto
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:st_helena/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

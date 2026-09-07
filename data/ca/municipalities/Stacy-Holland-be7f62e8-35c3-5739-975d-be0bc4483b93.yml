@@ -1,0 +1,13 @@
+id: ocd-person/be7f62e8-35c3-5739-975d-be0bc4483b93
+name: Stacy Holland
+given_name: Stacy
+family_name: Holland
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:atherton/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,14 @@
+id: ocd-person/d8d3278e-5839-5eeb-a89d-02be97bc09d9
+name: Marcia Rafanan, Vice Mayor
+given_name: Marcia
+family_name: Mayor
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:fort_bragg/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

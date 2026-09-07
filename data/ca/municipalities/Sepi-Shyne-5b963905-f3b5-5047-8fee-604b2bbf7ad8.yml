@@ -6,6 +6,8 @@ image: http://commons.wikimedia.org/wiki/Special:FilePath/Sepi%20Shyne%2C%202021
 roles:
 - type: mayor
   jurisdiction: ocd-jurisdiction/country:us/state:ca/place:west_hollywood/government
+  end_date: '2026-09-07'
+  end_reason: superseded per Wikidata refresh
 links:
 - url: https://www.weho.org/
   note: city website

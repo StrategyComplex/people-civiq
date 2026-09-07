@@ -1,0 +1,13 @@
+id: ocd-person/1270ec56-07a4-5b9f-b436-6056fafdaea6
+name: Nancy Santana
+given_name: Nancy
+family_name: Santana
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:live_oak/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

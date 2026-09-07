@@ -1,0 +1,14 @@
+id: ocd-person/89cdab9d-b797-50cc-b2f4-225370614af7
+name: Bill Powers
+given_name: Bill
+family_name: Powers
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:portola/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/d070a2c0-db0b-531f-975f-8f778879329e
+name: Lorri Pride
+given_name: Lorri
+family_name: Pride
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:willows/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

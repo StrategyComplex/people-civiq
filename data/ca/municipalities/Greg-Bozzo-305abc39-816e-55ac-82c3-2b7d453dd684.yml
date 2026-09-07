@@ -1,0 +1,13 @@
+id: ocd-person/305abc39-816e-55ac-82c3-2b7d453dd684
+name: Greg Bozzo
+given_name: Greg
+family_name: Bozzo
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:gilroy/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

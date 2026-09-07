@@ -1,0 +1,13 @@
+id: ocd-person/7b851155-5dba-5f9e-9663-b4ded7451296
+name: Rachel Nerio-Guerrero
+given_name: Rachel
+family_name: Nerio-Guerrero
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:dinuba/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

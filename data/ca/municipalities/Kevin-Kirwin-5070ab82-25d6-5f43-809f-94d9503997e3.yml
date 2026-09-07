@@ -1,0 +1,13 @@
+id: ocd-person/5070ab82-25d6-5f43-809f-94d9503997e3
+name: Kevin Kirwin
+given_name: Kevin
+family_name: Kirwin
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:placentia/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

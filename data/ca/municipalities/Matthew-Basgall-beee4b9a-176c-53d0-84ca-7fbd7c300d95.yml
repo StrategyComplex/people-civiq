@@ -1,0 +1,13 @@
+id: ocd-person/beee4b9a-176c-53d0-84ca-7fbd7c300d95
+name: Matthew Basgall
+given_name: Matthew
+family_name: Basgall
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:clovis/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

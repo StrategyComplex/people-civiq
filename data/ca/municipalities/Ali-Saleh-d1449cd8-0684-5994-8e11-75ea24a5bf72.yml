@@ -1,0 +1,13 @@
+id: ocd-person/d1449cd8-0684-5994-8e11-75ea24a5bf72
+name: Ali Saleh
+given_name: Ali
+family_name: Saleh
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:bell/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

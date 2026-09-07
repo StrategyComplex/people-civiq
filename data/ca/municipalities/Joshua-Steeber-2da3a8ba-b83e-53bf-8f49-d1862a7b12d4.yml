@@ -1,0 +1,13 @@
+id: ocd-person/2da3a8ba-b83e-53bf-8f49-d1862a7b12d4
+name: Joshua Steeber
+given_name: Joshua
+family_name: Steeber
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:canyon_lake/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

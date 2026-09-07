@@ -1,0 +1,13 @@
+id: ocd-person/50810c99-0de4-52d1-886a-89de1b60cda2
+name: Jill McLewis
+given_name: Jill
+family_name: McLewis
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:sebastopol/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

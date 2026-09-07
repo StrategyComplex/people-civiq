@@ -1,0 +1,13 @@
+id: ocd-person/93ed13f5-7105-5a06-9846-033fe59977d7
+name: Sheri Flynn
+given_name: Sheri
+family_name: Flynn
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:banning/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

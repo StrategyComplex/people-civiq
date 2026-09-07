@@ -1,0 +1,13 @@
+id: ocd-person/7af43bcf-2d8c-5e2f-b725-ad122724ab49
+name: JOHN SAWATZKY
+given_name: JOHN
+family_name: SAWATZKY
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:blue_lake/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

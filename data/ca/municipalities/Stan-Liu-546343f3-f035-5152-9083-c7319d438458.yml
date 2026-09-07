@@ -1,0 +1,13 @@
+id: ocd-person/546343f3-f035-5152-9083-c7319d438458
+name: Stan Liu
+given_name: Stan
+family_name: Liu
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:diamond_bar/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/418341c5-e485-5934-829f-2e2f2229f9d1
+name: Jamie Valencia
+given_name: Jamie
+family_name: Valencia
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:fullerton/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

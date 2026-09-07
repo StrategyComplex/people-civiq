@@ -1,0 +1,13 @@
+id: ocd-person/a7f864e3-c290-5359-a4ea-284a443a565c
+name: Joe Baca
+given_name: Joe
+family_name: Baca
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:rialto/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/23c2a276-eb72-5b9b-bbc3-e2769a3b5ad1
+name: Luis Gerardo Cuellar
+given_name: Luis
+family_name: Cuellar
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:lynwood/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

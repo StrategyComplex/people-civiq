@@ -1,0 +1,13 @@
+id: ocd-person/a7812f0c-1f08-58ce-a1f4-395910172b3f
+name: Dr. Jayna Karpinski-Costa
+given_name: Dr.
+family_name: Karpinski-Costa
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:citrus_heights/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

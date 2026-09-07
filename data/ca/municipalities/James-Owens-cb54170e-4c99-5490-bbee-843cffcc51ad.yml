@@ -1,0 +1,13 @@
+id: ocd-person/cb54170e-4c99-5490-bbee-843cffcc51ad
+name: James Owens
+given_name: James
+family_name: Owens
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:maricopa/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/d19d9d57-4848-53d1-9e1a-b835054a51f0
+name: Carlos Franco
+given_name: Carlos
+family_name: Franco
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:buena_park/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

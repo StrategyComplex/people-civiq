@@ -1,0 +1,13 @@
+id: ocd-person/b5283d42-eb72-567a-b176-d813db0c978d
+name: Beth Painter
+given_name: Beth
+family_name: Painter
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:napa/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

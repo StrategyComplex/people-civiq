@@ -1,0 +1,13 @@
+id: ocd-person/592dabfd-e6e0-5ebf-bb83-7eb4c326f610
+name: Janet Braun
+given_name: Janet
+family_name: Braun
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:south_pasadena/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

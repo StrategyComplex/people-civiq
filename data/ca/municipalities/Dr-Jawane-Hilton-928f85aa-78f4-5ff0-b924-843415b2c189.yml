@@ -1,0 +1,14 @@
+id: ocd-person/928f85aa-78f4-5ff0-b924-843415b2c189
+name: Dr. Jawane Hilton
+given_name: Dr.
+family_name: Hilton
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:carson/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

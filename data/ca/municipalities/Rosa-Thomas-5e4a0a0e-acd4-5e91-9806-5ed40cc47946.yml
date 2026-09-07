@@ -1,0 +1,13 @@
+id: ocd-person/5e4a0a0e-acd4-5e91-9806-5ed40cc47946
+name: Rosa Thomas
+given_name: Rosa
+family_name: Thomas
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:corte_madera/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

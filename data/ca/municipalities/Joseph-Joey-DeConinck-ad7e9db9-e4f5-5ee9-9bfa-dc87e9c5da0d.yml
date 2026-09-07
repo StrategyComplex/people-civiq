@@ -1,0 +1,13 @@
+id: ocd-person/ad7e9db9-e4f5-5ee9-9bfa-dc87e9c5da0d
+name: Joseph "Joey" DeConinck
+given_name: Joseph
+family_name: DeConinck
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:blythe/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

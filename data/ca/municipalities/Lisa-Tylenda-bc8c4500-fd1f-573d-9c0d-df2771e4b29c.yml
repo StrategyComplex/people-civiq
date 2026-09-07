@@ -1,0 +1,13 @@
+id: ocd-person/bc8c4500-fd1f-573d-9c0d-df2771e4b29c
+name: Lisa Tylenda
+given_name: Lisa
+family_name: Tylenda
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:calexico/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

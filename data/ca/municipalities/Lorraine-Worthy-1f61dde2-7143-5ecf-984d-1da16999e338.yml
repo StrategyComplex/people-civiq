@@ -1,0 +1,13 @@
+id: ocd-person/1f61dde2-7143-5ecf-984d-1da16999e338
+name: Lorraine Worthy
+given_name: Lorraine
+family_name: Worthy
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:gonzales/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

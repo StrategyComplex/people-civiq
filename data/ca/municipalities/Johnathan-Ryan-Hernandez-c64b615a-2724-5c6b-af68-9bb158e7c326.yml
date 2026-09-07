@@ -1,0 +1,13 @@
+id: ocd-person/c64b615a-2724-5c6b-af68-9bb158e7c326
+name: Johnathan Ryan Hernandez
+given_name: Johnathan
+family_name: Hernandez
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:santa_ana/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

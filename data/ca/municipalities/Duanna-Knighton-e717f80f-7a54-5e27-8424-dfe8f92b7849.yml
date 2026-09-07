@@ -1,0 +1,13 @@
+id: ocd-person/e717f80f-7a54-5e27-8424-dfe8f92b7849
+name: Duanna Knighton
+given_name: Duanna
+family_name: Knighton
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:alturas/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/584646a4-1fe0-5771-9e86-d519d49f61e4
+name: Sylvia Lemus
+given_name: Sylvia
+family_name: Lemus
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:cotati/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/af5c0ad0-d31f-5806-9c80-1a48fdbad0d4
+name: Larry Rodriguez
+given_name: Larry
+family_name: Rodriguez
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:south_el_monte/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

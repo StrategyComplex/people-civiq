@@ -1,0 +1,13 @@
+id: ocd-person/0d8548a7-984b-5e45-84e1-cfb8027013f4
+name: John Heilman
+given_name: John
+family_name: Heilman
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:west_hollywood/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/dbeb6be7-719f-57b2-a81b-c4cf1de08c70
+name: Japjeet S. Uppal
+given_name: Japjeet
+family_name: Uppal
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:livingston/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

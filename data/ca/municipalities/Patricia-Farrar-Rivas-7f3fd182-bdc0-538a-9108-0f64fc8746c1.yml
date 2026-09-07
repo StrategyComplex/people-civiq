@@ -1,0 +1,13 @@
+id: ocd-person/7f3fd182-bdc0-538a-9108-0f64fc8746c1
+name: Patricia Farrar-Rivas
+given_name: Patricia
+family_name: Farrar-Rivas
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:sonoma/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

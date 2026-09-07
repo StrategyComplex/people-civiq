@@ -1,0 +1,13 @@
+id: ocd-person/0f545558-c2db-5134-8092-217f8af16e73
+name: John Chou
+given_name: John
+family_name: Chou
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:san_marino/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

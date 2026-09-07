@@ -1,0 +1,13 @@
+id: ocd-person/a0c5eb30-20d8-5b7a-a3df-5b6b9cc4fe3c
+name: Natalie Meeks
+given_name: Natalie
+family_name: Meeks
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:anaheim/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

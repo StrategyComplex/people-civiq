@@ -1,0 +1,13 @@
+id: ocd-person/97dae9d7-6c5e-5b15-8ede-4e5b07442fda
+name: Tony Barrera
+given_name: Tony
+family_name: Barrera
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:salinas/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

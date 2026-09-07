@@ -1,0 +1,13 @@
+id: ocd-person/43d3193b-7811-546d-83e3-623d81b1c4b8
+name: Oscar Gutierrez
+given_name: Oscar
+family_name: Gutierrez
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:santa_barbara/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

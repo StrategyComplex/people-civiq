@@ -1,0 +1,13 @@
+id: ocd-person/2124f165-c69a-5353-bd47-dd85f53657ba
+name: Steve Crowder
+given_name: Steve
+family_name: Crowder
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:paradise/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

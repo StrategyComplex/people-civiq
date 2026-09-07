@@ -1,0 +1,13 @@
+id: ocd-person/fc05359c-89fd-5934-862c-a0e8977c09a5
+name: Garrett Dwyer
+given_name: Garrett
+family_name: Dwyer
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:aliso_viejo/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/3096b2c2-a9d1-55b1-9eb0-27724e0a22cc
+name: Tom Richins
+given_name: Tom
+family_name: Richins
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:corona/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

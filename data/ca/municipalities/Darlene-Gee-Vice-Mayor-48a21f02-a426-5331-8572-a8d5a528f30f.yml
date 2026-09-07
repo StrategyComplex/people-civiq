@@ -1,0 +1,14 @@
+id: ocd-person/48a21f02-a426-5331-8572-a8d5a528f30f
+name: Darlene Gee, Vice Mayor
+given_name: Darlene
+family_name: Mayor
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:orinda/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

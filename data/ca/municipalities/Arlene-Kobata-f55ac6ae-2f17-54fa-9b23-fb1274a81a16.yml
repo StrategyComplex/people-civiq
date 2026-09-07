@@ -1,0 +1,13 @@
+id: ocd-person/f55ac6ae-2f17-54fa-9b23-fb1274a81a16
+name: Arlene Kobata
+given_name: Arlene
+family_name: Kobata
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:pittsburg/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

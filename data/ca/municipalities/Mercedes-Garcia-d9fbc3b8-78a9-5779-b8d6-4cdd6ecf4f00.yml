@@ -1,0 +1,13 @@
+id: ocd-person/d9fbc3b8-78a9-5779-b8d6-4cdd6ecf4f00
+name: Mercedes Garcia
+given_name: Mercedes
+family_name: Garcia
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:fort_jones/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

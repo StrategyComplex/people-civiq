@@ -1,0 +1,14 @@
+id: ocd-person/f8c82afd-4dd2-555a-85e4-57d440fbc59a
+name: Robert Frackelton
+given_name: Robert
+family_name: Frackelton
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:villa_park/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

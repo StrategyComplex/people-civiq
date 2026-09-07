@@ -1,0 +1,13 @@
+id: ocd-person/dbbf34f6-08c8-5dff-88d3-68f56e9ddf59
+name: Mikey Taylor
+given_name: Mikey
+family_name: Taylor
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:thousand_oaks/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

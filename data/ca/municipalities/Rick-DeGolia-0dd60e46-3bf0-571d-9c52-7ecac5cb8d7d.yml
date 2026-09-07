@@ -1,0 +1,14 @@
+id: ocd-person/0dd60e46-3bf0-571d-9c52-7ecac5cb8d7d
+name: Rick DeGolia
+given_name: Rick
+family_name: DeGolia
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:atherton/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

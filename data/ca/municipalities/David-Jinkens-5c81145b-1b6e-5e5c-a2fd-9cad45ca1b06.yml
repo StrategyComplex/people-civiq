@@ -1,0 +1,13 @@
+id: ocd-person/5c81145b-1b6e-5e5c-a2fd-9cad45ca1b06
+name: David Jinkens
+given_name: David
+family_name: Jinkens
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:south_lake_tahoe/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

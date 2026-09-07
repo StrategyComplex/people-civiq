@@ -1,0 +1,13 @@
+id: ocd-person/f93df879-5b0e-5411-b50a-cc1df9b90d57
+name: Matthew Bryan
+given_name: Matthew
+family_name: Bryan
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:dunsmuir/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

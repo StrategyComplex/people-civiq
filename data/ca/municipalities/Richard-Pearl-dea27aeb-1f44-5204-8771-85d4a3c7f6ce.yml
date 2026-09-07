@@ -1,0 +1,13 @@
+id: ocd-person/dea27aeb-1f44-5204-8771-85d4a3c7f6ce
+name: Richard Pearl
+given_name: Richard
+family_name: Pearl
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:lincoln/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/81207370-88bc-57cd-91f3-a96dca451b5b
+name: Jim Perry
+given_name: Jim
+family_name: Perry
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:riverside/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

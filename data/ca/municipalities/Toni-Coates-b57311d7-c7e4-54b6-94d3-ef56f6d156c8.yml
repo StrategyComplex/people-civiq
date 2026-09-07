@@ -1,0 +1,13 @@
+id: ocd-person/b57311d7-c7e4-54b6-94d3-ef56f6d156c8
+name: Toni Coates
+given_name: Toni
+family_name: Coates
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:shasta_lake/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

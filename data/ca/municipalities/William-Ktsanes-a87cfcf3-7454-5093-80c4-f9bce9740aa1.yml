@@ -1,0 +1,13 @@
+id: ocd-person/a87cfcf3-7454-5093-80c4-f9bce9740aa1
+name: William Ktsanes
+given_name: William
+family_name: Ktsanes
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:el_cerrito/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

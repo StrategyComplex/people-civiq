@@ -1,0 +1,13 @@
+id: ocd-person/675e25a4-accb-5ae9-bee4-b3592e756539
+name: Robin McKee
+given_name: Robin
+family_name: McKee
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:yountville/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

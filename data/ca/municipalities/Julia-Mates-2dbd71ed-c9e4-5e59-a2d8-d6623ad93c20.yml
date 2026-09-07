@@ -1,0 +1,13 @@
+id: ocd-person/2dbd71ed-c9e4-5e59-a2d8-d6623ad93c20
+name: Julia Mates
+given_name: Julia
+family_name: Mates
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:belmont/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

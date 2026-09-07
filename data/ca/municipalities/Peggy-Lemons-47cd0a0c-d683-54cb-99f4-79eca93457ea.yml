@@ -1,0 +1,13 @@
+id: ocd-person/47cd0a0c-d683-54cb-99f4-79eca93457ea
+name: Peggy Lemons
+given_name: Peggy
+family_name: Lemons
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:paramount/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/8738dc70-7a63-57dc-b321-f362efda1a6a
+name: Louis Nannini
+given_name: Louis
+family_name: Nannini
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:nevada_city/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

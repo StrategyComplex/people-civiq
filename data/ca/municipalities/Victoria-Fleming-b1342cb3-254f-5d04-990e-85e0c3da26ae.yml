@@ -1,0 +1,13 @@
+id: ocd-person/b1342cb3-254f-5d04-990e-85e0c3da26ae
+name: Victoria Fleming
+given_name: Victoria
+family_name: Fleming
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:santa_rosa/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

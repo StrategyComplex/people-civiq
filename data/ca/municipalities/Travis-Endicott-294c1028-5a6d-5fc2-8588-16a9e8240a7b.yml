@@ -1,0 +1,13 @@
+id: ocd-person/294c1028-5a6d-5fc2-8588-16a9e8240a7b
+name: Travis Endicott
+given_name: Travis
+family_name: Endicott
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:ridgecrest/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

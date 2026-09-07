@@ -1,0 +1,13 @@
+id: ocd-person/97fcb2fd-1559-55b0-8faa-635b6b2c3e2d
+name: Victor Barrios
+given_name: Victor
+family_name: Barrios
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:stanton/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

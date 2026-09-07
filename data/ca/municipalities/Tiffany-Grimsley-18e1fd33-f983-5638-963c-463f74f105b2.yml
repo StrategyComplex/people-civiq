@@ -1,0 +1,13 @@
+id: ocd-person/18e1fd33-f983-5638-963c-463f74f105b2
+name: Tiffany Grimsley
+given_name: Tiffany
+family_name: Grimsley
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:hercules/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

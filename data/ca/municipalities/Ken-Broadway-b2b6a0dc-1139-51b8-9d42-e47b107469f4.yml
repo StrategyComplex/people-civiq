@@ -1,0 +1,13 @@
+id: ocd-person/b2b6a0dc-1139-51b8-9d42-e47b107469f4
+name: Ken Broadway
+given_name: Ken
+family_name: Broadway
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:rocklin/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

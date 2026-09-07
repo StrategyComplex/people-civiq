@@ -1,0 +1,13 @@
+id: ocd-person/4362de00-7266-5e76-a6a1-6d2116bc6900
+name: John Timmer
+given_name: John
+family_name: Timmer
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:highland/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

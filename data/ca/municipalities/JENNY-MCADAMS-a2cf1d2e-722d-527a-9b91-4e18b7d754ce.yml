@@ -1,0 +1,13 @@
+id: ocd-person/a2cf1d2e-722d-527a-9b91-4e18b7d754ce
+name: JENNY MCADAMS
+given_name: JENNY
+family_name: MCADAMS
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:marina/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

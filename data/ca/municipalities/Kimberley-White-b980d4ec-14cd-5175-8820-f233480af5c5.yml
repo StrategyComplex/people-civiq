@@ -1,0 +1,13 @@
+id: ocd-person/b980d4ec-14cd-5175-8820-f233480af5c5
+name: Kimberley White
+given_name: Kimberley
+family_name: White
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:arcata/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

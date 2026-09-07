@@ -1,0 +1,13 @@
+id: ocd-person/4b288138-4409-59ba-89fa-e851de5da20f
+name: Charlie Klinakis
+given_name: Charlie
+family_name: Klinakis
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:la_puente/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

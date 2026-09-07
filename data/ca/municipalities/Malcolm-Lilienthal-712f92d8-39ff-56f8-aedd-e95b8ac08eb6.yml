@@ -1,0 +1,13 @@
+id: ocd-person/712f92d8-39ff-56f8-aedd-e95b8ac08eb6
+name: Malcolm Lilienthal
+given_name: Malcolm
+family_name: Lilienthal
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:hemet/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

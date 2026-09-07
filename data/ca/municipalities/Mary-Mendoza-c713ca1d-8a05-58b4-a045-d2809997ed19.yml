@@ -1,0 +1,13 @@
+id: ocd-person/c713ca1d-8a05-58b4-a045-d2809997ed19
+name: Mary Mendoza
+given_name: Mary
+family_name: Mendoza
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:san_fernando/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

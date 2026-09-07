@@ -1,0 +1,13 @@
+id: ocd-person/862fe67e-8606-5b6d-8d48-076215b496aa
+name: K. Patrice Williams
+given_name: K.
+family_name: Williams
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:fairfield/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

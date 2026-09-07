@@ -1,0 +1,13 @@
+id: ocd-person/a9afda0e-4d8b-5231-877a-9dbb8ff7a21c
+name: Larry Hillberg
+given_name: Larry
+family_name: Hillberg
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:colfax/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/116beb23-2930-5bb3-a20d-149657e0225d
+name: Rick Cole
+given_name: Rick
+family_name: Cole
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:pasadena/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

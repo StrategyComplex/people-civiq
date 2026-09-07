@@ -1,0 +1,13 @@
+id: ocd-person/ed9d30a5-a3c3-53d6-b30c-34f73b6a020e
+name: Kevin Bash
+given_name: Kevin
+family_name: Bash
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:norco/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

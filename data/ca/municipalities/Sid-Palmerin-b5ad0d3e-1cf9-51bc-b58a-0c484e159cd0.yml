@@ -1,0 +1,13 @@
+id: ocd-person/b5ad0d3e-1cf9-51bc-b58a-0c484e159cd0
+name: Sid Palmerin
+given_name: Sid
+family_name: Palmerin
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:corcoran/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

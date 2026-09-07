@@ -1,0 +1,13 @@
+id: ocd-person/7e9067da-d8ba-5e54-9feb-751201a58011
+name: Casey McKeon
+given_name: Casey
+family_name: McKeon
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:huntington_beach/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

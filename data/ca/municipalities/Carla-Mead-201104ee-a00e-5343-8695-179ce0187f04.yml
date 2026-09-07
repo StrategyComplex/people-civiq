@@ -1,0 +1,14 @@
+id: ocd-person/201104ee-a00e-5343-8695-179ce0187f04
+name: Carla Mead
+given_name: Carla
+family_name: Mead
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:buellton/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

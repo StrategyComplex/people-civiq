@@ -1,0 +1,13 @@
+id: ocd-person/32f4d897-3c95-5179-bca7-0cdaf480de2e
+name: Ana Maria
+given_name: Ana
+family_name: Maria
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:bell/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

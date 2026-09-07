@@ -1,0 +1,13 @@
+id: ocd-person/0009371d-3d6f-5d09-b33c-f8daae3a5613
+name: Jim Cunneen
+given_name: Jim
+family_name: Cunneen
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:fountain_valley/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

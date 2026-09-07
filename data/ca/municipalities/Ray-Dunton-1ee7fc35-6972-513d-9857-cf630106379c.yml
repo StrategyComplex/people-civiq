@@ -1,0 +1,13 @@
+id: ocd-person/1ee7fc35-6972-513d-9857-cf630106379c
+name: Ray Dunton
+given_name: Ray
+family_name: Dunton
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:bellflower/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

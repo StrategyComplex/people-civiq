@@ -1,0 +1,13 @@
+id: ocd-person/28aa2138-0cd9-5e57-890f-0f74724af584
+name: Grace Garner
+given_name: Grace
+family_name: Garner
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:palm_springs/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

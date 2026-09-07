@@ -1,0 +1,13 @@
+id: ocd-person/1c209389-8fb7-574b-830c-1400b6363a3a
+name: Victoria Lozzi
+given_name: Victoria
+family_name: Lozzi
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:palos_verdes_estates/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

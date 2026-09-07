@@ -1,0 +1,13 @@
+id: ocd-person/04aa53a4-7ed4-57e3-a862-ced3ea303c00
+name: Stella
+given_name: Stella
+family_name: ''
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:lafayette/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/ab061795-f5e0-5be3-b994-0f000a293aa1
+name: Walt Stanish
+given_name: Walt
+family_name: Stanish
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:rio_vista/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

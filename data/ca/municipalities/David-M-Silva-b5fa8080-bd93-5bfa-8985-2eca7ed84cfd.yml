@@ -1,0 +1,13 @@
+id: ocd-person/b5fa8080-bd93-5bfa-8985-2eca7ed84cfd
+name: David M. Silva
+given_name: David
+family_name: Silva
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:kingsburg/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

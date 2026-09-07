@@ -1,0 +1,13 @@
+id: ocd-person/7ea2f1ca-9009-5f4d-bcc7-c0099d8f5e5b
+name: Karnig Kazarian
+given_name: Karnig
+family_name: Kazarian
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:fowler/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

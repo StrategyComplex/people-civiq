@@ -1,0 +1,13 @@
+id: ocd-person/20dec152-edcc-53db-924a-808d4fce9a93
+name: Jose L. Rios
+given_name: Jose
+family_name: Rios
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:gonzales/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

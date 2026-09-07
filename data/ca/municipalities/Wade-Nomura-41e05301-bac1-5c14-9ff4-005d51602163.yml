@@ -1,0 +1,13 @@
+id: ocd-person/41e05301-bac1-5c14-9ff4-005d51602163
+name: Wade Nomura
+given_name: Wade
+family_name: Nomura
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:carpinteria/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

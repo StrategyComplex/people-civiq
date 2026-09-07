@@ -1,0 +1,13 @@
+id: ocd-person/c2d60ce8-ce32-5368-8e4d-180a19380f31
+name: Alvaro Preciado
+given_name: Alvaro
+family_name: Preciado
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:avenal/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

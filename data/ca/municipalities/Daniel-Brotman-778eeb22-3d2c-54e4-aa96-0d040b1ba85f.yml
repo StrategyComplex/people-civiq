@@ -6,6 +6,8 @@ roles:
 - type: mayor
   jurisdiction: ocd-jurisdiction/country:us/state:ca/place:glendale/government
   start_date: '2023-04-01'
+  end_date: '2026-09-07'
+  end_reason: superseded per Wikidata refresh
 links:
 - url: https://www.glendaleca.gov/
   note: city website

@@ -1,0 +1,13 @@
+id: ocd-person/69e91b67-11bd-573d-9847-27d2cfdfe652
+name: Alison Hicks
+given_name: Alison
+family_name: Hicks
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:mountain_view/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/da01ac90-4a64-5a4a-9373-5a0300218b08
+name: Ray Bonilla Jr
+given_name: Ray
+family_name: Jr
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:hayward/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

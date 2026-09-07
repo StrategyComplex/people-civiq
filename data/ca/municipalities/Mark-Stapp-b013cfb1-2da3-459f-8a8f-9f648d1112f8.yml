@@ -16,3 +16,8 @@ links:
 sources:
 - url: https://www.srcity.org/Directory.aspx?EID=740
 - url: https://www.srcity.org/1322/City-Council
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

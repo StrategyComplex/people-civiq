@@ -1,0 +1,13 @@
+id: ocd-person/67826158-beb2-5cc9-83b6-dc5d8c0e97d9
+name: Daren Nigsarian
+given_name: Daren
+family_name: Nigsarian
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:la_habra/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

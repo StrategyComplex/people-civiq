@@ -6,6 +6,10 @@ roles:
 - type: mayor
   jurisdiction: ocd-jurisdiction/country:us/state:ca/place:redlands/government
   start_date: '2014-01-01'
+  end_date: '2026-09-07'
+  end_reason: superseded per Wikidata refresh
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:redlands/government
 links:
 - url: http://www.ci.redlands.ca.us
   note: city website
@@ -15,6 +19,8 @@ other_identifiers:
 sources:
 - url: https://www.wikidata.org/wiki/Q115793809
   note: Wikidata head of government (P6)
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
 extras:
-  verified_at: '2026-09-07'
-  verified_by: wikidata
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

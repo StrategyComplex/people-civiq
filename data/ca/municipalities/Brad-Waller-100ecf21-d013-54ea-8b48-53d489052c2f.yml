@@ -1,0 +1,13 @@
+id: ocd-person/100ecf21-d013-54ea-8b48-53d489052c2f
+name: Brad Waller
+given_name: Brad
+family_name: Waller
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:redondo_beach/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

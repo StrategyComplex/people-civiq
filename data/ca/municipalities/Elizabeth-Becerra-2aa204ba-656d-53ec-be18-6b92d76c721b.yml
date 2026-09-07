@@ -1,0 +1,13 @@
+id: ocd-person/2aa204ba-656d-53ec-be18-6b92d76c721b
+name: Elizabeth Becerra
+given_name: Elizabeth
+family_name: Becerra
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:victorville/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

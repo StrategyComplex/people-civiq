@@ -1,0 +1,13 @@
+id: ocd-person/7b8e838d-6504-54d6-835e-1c5ef3e6760c
+name: Rachel Strong Carnahan
+given_name: Rachel
+family_name: Carnahan
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:cypress/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

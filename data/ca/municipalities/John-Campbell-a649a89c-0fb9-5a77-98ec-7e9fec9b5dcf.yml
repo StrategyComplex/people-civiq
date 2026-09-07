@@ -1,0 +1,13 @@
+id: ocd-person/a649a89c-0fb9-5a77-98ec-7e9fec9b5dcf
+name: John Campbell
+given_name: John
+family_name: Campbell
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:san_juan_capistrano/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/ee670f6c-cdde-58fe-bfa3-cd4bab7c8fe7
+name: Neil Layton
+given_name: Neil
+family_name: Layton
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:san_carlos/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

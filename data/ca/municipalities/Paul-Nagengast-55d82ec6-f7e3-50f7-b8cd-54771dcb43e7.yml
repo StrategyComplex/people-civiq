@@ -1,0 +1,13 @@
+id: ocd-person/55d82ec6-f7e3-50f7-b8cd-54771dcb43e7
+name: Paul Nagengast
+given_name: Paul
+family_name: Nagengast
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:half_moon_bay/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

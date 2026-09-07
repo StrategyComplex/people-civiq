@@ -1,0 +1,13 @@
+id: ocd-person/81994e06-6f23-5dfe-b175-165b15ee4c17
+name: Chris Ricci
+given_name: Chris
+family_name: Ricci
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:modesto/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/99495ef8-fe74-5778-9762-f6a38909b84b
+name: Sarah Schaefer
+given_name: Sarah
+family_name: Schaefer
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:arcata/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

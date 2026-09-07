@@ -1,0 +1,13 @@
+id: ocd-person/8b5e4400-3a7f-5205-b748-ec3968175fda
+name: Morgan
+given_name: Morgan
+family_name: ''
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:shasta_lake/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

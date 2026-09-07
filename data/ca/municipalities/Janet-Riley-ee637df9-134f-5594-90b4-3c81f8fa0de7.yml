@@ -1,0 +1,13 @@
+id: ocd-person/ee637df9-134f-5594-90b4-3c81f8fa0de7
+name: Janet Riley
+given_name: Janet
+family_name: Riley
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:orinda/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/9e1dabff-5c91-52a7-983d-86d3ac5df68d
+name: Mary Badame; Matthew Hudes; Rob Rennie
+given_name: Mary
+family_name: Rennie
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:los_gatos/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

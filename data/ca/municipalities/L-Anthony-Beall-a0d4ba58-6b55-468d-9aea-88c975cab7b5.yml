@@ -4,8 +4,7 @@ given_name: L. Anthony
 family_name: Beall
 email: tbeall@cityofrsm.org
 roles:
-- end_date: '2024-11-05'
-  type: mayor
+- type: mayor
   jurisdiction: ocd-jurisdiction/country:us/state:ca/place:rancho_santa_margarita/government
 offices:
 - classification: primary
@@ -13,3 +12,8 @@ offices:
   voice: 949-635-1800 ext. 6310
 sources:
 - url: https://www.cityofrsm.org/Directory.aspx?EID=9
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

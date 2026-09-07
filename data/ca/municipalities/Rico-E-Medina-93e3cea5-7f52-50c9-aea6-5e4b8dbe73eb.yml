@@ -1,0 +1,13 @@
+id: ocd-person/93e3cea5-7f52-50c9-aea6-5e4b8dbe73eb
+name: Rico E. Medina
+given_name: Rico
+family_name: Medina
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:san_bruno/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/09514ff0-25ca-5c9b-9819-1b87f475b9b2
+name: Margaret D'Arrigo
+given_name: Margaret
+family_name: D'Arrigo
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:salinas/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

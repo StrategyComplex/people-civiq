@@ -1,0 +1,14 @@
+id: ocd-person/ff710f72-adf2-5055-b46b-5ab6bfe6c1bf
+name: Michael Pasquale
+given_name: Michael
+family_name: Pasquale
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:yuba_city/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

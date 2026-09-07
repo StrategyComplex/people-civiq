@@ -1,0 +1,13 @@
+id: ocd-person/e3671c26-579c-5b52-b4a8-21e3c3fa0fe2
+name: Thom Bogue
+given_name: Thom
+family_name: Bogue
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:dixon/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

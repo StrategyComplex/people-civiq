@@ -1,0 +1,13 @@
+id: ocd-person/f50fbb99-3fe5-5a2e-8976-0b27f9a43803
+name: Matthew Pagano
+given_name: Matthew
+family_name: Pagano
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:dana_point/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

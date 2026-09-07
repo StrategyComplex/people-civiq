@@ -1,0 +1,13 @@
+id: ocd-person/61af6fbe-19da-56cb-b5fc-740d8c7cbc18
+name: Sarah Chapman
+given_name: Sarah
+family_name: Chapman
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:vacaville/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

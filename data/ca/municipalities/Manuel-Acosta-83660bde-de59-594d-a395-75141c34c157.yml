@@ -1,0 +1,13 @@
+id: ocd-person/83660bde-de59-594d-a395-75141c34c157
+name: Manuel Acosta
+given_name: Manuel
+family_name: Acosta
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:south_el_monte/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

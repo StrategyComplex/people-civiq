@@ -1,0 +1,13 @@
+id: ocd-person/b477c7ec-ffeb-56f1-8578-84af4aa2b9fd
+name: Ara Najarian
+given_name: Ara
+family_name: Najarian
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:glendale/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

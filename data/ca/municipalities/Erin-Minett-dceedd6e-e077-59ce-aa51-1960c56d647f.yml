@@ -1,0 +1,13 @@
+id: ocd-person/dceedd6e-e077-59ce-aa51-1960c56d647f
+name: Erin Minett
+given_name: Erin
+family_name: Minett
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:nevada_city/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

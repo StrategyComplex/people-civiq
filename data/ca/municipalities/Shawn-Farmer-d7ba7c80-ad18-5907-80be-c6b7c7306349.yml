@@ -1,0 +1,13 @@
+id: ocd-person/d7ba7c80-ad18-5907-80be-c6b7c7306349
+name: Shawn Farmer
+given_name: Shawn
+family_name: Farmer
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:galt/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

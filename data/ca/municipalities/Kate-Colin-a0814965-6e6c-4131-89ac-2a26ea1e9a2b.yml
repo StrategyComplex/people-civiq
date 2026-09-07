@@ -4,8 +4,7 @@ given_name: Kate
 family_name: Colin
 email: kate.colin@cityofsanrafael.org
 roles:
-- end_date: '2024-11-04'
-  type: mayor
+- type: mayor
   jurisdiction: ocd-jurisdiction/country:us/state:ca/place:san_rafael/government
 offices:
 - classification: primary
@@ -13,3 +12,8 @@ offices:
   voice: 415-485-3005
 sources:
 - url: https://www.cityofsanrafael.org/contacts/mayor-kate-colin/
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

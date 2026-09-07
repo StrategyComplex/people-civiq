@@ -1,0 +1,13 @@
+id: ocd-person/94685fe9-fac2-5c02-956e-e4d2e4cdccf5
+name: Frank Quint
+given_name: Frank
+family_name: Quint
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:petaluma/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

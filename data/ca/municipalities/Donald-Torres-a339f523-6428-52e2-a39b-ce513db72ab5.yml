@@ -1,0 +1,13 @@
+id: ocd-person/a339f523-6428-52e2-a39b-ce513db72ab5
+name: Donald Torres
+given_name: Donald
+family_name: Torres
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:stanton/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

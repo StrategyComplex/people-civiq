@@ -1,0 +1,13 @@
+id: ocd-person/95764f4c-a87d-5979-9da2-8bcc5e43f2d6
+name: Abel Arroyo
+given_name: Abel
+family_name: Arroyo
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:coalinga/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

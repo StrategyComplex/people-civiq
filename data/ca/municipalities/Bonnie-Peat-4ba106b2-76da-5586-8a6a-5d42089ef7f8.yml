@@ -1,0 +1,13 @@
+id: ocd-person/4ba106b2-76da-5586-8a6a-5d42089ef7f8
+name: Bonnie Peat
+given_name: Bonnie
+family_name: Peat
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:cypress/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

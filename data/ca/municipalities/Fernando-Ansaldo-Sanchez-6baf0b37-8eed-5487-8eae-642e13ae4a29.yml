@@ -1,0 +1,13 @@
+id: ocd-person/6baf0b37-8eed-5487-8eae-642e13ae4a29
+name: Fernando Ansaldo-Sanchez
+given_name: Fernando
+family_name: Ansaldo-Sanchez
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:soledad/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/3cf1d954-aefd-57a2-bf42-f7c2c7db5fdc
+name: Ariston Julian
+given_name: Ariston
+family_name: Julian
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:guadalupe/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

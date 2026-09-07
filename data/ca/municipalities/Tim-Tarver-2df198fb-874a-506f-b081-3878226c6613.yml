@@ -1,0 +1,13 @@
+id: ocd-person/2df198fb-874a-506f-b081-3878226c6613
+name: Tim Tarver
+given_name: Tim
+family_name: Tarver
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:arvin/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

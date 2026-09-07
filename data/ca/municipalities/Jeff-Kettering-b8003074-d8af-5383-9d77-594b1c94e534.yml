@@ -1,0 +1,13 @@
+id: ocd-person/b8003074-d8af-5383-9d77-594b1c94e534
+name: Jeff Kettering
+given_name: Jeff
+family_name: Kettering
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:oakdale/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

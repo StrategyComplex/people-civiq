@@ -1,0 +1,13 @@
+id: ocd-person/77006988-16ab-5fd2-8fd0-df3197d8e72a
+name: Drew Combs
+given_name: Drew
+family_name: Combs
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:menlo_park/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/523c4d07-947d-5ffd-9dc2-1339a4c70ea6
+name: Scott Voigts
+given_name: Scott
+family_name: Voigts
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:lake_forest/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

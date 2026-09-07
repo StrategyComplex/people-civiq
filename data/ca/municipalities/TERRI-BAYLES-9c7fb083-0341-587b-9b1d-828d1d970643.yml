@@ -1,0 +1,13 @@
+id: ocd-person/9c7fb083-0341-587b-9b1d-828d1d970643
+name: TERRI BAYLES
+given_name: TERRI
+family_name: BAYLES
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:blue_lake/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

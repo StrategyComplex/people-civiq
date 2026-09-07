@@ -1,0 +1,13 @@
+id: ocd-person/d3acf98d-5748-5bbd-98b2-c8009deb8a10
+name: Marcella Padilla
+given_name: Marcella
+family_name: Padilla
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:redwood_city/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

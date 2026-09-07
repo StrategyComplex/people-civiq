@@ -1,0 +1,13 @@
+id: ocd-person/08348af2-836e-555d-83a8-e7bcdef3eb30
+name: Juan Muñoz-Guevara
+given_name: Juan
+family_name: Muñoz-Guevara
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:lynwood/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

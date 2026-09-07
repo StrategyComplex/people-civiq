@@ -1,0 +1,13 @@
+id: ocd-person/45df3fe8-0a43-5a94-99b8-e4372ece8347
+name: Miguel Arias
+given_name: Miguel
+family_name: Arias
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:fresno/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

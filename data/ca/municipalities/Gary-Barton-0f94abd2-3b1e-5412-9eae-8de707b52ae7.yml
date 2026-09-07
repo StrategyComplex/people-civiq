@@ -1,0 +1,13 @@
+id: ocd-person/0f94abd2-3b1e-5412-9eae-8de707b52ae7
+name: Gary Barton
+given_name: Gary
+family_name: Barton
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:ripon/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

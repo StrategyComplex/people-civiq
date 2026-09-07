@@ -1,0 +1,13 @@
+id: ocd-person/e4a4c37d-df0a-59e3-949c-c9a69a100e67
+name: Glenn Grandis
+given_name: Glenn
+family_name: Grandis
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:fountain_valley/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

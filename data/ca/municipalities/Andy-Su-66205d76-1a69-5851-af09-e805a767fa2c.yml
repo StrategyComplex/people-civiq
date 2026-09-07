@@ -1,0 +1,13 @@
+id: ocd-person/66205d76-1a69-5851-af09-e805a767fa2c
+name: Andy Su
+given_name: Andy
+family_name: Su
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:mountain_house/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

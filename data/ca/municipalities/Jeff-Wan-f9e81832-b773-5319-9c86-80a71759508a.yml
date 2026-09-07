@@ -1,0 +1,13 @@
+id: ocd-person/f9e81832-b773-5319-9c86-80a71759508a
+name: Jeff Wan
+given_name: Jeff
+family_name: Wan
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:clayton/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

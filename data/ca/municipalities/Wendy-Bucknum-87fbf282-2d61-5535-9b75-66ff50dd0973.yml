@@ -1,0 +1,13 @@
+id: ocd-person/87fbf282-2d61-5535-9b75-66ff50dd0973
+name: Wendy Bucknum
+given_name: Wendy
+family_name: Bucknum
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:mission_viejo/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

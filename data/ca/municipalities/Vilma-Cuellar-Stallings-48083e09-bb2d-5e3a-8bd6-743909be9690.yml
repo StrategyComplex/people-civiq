@@ -1,0 +1,14 @@
+id: ocd-person/48083e09-bb2d-5e3a-8bd6-743909be9690
+name: Vilma Cuellar Stallings
+given_name: Vilma
+family_name: Stallings
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:paramount/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

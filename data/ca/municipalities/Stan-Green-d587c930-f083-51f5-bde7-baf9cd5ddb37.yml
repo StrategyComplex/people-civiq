@@ -1,0 +1,13 @@
+id: ocd-person/d587c930-f083-51f5-bde7-baf9cd5ddb37
+name: Stan Green
+given_name: Stan
+family_name: Green
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:porterville/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

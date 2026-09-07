@@ -1,0 +1,13 @@
+id: ocd-person/c2647d26-8fd8-5378-b981-1a6ec8b6cf12
+name: Richard Adler
+given_name: Richard
+family_name: Adler
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:san_ramon/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

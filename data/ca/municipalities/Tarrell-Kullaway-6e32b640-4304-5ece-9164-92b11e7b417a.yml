@@ -1,0 +1,13 @@
+id: ocd-person/6e32b640-4304-5ece-9164-92b11e7b417a
+name: Tarrell Kullaway
+given_name: Tarrell
+family_name: Kullaway
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:san_anselmo/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

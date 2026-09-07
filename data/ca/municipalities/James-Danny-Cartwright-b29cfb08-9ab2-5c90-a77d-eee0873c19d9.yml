@@ -1,0 +1,14 @@
+id: ocd-person/b29cfb08-9ab2-5c90-a77d-eee0873c19d9
+name: James "Danny" Cartwright
+given_name: James
+family_name: Cartwright
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:loomis/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

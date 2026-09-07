@@ -1,0 +1,13 @@
+id: ocd-person/12aeee3d-bc25-59ea-84a2-773831b510e9
+name: ; Terry Hines
+given_name: ;
+family_name: Hines
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:campbell/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

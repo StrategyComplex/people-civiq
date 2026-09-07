@@ -1,0 +1,13 @@
+id: ocd-person/a550c300-4400-56f6-bf3a-fe2a8fc1f0fe
+name: Mike Carroll
+given_name: Mike
+family_name: Carroll
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:irvine/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

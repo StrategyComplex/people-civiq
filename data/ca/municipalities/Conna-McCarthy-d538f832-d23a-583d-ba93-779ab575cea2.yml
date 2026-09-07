@@ -1,0 +1,14 @@
+id: ocd-person/d538f832-d23a-583d-ba93-779ab575cea2
+name: Conna McCarthy
+given_name: Conna
+family_name: McCarthy
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:piedmont/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

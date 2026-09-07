@@ -1,0 +1,13 @@
+id: ocd-person/33637266-fcd7-54d5-8c1d-2c08b2d1c46a
+name: Newell Ruggles
+given_name: Newell
+family_name: Ruggles
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:industry/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

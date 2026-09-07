@@ -1,0 +1,13 @@
+id: ocd-person/638d04de-05f0-5136-943a-d8ce8a49890e
+name: Susana Vasquez
+given_name: Susana
+family_name: Vasquez
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:hughson/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

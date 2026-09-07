@@ -1,0 +1,13 @@
+id: ocd-person/c1ca6472-d413-53e6-803c-61cfb27421dd
+name: Xavier Mendez
+given_name: Xavier
+family_name: Mendez
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:montclair/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/7914ff3c-b80b-5243-8b70-a415f2456615
+name: Gina Latimerlo
+given_name: Gina
+family_name: Latimerlo
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:belmont/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

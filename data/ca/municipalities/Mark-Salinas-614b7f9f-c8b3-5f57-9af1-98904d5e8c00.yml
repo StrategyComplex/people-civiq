@@ -1,0 +1,13 @@
+id: ocd-person/614b7f9f-c8b3-5f57-9af1-98904d5e8c00
+name: Mark Salinas
+given_name: Mark
+family_name: Salinas
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:hayward/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

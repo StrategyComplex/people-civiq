@@ -1,0 +1,13 @@
+id: ocd-person/b370b36c-9e5e-5543-8e76-d6940fccbe97
+name: Tom Hamilton
+given_name: Tom
+family_name: Hamilton
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:san_bruno/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

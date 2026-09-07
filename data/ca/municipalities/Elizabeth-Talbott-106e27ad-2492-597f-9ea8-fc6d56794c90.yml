@@ -1,0 +1,13 @@
+id: ocd-person/106e27ad-2492-597f-9ea8-fc6d56794c90
+name: Elizabeth Talbott
+given_name: Elizabeth
+family_name: Talbott
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:waterford/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

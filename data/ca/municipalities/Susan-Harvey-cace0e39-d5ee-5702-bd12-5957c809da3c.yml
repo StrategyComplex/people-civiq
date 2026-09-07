@@ -1,0 +1,14 @@
+id: ocd-person/cace0e39-d5ee-5702-bd12-5957c809da3c
+name: Susan Harvey
+given_name: Susan
+family_name: Harvey
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:cotati/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

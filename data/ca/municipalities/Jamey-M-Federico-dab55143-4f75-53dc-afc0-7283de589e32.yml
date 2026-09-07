@@ -1,0 +1,13 @@
+id: ocd-person/dab55143-4f75-53dc-afc0-7283de589e32
+name: Jamey M. Federico
+given_name: Jamey
+family_name: Federico
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:dana_point/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

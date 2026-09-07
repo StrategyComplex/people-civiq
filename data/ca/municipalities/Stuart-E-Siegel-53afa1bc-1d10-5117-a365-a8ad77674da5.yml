@@ -1,0 +1,14 @@
+id: ocd-person/53afa1bc-1d10-5117-a365-a8ad77674da5
+name: Stuart E. Siegel
+given_name: Stuart
+family_name: Siegel
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:hidden_hills/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

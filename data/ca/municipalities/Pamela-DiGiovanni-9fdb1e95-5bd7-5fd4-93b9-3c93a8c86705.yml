@@ -1,0 +1,13 @@
+id: ocd-person/9fdb1e95-5bd7-5fd4-93b9-3c93a8c86705
+name: Pamela DiGiovanni
+given_name: Pamela
+family_name: DiGiovanni
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:daly_city/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

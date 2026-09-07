@@ -1,0 +1,14 @@
+id: ocd-person/7a3c3bb3-48a9-53ec-b512-109b554f19d8
+name: Dr. Paul Dhanuka;
+given_name: Dr.
+family_name: Dhanuka;
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:redding/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

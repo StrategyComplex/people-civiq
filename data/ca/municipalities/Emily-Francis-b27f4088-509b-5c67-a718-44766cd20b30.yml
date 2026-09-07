@@ -1,0 +1,14 @@
+id: ocd-person/b27f4088-509b-5c67-a718-44766cd20b30
+name: Emily Francis
+given_name: Emily
+family_name: Francis
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:san_luis_obispo/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,14 @@
+id: ocd-person/b1e8c7e7-640b-5d3b-8097-32b93a5d73d2
+name: David Kent
+given_name: David
+family_name: Kent
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:isleton/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

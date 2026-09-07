@@ -1,0 +1,13 @@
+id: ocd-person/adfe3c4f-e11f-5d2a-a706-026bd83a0aa0
+name: Richard Loa
+given_name: Richard
+family_name: Loa
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:palmdale/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

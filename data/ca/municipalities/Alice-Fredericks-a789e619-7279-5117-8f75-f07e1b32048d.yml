@@ -1,0 +1,13 @@
+id: ocd-person/a789e619-7279-5117-8f75-f07e1b32048d
+name: Alice Fredericks
+given_name: Alice
+family_name: Fredericks
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:tiburon/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

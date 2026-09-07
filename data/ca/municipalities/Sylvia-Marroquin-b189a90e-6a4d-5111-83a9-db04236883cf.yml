@@ -1,0 +1,13 @@
+id: ocd-person/b189a90e-6a4d-5111-83a9-db04236883cf
+name: Sylvia Marroquin
+given_name: Sylvia
+family_name: Marroquin
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:el_centro/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

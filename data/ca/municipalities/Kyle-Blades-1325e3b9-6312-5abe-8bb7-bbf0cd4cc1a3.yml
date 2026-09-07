@@ -1,0 +1,13 @@
+id: ocd-person/1325e3b9-6312-5abe-8bb7-bbf0cd4cc1a3
+name: Kyle Blades
+given_name: Kyle
+family_name: Blades
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:ridgecrest/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

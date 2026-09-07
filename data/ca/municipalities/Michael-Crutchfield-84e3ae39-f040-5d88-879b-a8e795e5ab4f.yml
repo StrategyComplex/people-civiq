@@ -1,0 +1,13 @@
+id: ocd-person/84e3ae39-f040-5d88-879b-a8e795e5ab4f
+name: Michael Crutchfield
+given_name: Michael
+family_name: Crutchfield
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:reedley/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

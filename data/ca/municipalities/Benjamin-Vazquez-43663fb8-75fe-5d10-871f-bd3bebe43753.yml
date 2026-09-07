@@ -1,0 +1,13 @@
+id: ocd-person/43663fb8-75fe-5d10-871f-bd3bebe43753
+name: Benjamin Vazquez
+given_name: Benjamin
+family_name: Vazquez
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:santa_ana/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

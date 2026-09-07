@@ -1,0 +1,13 @@
+id: ocd-person/cb9db094-30bc-5bd1-99bb-f04b9c2c3e15
+name: Chris Pimentel
+given_name: Chris
+family_name: Pimentel
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:el_segundo/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

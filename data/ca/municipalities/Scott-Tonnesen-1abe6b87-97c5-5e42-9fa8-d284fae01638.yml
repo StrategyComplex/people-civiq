@@ -1,0 +1,13 @@
+id: ocd-person/1abe6b87-97c5-5e42-9fa8-d284fae01638
+name: Scott Tonnesen
+given_name: Scott
+family_name: Tonnesen
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:fairfield/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

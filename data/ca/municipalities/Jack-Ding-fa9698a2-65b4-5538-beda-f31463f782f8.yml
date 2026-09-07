@@ -1,0 +1,13 @@
+id: ocd-person/fa9698a2-65b4-5538-beda-f31463f782f8
+name: Jack Ding
+given_name: Jack
+family_name: Ding
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:sonoma/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

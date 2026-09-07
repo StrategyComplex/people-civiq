@@ -1,0 +1,13 @@
+id: ocd-person/581733f5-bfad-5a5d-b17a-d395cbd18093
+name: Anita Wilks
+given_name: Anita
+family_name: Wilks
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:biggs/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

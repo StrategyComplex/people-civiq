@@ -1,0 +1,13 @@
+id: ocd-person/fe958032-5306-56cd-8db6-c0eb6be22c4e
+name: Corrine Mora
+given_name: Corrine
+family_name: Mora
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:victorville/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

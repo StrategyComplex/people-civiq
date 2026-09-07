@@ -1,0 +1,13 @@
+id: ocd-person/2ee670a9-d8d0-553e-b9c1-01ac3d2ee14c
+name: Susan Santangelo
+given_name: Susan
+family_name: Santangelo
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:camarillo/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

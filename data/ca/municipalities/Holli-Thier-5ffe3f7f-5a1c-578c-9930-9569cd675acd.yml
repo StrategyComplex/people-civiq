@@ -1,0 +1,13 @@
+id: ocd-person/5ffe3f7f-5a1c-578c-9930-9569cd675acd
+name: Holli Thier
+given_name: Holli
+family_name: Thier
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:tiburon/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

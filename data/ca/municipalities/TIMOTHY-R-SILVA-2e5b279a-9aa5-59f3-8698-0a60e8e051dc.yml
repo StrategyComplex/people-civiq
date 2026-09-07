@@ -1,0 +1,13 @@
+id: ocd-person/2e5b279a-9aa5-59f3-8698-0a60e8e051dc
+name: TIMOTHY R. SILVA
+given_name: TIMOTHY
+family_name: SILVA
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:barstow/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/e97811c1-5704-537b-8c84-4702c885ae8a
+name: Karen Hardy
+given_name: Karen
+family_name: Hardy
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:santa_clara/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

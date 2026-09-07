@@ -1,0 +1,13 @@
+id: ocd-person/b9a81115-d202-573d-892d-96c148143955
+name: Zhen Wu
+given_name: Zhen
+family_name: Wu
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:san_clemente/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

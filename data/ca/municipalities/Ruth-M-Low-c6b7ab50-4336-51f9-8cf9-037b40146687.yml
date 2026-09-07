@@ -1,0 +1,14 @@
+id: ocd-person/c6b7ab50-4336-51f9-8cf9-037b40146687
+name: Ruth M. Low
+given_name: Ruth
+family_name: Low
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:diamond_bar/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

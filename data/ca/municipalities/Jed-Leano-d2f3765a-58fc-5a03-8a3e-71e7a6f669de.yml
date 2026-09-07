@@ -1,0 +1,13 @@
+id: ocd-person/d2f3765a-58fc-5a03-8a3e-71e7a6f669de
+name: Jed Leano
+given_name: Jed
+family_name: Leano
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:claremont/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

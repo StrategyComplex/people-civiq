@@ -1,0 +1,13 @@
+id: ocd-person/adee54ad-ff94-5cb9-8655-70374246217e
+name: Refugio Llamas
+given_name: Refugio
+family_name: Llamas
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:los_banos/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

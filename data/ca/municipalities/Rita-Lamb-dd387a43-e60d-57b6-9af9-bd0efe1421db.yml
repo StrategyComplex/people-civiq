@@ -1,0 +1,13 @@
+id: ocd-person/dd387a43-e60d-57b6-9af9-bd0efe1421db
+name: Rita Lamb
+given_name: Rita
+family_name: Lamb
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:cathedral_city/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

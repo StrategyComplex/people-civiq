@@ -1,0 +1,14 @@
+id: ocd-person/3be7774b-ec72-5df8-9e78-a4b32c7ad3b5
+name: Jesse Zwick
+given_name: Jesse
+family_name: Zwick
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:santa_monica/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

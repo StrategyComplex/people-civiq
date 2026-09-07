@@ -1,0 +1,13 @@
+id: ocd-person/0170cc93-5c2c-5eb6-bf89-d84a061d59bb
+name: Abel Lua
+given_name: Abel
+family_name: Lua
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:san_joaquin/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

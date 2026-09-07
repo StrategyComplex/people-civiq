@@ -1,0 +1,13 @@
+id: ocd-person/5e947c7f-d4eb-52c0-adf7-4e5a9f7bdf99
+name: Angie Reyes English
+given_name: Angie
+family_name: English
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:hawthorne/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

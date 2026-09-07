@@ -1,0 +1,13 @@
+id: ocd-person/d81aceb9-9096-5ced-a20f-89556258ccc7
+name: Sara J.
+given_name: Sara
+family_name: J.
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:newport_beach/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

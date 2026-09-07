@@ -1,0 +1,13 @@
+id: ocd-person/2cf706cd-7253-522b-bf8d-c1a5792810c3
+name: Barry Snell
+given_name: Barry
+family_name: Snell
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:santa_monica/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

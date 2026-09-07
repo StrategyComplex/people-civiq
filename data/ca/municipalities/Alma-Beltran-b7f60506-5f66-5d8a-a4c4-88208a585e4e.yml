@@ -1,0 +1,13 @@
+id: ocd-person/b7f60506-5f66-5d8a-a4c4-88208a585e4e
+name: Alma Beltran
+given_name: Alma
+family_name: Beltran
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:parlier/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

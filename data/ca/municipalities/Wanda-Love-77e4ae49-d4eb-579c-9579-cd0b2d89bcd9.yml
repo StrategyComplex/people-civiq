@@ -1,0 +1,13 @@
+id: ocd-person/77e4ae49-d4eb-579c-9579-cd0b2d89bcd9
+name: Wanda Love
+given_name: Wanda
+family_name: Love
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:gardena/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/95e2ed65-60f1-5ea3-b28c-dcf770ea0fd1
+name: Patricia Matthews
+given_name: Patricia
+family_name: Matthews
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:lemoore/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

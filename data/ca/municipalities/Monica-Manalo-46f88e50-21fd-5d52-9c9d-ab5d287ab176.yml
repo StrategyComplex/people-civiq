@@ -1,0 +1,13 @@
+id: ocd-person/46f88e50-21fd-5d52-9c9d-ab5d287ab176
+name: Monica Manalo
+given_name: Monica
+family_name: Manalo
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:artesia/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

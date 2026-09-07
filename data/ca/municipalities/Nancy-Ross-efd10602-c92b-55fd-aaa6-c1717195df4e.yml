@@ -1,0 +1,13 @@
+id: ocd-person/efd10602-c92b-55fd-aaa6-c1717195df4e
+name: Nancy Ross
+given_name: Nancy
+family_name: Ross
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:cathedral_city/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

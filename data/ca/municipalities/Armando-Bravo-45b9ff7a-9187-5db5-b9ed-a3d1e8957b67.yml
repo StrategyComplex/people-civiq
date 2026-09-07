@@ -1,0 +1,13 @@
+id: ocd-person/45b9ff7a-9187-5db5-b9ed-a3d1e8957b67
+name: Armando Bravo
+given_name: Armando
+family_name: Bravo
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:dos_palos/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

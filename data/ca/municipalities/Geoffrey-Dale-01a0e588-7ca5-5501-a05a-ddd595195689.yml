@@ -5,6 +5,8 @@ family_name: Dale
 roles:
 - type: mayor
   jurisdiction: ocd-jurisdiction/country:us/state:ca/place:imperial/government
+  end_date: '2026-09-07'
+  end_reason: superseded per Wikidata refresh
 links:
 - url: http://www.imperial.ca.gov
   note: city website

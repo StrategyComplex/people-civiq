@@ -1,0 +1,14 @@
+id: ocd-person/0f1cd1e8-ae89-5471-bbb1-5ab5f336b344
+name: Jeff Okrepkie
+given_name: Jeff
+family_name: Okrepkie
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:santa_rosa/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

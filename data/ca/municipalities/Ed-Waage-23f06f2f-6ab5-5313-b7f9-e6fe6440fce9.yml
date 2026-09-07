@@ -1,0 +1,13 @@
+id: ocd-person/23f06f2f-6ab5-5313-b7f9-e6fe6440fce9
+name: Ed Waage
+given_name: Ed
+family_name: Waage
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:pismo_beach/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/de4432a5-08f1-512f-a2dd-59b0e2ba70f9
+name: Charles Palmares
+given_name: Charles
+family_name: Palmares
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:vallejo/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

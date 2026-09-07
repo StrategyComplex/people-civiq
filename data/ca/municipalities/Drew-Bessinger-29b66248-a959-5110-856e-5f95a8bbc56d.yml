@@ -1,0 +1,13 @@
+id: ocd-person/29b66248-a959-5110-856e-5f95a8bbc56d
+name: Drew Bessinger
+given_name: Drew
+family_name: Bessinger
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:clovis/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/706f15da-f2fd-5f78-a871-044309e75116
+name: Hwang
+given_name: Hwang
+family_name: ''
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:loma_linda/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

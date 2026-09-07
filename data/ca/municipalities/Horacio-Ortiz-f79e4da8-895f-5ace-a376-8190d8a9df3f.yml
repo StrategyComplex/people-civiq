@@ -1,0 +1,13 @@
+id: ocd-person/f79e4da8-895f-5ace-a376-8190d8a9df3f
+name: Horacio Ortiz
+given_name: Horacio
+family_name: Ortiz
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:downey/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

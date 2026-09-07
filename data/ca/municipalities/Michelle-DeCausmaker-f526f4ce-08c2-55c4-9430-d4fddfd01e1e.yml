@@ -1,0 +1,14 @@
+id: ocd-person/f526f4ce-08c2-55c4-9430-d4fddfd01e1e
+name: Michelle DeCausmaker
+given_name: Michelle
+family_name: DeCausmaker
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:fort_jones/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

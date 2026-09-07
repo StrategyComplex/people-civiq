@@ -1,0 +1,13 @@
+id: ocd-person/6c4ebc6e-48c1-505b-82a4-7329c194e5e7
+name: Patricia Nolen
+given_name: Patricia
+family_name: Nolen
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:corcoran/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

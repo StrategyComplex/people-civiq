@@ -1,0 +1,13 @@
+id: ocd-person/4bdffbd2-3f68-56e1-af12-b81ec984172e
+name: Mark Addiego
+given_name: Mark
+family_name: Addiego
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:south_san_francisco/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

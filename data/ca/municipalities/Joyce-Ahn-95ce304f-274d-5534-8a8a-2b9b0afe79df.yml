@@ -1,0 +1,13 @@
+id: ocd-person/95ce304f-274d-5534-8a8a-2b9b0afe79df
+name: Joyce Ahn
+given_name: Joyce
+family_name: Ahn
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:buena_park/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

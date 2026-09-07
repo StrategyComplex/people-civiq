@@ -1,0 +1,13 @@
+id: ocd-person/268fc800-21b0-57f1-8f3e-423b2c1be321
+name: Brandon Hubbard
+given_name: Brandon
+family_name: Hubbard
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:dunsmuir/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

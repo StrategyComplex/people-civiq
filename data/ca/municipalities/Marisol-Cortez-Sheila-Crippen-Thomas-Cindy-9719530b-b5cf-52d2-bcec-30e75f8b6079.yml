@@ -1,0 +1,13 @@
+id: ocd-person/9719530b-b5cf-52d2-bcec-30e75f8b6079
+name: Marisol Cortez; Sheila Crippen-Thomas; Cindy
+given_name: Marisol
+family_name: Cindy
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:el_monte/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

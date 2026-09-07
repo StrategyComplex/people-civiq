@@ -1,0 +1,13 @@
+id: ocd-person/2d17f814-1536-587e-a231-cdd0b5a57b63
+name: Nikki Perez
+given_name: Nikki
+family_name: Perez
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:burbank/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

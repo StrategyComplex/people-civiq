@@ -1,0 +1,13 @@
+id: ocd-person/13ee0e1c-4b43-5823-bb11-4da3f8222748
+name: Robin Pang-Maganaris
+given_name: Robin
+family_name: Pang-Maganaris
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:belmont/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

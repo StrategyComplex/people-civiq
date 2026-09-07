@@ -1,0 +1,13 @@
+id: ocd-person/57857741-f295-55dc-a1e0-440bb495ba64
+name: Ryan A. Vienna Councilmember
+given_name: Ryan
+family_name: Councilmember
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:san_dimas/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

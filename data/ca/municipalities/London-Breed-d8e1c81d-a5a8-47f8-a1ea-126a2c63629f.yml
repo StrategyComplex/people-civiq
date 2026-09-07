@@ -4,8 +4,7 @@ given_name: London
 family_name: Breed
 email: MayorLondonBreed@sfgov.org
 roles:
-- end_date: '2025-01-08'
-  type: mayor
+- type: mayor
   jurisdiction: ocd-jurisdiction/country:us/state:ca/place:san_francisco/government
 offices:
 - classification: primary
@@ -17,3 +16,8 @@ links:
 - url: https://sfmayor.org/contact-mayor-london-breed
 sources:
 - url: https://sfmayor.org/contact-mayor-london-breed
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

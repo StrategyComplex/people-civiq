@@ -1,0 +1,13 @@
+id: ocd-person/0464bd77-93f3-5c1c-9d38-fdf592ae28c2
+name: Linda Molina
+given_name: Linda
+family_name: Molina
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:calimesa/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

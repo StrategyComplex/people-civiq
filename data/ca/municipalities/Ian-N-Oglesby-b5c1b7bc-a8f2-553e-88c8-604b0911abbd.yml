@@ -1,0 +1,13 @@
+id: ocd-person/b5c1b7bc-a8f2-553e-88c8-604b0911abbd
+name: Ian N. Oglesby
+given_name: Ian
+family_name: Oglesby
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:seaside/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

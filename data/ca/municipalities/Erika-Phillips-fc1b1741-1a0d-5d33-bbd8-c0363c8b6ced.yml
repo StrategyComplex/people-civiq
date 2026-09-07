@@ -1,0 +1,13 @@
+id: ocd-person/fc1b1741-1a0d-5d33-bbd8-c0363c8b6ced
+name: Erika Phillips
+given_name: Erika
+family_name: Phillips
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:turlock/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

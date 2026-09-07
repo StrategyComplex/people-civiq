@@ -1,0 +1,13 @@
+id: ocd-person/efccb18d-31a8-53e7-a978-146e296a62db
+name: Hillary Ronen
+given_name: Hillary
+family_name: Ronen
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:san_francisco/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,14 @@
+id: ocd-person/28c7b6c7-c32e-54ed-8775-5505cdc1287a
+name: Jennifer Hansen-Romero
+given_name: Jennifer
+family_name: Hansen-Romero
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:albany/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

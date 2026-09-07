@@ -1,0 +1,13 @@
+id: ocd-person/847d9390-895c-55e4-9979-0d0d00d30e65
+name: Sharon Kwan
+given_name: Sharon
+family_name: Kwan
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:arcadia/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

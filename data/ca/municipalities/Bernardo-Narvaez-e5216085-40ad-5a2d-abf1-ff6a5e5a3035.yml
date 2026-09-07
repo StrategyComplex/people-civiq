@@ -1,0 +1,13 @@
+id: ocd-person/e5216085-40ad-5a2d-abf1-ff6a5e5a3035
+name: Bernardo Narvaez
+given_name: Bernardo
+family_name: Narvaez
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:napa/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

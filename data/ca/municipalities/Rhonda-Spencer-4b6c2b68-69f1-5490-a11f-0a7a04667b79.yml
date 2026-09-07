@@ -1,0 +1,13 @@
+id: ocd-person/4b6c2b68-69f1-5490-a11f-0a7a04667b79
+name: Rhonda Spencer-
+given_name: Rhonda
+family_name: Spencer-
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:loma_linda/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,14 @@
+id: ocd-person/bf40374e-4495-5aa3-a0b1-313d7f166ee5
+name: Jean Josey
+given_name: Jean
+family_name: Josey
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:dublin/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

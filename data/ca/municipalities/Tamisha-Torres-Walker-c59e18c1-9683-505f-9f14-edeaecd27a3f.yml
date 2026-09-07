@@ -1,0 +1,13 @@
+id: ocd-person/c59e18c1-9683-505f-9f14-edeaecd27a3f
+name: Tamisha Torres-Walker
+given_name: Tamisha
+family_name: Torres-Walker
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:antioch/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

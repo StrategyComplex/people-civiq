@@ -1,0 +1,13 @@
+id: ocd-person/11efd868-27a3-5601-96e0-dbb30b20496b
+name: Maria Cristina Covarrubia
+given_name: Maria
+family_name: Covarrubia
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:san_joaquin/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

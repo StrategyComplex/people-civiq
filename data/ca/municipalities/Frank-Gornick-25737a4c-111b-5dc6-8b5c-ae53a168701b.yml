@@ -1,0 +1,14 @@
+id: ocd-person/25737a4c-111b-5dc6-8b5c-ae53a168701b
+name: Frank Gornick
+given_name: Frank
+family_name: Gornick
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:lemoore/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

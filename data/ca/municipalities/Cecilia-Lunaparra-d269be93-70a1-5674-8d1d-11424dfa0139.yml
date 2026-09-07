@@ -1,0 +1,13 @@
+id: ocd-person/d269be93-70a1-5674-8d1d-11424dfa0139
+name: Cecilia Lunaparra
+given_name: Cecilia
+family_name: Lunaparra
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:berkeley/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

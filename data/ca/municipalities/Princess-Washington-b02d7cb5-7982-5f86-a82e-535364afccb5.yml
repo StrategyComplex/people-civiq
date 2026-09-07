@@ -1,0 +1,13 @@
+id: ocd-person/b02d7cb5-7982-5f86-a82e-535364afccb5
+name: Princess Washington
+given_name: Princess
+family_name: Washington
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:suisun_city/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

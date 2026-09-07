@@ -1,0 +1,13 @@
+id: ocd-person/1e60ec27-c22b-51da-ab67-18df820e9309
+name: Becky A. Shevlin
+given_name: Becky
+family_name: Shevlin
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:monrovia/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

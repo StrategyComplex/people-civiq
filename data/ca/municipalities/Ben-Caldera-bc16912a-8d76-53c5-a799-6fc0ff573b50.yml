@@ -1,0 +1,13 @@
+id: ocd-person/bc16912a-8d76-53c5-a799-6fc0ff573b50
+name: Ben Caldera
+given_name: Ben
+family_name: Caldera
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:soledad/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

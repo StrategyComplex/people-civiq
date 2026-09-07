@@ -1,0 +1,13 @@
+id: ocd-person/9fb167ff-b1c7-5394-885e-dcab0c0a7c7f
+name: Manuel Lozano
+given_name: Manuel
+family_name: Lozano
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:baldwin_park/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

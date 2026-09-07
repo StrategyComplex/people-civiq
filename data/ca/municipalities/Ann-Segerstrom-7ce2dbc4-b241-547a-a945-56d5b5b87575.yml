@@ -1,0 +1,13 @@
+id: ocd-person/7ce2dbc4-b241-547a-a945-56d5b5b87575
+name: Ann Segerstrom
+given_name: Ann
+family_name: Segerstrom
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:sonora/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

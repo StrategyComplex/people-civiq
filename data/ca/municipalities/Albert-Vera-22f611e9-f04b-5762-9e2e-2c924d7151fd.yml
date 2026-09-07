@@ -1,0 +1,13 @@
+id: ocd-person/22f611e9-f04b-5762-9e2e-2c924d7151fd
+name: Albert Vera
+given_name: Albert
+family_name: Vera
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:culver_city/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

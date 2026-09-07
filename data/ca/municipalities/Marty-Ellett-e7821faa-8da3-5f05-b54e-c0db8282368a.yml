@@ -1,0 +1,13 @@
+id: ocd-person/e7821faa-8da3-5f05-b54e-c0db8282368a
+name: Marty Ellett
+given_name: Marty
+family_name: Ellett
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:el_centro/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

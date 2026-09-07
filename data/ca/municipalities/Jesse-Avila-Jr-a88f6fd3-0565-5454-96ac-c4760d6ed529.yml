@@ -1,0 +1,14 @@
+id: ocd-person/a88f6fd3-0565-5454-96ac-c4760d6ed529
+name: Jesse Avila, Jr.
+given_name: Jesse
+family_name: Jr.
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:azusa/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

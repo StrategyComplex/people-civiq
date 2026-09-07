@@ -1,0 +1,13 @@
+id: ocd-person/200194b2-4451-52f8-8ede-e303571488e6
+name: Preston Jordan
+given_name: Preston
+family_name: Jordan
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:albany/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

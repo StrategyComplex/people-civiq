@@ -1,0 +1,13 @@
+id: ocd-person/30abf410-ac0b-5d39-bed0-8f936745b215
+name: Aaron Barak
+given_name: Aaron
+family_name: Barak
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:st_helena/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

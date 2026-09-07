@@ -1,0 +1,14 @@
+id: ocd-person/4f9478a5-f25d-5a2e-9a7f-1c3fecd14c92
+name: Doug Cirbo
+given_name: Doug
+family_name: Cirbo
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:lake_forest/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

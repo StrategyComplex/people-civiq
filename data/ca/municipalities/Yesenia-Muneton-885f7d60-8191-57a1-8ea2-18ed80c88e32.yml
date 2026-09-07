@@ -1,0 +1,13 @@
+id: ocd-person/885f7d60-8191-57a1-8ea2-18ed80c88e32
+name: Yesenia Muneton
+given_name: Yesenia
+family_name: Muneton
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:garden_grove/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

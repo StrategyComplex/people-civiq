@@ -4,8 +4,7 @@ given_name: Connor
 family_name: Traut
 email: CONNOR@TRAUTGROUP.COM
 roles:
-- end_date: '2024-11-05'
-  type: mayor
+- type: mayor
   jurisdiction: ocd-jurisdiction/country:us/state:ca/place:buena_park/government
 offices:
 - classification: primary
@@ -13,3 +12,8 @@ offices:
   voice: 714-747-6766
 sources:
 - url: https://www.connortraut.com
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

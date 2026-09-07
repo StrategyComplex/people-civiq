@@ -1,0 +1,13 @@
+id: ocd-person/92907d73-0c32-587b-8c7a-8d801ade9f40
+name: RICHARD HALE
+given_name: RICHARD
+family_name: HALE
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:bradbury/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

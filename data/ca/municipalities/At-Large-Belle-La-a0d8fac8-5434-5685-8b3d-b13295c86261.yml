@@ -1,0 +1,13 @@
+id: ocd-person/a0d8fac8-5434-5685-8b3d-b13295c86261
+name: At Large; Belle La
+given_name: At
+family_name: La
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:pleasant_hill/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

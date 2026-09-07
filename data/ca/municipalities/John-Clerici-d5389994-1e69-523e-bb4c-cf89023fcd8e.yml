@@ -1,0 +1,13 @@
+id: ocd-person/d5389994-1e69-523e-bb4c-cf89023fcd8e
+name: John Clerici
+given_name: John
+family_name: Clerici
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:placerville/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

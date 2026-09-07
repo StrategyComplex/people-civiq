@@ -1,0 +1,13 @@
+id: ocd-person/48e4697f-7350-5472-a816-8a1ee9d7cca1
+name: Martha R. McQueen-Legohn
+given_name: Martha
+family_name: McQueen-Legohn
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:port_hueneme/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

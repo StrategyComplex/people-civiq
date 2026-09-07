@@ -1,0 +1,13 @@
+id: ocd-person/3e9b8ba5-1177-5449-8900-fb7d3ba447c3
+name: Bob Miller
+given_name: Bob
+family_name: Miller
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:yucaipa/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

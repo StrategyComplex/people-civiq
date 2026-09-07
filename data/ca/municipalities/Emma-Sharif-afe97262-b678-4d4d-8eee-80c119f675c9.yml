@@ -4,8 +4,7 @@ given_name: Emma
 family_name: Sharif
 email: ContactMayor@comptoncity.org
 roles:
-- end_date: '2025-06-01'
-  type: mayor
+- type: mayor
   jurisdiction: ocd-jurisdiction/country:us/state:ca/place:compton/government
 offices:
 - classification: primary
@@ -13,3 +12,9 @@ offices:
   voice: 310-605-5500
 links:
 - url: http://www.comptoncity.org/officials/mayor/default.asp
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

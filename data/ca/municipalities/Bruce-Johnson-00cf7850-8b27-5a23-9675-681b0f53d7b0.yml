@@ -1,0 +1,14 @@
+id: ocd-person/00cf7850-8b27-5a23-9675-681b0f53d7b0
+name: Bruce Johnson
+given_name: Bruce
+family_name: Johnson
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:gridley/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

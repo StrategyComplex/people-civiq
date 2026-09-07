@@ -1,0 +1,13 @@
+id: ocd-person/0faa695c-ae3e-5a90-ae52-f28e456e51c5
+name: Jesus Rivera; Crystal Larios
+given_name: Jesus
+family_name: Larios
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:vernon/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

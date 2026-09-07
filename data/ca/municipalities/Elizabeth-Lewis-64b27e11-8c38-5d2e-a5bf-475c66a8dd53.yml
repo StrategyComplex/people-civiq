@@ -1,0 +1,13 @@
+id: ocd-person/64b27e11-8c38-5d2e-a5bf-475c66a8dd53
+name: Elizabeth Lewis
+given_name: Elizabeth
+family_name: Lewis
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:atherton/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

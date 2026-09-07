@@ -1,0 +1,14 @@
+id: ocd-person/f0d3fd3f-34c9-5e06-9e79-010d1affacf9
+name: Malinda Walker
+given_name: Malinda
+family_name: Walker
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:escalon/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

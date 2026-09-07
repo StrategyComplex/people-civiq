@@ -1,0 +1,13 @@
+id: ocd-person/5d8f39e4-7e4d-5a29-b5bb-56f788e474e0
+name: Ismael Herrera
+given_name: Ismael
+family_name: Herrera
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:kerman/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

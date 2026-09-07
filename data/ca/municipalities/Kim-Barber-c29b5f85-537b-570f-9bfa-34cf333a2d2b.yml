@@ -1,0 +1,13 @@
+id: ocd-person/c29b5f85-537b-570f-9bfa-34cf333a2d2b
+name: Kim Barber
+given_name: Kim
+family_name: Barber
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:monterey/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

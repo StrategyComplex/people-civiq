@@ -1,0 +1,13 @@
+id: ocd-person/e8910c5c-6b56-594f-a267-0df4de64246a
+name: JOHN J. TROUGHTON
+given_name: JOHN
+family_name: TROUGHTON
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:williams/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/195f1b06-4760-5ab2-b47c-16d690c8e584
+name: Dianna MacDonald
+given_name: Dianna
+family_name: MacDonald
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:santa_rosa/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

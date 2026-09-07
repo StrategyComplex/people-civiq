@@ -1,0 +1,13 @@
+id: ocd-person/757fe363-c9c3-5e36-85df-dcbf24c1a19b
+name: H. Manuel Ortiz
+given_name: H.
+family_name: Ortiz
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:irwindale/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

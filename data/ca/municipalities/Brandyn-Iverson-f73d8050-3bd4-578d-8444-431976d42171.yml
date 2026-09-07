@@ -1,0 +1,13 @@
+id: ocd-person/f73d8050-3bd4-578d-8444-431976d42171
+name: Brandyn Iverson
+given_name: Brandyn
+family_name: Iverson
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:orinda/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

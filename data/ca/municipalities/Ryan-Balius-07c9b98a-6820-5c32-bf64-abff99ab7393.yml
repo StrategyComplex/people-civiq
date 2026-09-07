@@ -1,0 +1,13 @@
+id: ocd-person/07c9b98a-6820-5c32-bf64-abff99ab7393
+name: Ryan Balius
+given_name: Ryan
+family_name: Balius
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:anaheim/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

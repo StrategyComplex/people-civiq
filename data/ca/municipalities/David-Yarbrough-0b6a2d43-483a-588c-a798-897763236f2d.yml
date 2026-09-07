@@ -1,0 +1,13 @@
+id: ocd-person/0b6a2d43-483a-588c-a798-897763236f2d
+name: David Yarbrough
+given_name: David
+family_name: Yarbrough
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:placerville/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

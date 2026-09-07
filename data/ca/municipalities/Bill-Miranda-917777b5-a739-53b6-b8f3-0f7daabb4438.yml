@@ -1,0 +1,13 @@
+id: ocd-person/917777b5-a739-53b6-b8f3-0f7daabb4438
+name: Bill Miranda
+given_name: Bill
+family_name: Miranda
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:santa_clarita/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

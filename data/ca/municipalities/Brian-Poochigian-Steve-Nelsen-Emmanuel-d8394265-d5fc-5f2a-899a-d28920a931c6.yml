@@ -1,0 +1,13 @@
+id: ocd-person/d8394265-d5fc-5f2a-899a-d28920a931c6
+name: Brian Poochigian; Steve Nelsen; Emmanuel
+given_name: Brian
+family_name: Emmanuel
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:visalia/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/3a8671cb-3ce9-590a-b36e-1c1dcb5045fd
+name: Gloria De La Rosa
+given_name: Gloria
+family_name: Rosa
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:salinas/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

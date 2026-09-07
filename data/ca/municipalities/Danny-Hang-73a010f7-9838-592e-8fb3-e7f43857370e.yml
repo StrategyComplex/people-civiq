@@ -1,0 +1,14 @@
+id: ocd-person/73a010f7-9838-592e-8fb3-e7f43857370e
+name: Danny Hang
+given_name: Danny
+family_name: Hang
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:west_hollywood/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

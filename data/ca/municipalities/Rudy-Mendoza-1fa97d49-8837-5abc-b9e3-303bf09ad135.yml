@@ -1,0 +1,13 @@
+id: ocd-person/1fa97d49-8837-5abc-b9e3-303bf09ad135
+name: Rudy Mendoza
+given_name: Rudy
+family_name: Mendoza
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:woodlake/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

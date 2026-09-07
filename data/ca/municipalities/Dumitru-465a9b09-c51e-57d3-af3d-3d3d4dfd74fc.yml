@@ -1,0 +1,13 @@
+id: ocd-person/465a9b09-c51e-57d3-af3d-3d3d4dfd74fc
+name: Dumitru
+given_name: Dumitru
+family_name: ''
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:orange/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/fe9434bd-8d28-5a99-b4b2-f2c8de2e6a60
+name: Karina
+given_name: Karina
+family_name: ''
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:huntington_park/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

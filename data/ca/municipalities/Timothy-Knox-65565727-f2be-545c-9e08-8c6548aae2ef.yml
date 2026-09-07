@@ -1,0 +1,13 @@
+id: ocd-person/65565727-f2be-545c-9e08-8c6548aae2ef
+name: Timothy Knox
+given_name: Timothy
+family_name: Knox
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:amador_city/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

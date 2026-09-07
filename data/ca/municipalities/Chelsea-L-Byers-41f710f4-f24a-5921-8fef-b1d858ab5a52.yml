@@ -1,0 +1,13 @@
+id: ocd-person/41f710f4-f24a-5921-8fef-b1d858ab5a52
+name: Chelsea L. Byers
+given_name: Chelsea
+family_name: Byers
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:west_hollywood/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/47047b17-9e30-5062-9b0c-1fd5431e7045
+name: Sean Mill
+given_name: Sean
+family_name: Mill
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:riverside/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/aa05f925-e2d7-535d-9be3-f925a6a9cce2
+name: Ken Mann
+given_name: Ken
+family_name: Mann
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:lancaster/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

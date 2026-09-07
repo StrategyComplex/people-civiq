@@ -1,0 +1,13 @@
+id: ocd-person/8175bfb9-c73e-54d7-b591-66b894a27cf6
+name: Peter Bregenzer
+given_name: Peter
+family_name: Bregenzer
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:vallejo/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

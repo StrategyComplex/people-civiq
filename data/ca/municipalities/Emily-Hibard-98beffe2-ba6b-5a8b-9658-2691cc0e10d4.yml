@@ -1,0 +1,13 @@
+id: ocd-person/98beffe2-ba6b-5a8b-9658-2691cc0e10d4
+name: Emily Hibard
+given_name: Emily
+family_name: Hibard
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:los_alamitos/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

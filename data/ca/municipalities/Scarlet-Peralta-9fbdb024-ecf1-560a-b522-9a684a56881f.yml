@@ -1,0 +1,13 @@
+id: ocd-person/9fbdb024-ecf1-560a-b522-9a684a56881f
+name: Scarlet Peralta
+given_name: Scarlet
+family_name: Peralta
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:montebello/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

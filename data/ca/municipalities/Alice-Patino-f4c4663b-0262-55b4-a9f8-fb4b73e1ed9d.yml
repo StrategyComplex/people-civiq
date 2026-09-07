@@ -1,0 +1,13 @@
+id: ocd-person/f4c4663b-0262-55b4-a9f8-fb4b73e1ed9d
+name: Alice Patino
+given_name: Alice
+family_name: Patino
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:santa_maria/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

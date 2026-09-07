@@ -1,0 +1,13 @@
+id: ocd-person/c578d589-e025-5ab2-b134-a89e03345088
+name: Laura Nakamura
+given_name: Laura
+family_name: Nakamura
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:concord/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

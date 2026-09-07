@@ -1,0 +1,13 @@
+id: ocd-person/c05884e1-d2b2-59cd-bb2e-8daee95c2103
+name: Vicki Riddle
+given_name: Vicki
+family_name: Riddle
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:exeter/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

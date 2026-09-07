@@ -1,0 +1,13 @@
+id: ocd-person/2c9237b2-fa2a-59c5-8888-2a1eda6e577e
+name: Eugene Costa Jr.
+given_name: Eugene
+family_name: Jr.
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:guadalupe/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

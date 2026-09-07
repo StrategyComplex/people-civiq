@@ -1,0 +1,14 @@
+id: ocd-person/df7c6ad0-c3b4-5423-8aa3-15ac00f879b9
+name: Pat Vela
+given_name: Pat
+family_name: Vela
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:montague/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

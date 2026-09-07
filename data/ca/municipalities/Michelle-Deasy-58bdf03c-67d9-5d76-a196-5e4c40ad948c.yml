@@ -1,0 +1,14 @@
+id: ocd-person/58bdf03c-67d9-5d76-a196-5e4c40ad948c
+name: Michelle Deasy
+given_name: Michelle
+family_name: Deasy
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:st_helena/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

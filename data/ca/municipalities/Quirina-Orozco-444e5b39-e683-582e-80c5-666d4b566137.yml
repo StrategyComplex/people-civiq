@@ -1,0 +1,13 @@
+id: ocd-person/444e5b39-e683-582e-80c5-666d4b566137
+name: ; Quirina Orozco
+given_name: ;
+family_name: Orozco
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:west_sacramento/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

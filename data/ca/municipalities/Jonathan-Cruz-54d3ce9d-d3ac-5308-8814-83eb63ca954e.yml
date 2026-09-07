@@ -1,0 +1,13 @@
+id: ocd-person/54d3ce9d-d3ac-5308-8814-83eb63ca954e
+name: Jonathan Cruz
+given_name: Jonathan
+family_name: Cruz
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:lemoore/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

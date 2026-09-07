@@ -1,0 +1,13 @@
+id: ocd-person/52c7830d-62a2-53df-9cac-a4866c74f545
+name: John McAlister
+given_name: John
+family_name: McAlister
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:mountain_view/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

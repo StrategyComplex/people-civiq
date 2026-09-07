@@ -1,0 +1,13 @@
+id: ocd-person/777bc4b5-cad7-5f38-b19e-dfa9aa35634a
+name: Andrew Gruel
+given_name: Andrew
+family_name: Gruel
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:huntington_beach/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/93223996-a9d0-52ff-af9b-714a72354fb6
+name: Abe Stevens
+given_name: Abe
+family_name: Stevens
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:fortuna/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

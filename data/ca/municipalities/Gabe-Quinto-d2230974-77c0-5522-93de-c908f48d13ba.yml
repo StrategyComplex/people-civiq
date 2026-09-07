@@ -1,0 +1,13 @@
+id: ocd-person/d2230974-77c0-5522-93de-c908f48d13ba
+name: Gabe Quinto
+given_name: Gabe
+family_name: Quinto
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:el_cerrito/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

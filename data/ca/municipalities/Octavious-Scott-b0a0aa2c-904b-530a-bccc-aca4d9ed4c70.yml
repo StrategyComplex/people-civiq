@@ -1,0 +1,14 @@
+id: ocd-person/b0a0aa2c-904b-530a-bccc-aca4d9ed4c70
+name: Octavious Scott
+given_name: Octavious
+family_name: Scott
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:twentynine_palms/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

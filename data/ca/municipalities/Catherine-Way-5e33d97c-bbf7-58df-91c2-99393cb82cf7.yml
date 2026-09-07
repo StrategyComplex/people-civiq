@@ -1,0 +1,13 @@
+id: ocd-person/5e33d97c-bbf7-58df-91c2-99393cb82cf7
+name: Catherine Way
+given_name: Catherine
+family_name: Way
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:larkspur/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

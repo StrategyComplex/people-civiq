@@ -1,0 +1,13 @@
+id: ocd-person/59dacc14-b43a-58db-9ab9-83e50714371d
+name: Terrence Grindall
+given_name: Terrence
+family_name: Grindall
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:newark/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

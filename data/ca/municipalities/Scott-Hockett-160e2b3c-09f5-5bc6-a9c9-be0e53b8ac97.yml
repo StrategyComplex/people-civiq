@@ -1,0 +1,13 @@
+id: ocd-person/160e2b3c-09f5-5bc6-a9c9-be0e53b8ac97
+name: Scott Hockett
+given_name: Scott
+family_name: Hockett
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:fort_bragg/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

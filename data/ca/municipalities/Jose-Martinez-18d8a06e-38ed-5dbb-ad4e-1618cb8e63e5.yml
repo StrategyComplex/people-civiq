@@ -1,0 +1,13 @@
+id: ocd-person/18d8a06e-38ed-5dbb-ad4e-1618cb8e63e5
+name: Jose Martinez
+given_name: Jose
+family_name: Martinez
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:woodlake/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

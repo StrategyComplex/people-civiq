@@ -1,0 +1,13 @@
+id: ocd-person/ecd79bc0-2941-509d-8748-f0408fe255f2
+name: Tyller Williamson
+given_name: Tyller
+family_name: Williamson
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:monterey/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

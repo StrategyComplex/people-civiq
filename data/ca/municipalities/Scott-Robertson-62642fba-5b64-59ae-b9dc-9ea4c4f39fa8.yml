@@ -1,0 +1,13 @@
+id: ocd-person/62642fba-5b64-59ae-b9dc-9ea4c4f39fa8
+name: Scott Robertson
+given_name: Scott
+family_name: Robertson
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:selma/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/28b470c7-dfcd-5acb-b7d8-8c98deec3bbb
+name: Eileen Burke
+given_name: Eileen
+family_name: Burke
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:san_anselmo/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

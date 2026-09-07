@@ -1,0 +1,13 @@
+id: ocd-person/480cbbab-b138-54fd-a231-01b6860fc65e
+name: Cindy Darling
+given_name: Cindy
+family_name: Darling
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:walnut_creek/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

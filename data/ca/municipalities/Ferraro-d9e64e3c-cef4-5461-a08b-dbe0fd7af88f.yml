@@ -1,0 +1,13 @@
+id: ocd-person/d9e64e3c-cef4-5461-a08b-dbe0fd7af88f
+name: Ferraro
+given_name: Ferraro
+family_name: ''
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:rancho_palos_verdes/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

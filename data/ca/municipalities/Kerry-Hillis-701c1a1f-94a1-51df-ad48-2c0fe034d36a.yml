@@ -1,0 +1,13 @@
+id: ocd-person/701c1a1f-94a1-51df-ad48-2c0fe034d36a
+name: Kerry Hillis
+given_name: Kerry
+family_name: Hillis
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:moraga/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

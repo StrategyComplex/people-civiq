@@ -1,0 +1,14 @@
+id: ocd-person/5ac22a01-e75e-522e-8f63-8544ac4a4dfd
+name: Mark Clement
+given_name: Mark
+family_name: Clement
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:red_bluff/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

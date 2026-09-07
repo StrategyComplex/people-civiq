@@ -1,0 +1,13 @@
+id: ocd-person/b09f3813-2eb9-5eb6-9fe3-fdd54d28a0bd
+name: Greg Meister
+given_name: Greg
+family_name: Meister
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:porterville/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

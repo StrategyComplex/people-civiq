@@ -1,0 +1,13 @@
+id: ocd-person/6ed9f5a0-c303-5c00-9ee3-b7315083cac3
+name: Don Hendershot
+given_name: Don
+family_name: Hendershot
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:dixon/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

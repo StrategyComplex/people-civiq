@@ -1,0 +1,13 @@
+id: ocd-person/527154f5-1794-5739-81e0-4083b82ff135
+name: David Silva
+given_name: David
+family_name: Silva
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:buellton/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

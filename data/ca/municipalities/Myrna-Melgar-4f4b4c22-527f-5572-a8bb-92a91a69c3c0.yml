@@ -1,0 +1,13 @@
+id: ocd-person/4f4b4c22-527f-5572-a8bb-92a91a69c3c0
+name: Myrna Melgar
+given_name: Myrna
+family_name: Melgar
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:san_francisco/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/a455d831-4766-521f-aa0b-0a316596204f
+name: Douglas F. Crane
+given_name: Douglas
+family_name: Crane
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:ukiah/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

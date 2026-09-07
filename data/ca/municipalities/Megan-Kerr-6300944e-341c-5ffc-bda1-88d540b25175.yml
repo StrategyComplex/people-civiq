@@ -1,0 +1,13 @@
+id: ocd-person/6300944e-341c-5ffc-bda1-88d540b25175
+name: Megan Kerr
+given_name: Megan
+family_name: Kerr
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:long_beach/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

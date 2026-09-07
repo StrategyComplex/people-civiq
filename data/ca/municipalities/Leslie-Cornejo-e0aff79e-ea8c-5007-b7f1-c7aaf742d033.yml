@@ -1,0 +1,13 @@
+id: ocd-person/e0aff79e-ea8c-5007-b7f1-c7aaf742d033
+name: Leslie Cornejo
+given_name: Leslie
+family_name: Cornejo
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:santa_paula/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

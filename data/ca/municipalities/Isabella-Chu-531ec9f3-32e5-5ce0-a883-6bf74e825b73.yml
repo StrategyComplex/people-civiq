@@ -1,0 +1,13 @@
+id: ocd-person/531ec9f3-32e5-5ce0-a883-6bf74e825b73
+name: Isabella Chu
+given_name: Isabella
+family_name: Chu
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:redwood_city/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

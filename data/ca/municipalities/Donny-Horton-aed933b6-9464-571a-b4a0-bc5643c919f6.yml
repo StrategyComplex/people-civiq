@@ -1,0 +1,13 @@
+id: ocd-person/aed933b6-9464-571a-b4a0-bc5643c919f6
+name: Donny Horton
+given_name: Donny
+family_name: Horton
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:arvin/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

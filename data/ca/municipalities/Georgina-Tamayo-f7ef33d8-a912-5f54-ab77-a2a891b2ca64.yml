@@ -1,0 +1,13 @@
+id: ocd-person/f7ef33d8-a912-5f54-ab77-a2a891b2ca64
+name: Georgina Tamayo
+given_name: Georgina
+family_name: Tamayo
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:montebello/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

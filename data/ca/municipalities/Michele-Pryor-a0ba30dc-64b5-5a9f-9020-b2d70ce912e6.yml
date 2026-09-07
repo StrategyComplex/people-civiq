@@ -1,0 +1,14 @@
+id: ocd-person/a0ba30dc-64b5-5a9f-9020-b2d70ce912e6
+name: Michele Pryor
+given_name: Michele
+family_name: Pryor
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:alameda/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

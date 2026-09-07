@@ -1,0 +1,13 @@
+id: ocd-person/b1954bbd-a596-5674-8388-fbbab7e810e3
+name: Xouhoa Bowen
+given_name: Xouhoa
+family_name: Bowen
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:san_leandro/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

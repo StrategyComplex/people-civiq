@@ -1,0 +1,14 @@
+id: ocd-person/c3a35c26-65ac-5a61-ba93-b2ca477ad49f
+name: Rubin Abrica
+given_name: Rubin
+family_name: Abrica
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:east_palo_alto/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

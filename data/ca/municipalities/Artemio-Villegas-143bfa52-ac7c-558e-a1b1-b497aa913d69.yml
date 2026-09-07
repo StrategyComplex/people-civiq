@@ -1,0 +1,13 @@
+id: ocd-person/143bfa52-ac7c-558e-a1b1-b497aa913d69
+name: Artemio Villegas
+given_name: Artemio
+family_name: Villegas
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:madera/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

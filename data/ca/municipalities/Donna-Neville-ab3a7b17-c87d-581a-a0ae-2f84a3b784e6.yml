@@ -1,0 +1,13 @@
+id: ocd-person/ab3a7b17-c87d-581a-a0ae-2f84a3b784e6
+name: Donna Neville
+given_name: Donna
+family_name: Neville
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:davis/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

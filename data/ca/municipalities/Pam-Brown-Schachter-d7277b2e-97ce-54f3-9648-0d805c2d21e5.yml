@@ -1,0 +1,14 @@
+id: ocd-person/d7277b2e-97ce-54f3-9648-0d805c2d21e5
+name: Pam Brown Schachter
+given_name: Pam
+family_name: Schachter
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:rolling_hills_estates/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

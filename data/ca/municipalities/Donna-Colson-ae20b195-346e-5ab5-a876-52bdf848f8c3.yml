@@ -1,0 +1,13 @@
+id: ocd-person/ae20b195-346e-5ab5-a876-52bdf848f8c3
+name: Donna Colson
+given_name: Donna
+family_name: Colson
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:burlingame/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

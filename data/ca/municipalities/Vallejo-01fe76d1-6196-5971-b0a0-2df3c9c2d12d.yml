@@ -1,0 +1,13 @@
+id: ocd-person/01fe76d1-6196-5971-b0a0-2df3c9c2d12d
+name: Vallejo
+given_name: Vallejo
+family_name: ''
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:perris/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

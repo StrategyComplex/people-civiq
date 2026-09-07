@@ -5,6 +5,8 @@ family_name: Diaz
 roles:
 - type: mayor
   jurisdiction: ocd-jurisdiction/country:us/state:ca/place:west_covina/government
+  end_date: '2026-09-07'
+  end_reason: superseded per Wikidata refresh
 links:
 - url: http://www.westcovina.org
   note: city website

@@ -1,0 +1,13 @@
+id: ocd-person/70d28b00-0da8-58af-8543-9b52972fa482
+name: Dolores Morales
+given_name: Dolores
+family_name: Morales
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:hollister/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

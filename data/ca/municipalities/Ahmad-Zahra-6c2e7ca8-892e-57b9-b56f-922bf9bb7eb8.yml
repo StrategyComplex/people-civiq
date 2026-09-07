@@ -1,0 +1,13 @@
+id: ocd-person/6c2e7ca8-892e-57b9-b56f-922bf9bb7eb8
+name: Ahmad Zahra
+given_name: Ahmad
+family_name: Zahra
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:fullerton/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

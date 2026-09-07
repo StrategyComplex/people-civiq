@@ -1,0 +1,13 @@
+id: ocd-person/cba4c482-b7f2-592a-86dd-f0799490e771
+name: Salvador Solorio-Ruiz
+given_name: Salvador
+family_name: Solorio-Ruiz
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:delano/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

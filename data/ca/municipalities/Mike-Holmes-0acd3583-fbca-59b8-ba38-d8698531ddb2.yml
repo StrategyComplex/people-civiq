@@ -1,0 +1,13 @@
+id: ocd-person/0acd3583-fbca-59b8-ba38-d8698531ddb2
+name: Mike Holmes
+given_name: Mike
+family_name: Holmes
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:auburn/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

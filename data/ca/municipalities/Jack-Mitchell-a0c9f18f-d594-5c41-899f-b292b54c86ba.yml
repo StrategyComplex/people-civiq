@@ -1,0 +1,13 @@
+id: ocd-person/a0c9f18f-d594-5c41-899f-b292b54c86ba
+name: Jack Mitchell
+given_name: Jack
+family_name: Mitchell
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:ione/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

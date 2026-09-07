@@ -1,0 +1,13 @@
+id: ocd-person/1a96aeb6-256b-5c45-9173-c2912651fffc
+name: Patrick Isherwood
+given_name: Patrick
+family_name: Isherwood
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:tulare/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

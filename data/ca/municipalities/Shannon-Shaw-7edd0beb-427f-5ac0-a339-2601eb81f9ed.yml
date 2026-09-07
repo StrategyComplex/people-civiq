@@ -1,0 +1,13 @@
+id: ocd-person/7edd0beb-427f-5ac0-a339-2601eb81f9ed
+name: Shannon Shaw
+given_name: Shannon
+family_name: Shaw
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:oakley/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

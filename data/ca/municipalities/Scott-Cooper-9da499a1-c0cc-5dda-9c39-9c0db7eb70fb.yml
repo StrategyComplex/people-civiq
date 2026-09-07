@@ -1,0 +1,13 @@
+id: ocd-person/9da499a1-c0cc-5dda-9c39-9c0db7eb70fb
+name: Scott Cooper
+given_name: Scott
+family_name: Cooper
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:calistoga/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

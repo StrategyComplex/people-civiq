@@ -1,0 +1,13 @@
+id: ocd-person/118cb835-8027-5cfb-9683-65e6b2e3cae3
+name: James Casey
+given_name: James
+family_name: Casey
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:ceres/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

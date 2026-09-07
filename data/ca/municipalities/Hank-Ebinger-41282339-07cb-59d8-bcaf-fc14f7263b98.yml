@@ -1,0 +1,13 @@
+id: ocd-person/41282339-07cb-59d8-bcaf-fc14f7263b98
+name: Hank Ebinger
+given_name: Hank
+family_name: Ebinger
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:tulelake/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

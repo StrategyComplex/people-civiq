@@ -1,0 +1,13 @@
+id: ocd-person/a15d8a7d-33dc-56b6-bb9d-c33a8e6f30e0
+name: John M. Erickson
+given_name: John
+family_name: Erickson
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:west_hollywood/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

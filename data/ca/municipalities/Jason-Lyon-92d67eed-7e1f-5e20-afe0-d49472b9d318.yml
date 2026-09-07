@@ -1,0 +1,13 @@
+id: ocd-person/92d67eed-7e1f-5e20-afe0-d49472b9d318
+name: Jason Lyon
+given_name: Jason
+family_name: Lyon
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:pasadena/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

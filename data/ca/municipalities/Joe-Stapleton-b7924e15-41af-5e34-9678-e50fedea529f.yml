@@ -1,0 +1,13 @@
+id: ocd-person/b7924e15-41af-5e34-9678-e50fedea529f
+name: Joe Stapleton
+given_name: Joe
+family_name: Stapleton
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:newport_beach/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

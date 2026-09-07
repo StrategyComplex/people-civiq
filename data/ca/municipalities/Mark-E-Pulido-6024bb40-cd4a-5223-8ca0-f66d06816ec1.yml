@@ -1,0 +1,13 @@
+id: ocd-person/6024bb40-cd4a-5223-8ca0-f66d06816ec1
+name: Mark E. Pulido
+given_name: Mark
+family_name: Pulido
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:cerritos/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

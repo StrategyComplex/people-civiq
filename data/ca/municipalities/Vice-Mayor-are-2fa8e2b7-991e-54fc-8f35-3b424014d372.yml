@@ -1,0 +1,13 @@
+id: ocd-person/2fa8e2b7-991e-54fc-8f35-3b424014d372
+name: Vice Mayor are
+given_name: Vice
+family_name: are
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:blythe/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

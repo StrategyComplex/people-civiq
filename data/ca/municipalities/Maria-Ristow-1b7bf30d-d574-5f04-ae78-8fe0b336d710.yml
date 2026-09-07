@@ -1,0 +1,14 @@
+id: ocd-person/1b7bf30d-d574-5f04-ae78-8fe0b336d710
+name: Maria Ristow
+given_name: Maria
+family_name: Ristow
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:los_gatos/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

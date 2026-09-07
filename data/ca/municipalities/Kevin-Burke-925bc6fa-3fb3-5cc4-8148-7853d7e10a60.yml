@@ -1,0 +1,13 @@
+id: ocd-person/925bc6fa-3fb3-5cc4-8148-7853d7e10a60
+name: Kevin Burke
+given_name: Kevin
+family_name: Burke
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:belvedere/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

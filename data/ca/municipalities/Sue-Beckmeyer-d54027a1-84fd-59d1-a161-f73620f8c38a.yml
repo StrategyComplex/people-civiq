@@ -1,0 +1,13 @@
+id: ocd-person/d54027a1-84fd-59d1-a161-f73620f8c38a
+name: ; Sue Beckmeyer
+given_name: ;
+family_name: Beckmeyer
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:pacifica/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/a2e8ac55-0750-56da-8ddf-4fa44d283b2f
+name: Elizabeth Yang
+given_name: Elizabeth
+family_name: Yang
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:monterey_park/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

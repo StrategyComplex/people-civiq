@@ -1,0 +1,13 @@
+id: ocd-person/45d924ae-07d5-5a25-9eae-f7fa5be629f9
+name: Berdie Hall
+given_name: Berdie
+family_name: Hall
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:kerman/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

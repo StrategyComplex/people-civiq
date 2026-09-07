@@ -1,0 +1,13 @@
+id: ocd-person/4f6660dc-453e-5c8b-943e-b4b30e583474
+name: Malcolm Mayor Pro Tem
+given_name: Malcolm
+family_name: Tem
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:perris/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

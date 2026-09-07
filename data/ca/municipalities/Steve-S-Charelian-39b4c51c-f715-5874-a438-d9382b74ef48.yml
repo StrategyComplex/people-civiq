@@ -1,0 +1,13 @@
+id: ocd-person/39b4c51c-f715-5874-a438-d9382b74ef48
+name: Steve S. Charelian
+given_name: Steve
+family_name: Charelian
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:manhattan_beach/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

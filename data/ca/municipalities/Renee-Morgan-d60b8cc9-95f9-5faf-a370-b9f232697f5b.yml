@@ -1,0 +1,13 @@
+id: ocd-person/d60b8cc9-95f9-5faf-a370-b9f232697f5b
+name: Renee Morgan
+given_name: Renee
+family_name: Morgan
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:danville/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

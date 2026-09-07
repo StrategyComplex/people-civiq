@@ -1,0 +1,14 @@
+id: ocd-person/b91eb140-c960-5b80-a4ff-623b8b95be45
+name: Lynne B. Kennedy
+given_name: Lynne
+family_name: Kennedy
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:rancho_cucamonga/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/fbabfd8a-9638-58e3-bf8d-5f429d8b9341
+name: Rosaena Sanchez
+given_name: Rosaena
+family_name: Sanchez
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:lindsay/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

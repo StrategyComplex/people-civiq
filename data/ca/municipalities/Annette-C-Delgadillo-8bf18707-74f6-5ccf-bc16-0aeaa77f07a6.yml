@@ -1,0 +1,13 @@
+id: ocd-person/8bf18707-74f6-5ccf-bc16-0aeaa77f07a6
+name: Annette C. Delgadillo
+given_name: Annette
+family_name: Delgadillo
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:paramount/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

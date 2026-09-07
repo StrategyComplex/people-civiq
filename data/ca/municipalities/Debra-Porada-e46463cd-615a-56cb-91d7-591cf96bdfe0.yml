@@ -1,0 +1,13 @@
+id: ocd-person/e46463cd-615a-56cb-91d7-591cf96bdfe0
+name: Debra Porada
+given_name: Debra
+family_name: Porada
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:ontario/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

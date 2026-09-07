@@ -1,0 +1,13 @@
+id: ocd-person/45dcbf07-a04a-5d81-a991-0929003da582
+name: Ryan Hutchison
+given_name: Ryan
+family_name: Hutchison
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:rancho_cucamonga/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

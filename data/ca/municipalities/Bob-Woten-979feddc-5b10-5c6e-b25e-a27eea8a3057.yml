@@ -1,0 +1,13 @@
+id: ocd-person/979feddc-5b10-5c6e-b25e-a27eea8a3057
+name: Bob Woten
+given_name: Bob
+family_name: Woten
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:live_oak/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

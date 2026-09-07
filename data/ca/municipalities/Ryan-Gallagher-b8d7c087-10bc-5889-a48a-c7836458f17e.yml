@@ -1,0 +1,13 @@
+id: ocd-person/b8d7c087-10bc-5889-a48a-c7836458f17e
+name: Ryan Gallagher
+given_name: Ryan
+family_name: Gallagher
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:tustin/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

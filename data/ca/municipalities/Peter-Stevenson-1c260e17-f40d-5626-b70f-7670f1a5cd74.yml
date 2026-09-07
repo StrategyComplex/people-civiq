@@ -1,0 +1,13 @@
+id: ocd-person/1c260e17-f40d-5626-b70f-7670f1a5cd74
+name: Peter Stevenson
+given_name: Peter
+family_name: Stevenson
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:burlingame/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

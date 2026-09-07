@@ -1,0 +1,13 @@
+id: ocd-person/a9e4aae4-8dd8-5eea-bb23-54587141b0b3
+name: Yvonne Martinez Beltran
+given_name: Yvonne
+family_name: Beltran
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:morgan_hill/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

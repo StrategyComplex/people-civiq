@@ -1,0 +1,13 @@
+id: ocd-person/fb0e5904-04f6-5358-b669-05d6deec884a
+name: Maureen Toms
+given_name: Maureen
+family_name: Toms
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:pinole/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

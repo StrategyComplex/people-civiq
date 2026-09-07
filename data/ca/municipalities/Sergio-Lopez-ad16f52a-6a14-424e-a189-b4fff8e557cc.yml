@@ -4,8 +4,11 @@ given_name: Sergio
 family_name: Lopez
 email: sergiol@campbellca.gov
 roles:
-- end_date: '2028-12-31'
+- end_date: '2026-09-07'
   type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:campbell/government
+  end_reason: superseded per Wikidata refresh
+- type: lower
   jurisdiction: ocd-jurisdiction/country:us/state:ca/place:campbell/government
 offices:
 - classification: primary
@@ -15,3 +18,8 @@ links:
 - url: https://www.campbellca.gov/767/Sergio-Lopez---Dist-2
 sources:
 - url: https://www.campbellca.gov/767/Sergio-Lopez---Dist-2
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

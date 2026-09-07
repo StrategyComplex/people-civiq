@@ -5,6 +5,10 @@ family_name: Frometa
 roles:
 - type: mayor
   jurisdiction: ocd-jurisdiction/country:us/state:ca/place:downey/government
+  end_date: '2026-09-07'
+  end_reason: superseded per Wikidata refresh
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:downey/government
 links:
 - url: http://www.downeyca.org/
   note: city website
@@ -14,6 +18,8 @@ other_identifiers:
 sources:
 - url: https://www.wikidata.org/wiki/Q116637176
   note: Wikidata head of government (P6)
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
 extras:
-  verified_at: '2026-09-07'
-  verified_by: wikidata
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/cf0e653e-355a-57e9-a353-f8ecb420626a
+name: Esmeralda Hurtado
+given_name: Esmeralda
+family_name: Hurtado
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:sanger/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

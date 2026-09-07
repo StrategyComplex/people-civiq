@@ -1,0 +1,13 @@
+id: ocd-person/b92eb55e-f19c-587a-8ce8-1b295cf58278
+name: Godycki
+given_name: Godycki
+family_name: ''
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:san_mateo/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

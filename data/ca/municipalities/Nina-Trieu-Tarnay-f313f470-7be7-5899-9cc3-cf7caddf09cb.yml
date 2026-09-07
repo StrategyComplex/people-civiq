@@ -1,0 +1,13 @@
+id: ocd-person/f313f470-7be7-5899-9cc3-cf7caddf09cb
+name: Nina Trieu Tarnay
+given_name: Nina
+family_name: Tarnay
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:manhattan_beach/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

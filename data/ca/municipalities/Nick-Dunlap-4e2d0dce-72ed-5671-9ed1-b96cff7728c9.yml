@@ -1,0 +1,14 @@
+id: ocd-person/4e2d0dce-72ed-5671-9ed1-b96cff7728c9
+name: Nick Dunlap
+given_name: Nick
+family_name: Dunlap
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:fullerton/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

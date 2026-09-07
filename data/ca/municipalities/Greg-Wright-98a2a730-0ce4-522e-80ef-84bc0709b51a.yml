@@ -1,0 +1,14 @@
+id: ocd-person/98a2a730-0ce4-522e-80ef-84bc0709b51a
+name: Greg Wright
+given_name: Greg
+family_name: Wright
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:pacifica/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

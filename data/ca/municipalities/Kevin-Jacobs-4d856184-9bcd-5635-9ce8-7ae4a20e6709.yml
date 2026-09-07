@@ -1,0 +1,14 @@
+id: ocd-person/4d856184-9bcd-5635-9ce8-7ae4a20e6709
+name: Kevin Jacobs
+given_name: Kevin
+family_name: Jacobs
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:novato/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

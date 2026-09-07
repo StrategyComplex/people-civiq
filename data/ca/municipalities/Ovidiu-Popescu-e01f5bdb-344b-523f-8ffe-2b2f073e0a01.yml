@@ -1,0 +1,13 @@
+id: ocd-person/e01f5bdb-344b-523f-8ffe-2b2f073e0a01
+name: Ovidiu Popescu
+given_name: Ovidiu
+family_name: Popescu
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:loma_linda/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

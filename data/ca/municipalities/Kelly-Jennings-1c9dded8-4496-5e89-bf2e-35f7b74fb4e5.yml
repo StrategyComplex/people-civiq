@@ -1,0 +1,14 @@
+id: ocd-person/1c9dded8-4496-5e89-bf2e-35f7b74fb4e5
+name: Kelly Jennings
+given_name: Kelly
+family_name: Jennings
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:laguna_niguel/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

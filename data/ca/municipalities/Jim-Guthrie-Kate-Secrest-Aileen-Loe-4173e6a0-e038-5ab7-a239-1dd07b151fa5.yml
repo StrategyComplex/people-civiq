@@ -1,0 +1,13 @@
+id: ocd-person/4173e6a0-e038-5ab7-a239-1dd07b151fa5
+name: Jim Guthrie; Kate Secrest; Aileen Loe
+given_name: Jim
+family_name: Loe
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:arroyo_grande/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

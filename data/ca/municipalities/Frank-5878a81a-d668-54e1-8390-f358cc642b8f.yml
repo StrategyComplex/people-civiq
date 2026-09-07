@@ -1,0 +1,13 @@
+id: ocd-person/5878a81a-d668-54e1-8390-f358cc642b8f
+name: Frank
+given_name: Frank
+family_name: ''
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:fairfax/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

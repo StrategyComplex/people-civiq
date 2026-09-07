@@ -1,0 +1,13 @@
+id: ocd-person/5dd92c3b-b549-5e9b-8ec9-226520445d00
+name: Cassandra Abram
+given_name: Cassandra
+family_name: Abram
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:turlock/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

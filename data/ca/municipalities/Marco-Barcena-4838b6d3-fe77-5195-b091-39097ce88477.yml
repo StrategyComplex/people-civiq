@@ -1,0 +1,13 @@
+id: ocd-person/4838b6d3-fe77-5195-b091-39097ce88477
+name: Marco Barcena
+given_name: Marco
+family_name: Barcena
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:bell_gardens/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

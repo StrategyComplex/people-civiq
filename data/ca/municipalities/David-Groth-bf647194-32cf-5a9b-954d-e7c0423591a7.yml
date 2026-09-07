@@ -1,0 +1,13 @@
+id: ocd-person/bf647194-32cf-5a9b-954d-e7c0423591a7
+name: David Groth
+given_name: David
+family_name: Groth
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:amador_city/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

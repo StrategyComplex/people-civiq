@@ -1,0 +1,13 @@
+id: ocd-person/dc2d644c-d54e-55d8-b3a8-32cd62fed1a1
+name: Susan Candell
+given_name: Susan
+family_name: Candell
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:lafayette/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

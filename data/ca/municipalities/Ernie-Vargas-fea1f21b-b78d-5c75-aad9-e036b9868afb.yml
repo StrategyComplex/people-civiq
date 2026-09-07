@@ -1,0 +1,13 @@
+id: ocd-person/fea1f21b-b78d-5c75-aad9-e036b9868afb
+name: Ernie Vargas
+given_name: Ernie
+family_name: Vargas
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:hawaiian_gardens/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

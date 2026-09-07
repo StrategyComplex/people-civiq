@@ -1,0 +1,13 @@
+id: ocd-person/3fc05ac0-24a3-5f69-bf2b-f382ee45cee9
+name: David Pittman
+given_name: David
+family_name: Pittman
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:oroville/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

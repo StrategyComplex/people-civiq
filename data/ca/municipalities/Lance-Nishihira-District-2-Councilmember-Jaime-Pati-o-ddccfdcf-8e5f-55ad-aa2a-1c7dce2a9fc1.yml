@@ -1,0 +1,13 @@
+id: ocd-person/ddccfdcf-8e5f-55ad-aa2a-1c7dce2a9fc1
+name: Lance Nishihira | District 2 Councilmember - Jaime Patiño |
+given_name: Lance
+family_name: '|'
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:union_city/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

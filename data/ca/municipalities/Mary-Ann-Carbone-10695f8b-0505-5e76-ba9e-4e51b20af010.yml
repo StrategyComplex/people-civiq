@@ -1,0 +1,13 @@
+id: ocd-person/10695f8b-0505-5e76-ba9e-4e51b20af010
+name: Mary Ann Carbone
+given_name: Mary
+family_name: Carbone
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:sand_city/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

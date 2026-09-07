@@ -1,0 +1,13 @@
+id: ocd-person/d4a7e2ad-c6c2-5acb-920f-30d7bc7e3e28
+name: Gustavo
+given_name: Gustavo
+family_name: ''
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:shafter/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

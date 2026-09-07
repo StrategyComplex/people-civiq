@@ -1,0 +1,13 @@
+id: ocd-person/79c3fab7-c668-532a-9e0f-fb684f39e668
+name: Ken Houston
+given_name: Ken
+family_name: Houston
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:oakland/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

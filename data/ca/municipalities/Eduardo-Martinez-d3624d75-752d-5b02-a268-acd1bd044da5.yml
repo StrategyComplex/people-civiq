@@ -9,6 +9,8 @@ roles:
 - type: mayor
   jurisdiction: ocd-jurisdiction/country:us/state:ca/place:richmond/government
   start_date: '2022-01-01'
+  end_date: '2026-09-07'
+  end_reason: superseded per Wikidata refresh
 other_identifiers:
 - scheme: wikidata
   identifier: Q131450272

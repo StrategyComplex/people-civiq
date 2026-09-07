@@ -1,0 +1,13 @@
+id: ocd-person/da3ab675-1233-5c5d-8d66-6c58fdffb0e5
+name: Larry G.
+given_name: Larry
+family_name: G.
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:irwindale/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

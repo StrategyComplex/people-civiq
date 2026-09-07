@@ -1,0 +1,13 @@
+id: ocd-person/7445bfe5-3a84-5cfc-b6bc-07d6f347fdab
+name: Ana Beltran
+given_name: Ana
+family_name: Beltran
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:westmorland/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

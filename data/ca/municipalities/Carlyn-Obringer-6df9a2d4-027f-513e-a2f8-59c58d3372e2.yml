@@ -1,0 +1,13 @@
+id: ocd-person/6df9a2d4-027f-513e-a2f8-59c58d3372e2
+name: Carlyn Obringer
+given_name: Carlyn
+family_name: Obringer
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:concord/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

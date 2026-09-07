@@ -5,6 +5,8 @@ family_name: Gutierrez
 roles:
 - type: mayor
   jurisdiction: ocd-jurisdiction/country:us/state:ca/place:moreno_valley/government
+  end_date: '2026-09-07'
+  end_reason: superseded per Wikidata refresh
 links:
 - url: http://www.moval.org
   note: city website

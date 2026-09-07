@@ -1,0 +1,13 @@
+id: ocd-person/30746b30-5fba-550d-8f23-7becdf30ca64
+name: Julio Martinez
+given_name: Julio
+family_name: Martinez
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:beaumont/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

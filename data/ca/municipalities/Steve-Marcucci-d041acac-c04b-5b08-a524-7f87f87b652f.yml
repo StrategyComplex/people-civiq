@@ -1,0 +1,13 @@
+id: ocd-person/d041acac-c04b-5b08-a524-7f87f87b652f
+name: Steve Marcucci
+given_name: Steve
+family_name: Marcucci
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:industry/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

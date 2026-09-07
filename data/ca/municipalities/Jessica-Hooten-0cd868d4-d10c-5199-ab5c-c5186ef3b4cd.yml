@@ -1,0 +1,13 @@
+id: ocd-person/0cd868d4-d10c-5199-ab5c-c5186ef3b4cd
+name: Jessica Hooten
+given_name: Jessica
+family_name: Hooten
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:clearlake/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

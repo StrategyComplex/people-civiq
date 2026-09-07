@@ -1,0 +1,13 @@
+id: ocd-person/49195242-3983-55c1-9f4b-a84e83e36d8a
+name: Jason Godeke, Mayor
+given_name: Jason
+family_name: Mayor
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:fort_bragg/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

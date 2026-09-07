@@ -1,0 +1,13 @@
+id: ocd-person/97b00eb6-34bf-55da-8541-01f9ee881597
+name: Cindy Silva
+given_name: Cindy
+family_name: Silva
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:walnut_creek/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,14 @@
+id: ocd-person/f748c81b-bdda-5ab0-9996-c99b4f247552
+name: Luis Roa
+given_name: Luis
+family_name: Roa
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:hawaiian_gardens/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

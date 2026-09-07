@@ -1,0 +1,13 @@
+id: ocd-person/a71a4d3b-0483-563a-9e99-a8e53f5d2621
+name: Gene Masuda
+given_name: Gene
+family_name: Masuda
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:pasadena/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

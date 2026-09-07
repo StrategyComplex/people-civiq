@@ -1,0 +1,13 @@
+id: ocd-person/5f8ae0ce-8ee7-5e4f-b3fe-97a057d67c04
+name: Ed Lauing
+given_name: Ed
+family_name: Lauing
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:palo_alto/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/780ddffc-1dc6-5215-a28b-84705d1be24e
+name: Sandy Amara
+given_name: Sandy
+family_name: Amara
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:auburn/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

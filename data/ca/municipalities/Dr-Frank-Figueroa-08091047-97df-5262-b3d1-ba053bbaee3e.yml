@@ -1,0 +1,14 @@
+id: ocd-person/08091047-97df-5262-b3d1-ba053bbaee3e
+name: Dr. Frank Figueroa
+given_name: Dr.
+family_name: Figueroa
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:coachella/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

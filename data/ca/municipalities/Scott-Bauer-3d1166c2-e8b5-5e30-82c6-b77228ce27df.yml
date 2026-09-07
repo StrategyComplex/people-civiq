@@ -1,0 +1,13 @@
+id: ocd-person/3d1166c2-e8b5-5e30-82c6-b77228ce27df
+name: Scott Bauer
+given_name: Scott
+family_name: Bauer
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:eureka/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

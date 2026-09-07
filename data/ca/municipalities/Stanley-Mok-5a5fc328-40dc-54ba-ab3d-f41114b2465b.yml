@@ -1,0 +1,13 @@
+id: ocd-person/5a5fc328-40dc-54ba-ab3d-f41114b2465b
+name: Stanley Mok
+given_name: Stanley
+family_name: Mok
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:los_altos_hills/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

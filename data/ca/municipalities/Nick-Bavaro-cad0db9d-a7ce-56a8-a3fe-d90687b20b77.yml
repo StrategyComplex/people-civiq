@@ -1,0 +1,13 @@
+id: ocd-person/cad0db9d-a7ce-56a8-a3fe-d90687b20b77
+name: Nick Bavaro
+given_name: Nick
+family_name: Bavaro
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:modesto/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

@@ -1,0 +1,13 @@
+id: ocd-person/8983e783-8097-5c01-8b61-b53f67d7d117
+name: John Carli, At Large
+given_name: John
+family_name: Large
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:vacaville/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

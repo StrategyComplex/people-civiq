@@ -1,0 +1,13 @@
+id: ocd-person/f656e017-0912-56f9-935f-9c5e902faf45
+name: Vong Mouanoutoua
+given_name: Vong
+family_name: Mouanoutoua
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:clovis/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

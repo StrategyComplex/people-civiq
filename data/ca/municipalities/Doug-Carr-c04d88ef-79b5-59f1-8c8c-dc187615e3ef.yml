@@ -1,0 +1,13 @@
+id: ocd-person/c04d88ef-79b5-59f1-8c8c-dc187615e3ef
+name: Doug Carr
+given_name: Doug
+family_name: Carr
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:fairfield/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

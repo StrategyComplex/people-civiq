@@ -1,0 +1,14 @@
+id: ocd-person/d2abd0b7-9eff-5ecd-a3de-57f8bb39ad4e
+name: Lisa McIntosh
+given_name: Lisa
+family_name: McIntosh
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:wheatland/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

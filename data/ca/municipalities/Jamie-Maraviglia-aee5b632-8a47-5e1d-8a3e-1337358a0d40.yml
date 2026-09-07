@@ -1,0 +1,14 @@
+id: ocd-person/aee5b632-8a47-5e1d-8a3e-1337358a0d40
+name: Jamie Maraviglia
+given_name: Jamie
+family_name: Maraviglia
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:arroyo_grande/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  title: Vice Mayor/Mayor Pro Tempore
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

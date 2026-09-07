@@ -1,0 +1,13 @@
+id: ocd-person/8eaa621e-8f81-5f38-ada4-4a79d60266cf
+name: Dale Bennett
+given_name: Dale
+family_name: Bennett
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:chico/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

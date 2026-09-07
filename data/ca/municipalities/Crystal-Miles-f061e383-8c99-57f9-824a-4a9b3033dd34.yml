@@ -1,0 +1,13 @@
+id: ocd-person/f061e383-8c99-57f9-824a-4a9b3033dd34
+name: Crystal Miles
+given_name: Crystal
+family_name: Miles
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:villa_park/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster

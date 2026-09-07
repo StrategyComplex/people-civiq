@@ -1,0 +1,13 @@
+id: ocd-person/1cf0705d-9916-5d7a-9213-dc741d2fdd6c
+name: Jennifer Perez
+given_name: Jennifer
+family_name: Perez
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:norwalk/government
+sources:
+- url: https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf
+  note: official city website
+extras:
+  verified_at: '2026-01-01'
+  verified_by: ca-roster
