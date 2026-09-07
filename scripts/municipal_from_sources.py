@@ -33,8 +33,9 @@ _NS = uuid.UUID("2c0b7d6e-8f0a-4c1d-9a51-3b0d2f6e7a11")
 
 
 class SourceRefresher(wm.Refresher):
-    def __init__(self, data_dir, state, dry_run=False, verified_at=None):
+    def __init__(self, data_dir, state, dry_run=False, verified_at=None, verified_by="city-website"):
         super().__init__(data_dir, state, dry_run=dry_run, verified_at=verified_at)
+        self.verified_by = verified_by
         self.report["conflicts"] = []
 
     def apply_seat(self, seat, role_type, jid, city_label, source_url):
@@ -73,7 +74,7 @@ class SourceRefresher(wm.Refresher):
             sources.append({"url": source_url, "note": "official city website"})
         extras = person.setdefault("extras", {})
         extras["verified_at"] = self.verified_at
-        extras["verified_by"] = "city-website"
+        extras["verified_by"] = self.verified_by
         return path
 
     def run_sources(self, doc):
@@ -97,10 +98,12 @@ def main(argv=None):
     ap.add_argument("--input", required=True)
     ap.add_argument("--data-dir", default=os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data"))
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--verified-by", default="city-website")
     args = ap.parse_args(argv)
     with open(args.input) as f:
         doc = json.load(f)
-    r = SourceRefresher(args.data_dir, args.state, dry_run=args.dry_run, verified_at=doc.get("verified_at"))
+    r = SourceRefresher(args.data_dir, args.state, dry_run=args.dry_run, verified_at=doc.get("verified_at"),
+                         verified_by=args.verified_by)
     report = r.run_sources(doc)
     r.write()
     wm.print_report(report, args.dry_run)
