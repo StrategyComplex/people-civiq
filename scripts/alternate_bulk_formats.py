@@ -81,6 +81,11 @@ def generate_legislator_json():
                                 # district; pass it through with a display name so
                                 # clients can label the seat (e.g. "Mayor • Hawthorne").
                                 if 'jurisdiction' in role:
+                                    # City council seats are stored as upper/lower like
+                                    # legislatures; emit 'council' so clients never
+                                    # confuse them with state assembly/senate rows.
+                                    if ':place:' in role['jurisdiction'] and role['type'] in ('upper', 'lower'):
+                                        term['type'] = 'council'
                                     term['jurisdiction'] = role['jurisdiction']
                                     term['place'] = jurisdiction_place_name(
                                         role['jurisdiction'], place_names)
