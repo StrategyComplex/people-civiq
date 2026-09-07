@@ -1,0 +1,17 @@
+id: ocd-person/ce8a8f6d-414e-5690-a1a4-909cab9c59ea
+name: Michelle Metschel
+given_name: Michelle
+family_name: Metschel
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:el_cajon/government
+  start_date: '2024-12-01'
+  end_date: '2028-12-01'
+  district: District 2
+sources:
+- url: https://www.elcajon.gov/your-government/elected-officials/city-council
+  note: official city website
+extras:
+  title: Deputy Mayor
+  verified_at: '2026-09-06'
+  verified_by: city-website

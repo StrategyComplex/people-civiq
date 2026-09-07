@@ -1,0 +1,13 @@
+id: ocd-person/33209131-49f7-5484-a6f2-3296b1fbd84c
+name: Ron Morrison
+given_name: Ron
+family_name: Morrison
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:national_city/government
+sources:
+- url: https://www.nationalcityca.gov/government/mayor-and-council
+  note: official city website
+extras:
+  verified_at: '2026-09-06'
+  verified_by: city-website

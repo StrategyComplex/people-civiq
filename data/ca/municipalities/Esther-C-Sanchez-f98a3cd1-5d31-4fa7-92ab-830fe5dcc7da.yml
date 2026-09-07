@@ -4,10 +4,24 @@ given_name: Esther C.
 family_name: Sanchez
 email: esanchez@oceansideca.org
 roles:
-- end_date: '2028-11-05'
-  type: mayor
+- type: mayor
   jurisdiction: ocd-jurisdiction/country:us/state:ca/place:oceanside/government
+  start_date: '2020-11-01'
 offices:
 - classification: primary
   address: 300 North Coast Hwy;Oceanside, CA 92054
   voice: 760-435-3057
+links:
+- url: https://www.ci.oceanside.ca.us/
+  note: city website
+other_identifiers:
+- scheme: wikidata
+  identifier: Q111961842
+sources:
+- url: https://www.wikidata.org/wiki/Q111961842
+  note: Wikidata head of government (P6)
+- url: https://www.ci.oceanside.ca.us/government/city-council
+  note: official city website
+extras:
+  verified_at: '2026-09-06'
+  verified_by: city-website

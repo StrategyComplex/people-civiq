@@ -1,0 +1,20 @@
+id: ocd-person/c85527ad-919d-5ac8-8116-ab0de2e70063
+name: Laura Bettencourt
+given_name: Laura
+family_name: Bettencourt
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:palmdale/government
+  start_date: '2020-12-22'
+links:
+- url: http://www.cityofpalmdale.org
+  note: city website
+other_identifiers:
+- scheme: wikidata
+  identifier: Q116644393
+sources:
+- url: https://www.wikidata.org/wiki/Q116644393
+  note: Wikidata head of government (P6)
+extras:
+  verified_at: '2026-09-07'
+  verified_by: wikidata

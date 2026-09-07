@@ -1,0 +1,14 @@
+id: ocd-person/df5a4e14-85d9-558e-8c46-03e566281c71
+name: Ditas Yamane
+given_name: Ditas
+family_name: Yamane
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:national_city/government
+  district: District 3
+sources:
+- url: https://www.nationalcityca.gov/government/mayor-and-council
+  note: official city website
+extras:
+  verified_at: '2026-09-06'
+  verified_by: city-website

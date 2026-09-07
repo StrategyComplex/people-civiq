@@ -1,0 +1,15 @@
+id: ocd-person/dd1b7a15-6f21-508a-9e7e-15e4150d649f
+name: Jack Fisher
+given_name: Jack
+family_name: Fisher
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:imperial_beach/government
+  district: District 2
+sources:
+- url: https://imperialbeachca.gov/175/Office-of-Mayor-and-City-Council
+  note: official city website
+extras:
+  title: Mayor Pro Tempore
+  verified_at: '2026-09-06'
+  verified_by: city-website

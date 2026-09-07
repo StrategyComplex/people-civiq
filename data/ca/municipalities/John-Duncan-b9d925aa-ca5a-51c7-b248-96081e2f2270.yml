@@ -1,0 +1,13 @@
+id: ocd-person/b9d925aa-ca5a-51c7-b248-96081e2f2270
+name: John Duncan
+given_name: John
+family_name: Duncan
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:coronado/government
+sources:
+- url: https://www.coronado.ca.us/232/Mayor-City-Council
+  note: official city website
+extras:
+  verified_at: '2026-09-06'
+  verified_by: city-website

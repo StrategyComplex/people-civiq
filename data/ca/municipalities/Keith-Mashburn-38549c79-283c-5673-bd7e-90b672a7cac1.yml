@@ -1,0 +1,20 @@
+id: ocd-person/38549c79-283c-5673-bd7e-90b672a7cac1
+name: Keith Mashburn
+given_name: Keith
+family_name: Mashburn
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:simi_valley/government
+  start_date: '2018-11-01'
+links:
+- url: https://www.simivalley.org/
+  note: city website
+other_identifiers:
+- scheme: wikidata
+  identifier: Q112079030
+sources:
+- url: https://www.wikidata.org/wiki/Q112079030
+  note: Wikidata head of government (P6)
+extras:
+  verified_at: '2026-09-07'
+  verified_by: wikidata

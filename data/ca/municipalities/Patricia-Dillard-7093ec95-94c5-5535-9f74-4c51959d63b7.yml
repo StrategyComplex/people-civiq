@@ -1,0 +1,13 @@
+id: ocd-person/7093ec95-94c5-5535-9f74-4c51959d63b7
+name: Patricia Dillard
+given_name: Patricia
+family_name: Dillard
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:la_mesa/government
+sources:
+- url: https://www.cityoflamesa.gov/Directory.aspx?did=11
+  note: official city website
+extras:
+  verified_at: '2026-09-06'
+  verified_by: city-website

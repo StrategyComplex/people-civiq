@@ -1,0 +1,17 @@
+id: ocd-person/be34b3f7-6d67-5575-843b-41f8a30ed0b1
+name: Jill MacDonald
+given_name: Jill
+family_name: MacDonald
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:solana_beach/government
+  start_date: '2022-12-01'
+  end_date: '2026-12-01'
+  district: District 4
+sources:
+- url: https://www.cityofsolanabeach.ca.gov/city-council
+  note: official city website
+extras:
+  title: Deputy Mayor
+  verified_at: '2026-09-06'
+  verified_by: city-website

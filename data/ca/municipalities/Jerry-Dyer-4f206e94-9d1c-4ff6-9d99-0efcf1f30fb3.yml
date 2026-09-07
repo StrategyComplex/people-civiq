@@ -3,13 +3,23 @@ name: Jerry Dyer
 given_name: Jerry
 family_name: Dyer
 email: Mayor@fresno.gov
+image: http://commons.wikimedia.org/wiki/Special:FilePath/Jerry%20Dyer%202021%20official%20portrait.jpg
 roles:
 - end_date: '2029-01-07'
   type: mayor
   jurisdiction: ocd-jurisdiction/country:us/state:ca/place:fresno/government
+  start_date: '2021-01-05'
 offices:
 - classification: primary
   address: 2600 Fresno Street, Room 2075;Fresno, CA 93721
   voice: 559-621-8000
+other_identifiers:
+- scheme: wikidata
+  identifier: Q88288825
 sources:
 - url: https://www.fresno.gov/mayor/about-the-mayor/
+- url: https://www.wikidata.org/wiki/Q88288825
+  note: Wikidata head of government (P6)
+extras:
+  verified_at: '2026-09-07'
+  verified_by: wikidata

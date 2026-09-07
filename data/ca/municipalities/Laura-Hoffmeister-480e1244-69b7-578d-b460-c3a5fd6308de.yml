@@ -1,0 +1,20 @@
+id: ocd-person/480e1244-69b7-578d-b460-c3a5fd6308de
+name: Laura Hoffmeister
+given_name: Laura
+family_name: Hoffmeister
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:concord/government
+  start_date: '2022-12-07'
+links:
+- url: https://www.cityofconcord.org/
+  note: city website
+other_identifiers:
+- scheme: wikidata
+  identifier: Q121221446
+sources:
+- url: https://www.wikidata.org/wiki/Q121221446
+  note: Wikidata head of government (P6)
+extras:
+  verified_at: '2026-09-07'
+  verified_by: wikidata

@@ -1,0 +1,16 @@
+id: ocd-person/72d2bd03-15e9-52af-8061-09d0e8f15997
+name: Jenny Maeda
+given_name: Jenny
+family_name: Maeda
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:poway/government
+  end_date: '2028-12-01'
+  district: District 4
+sources:
+- url: https://poway.org/163/City-Council
+  note: official city website
+extras:
+  title: Deputy Mayor
+  verified_at: '2026-09-06'
+  verified_by: city-website

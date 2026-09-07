@@ -1,0 +1,22 @@
+id: ocd-person/65f75e4f-bdd4-52a8-9056-43d7da047975
+name: Acquanetta Warren
+given_name: Acquanetta
+family_name: Warren
+party:
+- name: Republican Party
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:fontana/government
+  start_date: '2010-01-01'
+links:
+- url: https://www.fontanaca.gov/
+  note: city website
+other_identifiers:
+- scheme: wikidata
+  identifier: Q15781415
+sources:
+- url: https://www.wikidata.org/wiki/Q15781415
+  note: Wikidata head of government (P6)
+extras:
+  verified_at: '2026-09-07'
+  verified_by: wikidata

@@ -1,0 +1,15 @@
+id: ocd-person/b9bc6218-f720-5078-8c07-410f870a7c8d
+name: Anita Edmondson
+given_name: Anita
+family_name: Edmondson
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:poway/government
+  end_date: '2028-12-01'
+  district: District 2
+sources:
+- url: https://poway.org/163/City-Council
+  note: official city website
+extras:
+  verified_at: '2026-09-06'
+  verified_by: city-website

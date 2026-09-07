@@ -1,0 +1,14 @@
+id: ocd-person/eb54a236-4a42-504b-b0c7-61e3e381fdff
+name: Matthew Leyba-González
+given_name: Matthew
+family_name: Leyba-González
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:imperial_beach/government
+  district: District 4
+sources:
+- url: https://imperialbeachca.gov/175/Office-of-Mayor-and-City-Council
+  note: official city website
+extras:
+  verified_at: '2026-09-06'
+  verified_by: city-website

@@ -1,0 +1,13 @@
+id: ocd-person/d3869644-1e67-536e-9195-1f7d3ba57957
+name: Carrie Downey
+given_name: Carrie
+family_name: Downey
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:coronado/government
+sources:
+- url: https://www.coronado.ca.us/232/Mayor-City-Council
+  note: official city website
+extras:
+  verified_at: '2026-09-06'
+  verified_by: city-website

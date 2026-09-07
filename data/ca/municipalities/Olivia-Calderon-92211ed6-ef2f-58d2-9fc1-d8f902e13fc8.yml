@@ -1,0 +1,19 @@
+id: ocd-person/92211ed6-ef2f-58d2-9fc1-d8f902e13fc8
+name: Olivia Calderon
+given_name: Olivia
+family_name: Calderon
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:arvin/government
+links:
+- url: http://www.arvin.org
+  note: city website
+other_identifiers:
+- scheme: wikidata
+  identifier: Q132939455
+sources:
+- url: https://www.wikidata.org/wiki/Q132939455
+  note: Wikidata head of government (P6)
+extras:
+  verified_at: '2026-09-07'
+  verified_by: wikidata

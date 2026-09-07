@@ -1,0 +1,20 @@
+id: ocd-person/f7f2c33a-b85f-51f2-b9f4-29b483292fbb
+name: Debby Stegura
+given_name: Debby
+family_name: Stegura
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:rolling_hills_estates/government
+  start_date: '2020-01-01'
+links:
+- url: https://www.rollinghillsestates.gov
+  note: city website
+other_identifiers:
+- scheme: wikidata
+  identifier: Q131751990
+sources:
+- url: https://www.wikidata.org/wiki/Q131751990
+  note: Wikidata head of government (P6)
+extras:
+  verified_at: '2026-09-07'
+  verified_by: wikidata

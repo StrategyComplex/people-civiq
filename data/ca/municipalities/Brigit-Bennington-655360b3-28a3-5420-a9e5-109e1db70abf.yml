@@ -1,0 +1,19 @@
+id: ocd-person/655360b3-28a3-5420-a9e5-109e1db70abf
+name: Brigit Bennington
+given_name: Brigit
+family_name: Bennington
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:hesperia/government
+links:
+- url: http://www.cityofhesperia.us
+  note: city website
+other_identifiers:
+- scheme: wikidata
+  identifier: Q115792902
+sources:
+- url: https://www.wikidata.org/wiki/Q115792902
+  note: Wikidata head of government (P6)
+extras:
+  verified_at: '2026-09-07'
+  verified_by: wikidata

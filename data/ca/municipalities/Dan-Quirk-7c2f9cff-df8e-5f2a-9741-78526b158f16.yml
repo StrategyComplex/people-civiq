@@ -1,0 +1,13 @@
+id: ocd-person/7c2f9cff-df8e-5f2a-9741-78526b158f16
+name: Dan Quirk
+given_name: Dan
+family_name: Quirk
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:del_mar/government
+sources:
+- url: https://www.delmar.ca.us/142/City-Council
+  note: official city website
+extras:
+  verified_at: '2026-09-06'
+  verified_by: city-website

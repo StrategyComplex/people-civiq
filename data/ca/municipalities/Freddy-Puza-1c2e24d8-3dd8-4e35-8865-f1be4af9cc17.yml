@@ -2,8 +2,8 @@ id: ocd-person/1c2e24d8-3dd8-4e35-8865-f1be4af9cc17
 name: Freddy Puza
 given_name: Freddy
 family_name: Puza
-image: https://www.culvercity.gov/files/assets/public/v/1/images/city-manager/freddypuza_small.jpg
 email: freddy.puza@culvercity.org
+image: https://www.culvercity.gov/files/assets/public/v/1/images/city-manager/freddypuza_small.jpg
 roles:
 - end_date: '2026-12-14'
   type: mayor

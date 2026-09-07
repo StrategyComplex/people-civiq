@@ -1,0 +1,20 @@
+id: ocd-person/84b61101-8dae-5fcf-9b89-e3e7ebf44a17
+name: Mayra Vega
+given_name: Mayra
+family_name: Vega
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:woodland/government
+  start_date: '2020-12-01'
+links:
+- url: http://www.cityofwoodland.org/
+  note: city website
+other_identifiers:
+- scheme: wikidata
+  identifier: Q112609541
+sources:
+- url: https://www.wikidata.org/wiki/Q112609541
+  note: Wikidata head of government (P6)
+extras:
+  verified_at: '2026-09-07'
+  verified_by: wikidata

@@ -1,0 +1,14 @@
+id: ocd-person/3ed1bbe0-64c1-5f99-a205-624095922a58
+name: Joy Lyndes
+given_name: Joy
+family_name: Lyndes
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:encinitas/government
+  district: District 3
+sources:
+- url: https://www.encinitasca.gov/government/elected-officials
+  note: official city website
+extras:
+  verified_at: '2026-09-06'
+  verified_by: city-website

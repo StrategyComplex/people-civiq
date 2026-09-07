@@ -438,3 +438,41 @@
   id: ocd-jurisdiction/country:us/state:ca/place:lompoc/government
 - name: Los Altos Hills
   id: ocd-jurisdiction/country:us/state:ca/place:los_altos_hills/government
+- name: Anderson
+  id: ocd-jurisdiction/country:us/state:ca/place:anderson/government
+- name: El Centro
+  id: ocd-jurisdiction/country:us/state:ca/place:el_centro/government
+- name: Atascadero
+  id: ocd-jurisdiction/country:us/state:ca/place:atascadero/government
+- name: Arroyo Grande
+  id: ocd-jurisdiction/country:us/state:ca/place:arroyo_grande/government
+- name: Arvin
+  id: ocd-jurisdiction/country:us/state:ca/place:arvin/government
+- name: Hermosa Beach
+  id: ocd-jurisdiction/country:us/state:ca/place:hermosa_beach/government
+- name: Glendora
+  id: ocd-jurisdiction/country:us/state:ca/place:glendora/government
+- name: Oroville
+  id: ocd-jurisdiction/country:us/state:ca/place:oroville/government
+- name: City of Industry
+  id: ocd-jurisdiction/country:us/state:ca/place:city_of_industry/government
+- name: Rolling Hills Estates
+  id: ocd-jurisdiction/country:us/state:ca/place:rolling_hills_estates/government
+- name: Imperial
+  id: ocd-jurisdiction/country:us/state:ca/place:imperial/government
+- name: Port Hueneme
+  id: ocd-jurisdiction/country:us/state:ca/place:port_hueneme/government
+- name: Poway
+  id: ocd-jurisdiction/country:us/state:ca/place:poway/government
+- name: National City
+  id: ocd-jurisdiction/country:us/state:ca/place:national_city/government
+- name: Imperial Beach
+  id: ocd-jurisdiction/country:us/state:ca/place:imperial_beach/government
+- name: Coronado
+  id: ocd-jurisdiction/country:us/state:ca/place:coronado/government
+- name: Lemon Grove
+  id: ocd-jurisdiction/country:us/state:ca/place:lemon_grove/government
+- name: Solana Beach
+  id: ocd-jurisdiction/country:us/state:ca/place:solana_beach/government
+- name: Del Mar
+  id: ocd-jurisdiction/country:us/state:ca/place:del_mar/government

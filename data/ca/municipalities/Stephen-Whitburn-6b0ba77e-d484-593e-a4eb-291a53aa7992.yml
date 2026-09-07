@@ -1,0 +1,14 @@
+id: ocd-person/6b0ba77e-d484-593e-a4eb-291a53aa7992
+name: Stephen Whitburn
+given_name: Stephen
+family_name: Whitburn
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:san_diego/government
+  district: District 3
+sources:
+- url: https://www.sandiego.gov/citycouncil
+  note: official city website
+extras:
+  verified_at: '2026-09-06'
+  verified_by: city-website

@@ -1,0 +1,19 @@
+id: ocd-person/01a0e588-7ca5-5501-a05a-ddd595195689
+name: Geoffrey Dale
+given_name: Geoffrey
+family_name: Dale
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:imperial/government
+links:
+- url: http://www.imperial.ca.gov
+  note: city website
+other_identifiers:
+- scheme: wikidata
+  identifier: Q112252583
+sources:
+- url: https://www.wikidata.org/wiki/Q112252583
+  note: Wikidata head of government (P6)
+extras:
+  verified_at: '2026-09-07'
+  verified_by: wikidata

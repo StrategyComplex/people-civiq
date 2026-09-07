@@ -1,0 +1,14 @@
+id: ocd-person/d32f6d6f-b038-5495-98f2-46c06d57bdd8
+name: Jennifer Mendoza
+given_name: Jennifer
+family_name: Mendoza
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:lemon_grove/government
+  end_date: '2026-12-01'
+sources:
+- url: https://www.lemongrove.ca.gov/our-government/the-mayor-and-city-council/
+  note: official city website
+extras:
+  verified_at: '2026-09-06'
+  verified_by: city-website

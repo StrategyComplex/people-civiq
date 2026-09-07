@@ -1,0 +1,20 @@
+id: ocd-person/5db875af-90eb-55a4-a1f2-2041c4220aa0
+name: Matt Rahn
+given_name: Matt
+family_name: Rahn
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:temecula/government
+  start_date: '2022-01-01'
+links:
+- url: http://www.cityoftemecula.org
+  note: city website
+other_identifiers:
+- scheme: wikidata
+  identifier: Q112144239
+sources:
+- url: https://www.wikidata.org/wiki/Q112144239
+  note: Wikidata head of government (P6)
+extras:
+  verified_at: '2026-09-07'
+  verified_by: wikidata

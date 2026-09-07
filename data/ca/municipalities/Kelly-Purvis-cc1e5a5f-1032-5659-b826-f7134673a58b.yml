@@ -1,0 +1,13 @@
+id: ocd-person/cc1e5a5f-1032-5659-b826-f7134673a58b
+name: Kelly Purvis
+given_name: Kelly
+family_name: Purvis
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:coronado/government
+sources:
+- url: https://www.coronado.ca.us/232/Mayor-City-Council
+  note: official city website
+extras:
+  verified_at: '2026-09-06'
+  verified_by: city-website

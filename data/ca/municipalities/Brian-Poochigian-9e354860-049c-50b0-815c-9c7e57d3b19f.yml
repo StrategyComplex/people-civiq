@@ -1,0 +1,19 @@
+id: ocd-person/9e354860-049c-50b0-815c-9c7e57d3b19f
+name: Brian Poochigian
+given_name: Brian
+family_name: Poochigian
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:visalia/government
+links:
+- url: https://www.visalia.city/
+  note: city website
+other_identifiers:
+- scheme: wikidata
+  identifier: Q115959500
+sources:
+- url: https://www.wikidata.org/wiki/Q115959500
+  note: Wikidata head of government (P6)
+extras:
+  verified_at: '2026-09-07'
+  verified_by: wikidata

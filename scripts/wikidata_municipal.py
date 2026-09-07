@@ -448,9 +448,19 @@ class Refresher:
             roles = person.setdefault("roles", [])
             same = [r for r in roles if r.get("type") == role_type and r.get("jurisdiction") == jid]
             if same:
-                # Refresh dates on the existing seat; never drop history.
-                same[-1].update(new_role)
-                same[-1].pop("end_date", None) if not holder["end"] else None
+                cur = same[-1]
+                cur_end = datestr(cur.get("end_date"))
+                # A past-dated seat is only reopened by a claim that started
+                # after it ended; Wikidata lacking an end date is not evidence.
+                if cur_end and cur_end < today() and not (holder["start"] and holder["start"] > cur_end):
+                    self.report["conflicts"].append((holder["name"], holder["start"], person.get("name"), "term ended %s" % cur_end, holder["city_label"]))
+                    return path
+                # Refresh dates on the existing seat, but keep a known end date
+                # when Wikidata has none; never drop history.
+                if holder["start"] and not cur.get("start_date"):
+                    cur["start_date"] = holder["start"]
+                if holder["end"]:
+                    cur["end_date"] = holder["end"]
             else:
                 roles.append(new_role)
             self.report["updated"].append((holder["name"], role_type, holder["city_label"]))
@@ -495,7 +505,7 @@ class Refresher:
             jid, _ = self.jurisdiction_for(holder["city_label"])
             clash = self.newer_incumbent(holder, "mayor", jid)
             if clash:
-                self.report["conflicts"].append((holder["name"], holder.get("start"), clash[0], clash[1], holder["city_label"]))
+                self.report["conflicts"].append((holder["name"], holder.get("start"), clash[0], "since %s" % (clash[1] or "?"), holder["city_label"]))
                 continue
             path = self.apply(holder, "mayor", jid)
             self.retire_others(jid, "mayor", {path})
@@ -536,8 +546,8 @@ def print_report(report, dry_run):
     for city in report["new_municipalities"]:
         print("  * new municipality %s" % city)
     for wd_name, wd_start, cur_name, cur_start, city in report["conflicts"]:
-        print("  ! conflict %s: Wikidata says %s (from %s) but %s (from %s) is current; kept existing" % (
-            city, wd_name, wd_start or "?", cur_name, cur_start or "?"))
+        print("  ! conflict %s: Wikidata says %s (from %s) but file has %s (%s); kept file" % (
+            city, wd_name, wd_start or "?", cur_name, cur_start))
 
 
 def main(argv=None):

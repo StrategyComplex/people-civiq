@@ -1,0 +1,15 @@
+id: ocd-person/cf6268c3-43cf-5252-86cc-387022489880
+name: Cesar Fernandez
+given_name: Cesar
+family_name: Fernandez
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:chula_vista/government
+  district: District 4
+sources:
+- url: https://www.chulavistaca.gov/departments/mayor-and-council/mayor
+  note: official city website
+extras:
+  title: Deputy Mayor
+  verified_at: '2026-09-06'
+  verified_by: city-website

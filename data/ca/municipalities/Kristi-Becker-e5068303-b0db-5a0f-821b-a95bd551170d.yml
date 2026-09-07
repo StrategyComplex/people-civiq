@@ -1,0 +1,16 @@
+id: ocd-person/e5068303-b0db-5a0f-821b-a95bd551170d
+name: Kristi Becker
+given_name: Kristi
+family_name: Becker
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:solana_beach/government
+  start_date: '2022-12-01'
+  end_date: '2026-12-01'
+  district: District 2
+sources:
+- url: https://www.cityofsolanabeach.ca.gov/city-council
+  note: official city website
+extras:
+  verified_at: '2026-09-06'
+  verified_by: city-website

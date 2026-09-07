@@ -1,0 +1,15 @@
+id: ocd-person/f9771e44-c381-5ba2-8033-d57511fa6437
+name: Kent Lee
+given_name: Kent
+family_name: Lee
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:san_diego/government
+  district: District 6
+sources:
+- url: https://www.sandiego.gov/citycouncil
+  note: official city website
+extras:
+  title: Council President Pro Tem
+  verified_at: '2026-09-06'
+  verified_by: city-website

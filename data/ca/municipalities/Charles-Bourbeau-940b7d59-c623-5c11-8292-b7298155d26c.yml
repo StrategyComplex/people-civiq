@@ -1,0 +1,19 @@
+id: ocd-person/940b7d59-c623-5c11-8292-b7298155d26c
+name: Charles Bourbeau
+given_name: Charles
+family_name: Bourbeau
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:atascadero/government
+links:
+- url: http://www.atascadero.org
+  note: city website
+other_identifiers:
+- scheme: wikidata
+  identifier: Q132941143
+sources:
+- url: https://www.wikidata.org/wiki/Q132941143
+  note: Wikidata head of government (P6)
+extras:
+  verified_at: '2026-09-07'
+  verified_by: wikidata

@@ -1,0 +1,13 @@
+id: ocd-person/1bc2802d-e2c5-55a2-a0d6-b0d0e8ea2360
+name: Laura Lothian
+given_name: Laura
+family_name: Lothian
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:la_mesa/government
+sources:
+- url: https://www.cityoflamesa.gov/Directory.aspx?did=11
+  note: official city website
+extras:
+  verified_at: '2026-09-06'
+  verified_by: city-website

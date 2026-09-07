@@ -1,0 +1,15 @@
+id: ocd-person/61665b07-63f7-5107-948a-0f094eb574c8
+name: Christopher Pikus
+given_name: Christopher
+family_name: Pikus
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:poway/government
+  end_date: '2026-12-01'
+  district: District 1
+sources:
+- url: https://poway.org/163/City-Council
+  note: official city website
+extras:
+  verified_at: '2026-09-06'
+  verified_by: city-website

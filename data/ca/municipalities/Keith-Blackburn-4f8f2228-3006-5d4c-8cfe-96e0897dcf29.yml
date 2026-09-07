@@ -1,0 +1,13 @@
+id: ocd-person/4f8f2228-3006-5d4c-8cfe-96e0897dcf29
+name: Keith Blackburn
+given_name: Keith
+family_name: Blackburn
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:carlsbad/government
+sources:
+- url: https://www.carlsbadca.gov/city-hall/city-council
+  note: official city website
+extras:
+  verified_at: '2026-09-06'
+  verified_by: city-website

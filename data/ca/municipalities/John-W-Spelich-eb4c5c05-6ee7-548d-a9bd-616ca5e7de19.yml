@@ -1,0 +1,14 @@
+id: ocd-person/eb4c5c05-6ee7-548d-a9bd-616ca5e7de19
+name: John W Spelich
+given_name: John
+family_name: Spelich
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:del_mar/government
+sources:
+- url: https://www.delmar.ca.us/142/City-Council
+  note: official city website
+extras:
+  title: Deputy Mayor
+  verified_at: '2026-09-06'
+  verified_by: city-website

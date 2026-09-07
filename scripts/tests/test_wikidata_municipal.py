@@ -60,7 +60,7 @@ class RefreshTest(unittest.TestCase):
         mayor = [r for r in bass["roles"] if r["type"] == "mayor"]
         self.assertEqual(len(mayor), 1, "must update the existing seat, not add a second")
         self.assertEqual(mayor[0]["start_date"], "2022-12-12")
-        self.assertNotIn("end_date", mayor[0], "open-ended on Wikidata clears the stale end")
+        self.assertEqual(mayor[0].get("end_date"), "2026-12-11", "a known end date survives an open-ended Wikidata claim")
         self.assertIn({"scheme": "wikidata", "identifier": "Q6371239"}, bass["other_identifiers"])
         self.assertTrue(any("wikidata.org/wiki/Q6371239" in s["url"] for s in bass["sources"]))
         self.assertEqual(bass["extras"]["verified_at"], "2026-09-06")

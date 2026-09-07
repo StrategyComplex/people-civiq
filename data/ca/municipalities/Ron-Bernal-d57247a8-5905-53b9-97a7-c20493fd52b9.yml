@@ -1,0 +1,20 @@
+id: ocd-person/d57247a8-5905-53b9-97a7-c20493fd52b9
+name: Ron Bernal
+given_name: Ron
+family_name: Bernal
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:antioch/government
+  start_date: '2024-12-01'
+links:
+- url: https://www.antiochca.gov/
+  note: city website
+other_identifiers:
+- scheme: wikidata
+  identifier: Q132887399
+sources:
+- url: https://www.wikidata.org/wiki/Q132887399
+  note: Wikidata head of government (P6)
+extras:
+  verified_at: '2026-09-07'
+  verified_by: wikidata

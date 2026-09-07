@@ -1,0 +1,15 @@
+id: ocd-person/fcd5c0cd-5844-5cc2-8d84-819f11b8c1d8
+name: Jim O'Hara
+given_name: Jim
+family_name: O'Hara
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:encinitas/government
+  district: District 2
+sources:
+- url: https://www.encinitasca.gov/government/elected-officials
+  note: official city website
+extras:
+  title: Deputy Mayor
+  verified_at: '2026-09-06'
+  verified_by: city-website

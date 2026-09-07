@@ -1,0 +1,18 @@
+id: ocd-person/64fec1b3-1d43-5006-bc8f-443f3dabd8a9
+name: John McCann
+given_name: John
+family_name: McCann
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:chula_vista/government
+other_identifiers:
+- scheme: wikidata
+  identifier: Q116789022
+sources:
+- url: https://www.wikidata.org/wiki/Q116789022
+  note: Wikidata head of government (P6)
+- url: https://www.chulavistaca.gov/departments/mayor-and-council/mayor
+  note: official city website
+extras:
+  verified_at: '2026-09-06'
+  verified_by: city-website

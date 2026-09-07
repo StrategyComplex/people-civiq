@@ -1,0 +1,14 @@
+id: ocd-person/51d06794-4e55-5e45-8741-ce727ee210c1
+name: Alysson Snow
+given_name: Alysson
+family_name: Snow
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:lemon_grove/government
+  end_date: '2028-12-01'
+sources:
+- url: https://www.lemongrove.ca.gov/our-government/the-mayor-and-city-council/
+  note: official city website
+extras:
+  verified_at: '2026-09-06'
+  verified_by: city-website

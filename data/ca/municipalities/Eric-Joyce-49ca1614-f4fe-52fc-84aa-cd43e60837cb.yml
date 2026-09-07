@@ -1,0 +1,15 @@
+id: ocd-person/49ca1614-f4fe-52fc-84aa-cd43e60837cb
+name: Eric Joyce
+given_name: Eric
+family_name: Joyce
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:oceanside/government
+  district: District 1
+sources:
+- url: https://www.ci.oceanside.ca.us/government/city-council
+  note: official city website
+extras:
+  title: Deputy Mayor
+  verified_at: '2026-09-06'
+  verified_by: city-website

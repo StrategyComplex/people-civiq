@@ -1,0 +1,15 @@
+id: ocd-person/10d2a53c-7156-5267-ac88-482175a06ad6
+name: Luz Molina
+given_name: Luz
+family_name: Molina
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:national_city/government
+  district: District 1
+sources:
+- url: https://www.nationalcityca.gov/government/mayor-and-council
+  note: official city website
+extras:
+  title: Vice Mayor
+  verified_at: '2026-09-06'
+  verified_by: city-website

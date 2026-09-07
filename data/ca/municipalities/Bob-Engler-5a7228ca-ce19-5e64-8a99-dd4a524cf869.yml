@@ -1,0 +1,20 @@
+id: ocd-person/5a7228ca-ce19-5e64-8a99-dd4a524cf869
+name: Bob Engler
+given_name: Bob
+family_name: Engler
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:thousand_oaks/government
+  start_date: '2018-01-01'
+links:
+- url: https://www.toaks.org/
+  note: city website
+other_identifiers:
+- scheme: wikidata
+  identifier: Q112078956
+sources:
+- url: https://www.wikidata.org/wiki/Q112078956
+  note: Wikidata head of government (P6)
+extras:
+  verified_at: '2026-09-07'
+  verified_by: wikidata

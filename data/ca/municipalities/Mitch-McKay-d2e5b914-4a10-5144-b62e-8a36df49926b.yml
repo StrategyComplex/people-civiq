@@ -1,0 +1,13 @@
+id: ocd-person/d2e5b914-4a10-5144-b62e-8a36df49926b
+name: Mitch McKay
+given_name: Mitch
+family_name: McKay
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:imperial_beach/government
+sources:
+- url: https://imperialbeachca.gov/175/Office-of-Mayor-and-City-Council
+  note: official city website
+extras:
+  verified_at: '2026-09-06'
+  verified_by: city-website

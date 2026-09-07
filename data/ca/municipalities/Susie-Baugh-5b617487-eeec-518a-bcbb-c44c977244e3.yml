@@ -1,0 +1,19 @@
+id: ocd-person/5b617487-eeec-518a-bcbb-c44c977244e3
+name: Susie Baugh
+given_name: Susie
+family_name: Baugh
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:anderson/government
+links:
+- url: http://ci.anderson.ca.us
+  note: city website
+other_identifiers:
+- scheme: wikidata
+  identifier: Q132884361
+sources:
+- url: https://www.wikidata.org/wiki/Q132884361
+  note: Wikidata head of government (P6)
+extras:
+  verified_at: '2026-09-07'
+  verified_by: wikidata

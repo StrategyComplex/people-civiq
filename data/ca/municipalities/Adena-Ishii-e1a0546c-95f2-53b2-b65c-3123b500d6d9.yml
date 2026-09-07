@@ -1,0 +1,17 @@
+id: ocd-person/e1a0546c-95f2-53b2-b65c-3123b500d6d9
+name: Adena Ishii
+given_name: Adena
+family_name: Ishii
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:berkeley/government
+  start_date: '2024-12-01'
+other_identifiers:
+- scheme: wikidata
+  identifier: Q131339930
+sources:
+- url: https://www.wikidata.org/wiki/Q131339930
+  note: Wikidata head of government (P6)
+extras:
+  verified_at: '2026-09-07'
+  verified_by: wikidata

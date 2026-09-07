@@ -1,0 +1,18 @@
+id: ocd-person/6aa45541-106b-510b-9223-8ed2de420cef
+name: Helen Tran
+given_name: Helen
+family_name: Tran
+image: http://commons.wikimedia.org/wiki/Special:FilePath/Helen%20Tran%2C%20mayor%20of%20San%20Bernardino.jpg
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:san_bernardino/government
+  start_date: '2022-12-21'
+other_identifiers:
+- scheme: wikidata
+  identifier: Q115581562
+sources:
+- url: https://www.wikidata.org/wiki/Q115581562
+  note: Wikidata head of government (P6)
+extras:
+  verified_at: '2026-09-07'
+  verified_by: wikidata

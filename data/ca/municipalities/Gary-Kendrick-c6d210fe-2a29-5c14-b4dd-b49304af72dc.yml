@@ -1,0 +1,16 @@
+id: ocd-person/c6d210fe-2a29-5c14-b4dd-b49304af72dc
+name: Gary Kendrick
+given_name: Gary
+family_name: Kendrick
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:el_cajon/government
+  start_date: '2022-12-01'
+  end_date: '2026-12-01'
+  district: District 1
+sources:
+- url: https://www.elcajon.gov/your-government/elected-officials/city-council
+  note: official city website
+extras:
+  verified_at: '2026-09-06'
+  verified_by: city-website

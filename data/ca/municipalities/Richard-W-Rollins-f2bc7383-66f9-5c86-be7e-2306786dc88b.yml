@@ -1,0 +1,20 @@
+id: ocd-person/f2bc7383-66f9-5c86-be7e-2306786dc88b
+name: Richard W. Rollins
+given_name: Richard
+family_name: Rollins
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:port_hueneme/government
+  start_date: '2018-11-06'
+links:
+- url: http://www.ci.port-hueneme.ca.us
+  note: city website
+other_identifiers:
+- scheme: wikidata
+  identifier: Q111481026
+sources:
+- url: https://www.wikidata.org/wiki/Q111481026
+  note: Wikidata head of government (P6)
+extras:
+  verified_at: '2026-09-07'
+  verified_by: wikidata

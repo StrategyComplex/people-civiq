@@ -9,11 +9,20 @@ roles:
 - end_date: '2026-12-15'
   type: mayor
   jurisdiction: ocd-jurisdiction/country:us/state:ca/place:long_beach/government
+  start_date: '2022-11-01'
 offices:
 - classification: primary
   address: 411 West Ocean Blvd., 11th Floor;Long Beach, CA 90802
   voice: 562-570-6801
 links:
 - url: https://www.longbeach.gov/mayor
+other_identifiers:
+- scheme: wikidata
+  identifier: Q116785164
 sources:
 - url: https://www.longbeach.gov/mayor
+- url: https://www.wikidata.org/wiki/Q116785164
+  note: Wikidata head of government (P6)
+extras:
+  verified_at: '2026-09-07'
+  verified_by: wikidata

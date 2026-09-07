@@ -1,0 +1,14 @@
+id: ocd-person/1c93bf39-a1d5-584e-a319-20e8fb40b073
+name: María Nuñez
+given_name: María
+family_name: Nuñez
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:san_marcos/government
+  district: District 1
+sources:
+- url: https://www.sanmarcosca.gov/government/city-council
+  note: official city website
+extras:
+  verified_at: '2026-09-06'
+  verified_by: city-website

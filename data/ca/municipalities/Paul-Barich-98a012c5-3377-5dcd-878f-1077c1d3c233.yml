@@ -1,0 +1,20 @@
+id: ocd-person/98a012c5-3377-5dcd-878f-1077c1d3c233
+name: Paul Barich
+given_name: Paul
+family_name: Barich
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:redlands/government
+  start_date: '2014-01-01'
+links:
+- url: http://www.ci.redlands.ca.us
+  note: city website
+other_identifiers:
+- scheme: wikidata
+  identifier: Q115793809
+sources:
+- url: https://www.wikidata.org/wiki/Q115793809
+  note: Wikidata head of government (P6)
+extras:
+  verified_at: '2026-09-07'
+  verified_by: wikidata

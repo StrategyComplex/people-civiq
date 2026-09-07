@@ -1,0 +1,13 @@
+id: ocd-person/adddf478-36c8-5d9f-9c17-25b39c6c8d71
+name: Genevieve Suzuki
+given_name: Genevieve
+family_name: Suzuki
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:la_mesa/government
+sources:
+- url: https://www.cityoflamesa.gov/Directory.aspx?did=11
+  note: official city website
+extras:
+  verified_at: '2026-09-06'
+  verified_by: city-website

@@ -1,0 +1,16 @@
+id: ocd-person/f58dff3c-a376-535b-89b6-825af53a37d1
+name: Corinna Contreras
+given_name: Corinna
+family_name: Contreras
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:vista/government
+  start_date: '2022-12-01'
+  end_date: '2026-12-01'
+  district: District 1
+sources:
+- url: https://www.vista.gov/city-hall/elected-officials
+  note: official city website
+extras:
+  verified_at: '2026-09-06'
+  verified_by: city-website

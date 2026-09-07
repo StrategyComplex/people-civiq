@@ -1,0 +1,14 @@
+id: ocd-person/56e4c78d-627e-5858-bb98-166f58b69e71
+name: Henry L. Foster III
+given_name: Henry
+family_name: III
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:san_diego/government
+  district: District 4
+sources:
+- url: https://www.sandiego.gov/citycouncil
+  note: official city website
+extras:
+  verified_at: '2026-09-06'
+  verified_by: city-website

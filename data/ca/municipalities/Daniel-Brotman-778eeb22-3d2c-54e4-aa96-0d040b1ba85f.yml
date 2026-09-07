@@ -1,0 +1,20 @@
+id: ocd-person/778eeb22-3d2c-54e4-aa96-0d040b1ba85f
+name: Daniel Brotman
+given_name: Daniel
+family_name: Brotman
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:glendale/government
+  start_date: '2023-04-01'
+links:
+- url: https://www.glendaleca.gov/
+  note: city website
+other_identifiers:
+- scheme: wikidata
+  identifier: Q122781337
+sources:
+- url: https://www.wikidata.org/wiki/Q122781337
+  note: Wikidata head of government (P6)
+extras:
+  verified_at: '2026-09-07'
+  verified_by: wikidata

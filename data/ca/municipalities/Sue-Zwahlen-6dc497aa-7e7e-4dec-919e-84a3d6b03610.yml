@@ -15,5 +15,13 @@ offices:
   voice: 209-571-5597
 links:
 - url: https://www.modestogov.com/717/Mayor---Sue-Zwahlen
+other_identifiers:
+- scheme: wikidata
+  identifier: Q111935298
 sources:
 - url: https://www.modestogov.com/717/Mayor---Sue-Zwahlen
+- url: https://www.wikidata.org/wiki/Q111935298
+  note: Wikidata head of government (P6)
+extras:
+  verified_at: '2026-09-07'
+  verified_by: wikidata

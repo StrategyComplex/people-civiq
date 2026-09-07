@@ -1,0 +1,14 @@
+id: ocd-person/a67037bf-889d-5039-b1fa-c5f43c3d9324
+name: Sean Elo-Rivera
+given_name: Sean
+family_name: Elo-Rivera
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:san_diego/government
+  district: District 9
+sources:
+- url: https://www.sandiego.gov/citycouncil
+  note: official city website
+extras:
+  verified_at: '2026-09-06'
+  verified_by: city-website

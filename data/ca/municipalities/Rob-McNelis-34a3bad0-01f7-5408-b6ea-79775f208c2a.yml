@@ -1,0 +1,14 @@
+id: ocd-person/34a3bad0-01f7-5408-b6ea-79775f208c2a
+name: Rob McNelis
+given_name: Rob
+family_name: McNelis
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:santee/government
+  district: District 1
+sources:
+- url: https://www.cityofsanteeca.gov/government/city-council
+  note: official city website
+extras:
+  verified_at: '2026-09-06'
+  verified_by: city-website

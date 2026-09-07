@@ -4,6 +4,7 @@ given_name: Todd
 family_name: Gloria
 gender: Male
 email: mayortoddgloria@sandiego.gov
+image: http://commons.wikimedia.org/wiki/Special:FilePath/Mayor%20Todd%20Gloria%20at%20Comic-Con%202026%20%283x4%20cropped%29.jpg
 party:
 - name: Democratic
 roles:
@@ -11,9 +12,9 @@ roles:
   type: lower
   jurisdiction: ocd-jurisdiction/country:us/state:ca/government
   district: '78'
-- end_date: '2028-12-10'
-  type: mayor
+- type: mayor
   jurisdiction: ocd-jurisdiction/country:us/state:ca/place:san_diego/government
+  start_date: '2020-12-10'
 offices:
 - classification: primary
   address: 202 C Street, 11th Floor;San Diego, CA 92101
@@ -23,5 +24,14 @@ links:
 other_identifiers:
 - scheme: legacy_openstates
   identifier: CAL000527
+- scheme: wikidata
+  identifier: Q7812385
 sources:
 - url: https://www.sandiego.gov/mayor/contact
+- url: https://www.wikidata.org/wiki/Q7812385
+  note: Wikidata head of government (P6)
+- url: https://www.sandiego.gov/mayor
+  note: official city website
+extras:
+  verified_at: '2026-09-06'
+  verified_by: city-website

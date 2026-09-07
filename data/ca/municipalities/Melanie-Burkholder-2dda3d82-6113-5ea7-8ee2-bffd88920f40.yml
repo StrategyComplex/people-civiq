@@ -1,0 +1,14 @@
+id: ocd-person/2dda3d82-6113-5ea7-8ee2-bffd88920f40
+name: Melanie Burkholder
+given_name: Melanie
+family_name: Burkholder
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:carlsbad/government
+  district: District 1
+sources:
+- url: https://www.carlsbadca.gov/city-hall/city-council
+  note: official city website
+extras:
+  verified_at: '2026-09-06'
+  verified_by: city-website

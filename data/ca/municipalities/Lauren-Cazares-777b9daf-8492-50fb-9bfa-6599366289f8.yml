@@ -1,0 +1,14 @@
+id: ocd-person/777b9daf-8492-50fb-9bfa-6599366289f8
+name: Lauren Cazares
+given_name: Lauren
+family_name: Cazares
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:la_mesa/government
+sources:
+- url: https://www.cityoflamesa.gov/Directory.aspx?did=11
+  note: official city website
+extras:
+  title: Vice Mayor
+  verified_at: '2026-09-06'
+  verified_by: city-website

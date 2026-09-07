@@ -1,0 +1,16 @@
+id: ocd-person/ed9d3561-2cf3-5339-b412-17d75514e7d1
+name: Phil Ortiz
+given_name: Phil
+family_name: Ortiz
+roles:
+- type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:el_cajon/government
+  start_date: '2024-12-01'
+  end_date: '2028-12-01'
+  district: District 4
+sources:
+- url: https://www.elcajon.gov/your-government/elected-officials/city-council
+  note: official city website
+extras:
+  verified_at: '2026-09-06'
+  verified_by: city-website

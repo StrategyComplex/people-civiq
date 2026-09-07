@@ -1,0 +1,20 @@
+id: ocd-person/4365595f-2528-5d79-821c-291044486fc6
+name: Debra Jones
+given_name: Debra
+family_name: Jones
+roles:
+- type: mayor
+  jurisdiction: ocd-jurisdiction/country:us/state:ca/place:victorville/government
+  start_date: '2018-01-01'
+links:
+- url: http://ci.victorville.ca.us
+  note: city website
+other_identifiers:
+- scheme: wikidata
+  identifier: Q111983840
+sources:
+- url: https://www.wikidata.org/wiki/Q111983840
+  note: Wikidata head of government (P6)
+extras:
+  verified_at: '2026-09-07'
+  verified_by: wikidata
