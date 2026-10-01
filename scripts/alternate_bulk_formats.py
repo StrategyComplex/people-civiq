@@ -1,164 +1,272 @@
-import csv
+"""Convert People source records without inferring election method or incumbency.
+
+Normalization is pure and accepts an explicit reference date. The CLI retains
+its existing output layout; publication/rollback belongs to the backend.
+"""
+
 import json
 import glob
 import os
 import sys
-import utils
-from postal.parser import parse_address
+from datetime import date, datetime, timezone
 
-def generate_legislator_json():
-    #yaml filenames
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    datadir = os.path.join(script_dir, '../data/')
 
-    #get argument for force refresh
-    force_refresh = False
-    if len(sys.argv) > 1 and sys.argv[1] == '--force-refresh':
-        force_refresh = True
+def jurisdiction_level(jurisdiction):
+    """Classify OCD segments, never the role title or office mailing address."""
+    segments = (jurisdiction or '').split('/')
+    if any(s.startswith('place:') for s in segments):
+        return 'city'
+    if any(s.startswith('county:') for s in segments):
+        return 'county'
+    if any(s.startswith(('district:', 'school_district:', 'township:')) for s in segments):
+        return 'local'
+    # Unknown sub-state segments must not silently become statewide seats.
+    known = ('ocd-jurisdiction', 'government', 'country:us')
+    if any(s not in known and not s.startswith('state:') for s in segments):
+        return 'unknown'
+    if any(s.startswith('state:') for s in segments):
+        return 'state'
+    return 'national' if 'country:us' in segments else 'unknown'
 
-    for state in os.listdir(datadir): #for each state dir
-        if state == 'us':
-            continue
-        statedir_path = os.path.join(datadir, state)
-        if os.path.isdir(statedir_path):
-            for filename in os.listdir(statedir_path): #for each dir in state dir
-                statesub_dir = os.path.join(statedir_path, filename)
-                if os.path.isdir(statesub_dir):
-                    jsonDataList = []  # Reset for each directory
-                    json_out_filename = os.path.join(script_dir,"../alternate_formats/json/", state, filename+'.json')
-                    os.makedirs(os.path.dirname(json_out_filename), exist_ok=True)
-                    if not force_refresh and os.path.exists(json_out_filename):
-                        print(f"Skipping {json_out_filename}, already exists. Use --force-refresh to regenerate.")
-                        continue
 
-                    print("Processing directory: %s..." % statesub_dir)
-                    place_names = load_place_names(statedir_path)
-                    for filepath in glob.glob(os.path.join(statesub_dir, '*.yml')): #for each yaml file in dir
-                        yaml_filename = os.path.basename(filepath)
-                        print("Converting %s to JSON..." % yaml_filename)
-                        data = utils.load_data(filepath)
-                        
-                        # Translate from open states format to legislators-current format
-                        person = {}
+def normalized_role(raw_type, level):
+    """Return an additive role key; retain unrecognized source values verbatim."""
+    key = ''.join(c for c in raw_type.lower() if c.isalpha())
+    aliases = {
+        'ltgovernor': 'lieutenant_governor',
+        'lieutenantgovernor': 'lieutenant_governor',
+        'attorneygeneral': 'attorney_general',
+        'secretaryofstate': 'secretary_of_state',
+        'chiefelectionofficer': 'chief_election_officer',
+        'governor': 'governor', 'mayor': 'mayor',
+        'council': 'council', 'councilmember': 'council',
+    }
+    if key in ('upper', 'lower') and level in ('city', 'county', 'local'):
+        return 'council'
+    return aliases.get(key, raw_type)
 
-                        person['id'] = {}
-                        if 'id' in data:
-                            person['id']['openstates'] = data['id']
-                        for ident in data.get('other_identifiers') or []:
-                            if ident.get('scheme') == 'wikidata':
-                                person['id']['wikidata'] = ident.get('identifier')
-                            
-                        person['name'] = {}
-                        if 'name' in data:
-                            person['name']['official_full'] = data['name']
-                        if 'given_name' in data:
-                            person['name']['first'] = data['given_name']
-                        if 'family_name' in data:
-                            person['name']['last'] = data['family_name']
-                            
-                        person['bio'] = {}
-                        if 'gender' in data:
-                            person['bio']['gender'] = 'M' if data['gender'] == 'Male' else 'F' if data['gender'] == 'Female' else data['gender']
-                        if 'birth_date' in data and data['birth_date']:
-                            person['bio']['birthday'] = data['birth_date']
-                        if 'image' in data:
-                            person['image_url'] = data['image']
 
-                        person['terms'] = []
-                        if 'roles' in data:
-                            for role in data['roles']:
-                                # start a new term and always give it an addresses list
-                                term = {'addresses': []}
-                                term['type'] = role['type']
-                                term['state'] = utils.states[state.upper()]
-                                if 'district' in role:
-                                    term['district'] = role['district']
-                                if 'start_date' in role:
-                                    term['start'] = str(role['start_date'])
-                                if 'end_date' in role:
-                                    term['end'] = str(role['end_date'])
-                                # Municipal roles carry an OCD jurisdiction instead of a
-                                # district; pass it through with a display name so
-                                # clients can label the seat (e.g. "Mayor • Hawthorne").
-                                if 'jurisdiction' in role:
-                                    # City council seats are stored as upper/lower like
-                                    # legislatures; emit 'council' so clients never
-                                    # confuse them with state assembly/senate rows.
-                                    if ':place:' in role['jurisdiction'] and role['type'] in ('upper', 'lower'):
-                                        term['type'] = 'council'
-                                    term['jurisdiction'] = role['jurisdiction']
-                                    term['place'] = jurisdiction_place_name(
-                                        role['jurisdiction'], place_names)
-
-                                # try to find party
-                                if 'party' in data and len(data['party']) > 0:
-                                     term['party'] = data['party'][0].get('name')
-
-                                # try to find offices
-                                if 'offices' in data and len(data['offices']) > 0:
-                                    for office in data['offices']:
-                                        term['addresses'].append(parse_office_address(office))
-
-                                if 'email' in data:
-                                    term['contact_form'] = data['email']
-
-                                if 'links' in data and len(data['links']) > 0:
-                                    term['url'] = data['links'][-1].get('url')  # Use the last link as the URL
-
-                                # Provenance for clients: where the record came from
-                                # and when it was last verified (CVQ-61).
-                                if data.get('sources'):
-                                    term['sources'] = [s['url'] for s in data['sources'] if s.get('url')]
-                                extras = data.get('extras') or {}
-                                if extras.get('verified_at'):
-                                    term['verified_at'] = str(extras['verified_at'])
-
-                                person['terms'].append(term)
-                            # Most recent term last, to match the congressional
-                            # format. Sort by start date (stable, so undated
-                            # roles keep source order) rather than reversing —
-                            # the old reverse ran once per role and left the
-                            # order scrambled for anyone with 2+ roles.
-                            person['terms'].sort(key=lambda t: str(t.get('start', '')))
-
-                        jsonDataList.append(person)
-
-                # Write immediately after processing each directory
-                    utils.write(
-                        json.dumps(jsonDataList, default=utils.format_datetime, indent=2),
-                        json_out_filename)
-
-def load_place_names(statedir_path):
-    """Map OCD jurisdiction ids to display names from <state>/municipalities.yml."""
-    path = os.path.join(statedir_path, 'municipalities.yml')
-    if not os.path.exists(path):
-        return {}
+def parsed_date(value):
+    """Parse only calendar YYYY-MM-DD values; missing/invalid values return None."""
+    if not isinstance(value, str) or len(value) != 10:
+        return None
     try:
-        entries = utils.load_data(path) or []
-    except Exception as e:
-        print("Could not load %s: %s" % (path, e))
-        return {}
-    return {e['id']: e['name'] for e in entries if 'id' in e and 'name' in e}
+        return date.fromisoformat(value)
+    except ValueError:
+        return None
+
+
+def term_status(term, as_of):
+    """Classify a term without turning missing dates into proof of incumbency."""
+    start, end = parsed_date(term.get('start')), parsed_date(term.get('end'))
+    if any(term.get(k) not in (None, '') and parsed_date(term[k]) is None
+           for k in ('start', 'end')):
+        return 'ambiguous'
+    if start and end and end < start:
+        return 'ambiguous'
+    if start and start > as_of:
+        return 'future'
+    if end and end < as_of:
+        return 'historical'
+    marker = term.get('source_current')
+    if marker is False:
+        return 'historical'
+    if marker is True or start:
+        return 'current'
+    return 'ambiguous'
+
+
+def order_terms(terms, as_of):
+    """Copy/classify all terms and put one deterministic display choice last.
+
+    Current beats ambiguous, historical, then future. Selection is not evidence
+    of incumbency and does not discard concurrent offices or historical terms.
+    """
+    annotated = []
+    for term in terms:
+        status = term_status(term, as_of)
+        annotated.append(dict(term, term_status=status,
+                              current=None if status == 'ambiguous' else status == 'current',
+                              is_display_term=False))
+    if not annotated:
+        return annotated
+
+    def preference(term):
+        status = term['term_status']
+        rank = {'future': 0, 'historical': 1, 'ambiguous': 2, 'current': 3}[status]
+        start = parsed_date(term.get('start')) or date.min
+        end = parsed_date(term.get('end')) or date.min
+        if status == 'future':
+            return rank, -start.toordinal(), -end.toordinal()
+        return (rank, end.toordinal(), start.toordinal()) if status == 'historical' else (
+            rank, start.toordinal(), end.toordinal())
+
+    # max is stable: equally ranked offices choose the first source role.
+    selected = max(range(len(annotated)), key=lambda i: preference(annotated[i]))
+    display = annotated.pop(selected)
+    annotated.sort(key=lambda t: (parsed_date(t.get('start')) or date.min,
+                                  parsed_date(t.get('end')) or date.min))
+    display['is_display_term'] = True
+    return annotated + [display]
+
+
+def contact_fields(data, address_parser):
+    """Retain both office shapes and expose non-fabricated contact fallbacks."""
+    offices = list(data.get('offices') or [])
+    for office in data.get('contact_details') or []:
+        if office not in offices:
+            offices.append(office)
+    fields = {'addresses': [address_parser(office) for office in offices]}
+    email = data.get('email') or next((o['email'] for o in offices if o.get('email')), None)
+    phone = data.get('phone') or next((o['voice'] for o in offices if o.get('voice')), None)
+    if email:
+        fields['email'] = email
+        fields['contact_form'] = email  # Existing Flutter interpretation remains supported.
+    if data.get('contact_form'):
+        fields['web_form'] = data['contact_form']
+        fields.setdefault('contact_form', data['contact_form'])
+    if phone:
+        fields['phone'] = phone
+    links = [dict(link) for link in data.get('links') or []]
+    if links:
+        fields['links'] = links
+        urls = [link['url'] for link in links if link.get('url')]
+        if urls:
+            fields['url'] = urls[-1]  # Preserve legacy website preference.
+    return fields
+
+
+def convert_term(role, data, state_name, place_names, address_parser):
+    """Preserve the source type and add independently interpretable metadata."""
+    raw_type = role['type']
+    jurisdiction = role.get('jurisdiction')
+    level = jurisdiction_level(jurisdiction)
+    term = dict(contact_fields(data, address_parser), type=raw_type, raw_type=raw_type,
+                role_type=normalized_role(raw_type, level), state=state_name,
+                jurisdiction_level=level, selection_method='unknown')
+    for old, new in (('district', 'district'), ('title', 'title'),
+                     ('end_reason', 'end_reason'), ('current', 'source_current')):
+        if old in role:
+            term[new] = role[old]
+    for old, new in (('start_date', 'start'), ('end_date', 'end')):
+        if role.get(old) not in (None, ''):
+            term[new] = str(role[old])
+    if jurisdiction is not None:
+        term['jurisdiction'] = jurisdiction
+        term['place'] = jurisdiction_place_name(jurisdiction, place_names)
+    if 'selection_method' in role:
+        method = role['selection_method']
+        term['selection_method_raw'] = method
+        if isinstance(method, str) and method.strip().lower() in ('elected', 'appointed'):
+            term['selection_method'] = method.strip().lower()
+    if data.get('party'):
+        term['party'] = data['party'][0].get('name')
+    if data.get('sources'):
+        term['sources'] = [s['url'] for s in data['sources'] if s.get('url')]
+    extras = data.get('extras') or {}
+    if extras.get('verified_at'):
+        term['verified_at'] = str(extras['verified_at'])
+    return term
+
+
+def convert_person(data, state_name, place_names, as_of, address_parser):
+    """Convert one record, preserving IDs and all roles without mutating input."""
+    person = {'id': {}, 'name': {}, 'bio': {}, 'term_status_as_of': as_of.isoformat()}
+    if 'id' in data:
+        person['id']['openstates'] = data['id']
+    for ident in data.get('other_identifiers') or []:
+        if ident.get('scheme') == 'wikidata':
+            person['id']['wikidata'] = ident.get('identifier')
+    for old, new in (('name', 'official_full'), ('given_name', 'first'), ('family_name', 'last')):
+        if old in data:
+            person['name'][new] = data[old]
+    if 'gender' in data:
+        person['bio']['gender'] = {'Male': 'M', 'Female': 'F'}.get(data['gender'], data['gender'])
+    if data.get('birth_date'):
+        person['bio']['birthday'] = str(data['birth_date'])
+    if 'image' in data:
+        person['image_url'] = data['image']
+    terms = [convert_term(role, data, state_name, place_names, address_parser)
+             for role in data.get('roles') or []]
+    person['terms'] = order_terms(terms, as_of)
+    return person
+
+
+def generate_legislator_json(data_dir=None, output_dir=None, *, force_refresh=False,
+                             as_of=None, loader=None, state_names=None, address_parser=None):
+    """Generate sorted .yml/.yaml inputs; injectable edges keep tests offline.
+
+    This writes individual files, NOT an atomic dataset. Backend callers must
+    use a staging destination before validating and publishing the whole tree.
+    """
+    if loader is None or state_names is None:
+        import utils
+        loader = loader or utils.load_data
+        state_names = state_names or utils.states
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    data_dir = data_dir or os.path.join(script_dir, '../data')
+    output_dir = output_dir or os.path.join(script_dir, '../alternate_formats/json')
+    as_of = as_of or datetime.now(timezone.utc).date()
+    address_parser = address_parser or parse_office_address
+    for state in sorted(os.listdir(data_dir)):
+        state_dir = os.path.join(data_dir, state)
+        if state == 'us' or not os.path.isdir(state_dir):
+            continue
+        place_names = load_place_names(state_dir, loader)
+        for category in sorted(os.listdir(state_dir)):
+            source_dir = os.path.join(state_dir, category)
+            if not os.path.isdir(source_dir):
+                continue
+            destination = os.path.join(output_dir, state, category + '.json')
+            if not force_refresh and os.path.exists(destination):
+                continue
+            paths = sorted(glob.glob(os.path.join(source_dir, '*.yml')) +
+                           glob.glob(os.path.join(source_dir, '*.yaml')))
+            records = [convert_person(loader(path), state_names[state.upper()],
+                                      place_names, as_of, address_parser) for path in paths]
+            os.makedirs(os.path.dirname(destination), exist_ok=True)
+            with open(destination, 'w', encoding='utf-8') as output:
+                json.dump(records, output, indent=2)
+
+
+def load_place_names(state_dir, loader):
+    """Read both catalog extensions; reject conflicting names or malformed input."""
+    names = {}
+    for extension in ('yml', 'yaml'):
+        path = os.path.join(state_dir, 'municipalities.' + extension)
+        if not os.path.exists(path):
+            continue
+        for entry in loader(path) or []:
+            identity, name = entry['id'], entry['name']
+            if identity in names and names[identity] != name:
+                raise ValueError('Conflicting jurisdiction display names')
+            names[identity] = name
+    return names
 
 
 def jurisdiction_place_name(jurisdiction, place_names):
     """Display name for an OCD jurisdiction id.
 
-    Prefers municipalities.yml; falls back to the `place:` segment of the id
-    (e.g. .../place:los_angeles/government -> "Los Angeles").
+    Prefers the catalog; otherwise uses a place or county segment. A county
+    display name is not a city; consumers must also read jurisdiction_level.
     """
     if jurisdiction in place_names:
         return place_names[jurisdiction]
-    for segment in jurisdiction.split('/'):
-        if segment.startswith('place:'):
-            return segment[len('place:'):].replace('_', ' ').title()
+    for prefix in ('place:', 'county:'):
+        for segment in jurisdiction.split('/'):
+            if segment.startswith(prefix):
+                return segment[len(prefix):].replace('_', ' ').title()
     return None
 
 
-def parse_office_address(office):
+def parse_office_address(office, parser=None):
+    """Parse an office while retaining source contact values and raw address."""
+    if parser is None:
+        from postal.parser import parse_address
+        parser = parse_address
 
     # run libpostal; it always returns lower‑cased components
-    parsed_items = parse_address(office.get('address', ''))
+    parsed_items = parser(office.get('address') or '')
 
     # restore capitalisation – e.g. “pennsylvania” → “Pennsylvania”
     # you can tweak this if you need to preserve “USA”, “McFoo” etc.
@@ -202,6 +310,13 @@ def parse_office_address(office):
         newOffice['phone'] = office['voice']
     if 'classification' in office:
         newOffice['title'] = office['classification']
+    elif 'note' in office:
+        newOffice['title'] = office['note']
+    for key in ('email', 'fax'):
+        if office.get(key):
+            newOffice[key] = office[key]
+    if office.get('address'):
+        newOffice['raw_address'] = office['address']
 
     return newOffice
 
@@ -218,7 +333,8 @@ if __name__ == '__main__':
         remove_pickles = True
 
     if remove_pickles:
+        import utils
         utils.remove_pickles(data_dir)
     else:
         os.makedirs(os.path.join(output_dir, "json"), exist_ok=True)
-        generate_legislator_json()
+        generate_legislator_json(force_refresh='--force-refresh' in sys.argv[1:])

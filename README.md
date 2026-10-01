@@ -23,6 +23,31 @@ All data within the data directory is organized by state.  Within a given state 
   * retired - people not currently serving any tracked roles
   * committees - committee data
 
+## Civiq converter development
+
+The generated contract is documented in [schema.md](schema.md#civiq-generated-personterm-contract).
+`scripts/alternate_bulk_formats.py` preserves legacy fields and adds explicit
+role, jurisdiction, selection-method, and temporal metadata. Unknown does not
+mean elected; a selected display term does not necessarily mean current.
+
+Run the offline synthetic regression suite from the repository root:
+
+```sh
+PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s scripts -p 'test_alternate_bulk_formats.py' -v
+```
+
+Tests inject YAML loading and address parsing and generate only in temporary
+directories. They do not validate the native libpostal installation or regenerate
+production data. The converter API accepts `data_dir`, `output_dir`, an explicit
+`as_of` date, and injected loading/parsing functions for staged builds and tests.
+Without `force_refresh=True` (CLI: `--force-refresh`), existing output files are
+left untouched. A revision change alone does not force regeneration.
+
+Backend staged publication, runtime date re-evaluation, and coordinated Flutter
+decoding are separate completion steps. Do not pin an uncommitted converter
+revision or treat this change as proof of nationwide data completeness. Never
+hand-edit source person records or generate production output as part of tests.
+
 ## About this Repo
 
 A lot of inspiration was taken from the [congress-legislators](https://github.com/unitedstates/congress-legislators) project that has been maintaining this data for the United States Congress.
