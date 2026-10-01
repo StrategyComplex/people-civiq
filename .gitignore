@@ -13,4 +13,3 @@ env/
 data/**/*.pickle
 alternate_formats/json/**
 !alternate_formats/json/state_hash_list.txt
-.opencode
