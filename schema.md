@@ -112,8 +112,11 @@ copied to terms, not evidence that a historical office had those contacts.
 Generation includes `.yml` and `.yaml`, sorts paths, and rejects conflicting
 catalog names. Repeated builds at the same reference date and inputs produce
 identical bytes. Publication is not atomic; generate into staging, validate, then
-publish a complete dataset in the backend. Native address/YAML dependencies
-remain unchanged; pure normalization tests inject these edges.
+publish a complete dataset in the backend. Direct CLI builds accept `--input-dir`,
+`--output-dir` (the JSON root), `--force-refresh`, and an optional `--as-of`
+calendar date. Safe YAML loading neither reads nor writes pickle caches. Native
+address parsing remains unchanged; pure normalization tests inject these edges,
+while synthetic CLI tests exercise the real YAML loader without source offices.
 
 # Committee Schema
 

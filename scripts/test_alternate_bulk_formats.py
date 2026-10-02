@@ -2,6 +2,10 @@
 
 import copy
 import json
+import os
+import shutil
+import subprocess
+import sys
 import tempfile
 import unittest
 from datetime import date
@@ -225,6 +229,7 @@ class GenerationTests(unittest.TestCase):
         # JSON is a YAML subset. Injecting its loader avoids native/libpostal
         # and repository utils side effects; only the orchestration is tested.
         with tempfile.TemporaryDirectory() as root:
+            root = str(Path(root).resolve())
             source, output = Path(root) / 'data', Path(root) / 'output'
             category = source / 'xx' / 'municipalities'
             category.mkdir(parents=True)
@@ -260,6 +265,205 @@ class GenerationTests(unittest.TestCase):
                     json.dumps([{'id': CITY, 'name': name}]), encoding='utf-8')
             with self.assertRaisesRegex(ValueError, 'Conflicting'):
                 converter.load_place_names(root, lambda p: json.loads(Path(p).read_text()))
+
+
+class CLITests(unittest.TestCase):
+    """Exercise real CLI/YAML loading in copied, entirely synthetic checkouts."""
+
+    def setUp(self):
+        self.temporary = tempfile.TemporaryDirectory()
+        self.addCleanup(self.temporary.cleanup)
+        self.root = Path(self.temporary.name).resolve()
+        self.checkout = self.root / 'checkout'
+        scripts = self.checkout / 'scripts'
+        scripts.mkdir(parents=True)
+        for name in ('alternate_bulk_formats.py', 'state_names.py', 'converter_safety.py'):
+            shutil.copyfile(Path(__file__).parent / name, scripts / name)
+        self.script = scripts / 'alternate_bulk_formats.py'
+        self.source = self.checkout / 'data'
+        self.category = self.source / 'ca' / 'municipalities'
+        self.category.mkdir(parents=True)
+        self.input = self.category / 'official.yml'
+        self.input.write_text(
+            'id: synthetic-person-1\nname: Example Official\n'
+            'roles:\n'
+            '  - type: lower\n    start_date: 2020-01-01\n    end_date: 2025-01-01\n'
+            '  - type: mayor\n    jurisdiction: ' + CITY + '\n'
+            '  - type: governor\n    start_date: 2031-01-01\n', encoding='utf-8')
+        (self.category / 'second.yaml').write_text(
+            'id: synthetic-person-2\nname: Second Official\nroles: []\n', encoding='utf-8')
+        (self.source / 'ca' / 'municipalities.yaml').write_text(
+            '- id: ' + CITY + '\n  name: Synthetic Catalog City\n', encoding='utf-8')
+        # A stale/unreadable cache must not be deserialized or replaced.
+        self.input.with_suffix('.yml.pickle').write_bytes(b'not a pickle')
+        self.output = self.root / 'fresh' / 'json'
+        self.cwd = self.root / 'unrelated-cwd'
+        self.cwd.mkdir()
+
+    def run_cli(self, *args):
+        env = os.environ.copy()
+        env.pop('PYTHONDONTWRITEBYTECODE', None)
+        env.pop('PYTHONPATH', None)
+        return subprocess.run([sys.executable, str(self.script), *map(str, args)],
+                              cwd=self.cwd, env=env, text=True, capture_output=True, timeout=30)
+
+    def snapshot(self):
+        return {str(p.relative_to(self.checkout)): None if p.is_dir() else
+                (p.read_bytes(), p.stat().st_mtime_ns)
+                for p in self.checkout.rglob('*')}
+
+    def test_isolated_cli_preserves_history_and_force_refreshes(self):
+        args = ('--input-dir', self.source, '--output-dir', self.output,
+                '--as-of', AS_OF.isoformat())
+        before = self.snapshot()
+        result = self.run_cli(*args)
+        self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertEqual(self.snapshot(), before)
+        destination = self.output / 'ca' / 'municipalities.json'
+        first = destination.read_bytes()
+        records = json.loads(first)
+        self.assertEqual([p['id']['openstates'] for p in records],
+                         ['synthetic-person-1', 'synthetic-person-2'])
+        self.assertEqual(records[0]['term_status_as_of'], AS_OF.isoformat())
+        terms = records[0]['terms']
+        self.assertEqual([(t['type'], t['term_status']) for t in terms],
+                         [('lower', 'historical'), ('governor', 'future'), ('mayor', 'ambiguous')])
+        self.assertIsNone(terms[-1]['current'])
+        self.assertNotIn('start', terms[-1])
+        self.assertNotIn('end', terms[-1])
+        self.assertEqual(terms[-1]['selection_method'], 'unknown')
+        self.assertEqual(terms[-1]['place'], 'Synthetic Catalog City')
+        self.assertEqual(terms[-1]['state'], 'California')
+        result = self.run_cli(*args, '--force-refresh')
+        self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertEqual(destination.read_bytes(), first)
+        self.assertEqual(self.snapshot(), before)
+
+        # Changed input with its original mtime proves force is not a timestamp heuristic.
+        timestamp = self.input.stat().st_mtime_ns
+        self.input.write_text(self.input.read_text().replace('Example Official', 'Changed Official'),
+                              encoding='utf-8')
+        os.utime(self.input, ns=(timestamp, timestamp))
+        changed = self.snapshot()
+        output_time = destination.stat().st_mtime_ns
+        result = self.run_cli(*args)
+        self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertEqual((destination.read_bytes(), destination.stat().st_mtime_ns),
+                         (first, output_time))
+        result = self.run_cli(*args, '--force-refresh')
+        self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertEqual(json.loads(destination.read_bytes())[0]['name']['official_full'],
+                         'Changed Official')
+        self.assertEqual(self.snapshot(), changed)
+        self.assertEqual(list(self.cwd.iterdir()), [])
+
+    def test_legacy_default_layout_works_from_unrelated_directory(self):
+        result = self.run_cli('--as-of', AS_OF.isoformat())
+        self.assertEqual(result.returncode, 0, result.stderr)
+        destination = self.checkout / 'alternate_formats/json/ca/municipalities.json'
+        self.assertEqual(len(json.loads(destination.read_bytes())), 2)
+        self.assertEqual(list(self.cwd.iterdir()), [])
+
+    def test_invalid_cli_arguments_do_not_write(self):
+        before = self.snapshot()
+        for extra in [('--as-of', '2030-02-30'), ('--as-of', '20300615'),
+                      ('--remove-pickles',), ('--unknown-option',)]:
+            with self.subTest(extra=extra):
+                result = self.run_cli('--output-dir', self.output, *extra)
+                self.assertEqual(result.returncode, 2, result.stderr)
+                self.assertFalse(self.output.exists())
+                self.assertEqual(self.snapshot(), before)
+        result = self.run_cli('--output-dir', self.source / 'generated')
+        self.assertEqual(result.returncode, 2, result.stderr)
+        self.assertEqual(self.snapshot(), before)
+
+    def test_yaml_python_tags_are_rejected_without_output_or_source_changes(self):
+        self.input.write_text('!!python/tuple [1, 2]\n', encoding='utf-8')
+        before = self.snapshot()
+        result = self.run_cli('--output-dir', self.output)
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn('could not determine a constructor', result.stderr)
+        self.assertFalse(self.output.exists())
+        self.assertEqual(self.snapshot(), before)
+
+    def test_duplicate_keys_merges_and_recursive_aliases_fail_closed(self):
+        cases = [
+            ('id: one\nid: two\nroles: []\n', 'duplicate YAML mapping key'),
+            ('id: one\nroles: []\nroles: []\n', 'duplicate YAML mapping key'),
+            ('id: one\nroles: [{type: mayor, type: governor}]\n', 'duplicate YAML mapping key'),
+            ('id: one\nextras: {true: a, 1: b}\n', 'duplicate YAML mapping key'),
+            ('id: one\nextras: {<<: {a: 1}, a: 2}\n', 'merge directives'),
+            ('id: one\nextras: {<<: {a: 1}, <<: {b: 2}}\n', 'merge directives'),
+            ('id: one\nextras: &loop {again: *loop}\n', 'recursive YAML aliases'),
+        ]
+        for text, message in cases:
+            with self.subTest(text=text):
+                self.input.write_text(text, encoding='utf-8')
+                before = self.snapshot()
+                result = self.run_cli('--output-dir', self.output, '--force-refresh')
+                self.assertNotEqual(result.returncode, 0)
+                self.assertIn(message, result.stderr)
+                self.assertFalse(self.output.exists())
+                self.assertEqual(self.snapshot(), before)
+
+    def test_benign_aliases_preserve_all_roles(self):
+        self.input.write_text('id: alias-person\nname: Alias Official\nroles:\n'
+                              '  - &role {type: mayor}\n  - *role\n', encoding='utf-8')
+        before = self.snapshot()
+        result = self.run_cli('--output-dir', self.output)
+        self.assertEqual(result.returncode, 0, result.stderr)
+        records = json.loads((self.output / 'ca/municipalities.json').read_bytes())
+        self.assertEqual([term['type'] for term in records[0]['terms']], ['mayor', 'mayor'])
+        self.assertEqual(self.snapshot(), before)
+
+    def test_symlink_destinations_fail_before_any_write_even_when_skipping(self):
+        for kind in ('state', 'file', 'dangling', 'root', 'ancestor'):
+            for force in (False, True):
+                with self.subTest(kind=kind, force=force):
+                    base = self.root / (kind + str(force))
+                    base.mkdir()
+                    output = base / 'output'
+                    target = base / 'target'
+                    target.mkdir()
+                    sentinel = target / 'sentinel'
+                    sentinel.write_bytes(b'untouched')
+                    target_before = (sentinel.read_bytes(), sentinel.stat().st_mtime_ns,
+                                     target.stat().st_mtime_ns)
+                    missing = target / 'missing'
+                    if kind == 'root':
+                        output.symlink_to(target, target_is_directory=True)
+                    elif kind == 'ancestor':
+                        link = base / 'link'
+                        link.symlink_to(target, target_is_directory=True)
+                        output = link / 'new-output'
+                    else:
+                        output.mkdir()
+                        if kind == 'state':
+                            (output / 'ca').symlink_to(self.source / 'ca', target_is_directory=True)
+                        else:
+                            (output / 'ca').mkdir()
+                            (output / 'ca/municipalities.json').symlink_to(
+                                missing if kind == 'dangling' else self.input)
+                    before = self.snapshot()
+                    result = self.run_cli('--output-dir', output,
+                                          *(['--force-refresh'] if force else []))
+                    self.assertNotEqual(result.returncode, 0)
+                    self.assertIn('Symlink output path', result.stderr)
+                    self.assertEqual(self.snapshot(), before)
+                    self.assertEqual((sentinel.read_bytes(), sentinel.stat().st_mtime_ns,
+                                      target.stat().st_mtime_ns), target_before)
+                    self.assertEqual(list(target.iterdir()), [sentinel])
+                    self.assertFalse(missing.exists())
+
+    def test_force_replaces_hardlinked_output_without_truncating_source(self):
+        destination = self.output / 'ca/municipalities.json'
+        destination.parent.mkdir(parents=True)
+        os.link(self.input, destination)
+        before = self.snapshot()
+        result = self.run_cli('--output-dir', self.output, '--force-refresh')
+        self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertEqual(len(json.loads(destination.read_bytes())), 2)
+        self.assertEqual(self.snapshot(), before)
 
 
 if __name__ == '__main__':

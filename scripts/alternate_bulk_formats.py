@@ -4,11 +4,24 @@ Normalization is pure and accepts an explicit reference date. The CLI retains
 its existing output layout; publication/rollback belongs to the backend.
 """
 
+import argparse
 import json
 import glob
 import os
 import sys
 from datetime import date, datetime, timezone
+from pathlib import Path
+
+# Direct build invocations must not create __pycache__ in a read-only checkout.
+if __name__ == '__main__':
+    sys.dont_write_bytecode = True
+
+from converter_safety import check_output_tree, check_path, load_yaml, output_file
+
+
+def load_source_yaml(path):
+    """Read YAML safely without consulting or creating a source-side pickle."""
+    return load_yaml(path)
 
 
 def jurisdiction_level(jurisdiction):
@@ -199,13 +212,15 @@ def generate_legislator_json(data_dir=None, output_dir=None, *, force_refresh=Fa
     This writes individual files, NOT an atomic dataset. Backend callers must
     use a staging destination before validating and publishing the whole tree.
     """
-    if loader is None or state_names is None:
-        import utils
-        loader = loader or utils.load_data
-        state_names = state_names or utils.states
+    if loader is None:
+        loader = load_source_yaml
+    if state_names is None:
+        from state_names import states
+        state_names = states
     script_dir = os.path.dirname(os.path.abspath(__file__))
     data_dir = data_dir or os.path.join(script_dir, '../data')
     output_dir = output_dir or os.path.join(script_dir, '../alternate_formats/json')
+    check_output_tree(output_dir)
     as_of = as_of or datetime.now(timezone.utc).date()
     address_parser = address_parser or parse_office_address
     for state in sorted(os.listdir(data_dir)):
@@ -218,14 +233,14 @@ def generate_legislator_json(data_dir=None, output_dir=None, *, force_refresh=Fa
             if not os.path.isdir(source_dir):
                 continue
             destination = os.path.join(output_dir, state, category + '.json')
+            check_path(destination)
             if not force_refresh and os.path.exists(destination):
                 continue
             paths = sorted(glob.glob(os.path.join(source_dir, '*.yml')) +
                            glob.glob(os.path.join(source_dir, '*.yaml')))
             records = [convert_person(loader(path), state_names[state.upper()],
                                       place_names, as_of, address_parser) for path in paths]
-            os.makedirs(os.path.dirname(destination), exist_ok=True)
-            with open(destination, 'w', encoding='utf-8') as output:
+            with output_file(destination) as output:
                 json.dump(records, output, indent=2)
 
 
@@ -320,21 +335,43 @@ def parse_office_address(office, parser=None):
 
     return newOffice
 
+def reference_date(value):
+    """Accept only an explicit YYYY-MM-DD calendar day at the CLI boundary."""
+    parsed = parsed_date(value)
+    if parsed is None or parsed.isoformat() != value:
+        raise argparse.ArgumentTypeError('expected a YYYY-MM-DD calendar date')
+    return parsed
+
+
+def main(argv=None):
+    """Generate into an explicit JSON root; defaults retain the legacy layout."""
+    root = Path(__file__).resolve().parent.parent
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--input-dir', type=Path, default=root / 'data',
+                        help='People data root containing state directories')
+    parser.add_argument('--output-dir', type=Path,
+                        help='JSON destination root (not its parent)')
+    parser.add_argument('--force-refresh', action='store_true',
+                        help='overwrite existing destination files')
+    parser.add_argument('--as-of', type=reference_date,
+                        help='UTC reference date, YYYY-MM-DD (default: today)')
+    parser.add_argument('--remove-pickles', action='store_true',
+                        help='legacy maintenance only: delete source *.pickle files')
+    args = parser.parse_args(argv)
+    if not args.input_dir.is_dir():
+        parser.error('--input-dir must be an existing directory')
+    if args.remove_pickles:
+        if args.output_dir is not None or args.force_refresh or args.as_of is not None:
+            parser.error('--remove-pickles cannot be combined with generation options')
+        for path in args.input_dir.rglob('*.pickle'):
+            path.unlink()
+        return
+    output_dir = args.output_dir or root / 'alternate_formats' / 'json'
+    if output_dir.resolve().is_relative_to(args.input_dir.resolve()):
+        parser.error('--output-dir must be outside --input-dir')
+    generate_legislator_json(data_dir=args.input_dir, output_dir=output_dir,
+                             force_refresh=args.force_refresh, as_of=args.as_of)
+
+
 if __name__ == '__main__':
-    print("Generating alternate bulk formats for People...")
-    # Use absolute path based on script location to avoid permission issues in debugger
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    data_dir = os.path.join(script_dir, '../data/')
-    output_dir = os.path.join(script_dir, "..", "alternate_formats")
-
-    # get argument for remove pickle files
-    remove_pickles = False
-    if len(sys.argv) > 1 and sys.argv[1] == '--remove-pickles':
-        remove_pickles = True
-
-    if remove_pickles:
-        import utils
-        utils.remove_pickles(data_dir)
-    else:
-        os.makedirs(os.path.join(output_dir, "json"), exist_ok=True)
-        generate_legislator_json(force_refresh='--force-refresh' in sys.argv[1:])
+    main()

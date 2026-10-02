@@ -28,7 +28,20 @@ in temporary destinations.
 
 ## Relevant files
 
-- `scripts/alternate_bulk_formats.py`: People-to-Civiq converter.
-- `scripts/test_alternate_bulk_formats.py`: synthetic converter contract tests.
+- `scripts/alternate_bulk_formats.py`: People-to-Civiq converter; direct CLI accepts
+  input data/JSON output roots, force refresh and a UTC reference day. Safe YAML
+  loading ignores pickle caches; generate into a fresh external destination.
+- `scripts/state_names.py`: dependency-free state/territory labels, shared with
+  legacy `scripts/utils.py`; conversion does not import the legacy utilities.
+- `scripts/converter_safety.py`: strict SafeLoader rejects duplicate keys, all
+  merges and recursive aliases; preflight rejects output symlinks and POSIX
+  descriptor-relative fresh-inode replacement avoids following/truncating links.
+- `scripts/test_alternate_bulk_formats.py`: synthetic normalization and real CLI
+  contract tests using temporary copied checkouts, never production output.
 - `schema.md`: source and generated JSON contracts.
 - `README.md`: development and converter test instructions.
+
+Converter errors never authorize publication; per-file writes are atomic, not
+the entire dataset. Preserve source bytes/mtime and leave source snapshot binding
+and independent validation to the build coordinator. Safety helper copies in the
+People and national submodules intentionally keep each checkout self-contained.
