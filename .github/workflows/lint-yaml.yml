@@ -41,6 +41,11 @@ jobs:
         dir_names: 'true'
     - uses: tj-actions/changed-files@9426d40962ed5378910ee2e21d5f8c6fcbf2dd96  # v47.0.6
       id: changed-files
+      with:
+        separator: "\n"
+        safe_output: false
+        write_output_files: true
+        output_dir: ${{ runner.temp }}/changed-files
     - name: install uv
       uses: astral-sh/setup-uv@20cfd1bf945f4377ade1205e4dbc17946fc9a30d  # v10.0.1
       with:
@@ -52,7 +57,6 @@ jobs:
     - name: lint people selectively
       env:
         ALL_CHANGED_DIRS: ${{ steps.changed-dirs.outputs.all_changed_files }}
-        ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
         OS_PEOPLE_DIRECTORY: ${{ env.GITHUB_WORKSPACE }}
       run: |
         # settings.yml holds vacancies used to compute every jurisdiction's
@@ -61,7 +65,7 @@ jobs:
         # never matches the per-dir regex below - a bad vacancy entry there
         # can hide a real missing/extra-legislator error for a jurisdiction
         # whose own files didn't change. Lint everything when it changes.
-        if [[ " ${ALL_CHANGED_FILES} " == *" settings.yml "* ]]; then
+        if grep -Fxq "settings.yml" "${RUNNER_TEMP}/changed-files/all_changed_files.txt"; then
           echo "settings.yml changed: linting all jurisdictions"
           uv run os-people lint
         else
@@ -77,15 +81,13 @@ jobs:
           fi
         fi
     - name: check duplicate people selectively
-      env:
-        ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
       run: |
-        uv run python .github/scripts/check_duplicate_people.py --changed-files ${ALL_CHANGED_FILES}
+        mapfile -t changed_files < "${RUNNER_TEMP}/changed-files/all_changed_files.txt"
+        uv run python .github/scripts/check_duplicate_people.py --changed-files "${changed_files[@]}"
     - name: check role date integrity selectively
-      env:
-        ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
       run: |
-        uv run python .github/scripts/check_role_dates.py --changed-files ${ALL_CHANGED_FILES}
+        mapfile -t changed_files < "${RUNNER_TEMP}/changed-files/all_changed_files.txt"
+        uv run python .github/scripts/check_role_dates.py --changed-files "${changed_files[@]}"
     - name: lint committees selectively
       env:
         OS_PEOPLE_DIRECTORY: ${{ env.GITHUB_WORKSPACE }}
