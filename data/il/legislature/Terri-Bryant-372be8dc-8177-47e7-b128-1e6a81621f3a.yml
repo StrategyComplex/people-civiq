@@ -4,8 +4,8 @@ given_name: Terri
 family_name: Bryant
 birth_date: 1963-03-31
 gender: Female
-email: staterepterribryant@gmail.com
-image: https://ilga.gov/images/members/{58FBFE5F-39EE-4F3C-853A-0DB98E83E893}.jpg
+email: senterribryant58@gmail.com
+image: https://cdn.ilga.gov/assets/img/members/{58FBFE5F-39EE-4F3C-853A-0DB98E83E893}.jpg
 party:
 - name: Republican
 roles:
@@ -19,7 +19,7 @@ roles:
   district: '115'
 offices:
 - classification: capitol
-  address: Stratton Office Building Section A, Office H, Springfield, IL 62706
+  address: Room 309-M, Capitol Building, Springfield, IL 62706
   voice: 217-782-8137
 - classification: district
   address: 1032 W. Industrial Park Road, Murphysboro, IL 62966

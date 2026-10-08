@@ -4,7 +4,7 @@ given_name: Mark
 family_name: Pearson
 gender: Male
 email: mark.pearson@gc.nh.gov
-image: https://www.gencourt.state.nh.us/house/images/memberpics/408749.jpg
+image: https://storage.googleapis.com/enview-dev-public-general/legislative-people-photos/59305.jpg
 party:
 - name: Republican
 roles:

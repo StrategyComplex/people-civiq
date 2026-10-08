@@ -25,9 +25,13 @@ other_names:
 - name: Buckson, E.
 - name: E. Buckson
 - name: E.L. Buckson
+ids:
+  facebook: SenEricBuckson
+  instagram: buckson.eric
 sources:
 - url: https://ballotpedia.org/Eric_Buckson
 - url: https://en.wikipedia.org/wiki/Eric_Buckson
+- url: https://justfacts.votesmart.org/candidate/biography/81022/eric-buckson
 - url: https://legis.delaware.gov/AssemblyMember/152/Buckson
 - url: https://legis.delaware.gov/json/Senate/GetSenators
 - url: https://legis.delaware.gov/LegislatorDetail?personId=24305

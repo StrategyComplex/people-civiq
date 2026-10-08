@@ -29,9 +29,15 @@ members:
 - name: Andre Carroll
   role: member
   person_id: ocd-person/628312bf-7920-44b7-b226-90c92f92a123
+- name: Andrea Verobish
+  role: member
+  person_id: ocd-person/23f12d9a-928a-445e-abbe-4976cb082809
 - name: Ben Waxman
   role: member
   person_id: ocd-person/1f2c3093-8ce7-41f7-8df0-6cd14ddd354b
+- name: Catherine Wallen
+  role: member
+  person_id: ocd-person/d881386d-8aad-45c7-8705-27f3288f20ea
 - name: Chad Reichard
   role: member
   person_id: ocd-person/851902e6-5649-4c0c-948a-57fb9c1dd40d
@@ -44,9 +50,9 @@ members:
 - name: Jacklyn Rusnock
   role: member
   person_id: ocd-person/fe624f82-e44d-4071-a49f-3a0d4965b7b9
-- name: Jamie Barton
+- name: Jen Mazzocco
   role: member
-  person_id: ocd-person/82938e14-97ce-44f0-942f-5bd2d7c532ba
+  person_id: ocd-person/65b852b7-0c73-487d-aaf4-2b6648fa6383
 - name: Jim Prokopiak
   role: member
   person_id: ocd-person/3c3cd25a-658f-4aab-a648-ef2509469c34
@@ -62,9 +68,6 @@ members:
 - name: John Inglis
   role: member
   person_id: ocd-person/0b0beeaf-a1b0-4049-95cb-4ad5a3952336
-- name: Leanne Krueger
-  role: member
-  person_id: ocd-person/8187ecb2-3e4b-4ba0-819e-a7cfb4b9ac93
 - name: Nate Davidson
   role: member
   person_id: ocd-person/c7f76970-11d0-483e-81b4-b4750220932c
@@ -83,9 +86,6 @@ members:
 - name: Sean Dougherty
   role: member
   person_id: ocd-person/d8624d56-a38e-4918-98ac-d7795569ad06
-- name: Stephenie Scialabba
-  role: member
-  person_id: ocd-person/a3db05d0-b346-4e85-b6b1-71247b190f8e
 other_names:
 - name: House Committee on Communications and Technology
 - name: House Communications and Technology

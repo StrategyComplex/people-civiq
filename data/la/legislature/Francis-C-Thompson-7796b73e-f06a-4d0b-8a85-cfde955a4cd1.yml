@@ -13,11 +13,6 @@ roles:
   type: lower
   jurisdiction: ocd-jurisdiction/country:us/state:la/government
   district: '19'
-- end_date: 2020-01-13
-  type: lower
-  jurisdiction: ocd-jurisdiction/country:us/state:la/government
-  district: '19'
-  start_date: 2023-03-17
 - start_date: 2020-01-13
   end_date: 2023-03-17
   type: lower
@@ -52,6 +47,7 @@ other_identifiers:
   identifier: LAL000783
 sources:
 - url: https://ballotpedia.org/Francis_C._Thompson
+- url: https://en.wikipedia.org/wiki/Francis_C._Thompson
 - url: https://house.louisiana.gov/H_Reps/H_Reps_FullInfo
 - url: https://house.louisiana.gov/H_Reps/members.aspx?ID=19
 - url: https://house.louisiana.gov/H_Reps/members?ID=19

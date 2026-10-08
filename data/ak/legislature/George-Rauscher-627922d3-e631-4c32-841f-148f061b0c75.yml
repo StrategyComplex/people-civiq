@@ -38,9 +38,12 @@ links:
 - url: https://www.akleg.gov/basis/Member/Detail/33?code=rau
 - url: https://www.akleg.gov/basis/Member/Detail/34?code=rac
 - url: https://www.akleg.gov/basis/Member/Detail/34?code=rau
+- url: https://www.aksenaterepublicans.org/2026/george-rauscher/
 other_names:
 - name: G. Rauscher
 - name: Rauscher, G.
+ids:
+  facebook: Rep.George.Rauscher
 other_identifiers:
 - scheme: legacy_openstates
   identifier: AKL000188
@@ -58,5 +61,6 @@ sources:
 - url: https://www.akleg.gov/basis/Member/Detail/33?code=rau
 - url: https://www.akleg.gov/basis/Member/Detail/34?code=rac
 - url: https://www.akleg.gov/basis/Member/Detail/34?code=rau
+- url: https://www.aksenaterepublicans.org/2026/george-rauscher
 extras:
   toll_free_phone: 888-465-4859

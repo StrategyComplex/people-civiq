@@ -1,13 +1,14 @@
 id: ocd-organization/2ef23e06-8283-4327-af57-aeafa7d01170
 jurisdiction: ocd-jurisdiction/country:us/state:or/government
 classification: committee
-name: Committee on Economic Development, Small Business and Trade
+name: Economic Development, Small Business and Trade
 chamber: lower
 sources:
 - url: https://olis.oregonlegislature.gov/liz/2023R1/Committees/HECDSB/CommitteeMembers
   note: Committee details page
 - url: https://olis.oregonlegislature.gov/liz/2024R1/Committees/HECDSB/CommitteeMembers
   note: Committee details page
+- url: https://olis.oregonlegislature.gov/liz/2025I1/Committees/HECDSB/Overview
 - url: https://olis.oregonlegislature.gov/liz/2025R1/Committees/HECDSB/Overview
 - url: https://olis.oregonlegislature.gov/liz/2026R1/Committees/HECDSB/Overview
 links:
@@ -16,6 +17,7 @@ links:
 - url: https://olis.oregonlegislature.gov/liz/2024R1/Committees/HECDSB/CommitteeMembers
   note: homepage
 - url: https://olis.oregonlegislature.gov/liz/2024R1/Committees/HECDSB/Overview
+- url: https://olis.oregonlegislature.gov/liz/2025I1/Committees/HECDSB/Overview
 - url: https://olis.oregonlegislature.gov/liz/2025R1/Committees/HECDSB/Overview
 - url: https://olis.oregonlegislature.gov/liz/2026R1/Committees/HECDSB/Overview
 members:
@@ -56,6 +58,7 @@ members:
   role: member
   person_id: ocd-person/f5938046-4558-441b-9e63-6bff0e114bf4
 other_names:
+- name: Committee on Economic Development, Small Business and Trade
 - name: Economic Development and Small Business
 - name: House Committee on Committee on Economic Development, Small Business and Trade
 - name: House Committee on Economic Development and Small Business
@@ -63,3 +66,5 @@ other_names:
 - name: House Committee on Economic Development, Small Business and Trade Committee
 - name: House Economic Development and Small Business
 - name: House Economic Development and Small Business Committee
+- name: House Economic Development, Small Business and Trade
+- name: House Economic Development, Small Business and Trade Committee

@@ -4,7 +4,7 @@ given_name: Michael
 family_name: Vose
 gender: Male
 email: michael.vose@gc.nh.gov
-image: https://www.gencourt.state.nh.us/house/images/memberpics/377272.jpg
+image: https://storage.googleapis.com/enview-dev-public-general/legislative-people-photos/61167.jpg
 party:
 - name: Republican
 roles:
@@ -17,11 +17,6 @@ roles:
   type: lower
   jurisdiction: ocd-jurisdiction/country:us/state:nh/government
   district: Rockingham 5
-- end_date: 2018-12-04
-  type: lower
-  jurisdiction: ocd-jurisdiction/country:us/state:nh/government
-  district: Rockingham 5
-  start_date: 2022-12-07
 - end_date: 2018-12-31
   type: lower
   jurisdiction: ocd-jurisdiction/country:us/state:nh/government

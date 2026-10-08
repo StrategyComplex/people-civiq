@@ -5,7 +5,7 @@ family_name: Michael
 birth_date: 1964-09-20
 gender: Female
 email: kiyan.michael@flhouse.gov
-image: https://myfloridahouse.gov//FileStores/Web/Imaging/Member/4869.jpg
+image: https://www.flhouse.gov/FileStores/Web/Imaging/Member/4869.jpg
 party:
 - name: Republican
 roles:
@@ -31,6 +31,7 @@ other_names:
 sources:
 - url: https://ballotpedia.org/Kiyan_Michael
 - url: https://electkiyan.com
+- url: https://en.wikipedia.org/wiki/Kiyan_Michael
 - url: https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4869&LegislativeTermId=90
   note: member detail page
 - url: https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4869

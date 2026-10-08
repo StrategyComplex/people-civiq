@@ -30,9 +30,6 @@ members:
 - name: Dan Goldman
   role: member
   person_id: ocd-person/4c77555b-f35d-53ca-8c7d-7950b90a1b60
-- name: Eric Swalwell
-  role: member
-  person_id: ocd-person/032302ae-d513-5e31-bafc-8bc3cbb18d7c
 - name: Jared Moskowitz
   role: member
   person_id: ocd-person/356c2159-c402-51d8-b4eb-697aaff46dc2
@@ -45,6 +42,9 @@ members:
 - name: Steve Cohen
   role: member
   person_id: ocd-person/e56dabed-c7b4-51c2-a29b-c9850bc9feff
+- name: Sydney Kamlager
+  role: member
+  person_id: ocd-person/1608d897-8cf1-5902-9e45-fbd0bbd72cca
 - name: Tom Tiffany
   role: member
   person_id: ocd-person/5048bd11-acf0-5775-a75f-5f085fc8bc11

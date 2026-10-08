@@ -13,11 +13,6 @@ roles:
   type: lower
   jurisdiction: ocd-jurisdiction/country:us/territory:pr/government
   district: At-Large
-- end_date: 2021-01-01
-  type: lower
-  jurisdiction: ocd-jurisdiction/country:us/territory:pr/government
-  district: At-Large
-  start_date: 2021-04-06
 offices:
 - classification: capitol
   address: "El Capitolio, Avenida Constituci\xF3n P.O. Box 9022228, San Juan, PR 00902"
@@ -26,6 +21,7 @@ links:
 - url: https://camara.registrok12.com/team/jose-j-perez-cordero-2/
 - url: https://rfsp.eticapr.com/Busqueda
   note: resumen financiero
+- url: https://www.camara.pr.gov/team/jose-j-perez-cordero-2/
 - url: https://www.camara.pr.gov/team/jose-j-perez-cordero/
   note: homepage
 other_names:
@@ -39,6 +35,7 @@ sources:
 - url: https://www.camara.pr.gov/page-team
 - url: https://www.camara.pr.gov/page-team/
 - url: https://www.camara.pr.gov/team/jose-j-perez-cordero
+- url: https://www.camara.pr.gov/team/jose-j-perez-cordero-2
 - url: https://www.camara.pr.gov/team/jose-j-perez-cordero/
 extras:
   committees: '"Comisi\xF3n de Recreaci\xF3n y Deportes- Comisi\xF3n Conjunta de la\

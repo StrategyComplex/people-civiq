@@ -32,6 +32,9 @@ members:
 - name: Beth Billings
   role: member
   person_id: ocd-person/5d15439d-4139-448a-8f61-25ab54e68b19
+- name: Dana Henry
+  role: member
+  person_id: ocd-person/1175d9fd-94fc-4988-98ee-de8d0029de06
 - name: Denise Marcelle
   role: member
   person_id: ocd-person/20def39d-ba5c-45d7-ba6c-5cf43590d4b0
@@ -41,9 +44,6 @@ members:
 - name: Jessica Domangue
   role: member
   person_id: ocd-person/95e28ef0-84f6-45ec-97fe-a58f360a2ad9
-- name: Joe Stagni
-  role: member
-  person_id: ocd-person/958015ce-4a91-4830-a11f-e73997823d4b
 - name: Kim Carver
   role: member
   person_id: ocd-person/bd6d41fc-8ad8-468f-8259-223d38d42bd8
@@ -53,9 +53,9 @@ members:
 - name: Pat Moore
   role: member
   person_id: ocd-person/88548c7a-b637-4821-b336-c99cfa475e22
-- name: Rashid Young
+- name: Paul Sawyer
   role: member
-  person_id: ocd-person/17cf7c94-788b-49f9-bca2-2f413974a927
+  person_id: ocd-person/a05f602f-6eb8-4668-9f25-f438adb5faea
 - name: Rodney Lyons
   role: member
   person_id: ocd-person/71696836-b261-4646-8127-407c40e2c35b

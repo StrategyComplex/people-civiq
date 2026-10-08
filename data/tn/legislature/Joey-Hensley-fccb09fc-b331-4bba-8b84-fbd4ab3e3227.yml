@@ -13,11 +13,6 @@ roles:
   type: upper
   jurisdiction: ocd-jurisdiction/country:us/state:tn/government
   district: '28'
-- end_date: 2013-01-07
-  type: upper
-  jurisdiction: ocd-jurisdiction/country:us/state:tn/government
-  district: '28'
-  start_date: 2013-01-08
 offices:
 - classification: capitol
   address: Room 742, Cordell Hull Building 425 Rep. John Lewis Way North, Nashville,
@@ -42,6 +37,7 @@ other_identifiers:
 sources:
 - url: https://ballotpedia.org/Joey_Hensley
 - url: https://en.wikipedia.org/wiki/Joey_Hensley
+- url: https://justfacts.votesmart.org/candidate/48811/joey-hensley
 - url: https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=S
 - url: https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S28
 - url: https://wapp.capitol.tn.gov/apps/LegislatorInfo/Member?district=S28&ga=114

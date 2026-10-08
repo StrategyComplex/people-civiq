@@ -2,6 +2,7 @@ id: ocd-person/df874c28-6403-42c1-9cbb-0855508cda85
 name: Leesa Hagan
 given_name: Leesa
 family_name: Hagan
+birth_date: 1972-07-16
 gender: Female
 email: leesa.hagan@house.ga.gov
 image: https://www.legis.ga.gov/api/images/default-source/portraits/hagan-leesa-5010.jpg
@@ -38,6 +39,7 @@ other_identifiers:
 sources:
 - url: https://ballotpedia.org/Leesa_Hagan
 - url: https://en.wikipedia.org/wiki/Leesa_Hagan
+- url: https://justfacts.votesmart.org/candidate/biography/196273/leesa-hagan
 - url: https://www.legis.ga.gov/api/members/detail/5010?session=1029&chamber=1
   note: Detail page (requires authorization token)
 - url: https://www.legis.ga.gov/api/members/detail/5010?session=1031&chamber=1

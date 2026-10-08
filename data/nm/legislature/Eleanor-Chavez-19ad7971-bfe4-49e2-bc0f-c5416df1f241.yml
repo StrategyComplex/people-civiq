@@ -2,7 +2,7 @@ id: ocd-person/19ad7971-bfe4-49e2-bc0f-c5416df1f241
 name: "Eleanor Ch\xE1vez"
 given_name: Eleanor
 family_name: "Ch\xE1vez"
-birth_date: 1953-06-30
+birth_date: 1953-07-30
 gender: Female
 email: eleanor.chavez@nmlegis.gov
 image: https://www.nmlegis.gov/Images/Legislators/House/HCHAL.jpg
@@ -18,8 +18,9 @@ offices:
   address: State Capitol Room 205B, New Mexico  490 Old Santa Fe Trail, Santa Fe,
     NM 87501
   voice: 505-986-4242
-- classification: district-mail
-  address: P.O. Box 72318, Albuquerque, NM 87195
+- classification: district
+  address: 201 Unser Blvd. NW Unit 116, Albuquerque, NM 87121
+  voice: 505-986-4247
 links:
 - url: https://www.nmlegis.gov/Members/Legislator?SponCode=HCHAL
   note: homepage

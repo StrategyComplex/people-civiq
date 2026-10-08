@@ -4,7 +4,7 @@ given_name: Jessie
 family_name: Danielson
 gender: Female
 email: jessie.danielson.senate@coleg.gov
-image: http://leg.colorado.gov/sites/default/files/styles/width_300/public/2023b_danielson%2Cjessie.jpg?itok=PNVRiYDq
+image: https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK1JTQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--444190d18434e86fd51db8d0f3656887bb45824b/Danielson,%20Jessie.jpg
 party:
 - name: Democratic
 roles:
@@ -33,6 +33,11 @@ other_names:
 - name: Danielson J.
 - name: Danielson, J.
 - name: J. Danielson
+- name: J.S. Danielson
+ids:
+  twitter: JessieDanielson
+  facebook: jessiedanielsonforcolorado
+  instagram: jessiedanielson_
 other_identifiers:
 - scheme: legacy_openstates
   identifier: COL000183
@@ -41,6 +46,7 @@ other_identifiers:
 sources:
 - url: https://ballotpedia.org/Jessie_Danielson
 - url: https://en.wikipedia.org/wiki/Jessie_Danielson
+- url: https://justfacts.votesmart.org/candidate/biography/149351/jessie-danielson
 - url: https://leg.colorado.gov/legislators
 - url: https://leg.colorado.gov/legislators/jessie-danielson
 extras:

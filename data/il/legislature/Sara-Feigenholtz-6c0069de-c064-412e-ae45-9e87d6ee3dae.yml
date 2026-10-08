@@ -5,7 +5,7 @@ family_name: Feigenholtz
 birth_date: 1956-12-11
 gender: Female
 email: sara@senatorsara.com
-image: https://ilga.gov/images/members/{E77394AE-D896-4FEB-A325-B33A553554EB}.jpg
+image: https://cdn.ilga.gov/assets/img/members/{E77394AE-D896-4FEB-A325-B33A553554EB}.jpg
 party:
 - name: Democratic
 roles:
@@ -54,6 +54,7 @@ sources:
 - url: https://ilga.gov/senate/Senator.asp?GA=101&MemberID=2778
 - url: https://ilga.gov/senate/Senator.asp?GA=102&MemberID=2977
 - url: https://ilga.gov/senate/Senator.asp?GA=103&MemberID=3168
+- url: https://justfacts.votesmart.org/candidate/biography/6323/sara-feigenholtz
 - url: https://staterepsara.com
 - url: https://staterepsara.com/
 - url: https://www.ilga.gov/Senate/Members/Details/3376

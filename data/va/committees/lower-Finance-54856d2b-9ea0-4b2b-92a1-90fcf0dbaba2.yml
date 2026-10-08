@@ -52,6 +52,7 @@ members:
   person_id: ocd-person/9f8c35c8-2a50-407f-815a-603b9c9d8bad
 - name: Kirk McPike
   role: member
+  person_id: ocd-person/b0a785c3-d317-455f-9d0e-ab08a727e44f
 - name: Lee Ware
   role: member
   person_id: ocd-person/865dace5-518d-4f4f-b393-c197064affe6
@@ -61,9 +62,6 @@ members:
 - name: Margaret Franklin
   role: member
   person_id: ocd-person/71c20dff-ae7b-4799-bd80-7e0c03c402fc
-- name: Michelle Maldonado
-  role: member
-  person_id: ocd-person/47e6d456-740e-4707-ae93-4b6efe8c0ce1
 - name: Nicole Cole
   role: member
   person_id: ocd-person/f09abfed-0fb2-4ef3-966c-4cc0246b701d

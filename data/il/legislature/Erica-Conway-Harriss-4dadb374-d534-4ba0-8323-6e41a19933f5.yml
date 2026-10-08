@@ -3,8 +3,8 @@ name: Erica Harriss
 given_name: Erica
 family_name: Harriss
 gender: Female
-email: harris@ilsenategop.org
-image: https://ilga.gov/images/members/{7762DCAD-269B-472B-BDD4-5F5A28D47817}.jpg
+email: harriss@ilsenategop.org
+image: https://cdn.ilga.gov/assets/img/members/{7762DCAD-269B-472B-BDD4-5F5A28D47817}.jpg
 party:
 - name: Republican
 roles:
@@ -14,7 +14,7 @@ roles:
   district: '56'
 offices:
 - classification: capitol
-  address: Stratton Office Building Section B, Office C, Springfield, IL 62706
+  address: Stratton Office Building Section A, Office H, Springfield, IL 62706
   voice: 217-782-5247
 - classification: district
   address: 120 N. Main St. Suite 1B, Edwardsville, IL 62025
@@ -37,6 +37,7 @@ sources:
 - url: https://en.wikipedia.org/wiki/Erica_Harriss
 - url: https://ilga.gov/senate/default.asp?GA=103
 - url: https://ilga.gov/senate/Senator.asp?GA=103&MemberID=3216
+- url: https://justfacts.votesmart.org/candidate/biography/204398/erica-harriss
 - url: https://senatorericaharriss.com
 - url: https://www.ilga.gov/Senate/Members/Details/3411
 - url: https://www.ilga.gov/senate/Senator.asp?GA=103&MemberID=3216

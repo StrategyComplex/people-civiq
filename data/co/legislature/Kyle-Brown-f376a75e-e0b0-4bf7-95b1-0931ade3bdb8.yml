@@ -4,7 +4,7 @@ given_name: Kyle
 family_name: Brown
 gender: Male
 email: kyle.brown.house@coleg.gov
-image: http://leg.colorado.gov/sites/default/files/styles/width_300/public/2023b_kyle%20brown.jpg?itok=wfdtmHtz
+image: https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMEZUQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--4dbbcef24e21979fc4a8cd74bea005733c789d61/Brown,%20Kyle.jpg
 party:
 - name: Democratic
 roles:
@@ -24,9 +24,18 @@ other_names:
 - name: Brown K.
 - name: Brown, K.
 - name: K. Brown
+- name: K.M. Brown
+ids:
+  twitter: KyleBrownHD12
+  facebook: representativekylebrown
+  instagram: repkylebrown
 sources:
+- url: https://ballotpedia.org/Kyle_Brown_(Colorado)
+- url: https://en.wikipedia.org/wiki/Kyle_Brown_(politician)
+- url: https://justfacts.votesmart.org/candidate/biography/211356/kyle-brown
 - url: https://leg.colorado.gov/legislators
 - url: https://leg.colorado.gov/legislators/kyle-brown
+- url: https://www.cohousedems.com/team/kyle-brown
 - url: https://www.linkedin.com/in/kyle-brown-0905677
 extras:
   counties represented:

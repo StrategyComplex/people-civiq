@@ -4,7 +4,7 @@ given_name: Sheila
 family_name: Lieder
 gender: Female
 email: sheila.lieder.house@coleg.gov
-image: http://leg.colorado.gov/sites/default/files/styles/width_300/public/2023b_lieder%2Csheila.jpg?itok=eytxsbcE
+image: https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeE5UQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--bbb6f4456c06c54b1c8fffade0441c9a63ccf12e/Lieder,%20Sheila.jpg
 party:
 - name: Democratic
 roles:
@@ -24,10 +24,15 @@ other_names:
 - name: Lieder S.
 - name: Lieder, S.
 - name: S. Lieder
+ids:
+  instagram: rep_sheila_lieder
 sources:
 - url: https://ballotpedia.org/Sheila_Lieder
+- url: https://en.wikipedia.org/wiki/Sheila_Lieder
+- url: https://justfacts.votesmart.org/candidate/biography/210740/sheila-lieder
 - url: https://leg.colorado.gov/legislators
 - url: https://leg.colorado.gov/legislators/sheila-lieder
+- url: https://www.cohousedems.com/team/sheila-lieder
 - url: https://www.linkedin.com/in/sheilalieder
 extras:
   counties represented:

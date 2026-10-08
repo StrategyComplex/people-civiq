@@ -4,7 +4,7 @@ given_name: Cassandra
 family_name: Levesque
 gender: Female
 email: cassandra.levesque@gc.nh.gov
-image: https://www.gencourt.state.nh.us/house/images/memberpics/408930.jpg
+image: https://storage.googleapis.com/enview-dev-public-general/legislative-people-photos/73228.jpg
 party:
 - name: Democratic
 roles:

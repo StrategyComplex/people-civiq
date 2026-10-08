@@ -4,7 +4,7 @@ given_name: Linda
 family_name: Harriott-Gathright
 gender: Female
 email: linda.harriottgathright@gc.nh.gov
-image: https://www.gencourt.state.nh.us/house/images/memberpics/377113.jpg
+image: https://storage.googleapis.com/enview-dev-public-general/legislative-people-photos/73173.jpg
 party:
 - name: Democratic
 roles:

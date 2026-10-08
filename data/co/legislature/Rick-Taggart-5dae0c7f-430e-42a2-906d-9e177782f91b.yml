@@ -5,7 +5,7 @@ family_name: Taggart
 birth_date: 1950-09-28
 gender: Male
 email: rick.taggart.house@coleg.gov
-image: http://leg.colorado.gov/sites/default/files/styles/width_300/public/2023b_taggartrick.jpg?itok=nCWfv2vG
+image: https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBd3BUQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--6b1fb5526e7780f89f9b2fb79535d4e7c39fc37b/TaggartRick.jpg
 party:
 - name: Republican
 roles:
@@ -26,9 +26,13 @@ other_names:
 - name: R. Taggart
 - name: Taggart R.
 - name: Taggart, R.
+ids:
+  facebook: repricktaggart
+  instagram: repricktaggart
 sources:
 - url: https://ballotpedia.org/Rick_Taggart
 - url: https://en.wikipedia.org/wiki/Rick_Taggart
+- url: https://justfacts.votesmart.org/candidate/biography/157546/rick-taggart
 - url: https://leg.colorado.gov/legislators
 - url: https://leg.colorado.gov/legislators/rick-taggart
 - url: https://www.linkedin.com/in/rick-taggart-b3b44128

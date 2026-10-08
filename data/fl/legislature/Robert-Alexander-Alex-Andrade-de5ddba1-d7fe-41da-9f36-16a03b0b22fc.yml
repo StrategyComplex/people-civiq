@@ -5,7 +5,7 @@ family_name: Andrade
 birth_date: 1989-07-22
 gender: Male
 email: alex.andrade@flhouse.gov
-image: https://myfloridahouse.gov//FileStores/Web/Imaging/Member/4710.jpg
+image: https://www.flhouse.gov/FileStores/Web/Imaging/Member/4710.jpg
 party:
 - name: Republican
 roles:
@@ -34,6 +34,7 @@ other_names:
 - name: Robert Alexander "Alex" Andrade
 sources:
 - url: https://ballotpedia.org/Alex_Andrade
+- url: https://ballotpedia.org/Alex_Andrade_(Florida)
 - url: https://en.wikipedia.org/wiki/Alex_Andrade_(politician)
 - url: https://justfacts.votesmart.org/candidate/biography/184315/alex-andrade
 - url: https://mhw-law.com/alex-andrade

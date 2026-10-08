@@ -1,0 +1,62 @@
+id: ocd-person/1773d5d5-4967-4af5-9880-3106ace372d7
+name: Jeff Burton
+given_name: Jeff
+family_name: Burton
+gender: Male
+email: jburton@le.utah.gov
+image: https://le.utah.gov/images/legislator/BURTOJS.jpg
+party:
+- name: Republican
+roles:
+- start_date: 2023-01-01
+  type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ut/government
+  district: '64'
+  end_date: 2026-06-03
+- start_date: 2021-01-01
+  end_date: 2023-01-01
+  type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ut/government
+  district: '66'
+offices: []
+links:
+- url: https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1415546
+  note: finance report
+- url: https://house.utah.gov/rep/BURTOJS
+- url: https://house.utah.gov/rep/BURTOJS/
+  note: homepage
+- url: https://house.utleg.gov/rep/BURTOJS/
+- url: https://le.utah.gov/asp/billsintro/RepResults.asp?Listbox3=BURTOJS
+  note: legislation
+- url: https://le.utah.gov/asp/billsintro/SenResults.asp?Listbox2=BURTOJS
+  note: legislation
+- url: https://le.utah.gov/Documents/demographic/profiles/2020/House_Dist66.pdf
+  note: district demographics
+- url: https://le.utah.gov/Documents/demographic/profiles/2022/House_Dist64.pdf
+  note: district demographics
+other_names:
+- name: Burton, J.
+- name: Burton, Jeff
+- name: Burton, Jefferson S.
+- name: J. Burton
+- name: J.S. Burton
+- name: Jefferson S. Burton
+sources:
+- url: https://ballotpedia.org/Jefferson_Burton
+- url: https://en.wikipedia.org/wiki/Jefferson_S._Burton
+- url: https://house.utah.gov/rep/BURTOJS
+- url: https://house.utah.gov/rep/BURTOJS/
+- url: https://house.utleg.gov/rep/BURTOJS
+- url: https://house.utleg.gov/rep/BURTOJS/
+- url: https://justfacts.votesmart.org/candidate/biography/144718/jefferson-burton
+- url: https://le.utah.gov/data/legislators.json
+- url: https://www.linkedin.com/in/jefferson-burton-b35b6b46
+- url: https://www.nationalguard.mil/portals/31/Features/ngbgomo/bio/1/1946.html
+extras:
+  service start: January 1, 2021
+  profession: Senior Vice President - Community Development - Zions Bank
+  education: B.S. University of New York - M.S. United States Army War College - M.A.
+    University of Phoenix
+  counties represented:
+  - Utah
+  cell phone: 385-225-0575

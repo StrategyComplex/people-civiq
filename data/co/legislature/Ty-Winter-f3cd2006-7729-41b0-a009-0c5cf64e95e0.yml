@@ -4,7 +4,7 @@ given_name: Ty
 family_name: Winter
 gender: Male
 email: ty.winter.house@coleg.gov
-image: http://leg.colorado.gov/sites/default/files/styles/width_300/public/2023b_winter%2Cty.jpg?itok=aGQTR3tx
+image: https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMmRUQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--7e3263a1638a76c8a5732293d1ea8f844d2e9d25/Winter,Ty.jpg
 party:
 - name: Republican
 roles:
@@ -24,9 +24,13 @@ other_names:
 - name: T. Winter
 - name: Winter T.
 - name: Winter, T.
+ids:
+  twitter: RepTyWinter
+  instagram: reptywinter
 sources:
 - url: https://ballotpedia.org/Ty_Winter
 - url: https://en.wikipedia.org/wiki/Ty_Winter
+- url: https://justfacts.votesmart.org/candidate/biography/206214/ty-winter
 - url: https://leg.colorado.gov/legislators
 - url: https://leg.colorado.gov/legislators/ty-winter
 extras:

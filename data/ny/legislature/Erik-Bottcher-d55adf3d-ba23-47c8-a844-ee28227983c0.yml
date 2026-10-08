@@ -5,7 +5,7 @@ family_name: Bottcher
 birth_date: 1979-05-09
 gender: Male
 email: bottcher@nysenate.gov
-image: https://raw.githubusercontent.com/NewYorkCityCouncil/districts/master/thumbnails/district-3.jpg
+image: https://run.imgix.net/b5819a9c-e1d0-4b20-bdf9-c7cb2ad13f53/051f0dfd-9744-4ba7-b291-937b4da47d3e/051f0dfd-9744-4ba7-b291-937b4da47d3e.jpeg
 party:
 - name: Democratic
 roles:
@@ -25,13 +25,13 @@ offices:
 links:
 - url: https://www.nysenate.gov/senators/erik-bottcher
 other_names:
+- name: Bottcher, E.
 - name: E. Bottcher
 - name: E.D. Bottcher
-- name: Bottcher, E.
-other_identifiers: []
 sources:
 - url: https://ballotpedia.org/Erik_Bottcher
 - url: https://council.nyc.gov/erik-bottcher
 - url: https://en.wikipedia.org/wiki/Erik_Bottcher
+- url: https://justfacts.votesmart.org/candidate/biography/201433/erik-bottcher
 - url: https://www.linkedin.com/in/ebottcher
 - url: https://www.nysenate.gov/senators/erik-bottcher

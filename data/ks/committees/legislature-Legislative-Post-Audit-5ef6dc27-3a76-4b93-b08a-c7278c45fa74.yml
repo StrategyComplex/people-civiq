@@ -11,34 +11,34 @@ links:
 - url: https://www.kslegislature.org/li/b2023_24/committees/ctte_jt_lpa_1
   note: homepage
 members:
-- name: Shannon Francis
-  role: chair
-  person_id: ocd-person/cc0df3af-9c8b-4834-a629-c16e4c8debcb
 - name: Mike Thompson
-  role: vice chair
+  role: chair
   person_id: ocd-person/97943c08-7d1f-400e-b71d-7a20e939b1d9
-- name: Pat Pettey
+- name: Sean Tarwater
+  role: vice chair
+  person_id: ocd-person/a65df523-1cb7-4ee3-ac85-1eec82b3fe2c
+- name: Tom Sawyer
   role: ranking democratic member
-  person_id: ocd-person/148ed29a-4c96-4e69-9791-29b2bd3f09b6
+  person_id: ocd-person/e6ca4faa-17ec-4256-9265-fbba8afcbb0e
 - name: Caryn Tyson
   role: member
   person_id: ocd-person/cc84252c-b7c6-484d-a036-dd38a90b1b04
 - name: Cindy Holscher
   role: member
   person_id: ocd-person/9c36b31f-b9e7-43cd-8aab-6148c8f6cac8
+- name: Joe Claeys
+  role: member
+  person_id: ocd-person/918f677f-eac8-4e2d-acc9-eb2c3e4de80f
 - name: Kristey Williams
   role: member
   person_id: ocd-person/81803637-3bf0-4bbe-9ae4-7724488955b7
-- name: Mike Petersen
+- name: Pat Pettey
   role: member
-  person_id: ocd-person/4d244ceb-6d50-4670-93db-22ad153b3961
-- name: Sean Tarwater
+  person_id: ocd-person/148ed29a-4c96-4e69-9791-29b2bd3f09b6
+- name: Shannon Francis
   role: member
-  person_id: ocd-person/a65df523-1cb7-4ee3-ac85-1eec82b3fe2c
-- name: Tom Sawyer
-  role: member
-  person_id: ocd-person/e6ca4faa-17ec-4256-9265-fbba8afcbb0e
-- name: Valdenia Winn
+  person_id: ocd-person/cc0df3af-9c8b-4834-a629-c16e4c8debcb
+- name: Val Winn
   role: member
   person_id: ocd-person/8d608ede-12f3-4ec4-8206-2c3dde0db6b7
 other_names:

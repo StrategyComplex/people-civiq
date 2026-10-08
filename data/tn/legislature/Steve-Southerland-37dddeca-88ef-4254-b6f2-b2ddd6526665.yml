@@ -13,11 +13,6 @@ roles:
   type: upper
   jurisdiction: ocd-jurisdiction/country:us/state:tn/government
   district: '9'
-- end_date: 2022-11-07
-  type: upper
-  jurisdiction: ocd-jurisdiction/country:us/state:tn/government
-  district: '9'
-  start_date: 2022-11-08
 - end_date: 2022-11-08
   type: upper
   jurisdiction: ocd-jurisdiction/country:us/state:tn/government
@@ -46,6 +41,7 @@ other_identifiers:
 sources:
 - url: https://ballotpedia.org/Steve_Southerland_(Tennessee)
 - url: https://en.wikipedia.org/wiki/Steve_Southerland_(Tennessee_politician)
+- url: https://justfacts.votesmart.org/candidate/48766/steve-southerland
 - url: https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=S
 - url: https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S9
 - url: https://wapp.capitol.tn.gov/apps/legislatorinfo/member?district=S9

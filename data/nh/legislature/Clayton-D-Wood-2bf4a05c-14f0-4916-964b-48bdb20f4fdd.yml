@@ -4,7 +4,7 @@ given_name: Clayton
 family_name: Wood
 gender: Male
 email: clayton.wood@gc.nh.gov
-image: https://www.gencourt.state.nh.us/house/images/memberpics/409188.jpg
+image: https://storage.googleapis.com/enview-dev-public-general/legislative-people-photos/123441.jpg
 party:
 - name: Republican
 roles:

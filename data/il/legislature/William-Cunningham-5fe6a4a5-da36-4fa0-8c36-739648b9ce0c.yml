@@ -4,8 +4,8 @@ given_name: Bill
 family_name: Cunningham
 birth_date: 1967-07-21
 gender: Male
-email: staterepbillcunningham@gmail.com
-image: https://ilga.gov/images/members/{402F0454-4EAF-4721-993D-53C7459BA35B}.jpg
+email: cunningham@senatedem.illinois.gov
+image: https://cdn.ilga.gov/assets/img/members/{402F0454-4EAF-4721-993D-53C7459BA35B}.jpg
 party:
 - name: Democratic
 roles:
@@ -28,6 +28,7 @@ links:
 - url: https://www.ilga.gov/Senate/Members/Details/3291
 - url: https://www.ilga.gov/senate/Senator.asp?GA=103&MemberID=3063
 - url: https://www.ilga.gov/senate/Senator.asp?GA=104&MemberID=3291
+- url: https://www.senatorbillcunningham.com/
 - url: https://www.senatorbillcunningham.com/bio
 other_names:
 - name: B. Cunningham
@@ -58,4 +59,5 @@ sources:
 - url: https://www.ilga.gov/senate/Senator.asp?GA=103&MemberID=3063
 - url: https://www.ilga.gov/senate/Senator.asp?GA=104&MemberID=3291
 - url: https://www.linkedin.com/in/bill-cunningham-a96599b2
+- url: https://www.senatorbillcunningham.com
 - url: https://www.senatorbillcunningham.com/bio

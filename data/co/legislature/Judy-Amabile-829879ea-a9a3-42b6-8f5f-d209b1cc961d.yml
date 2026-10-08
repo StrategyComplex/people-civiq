@@ -4,7 +4,7 @@ given_name: Judy
 family_name: Amabile
 gender: Female
 email: judy.amabile.senate@coleg.gov
-image: http://leg.colorado.gov/sites/default/files/styles/width_300/public/2023b_amabile%2Cjudy.jpg?itok=7ZbVKo7E
+image: https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBOUZTQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--b064f9311bf3386a06c699ba6aeee37a07444669/Judy%20Amabile.jpg
 party:
 - name: Democratic
 roles:
@@ -33,10 +33,14 @@ other_names:
 - name: Amabile, J.
 - name: J. Amabile
 - name: Judith Amabile
+ids:
+  facebook: JudyAmabileCO
+  instagram: judyforcolorado
 sources:
 - url: https://ballotpedia.org/Judith_Amabile
 - url: https://ballotpedia.org/Judy_Amabile
 - url: https://en.wikipedia.org/wiki/Judy_Amabile
+- url: https://justfacts.votesmart.org/candidate/biography/191835/judy-amabile
 - url: https://leg.colorado.gov/legislators
 - url: https://leg.colorado.gov/legislators/judy-amabile
 - url: https://www.linkedin.com/in/judyamabilehd13

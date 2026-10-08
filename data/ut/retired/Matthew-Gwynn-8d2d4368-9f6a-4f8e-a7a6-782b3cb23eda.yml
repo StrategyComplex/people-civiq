@@ -1,0 +1,64 @@
+id: ocd-person/8d2d4368-9f6a-4f8e-a7a6-782b3cb23eda
+name: Matt Gwynn
+given_name: Matt
+family_name: Gwynn
+gender: Male
+email: mgwynn@le.utah.gov
+image: https://le.utah.gov/images/legislator/GWYNNM.jpg
+party:
+- name: Republican
+roles:
+- start_date: 2023-01-01
+  type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ut/government
+  district: '6'
+  end_date: 2026-04-08
+- start_date: 2021-01-01
+  end_date: 2023-01-01
+  type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:ut/government
+  district: '29'
+offices: []
+links:
+- url: https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1415356
+  note: finance report
+- url: https://house.utah.gov/rep/GWYNNM
+- url: https://house.utah.gov/rep/GWYNNM/
+  note: homepage
+- url: https://house.utleg.gov/rep/GWYNNM/
+- url: https://le.utah.gov/asp/billsintro/RepResults.asp?Listbox3=GWYNNM
+  note: legislation
+- url: https://le.utah.gov/asp/billsintro/SenResults.asp?Listbox2=GWYNNM
+  note: legislation
+- url: https://le.utah.gov/Documents/demographic/profiles/2020/House_Dist29.pdf
+  note: district demographics
+- url: https://le.utah.gov/Documents/demographic/profiles/2022/House_Dist06.pdf
+  note: district demographics
+other_names:
+- name: Gwynn, M.
+- name: Gwynn, Matt
+- name: Gwynn, Matthew
+- name: Gwynn, Matthew H.
+- name: M. Gwynn
+- name: M.H. Gwynn
+- name: Matthew Gwynn
+- name: Matthew H. Gwynn
+sources:
+- url: https://ballotpedia.org/Matt_Gwynn
+- url: https://en.wikipedia.org/wiki/Matthew_Gwynn
+- url: https://house.utah.gov/rep/GWYNNM
+- url: https://house.utah.gov/rep/GWYNNM/
+- url: https://house.utleg.gov/rep/GWYNNM
+- url: https://house.utleg.gov/rep/GWYNNM/
+- url: https://justfacts.votesmart.org/candidate/biography/192301/matt-gwynn
+- url: https://le.utah.gov/data/legislators.json
+- url: https://www.linkedin.com/in/matthew-gwynn-mppa-095a0896
+extras:
+  service start: January 1, 2021
+  profession: Law Enforcement
+  education: M.A. Northwestern University, Public Policy and Admin; B.S. Weber State
+    University, Political Science
+  counties represented:
+  - Box Elder
+  - Weber
+  cell phone: 385-358-3266

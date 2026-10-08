@@ -5,7 +5,7 @@ family_name: Kerwin
 birth_date: 1993-01-20
 gender: Male
 email: jkerwin@pahousegop.com
-image: https://www.legis.state.pa.us/images/members/200/1907.jpg?1703415645672
+image: https://www.palegis.us/resources/images/members/300/1907.jpg
 party:
 - name: Republican
 roles:
@@ -15,8 +15,9 @@ roles:
   district: '125'
 offices:
 - classification: capitol
-  address: Room 160A, East Wing P.O. Box 202125, Harrisburg, PA 17120
+  address: Room 115, Ryan Office Building P.O. Box 202125, Harrisburg, PA 17120
   voice: 717-260-6148
+  fax: 717-782-2899
 - classification: district
   address: 4542 State Route 209, Elizabethville, PA 17023
   voice: 833-431-0495

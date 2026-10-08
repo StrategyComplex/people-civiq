@@ -5,7 +5,7 @@ family_name: Gounardes
 birth_date: 1985-07-08
 gender: Male
 email: gounardes@nysenate.gov
-image: https://www.nysenate.gov/sites/default/files/styles/160x160/public/ag_headshot1.jpeg?itok=A9BZVK33
+image: https://www.nysenate.gov/sites/default/files/styles/senator_hero/public/sd22ag-680x510-headerphoto.jpg
 party:
 - name: Democratic
 roles:
@@ -38,6 +38,7 @@ ids:
 sources:
 - url: https://ballotpedia.org/Andrew_S._Gounardes
 - url: https://en.wikipedia.org/wiki/Andrew_Gounardes
+- url: https://justfacts.votesmart.org/candidate/biography/143086/andrew-gounardes
 - url: https://www.linkedin.com/in/andrew-s-gounardes-18b5a014
 - url: https://www.nysenate.gov/senators/andrew-gounardes
 - url: https://www.nysenate.gov/senators/andrew-gounardes/contact

@@ -4,10 +4,12 @@ classification: committee
 name: Judiciary
 chamber: upper
 sources:
+- url: https://arkleg.state.ar.us/Committees/Detail?code=420
 - url: https://senate.arkansas.gov/senators/committees/
 - url: https://senate.arkansas.gov/senators/committees/committee-detail/?code=420
 - url: https://www.arkleg.state.ar.us/Committees/Detail?code=420&ddBienniumSession=2023%2F2024F
 links:
+- url: https://arkleg.state.ar.us/Committees/Detail?code=420
 - url: https://senate.arkansas.gov/senators/committees/committee-detail/?code=420
   note: homepage
 - url: https://www.arkleg.state.ar.us/Committees/Detail?code=420&ddBienniumSession=2023%2F2024F
@@ -19,12 +21,12 @@ members:
 - name: Tyler Dees
   role: vice chair
   person_id: ocd-person/11d34a89-689c-4b2f-b953-670ce11ae3bb
-- name: Ben Gilmore
-  role: member
-  person_id: ocd-person/821d4077-0022-48a9-86b1-eb4d3bdef2e7
 - name: Blake Johnson
   role: member
   person_id: ocd-person/6bbe436a-67bc-4003-80eb-1ce79c52413f
+- name: Brad Simon
+  role: member
+  person_id: ocd-person/24a8e487-fca2-4d84-999c-4877ab721136
 - name: Clarke Tucker
   role: member
   person_id: ocd-person/cdb599f1-f956-430d-9ba2-87ce18d3fd53

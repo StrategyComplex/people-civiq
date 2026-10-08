@@ -5,7 +5,7 @@ family_name: Kazarian
 birth_date: 1990-06-25
 gender: Female
 email: rep-kazarian@rilegislature.gov
-image: http://www.rilegislature.gov/representatives/pictures/kazarian.jpg
+image: https://www.rilegislature.gov/LegislationPictures/katherine_kazarian.jpg
 party:
 - name: Democratic
 roles:
@@ -16,7 +16,7 @@ roles:
 offices:
 - classification: capitol
   address: Room 323, 82 Smith St., Providence, RI 02903
-  voice: 401-433-9636
+  voice: 401-222-2466
 links:
 - url: https://www.rilegislature.gov/representatives/carson/default.aspx
 - url: https://www.rilegislature.gov/representatives/kazarian/default.aspx
@@ -33,6 +33,7 @@ other_identifiers:
 sources:
 - url: https://ballotpedia.org/Katherine_Kazarian
 - url: https://en.wikipedia.org/wiki/Katherine_Kazarian
+- url: https://justfacts.votesmart.org/candidate/biography/142126/katherine-kazarian
 - url: https://webserver.rilin.state.ri.us/Email/RepEmailListDistrict.asp
 - url: https://www.linkedin.com/in/katherine-kazarian-25882062
 - url: https://www.rilegislature.gov/representatives/kazarian/default.aspx

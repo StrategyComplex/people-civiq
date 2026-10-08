@@ -5,7 +5,7 @@ family_name: Edmonds
 birth_date: 1991-06-11
 gender: Male
 email: jervonte.edmonds@flhouse.gov
-image: https://myfloridahouse.gov//FileStores/Web/Imaging/Member/4842.jpg
+image: https://www.flhouse.gov/FileStores/Web/Imaging/Member/4842.jpg
 party:
 - name: Democratic
 roles:
@@ -32,8 +32,11 @@ other_names:
 - name: T. Edmonds
 sources:
 - url: https://ballotpedia.org/Jervonte_Edmonds
+- url: https://en.wikipedia.org/wiki/Jervonte_Edmonds
+- url: https://justfacts.votesmart.org/candidate/biography/200763/jervonte-edmonds
 - url: https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4842&LegislativeTermId=90
   note: member detail page
 - url: https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4842
+- url: https://www.linkedin.com/in/jervonte-edmonds-51b47a52
 - url: "https://www.linkedin.com/in/jervonte-\u201Ctae\u201D-edmonds-51b47a52"
 - url: https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4842&LegislativeTermId=89

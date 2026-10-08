@@ -39,6 +39,9 @@ members:
 - name: Byron Donalds
   role: member
   person_id: ocd-person/c281df65-bcd6-5f42-860c-874e38bcd03a
+- name: Christian Menefee
+  role: member
+  person_id: ocd-person/e2695db4-48b1-49af-b7f3-f5a9782440c0
 - name: Clay Higgins
   role: member
   person_id: ocd-person/ffc5bfa2-67c8-5743-afa6-3250b0752485
@@ -68,6 +71,7 @@ members:
   person_id: ocd-person/3b0de391-3f75-564b-9b1c-c793300ff1a9
 - name: James Walkinshaw
   role: member
+  person_id: ocd-person/1e692f82-663e-46f8-aa96-88207dab107f
 - name: Jasmine Crockett
   role: member
   person_id: ocd-person/fafd6715-85a1-509b-98d1-6df68904f028
@@ -119,6 +123,9 @@ members:
 - name: Rashida Tlaib
   role: member
   person_id: ocd-person/e7497932-512f-5b6f-8830-aa4b6737cd2e
+- name: Rich McCormick
+  role: member
+  person_id: ocd-person/3056cc98-9ca1-5293-8064-fc12fd9c689f
 - name: Ro Khanna
   role: member
   person_id: ocd-person/1256e24c-ef63-5a90-9cf6-1da0dcd63ce8
@@ -134,9 +141,6 @@ members:
 - name: Suhas Subramanyam
   role: member
   person_id: ocd-person/3c344094-40c3-4550-be0c-a1e28191218c
-- name: Summer Lee
-  role: member
-  person_id: ocd-person/e2bd9b69-7425-5f80-b432-41b690306379
 - name: Tim Burchett
   role: member
   person_id: ocd-person/06b83e26-fe35-526d-86fb-7a6d80b20d1a

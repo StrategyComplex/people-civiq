@@ -8,11 +8,8 @@ sources:
 links:
 - url: https://www.nmlegis.gov/Committee/Interim_Committee?CommitteeCode=TSROC
 members:
-- name: Joanne Ferrary
-  role: chair
-  person_id: ocd-person/05309266-c7a0-455b-94f2-ebf1d436daff
 - name: Martin Hickey
-  role: vice chair
+  role: chair
   person_id: ocd-person/88fd357f-3fb1-4c2b-b49b-555231011c46
 - name: Brian Baca
   role: member

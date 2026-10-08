@@ -5,7 +5,7 @@ family_name: Woog
 birth_date: 1978-04-12
 gender: Male
 email: dan.woog.house@coleg.gov
-image: http://leg.colorado.gov/sites/default/files/styles/width_300/public/2022a_woog%2C%20dan.jpg?itok=VCcwkzOa
+image: https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNEZUQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--6bf3d084b17e200e01f2ade18431e32df8e43a60/Rep%20Woog%202026.jpg
 party:
 - name: Republican
 roles:
@@ -26,15 +26,22 @@ offices:
 links:
 - url: https://leg.colorado.gov/legislators/dan-woog
   note: homepage
+- url: https://www.coloradohouserepublicans.com/dan-woog
 other_names:
 - name: D. Woog
 - name: Woog D.
 - name: Woog, D.
+ids:
+  twitter: danielpwoog
+  facebook: representativedanwoog
 sources:
 - url: https://ballotpedia.org/Dan_Woog
 - url: https://en.wikipedia.org/wiki/Dan_Woog
+- url: https://justfacts.votesmart.org/candidate/biography/191765/dan-woog
 - url: https://leg.colorado.gov/legislators
 - url: https://leg.colorado.gov/legislators/dan-woog
+- url: https://www.coloradohouserepublicans.com/dan-woog
+- url: https://www.coloradohouserepublicans.com/dan-woog#about
 - url: https://www.linkedin.com/in/dan-woog-9784b322
 extras:
   counties represented:

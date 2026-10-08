@@ -4,7 +4,7 @@ given_name: Gerry
 family_name: Ward
 gender: Male
 email: ward4staterep@gmail.com
-image: https://www.gencourt.state.nh.us/house/images/memberpics/377188.jpg
+image: https://storage.googleapis.com/enview-dev-public-general/legislative-people-photos/50517.jpg
 party:
 - name: Democratic
 roles:
@@ -12,11 +12,6 @@ roles:
   type: lower
   jurisdiction: ocd-jurisdiction/country:us/state:nh/government
   district: Rockingham 27
-- end_date: 2022-12-06
-  type: lower
-  jurisdiction: ocd-jurisdiction/country:us/state:nh/government
-  district: Rockingham 27
-  start_date: 2022-12-07
 - end_date: 2022-12-07
   type: lower
   jurisdiction: ocd-jurisdiction/country:us/state:nh/government

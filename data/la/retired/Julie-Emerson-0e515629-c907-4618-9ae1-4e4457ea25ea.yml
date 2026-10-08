@@ -1,0 +1,43 @@
+id: ocd-person/0e515629-c907-4618-9ae1-4e4457ea25ea
+name: Julie Emerson
+given_name: Julie
+family_name: Emerson
+birth_date: 1988-02-29
+gender: Female
+email: emersonj@legis.la.gov
+image: https://house.louisiana.gov/H_Reps/RepPics20/rep39.jpg
+party:
+- name: Republican
+roles:
+- start_date: 2016-01-11
+  type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:la/government
+  district: '39'
+  end_date: 2026-04-08
+offices: []
+links:
+- url: https://house.louisiana.gov/H_Reps/members.aspx?ID=39
+  note: homepage
+- url: https://house.louisiana.gov/H_Reps/members?ID=39
+other_names:
+- name: Emerson, J.
+- name: J. Emerson
+- name: J.C. Emerson
+other_identifiers:
+- scheme: legacy_openstates
+  identifier: LAL000808
+- scheme: legacy_openstates
+  identifier: LAL000948
+sources:
+- url: https://ballotpedia.org/Julie_Emerson
+- url: https://en.wikipedia.org/wiki/Julie_Emerson
+- url: https://house.louisiana.gov/H_Reps/H_Reps_FullInfo
+- url: https://house.louisiana.gov/H_Reps/members.aspx?ID=39
+- url: https://house.louisiana.gov/H_Reps/members?ID=39
+- url: https://www.linkedin.com/in/julie-emerson-20710b37
+extras:
+  legislative assistant: Charisse Mouton
+  representing parishes:
+  - Lafayette and St. Landry
+  education: Westminster Christian Academy; University of Louisiana at Lafayette,
+    B.S.; University of South Carolina, M.B.A.

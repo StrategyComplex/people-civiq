@@ -4,7 +4,7 @@ given_name: Danny
 family_name: Alvarez
 gender: Male
 email: danny.alvarez@flhouse.gov
-image: https://myfloridahouse.gov//FileStores/Web/Imaging/Member/4889.jpg
+image: https://www.flhouse.gov/FileStores/Web/Imaging/Member/4889.jpg
 party:
 - name: Republican
 roles:
@@ -33,6 +33,7 @@ other_names:
 sources:
 - url: https://ballotpedia.org/Danny_Alvarez
 - url: https://en.wikipedia.org/wiki/Danny_Alvarez
+- url: https://justfacts.votesmart.org/candidate/biography/209473/daniel-alvarez
 - url: https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4889&LegislativeTermId=90
   note: member detail page
 - url: https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4889

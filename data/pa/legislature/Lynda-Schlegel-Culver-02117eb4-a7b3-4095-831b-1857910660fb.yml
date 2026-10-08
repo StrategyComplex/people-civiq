@@ -5,7 +5,7 @@ family_name: Culver
 birth_date: 1969-05-28
 gender: Female
 email: lculver@pasen.gov
-image: https://www.legis.state.pa.us/images/members/200/1202.jpg?1703415645672
+image: https://www.palegis.us/resources/images/members/300/1202.jpg
 party:
 - name: Republican
 roles:
@@ -57,8 +57,10 @@ other_identifiers:
 sources:
 - url: https://ballotpedia.org/Lynda_Schlegel-Culver
 - url: https://en.wikipedia.org/wiki/Lynda_Schlegel-Culver
+- url: https://en.wikipedia.org/wiki/Lynda_Schlegel_Culver
 - url: https://justfacts.votesmart.org/candidate/biography/119572/lynda-culver
 - url: https://senatorculver.com
+- url: https://senatorculver.com/about
 - url: https://www.legis.state.pa.us/cfdocs/legis/home/member_information/House_bio.cfm?id=1202
 - url: https://www.legis.state.pa.us/cfdocs/legis/home/member_information/mbrList.cfm?body=H&sort=alpha
 - url: https://www.legis.state.pa.us/cfdocs/legis/home/member_information/mbrList.cfm?body=S&sort=alpha
@@ -66,6 +68,7 @@ sources:
 - url: https://www.legis.state.pa.us/cfdocs/legis/home/member_information/Senate_bio.cfm?id=1202
 - url: https://www.linkedin.com/in/lynda-culver-9671552b
 - url: https://www.palegis.us/senate/members/bio/1202/sen-culver
+- url: https://www.palegis.us/senate/members/bio/1202/sen-lynda-schlegel-culver
 extras:
   website: http://SenatorCulver.com
   Education:

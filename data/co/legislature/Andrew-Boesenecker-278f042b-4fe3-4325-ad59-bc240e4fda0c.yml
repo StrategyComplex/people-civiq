@@ -4,7 +4,7 @@ given_name: Andy
 family_name: Boesenecker
 gender: Male
 email: andrew.boesenecker.house@coleg.gov
-image: http://leg.colorado.gov/sites/default/files/styles/width_300/public/2023b_boesenecker%2Candrew.jpg?itok=3jMO1y9L
+image: https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMGhUQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--cfaae02348bca597a92a30ada0c08d3e68ecc93f/Boesenecker,%20Andrew.jpg
 party:
 - name: Democratic
 roles:
@@ -24,11 +24,16 @@ other_names:
 - name: Andrew Boesenecker
 - name: Boesenecker A.
 - name: Boesenecker, A.
+ids:
+  twitter: rep_boesenecker
+  facebook: andyforcolorado
 sources:
 - url: https://ballotpedia.org/Andrew_Boesenecker
 - url: https://en.wikipedia.org/wiki/Andrew_Boesenecker
+- url: https://justfacts.votesmart.org/candidate/biography/196267/andrew-boesenecker
 - url: https://leg.colorado.gov/legislators
 - url: https://leg.colorado.gov/legislators/andrew-boesenecker
+- url: https://www.cohousedems.com/team/andrew-boesenecker
 - url: https://www.linkedin.com/in/andrew-boesenecker-477657134
 extras:
   title: Majority Co-Whip

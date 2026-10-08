@@ -5,7 +5,7 @@ family_name: Salazar
 birth_date: 1990-12-30
 gender: Female
 email: salazar@nysenate.gov
-image: https://www.nysenate.gov/sites/default/files/styles/160x160/public/screenshotjs.png?itok=WxwPAzfP
+image: https://www.nysenate.gov/sites/default/files/styles/senator_hero/public/2023/07/27/hs-senator-julia-salazar.jpg
 party:
 - name: Democratic/Working Families
 roles:
@@ -32,5 +32,6 @@ ids:
 sources:
 - url: https://ballotpedia.org/Julia_Salazar
 - url: https://en.wikipedia.org/wiki/Julia_Salazar
+- url: https://justfacts.votesmart.org/candidate/biography/185085/julia-salazar
 - url: https://www.nysenate.gov/senators/julia-salazar
 - url: https://www.nysenate.gov/senators/julia-salazar/contact

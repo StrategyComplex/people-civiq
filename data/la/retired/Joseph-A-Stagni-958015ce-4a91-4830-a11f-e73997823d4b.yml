@@ -1,0 +1,45 @@
+id: ocd-person/958015ce-4a91-4830-a11f-e73997823d4b
+name: Joe Stagni
+given_name: Joe
+family_name: Stagni
+gender: Male
+email: stagnij@legis.la.gov
+image: https://house.louisiana.gov/H_Reps/RepPics20/rep92.jpg
+party:
+- name: Republican
+roles:
+- start_date: 2017-04-10
+  type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:la/government
+  district: '92'
+  end_date: 2026-06-22
+offices: []
+links:
+- url: https://house.louisiana.gov/H_Reps/members.aspx?ID=92
+  note: homepage
+- url: https://house.louisiana.gov/H_Reps/members?ID=92
+other_names:
+- name: J. Stagni
+- name: J.A. Stagni
+- name: Joe Stagni
+- name: Joseph A. Stagni
+- name: Stagni, J.
+other_identifiers:
+- scheme: legacy_openstates
+  identifier: LAL000847
+- scheme: legacy_openstates
+  identifier: LAL000885
+sources:
+- url: https://ballotpedia.org/Joe_Stagni
+- url: https://en.wikipedia.org/wiki/Joseph_A._Stagni
+- url: https://house.louisiana.gov/H_Reps/H_Reps_FullInfo
+- url: https://house.louisiana.gov/H_Reps/members.aspx?ID=92
+- url: https://house.louisiana.gov/H_Reps/members?ID=92
+- url: https://www.house.louisiana.gov/H_Misc/proclamations/District%2092%20-%20Proclamation.pdf
+- url: https://www.linkedin.com/in/joseph-stagni-6a0331142
+extras:
+  legislative assistant: Reagan Develle
+  representing parishes:
+  - Jefferson and St. Charles
+  education: Alexander Elementary; Roosevelt Middle; John Curtis Christian School;
+    College Nicholls State University, B.S.; Texas Chiropractic College, D.C.

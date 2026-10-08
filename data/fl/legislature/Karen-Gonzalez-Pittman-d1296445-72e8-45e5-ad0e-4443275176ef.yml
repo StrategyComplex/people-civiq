@@ -4,7 +4,7 @@ given_name: Karen
 family_name: Gonzalez Pittman
 gender: Female
 email: karen.pittman@flhouse.gov
-image: https://myfloridahouse.gov//FileStores/Web/Imaging/Member/4888.jpg
+image: https://www.flhouse.gov/FileStores/Web/Imaging/Member/4888.jpg
 party:
 - name: Republican
 roles:
@@ -29,6 +29,7 @@ other_names:
 - name: K. Gonzalez Pittman
 sources:
 - url: https://ballotpedia.org/Karen_Gonzalez_Pittman
+- url: https://en.wikipedia.org/wiki/Karen_Gonzalez_Pittman
 - url: https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4888&LegislativeTermId=90
   note: member detail page
 - url: https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4888

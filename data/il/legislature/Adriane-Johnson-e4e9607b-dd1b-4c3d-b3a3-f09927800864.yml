@@ -4,7 +4,7 @@ given_name: Adriane
 family_name: Johnson
 gender: Female
 email: info@senatoradrianejohnson.com
-image: https://ilga.gov/images/members/{991EBDF6-BC13-4260-A2B8-E10751629780}.jpg
+image: https://cdn.ilga.gov/assets/img/members/{991EBDF6-BC13-4260-A2B8-E10751629780}.jpg
 party:
 - name: Democratic
 roles:
@@ -14,7 +14,7 @@ roles:
   district: '30'
 offices:
 - classification: capitol
-  address: Stratton Office Building Section F, Office E, Springfield, IL 62706
+  address: Room E, Stratton Office Building Section F, Springfield, IL 62706
   voice: 217-782-8181
 - classification: district
   address: 1 Overlook Place Suite 520, Lincolnshire, IL 60069
@@ -32,6 +32,7 @@ links:
 - url: https://www.senatoradrianejohnson.com/
 other_names:
 - name: A. Johnson
+- name: A.L. Johnson
 - name: Johnson, A.
 - name: Johnson, Adriane
 sources:
@@ -41,6 +42,7 @@ sources:
 - url: https://ilga.gov/senate/default.asp?GA=103
 - url: https://ilga.gov/senate/Senator.asp?GA=102&MemberID=2980
 - url: https://ilga.gov/senate/Senator.asp?GA=103&MemberID=3170
+- url: https://justfacts.votesmart.org/candidate/195711/adriane-johnson
 - url: https://www.ilga.gov/Senate/Members/Details/3378
 - url: https://www.ilga.gov/senate/Senator.asp?GA=103&MemberID=3170
 - url: https://www.ilga.gov/senate/Senator.asp?GA=104&MemberID=3378

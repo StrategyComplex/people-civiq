@@ -12,11 +12,6 @@ roles:
   type: upper
   jurisdiction: ocd-jurisdiction/country:us/state:or/government
   district: '22'
-- end_date: 2017-01-08
-  type: upper
-  jurisdiction: ocd-jurisdiction/country:us/state:or/government
-  district: '22'
-  start_date: 2017-01-09
 - start_date: 2011-01-01
   end_date: 2016-12-31
   type: lower
@@ -32,6 +27,9 @@ links:
 other_names:
 - name: Frederick, L.
 - name: L. Frederick
+ids:
+  twitter: LewFrederick
+  facebook: SenLewFrederick
 other_identifiers:
 - scheme: legacy_openstates
   identifier: ORL000387

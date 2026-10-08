@@ -4,7 +4,7 @@ given_name: Janice
 family_name: Marchman
 gender: Female
 email: janice.marchman.senate@coleg.gov
-image: http://leg.colorado.gov/sites/default/files/styles/width_300/public/2023b_marchman%2Cjanice.jpg?itok=Of-P3JI-
+image: https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBL0ZTQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--fcb333a05c84defed2c15ce0bdf8723c605199f3/Marchman,%20Janice.jpg
 party:
 - name: Democratic
 roles:
@@ -20,16 +20,25 @@ offices:
 links:
 - url: https://leg.colorado.gov/legislators/janice-marchman
   note: homepage
+- url: https://www.senatedems.co/janice-marchman
 other_names:
 - name: J. Marchman
+- name: J.M. Marchman
 - name: Marchman J.
 - name: Marchman, J.
+ids:
+  twitter: Janice_Marchman
+  facebook: janiceforcolorado
+  instagram: janiceforcolorado
 sources:
 - url: https://ballotpedia.org/Janice_Marchman
 - url: https://en.wikipedia.org/wiki/Janice_Marchman
+- url: https://justfacts.votesmart.org/candidate/biography/206115/janice-marchman
 - url: https://leg.colorado.gov/legislators
 - url: https://leg.colorado.gov/legislators/janice-marchman
 - url: https://www.linkedin.com/in/janice-marchman-a123a32b
+- url: https://www.linkedin.com/in/senatormarchmanteachesmath
+- url: https://www.senatedems.co/janice-marchman
 extras:
   counties represented:
   - Boulder

@@ -1,0 +1,30 @@
+id: ocd-person/546b9d6e-0e31-4a6c-9d8f-63a0c9bb2b1f
+name: Mike Murphy
+given_name: Mike
+family_name: Murphy
+gender: Male
+email: michael.murphy@gc.nh.gov
+image: https://nhjournal.com/wp-content/uploads/2024/01/mike-murphy-233x300.jpeg
+party:
+- name: Republican
+roles:
+- start_date: 2024-01-31
+  type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:nh/government
+  district: Coos 6
+  end_date: 2026-06-03
+offices: []
+links:
+- url: https://gc.nh.gov/house/members/member.aspx?pid=11119
+- url: https://www.gencourt.state.nh.us/house/members/member.aspx?pid=11119
+other_names:
+- name: M. Murphy
+- name: M.P. Murphy
+- name: Michael P Murphy
+- name: Murphy, M.
+sources:
+- url: https://ballotpedia.org/Michael_Murphy_(New_Hampshire)
+- url: https://en.wikipedia.org/wiki/Michael_Murphy_(New_Hampshire_politician)
+- url: https://gc.nh.gov/house/members/member.aspx?pid=11119
+- url: https://justfacts.votesmart.org/candidate/214108/michael-murphy
+- url: https://www.gencourt.state.nh.us/house/members/member.aspx?pid=11119

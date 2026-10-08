@@ -4,7 +4,7 @@ given_name: Timothy
 family_name: Soucy
 gender: Male
 email: timothy.soucy@gc.nh.gov
-image: https://www.gencourt.state.nh.us/house/images/memberpics/376869.jpg
+image: https://storage.googleapis.com/enview-dev-public-general/legislative-people-photos/50360.jpg
 party:
 - name: Democratic
 roles:
@@ -12,11 +12,6 @@ roles:
   type: lower
   jurisdiction: ocd-jurisdiction/country:us/state:nh/government
   district: Merrimack 21
-- end_date: 2016-06-01
-  type: lower
-  jurisdiction: ocd-jurisdiction/country:us/state:nh/government
-  district: Merrimack 21
-  start_date: 2022-12-07
 - start_date: 2016-12-07
   end_date: 2022-12-06
   type: lower

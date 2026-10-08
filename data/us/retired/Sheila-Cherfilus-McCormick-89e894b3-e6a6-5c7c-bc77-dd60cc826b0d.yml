@@ -1,0 +1,59 @@
+id: ocd-person/89e894b3-e6a6-5c7c-bc77-dd60cc826b0d
+name: Sheila Cherfilus-McCormick
+given_name: Sheila
+family_name: Cherfilus-McCormick
+birth_date: 1979-01-25
+gender: Female
+email: https://cherfilus-mccormick.house.gov/address_authentication?form=/contact
+image: https://unitedstates.github.io/images/congress/450x550/C001127.jpg
+party:
+- name: Democratic
+roles:
+- start_date: 2022-01-18
+  end_date: 2026-04-22
+  type: lower
+  jurisdiction: ocd-jurisdiction/country:us/government
+  district: FL-20
+- start_date: 2023-01-03
+  end_date: 2025-01-03
+  type: lower
+  jurisdiction: ocd-jurisdiction/country:us/government
+  district: FL-20
+- start_date: 2022-01-18
+  end_date: 2023-01-03
+  type: lower
+  jurisdiction: ocd-jurisdiction/country:us/government
+  district: FL-20
+offices: []
+links:
+- url: https://cherfilus-mccormick.house.gov
+  note: website
+- url: https://cherfilus-mccormick.house.gov/
+other_names:
+- name: Cherfilus-McCormick, S.
+- name: S. Cherfilus-McCormick
+other_identifiers:
+- scheme: bioguide
+  identifier: C001127
+- scheme: fec
+  identifier: H8FL20032
+- scheme: google_entity_id
+  identifier: kg:/g/11j8p2mk08
+- scheme: govtrack
+  identifier: '456865'
+- scheme: opensecrets
+  identifier: N00043504
+- scheme: pictorial
+  identifier: '13001'
+- scheme: wikidata
+  identifier: Q109560948
+- scheme: wikipedia
+  identifier: Sheila Cherfilus-McCormick
+sources:
+- url: https://ballotpedia.org/Sheila_Cherfilus-McCormick
+- url: https://cherfilus-mccormick.house.gov
+- url: https://en.wikipedia.org/wiki/Sheila_Cherfilus-McCormick
+- url: https://justfacts.votesmart.org/candidate/biography/182285/sheila-cherfilus-mccormick
+- url: https://unitedstates.github.io
+- url: https://unitedstates.github.io/
+- url: https://www.linkedin.com/in/sheila-cherfilus-mccormick-jd-15782079

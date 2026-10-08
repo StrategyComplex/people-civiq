@@ -25,7 +25,11 @@ other_names:
 - name: M. Carter
 - name: M.J. Carter
 - name: Michael J. Carter
+ids:
+  facebook: carter_for_colorado
+  instagram: carter_for_colorado
 sources:
 - url: https://ballotpedia.org/Michael_Carter_(Colorado)
+- url: https://en.wikipedia.org/wiki/Michael_Carter_(Colorado_politician)
 - url: https://leg.colorado.gov/legislators/michael-carter
 - url: https://www.linkedin.com/in/michael-carter-82a0196

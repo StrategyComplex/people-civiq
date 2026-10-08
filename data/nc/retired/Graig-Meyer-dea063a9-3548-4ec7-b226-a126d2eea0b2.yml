@@ -1,0 +1,42 @@
+id: ocd-person/dea063a9-3548-4ec7-b226-a126d2eea0b2
+name: Graig Meyer
+given_name: Graig
+family_name: Meyer
+birth_date: 1974-07-05
+gender: Male
+email: graig.meyer@ncleg.gov
+image: https://www.ncleg.gov/Members/MemberImage/S/437/Low
+party:
+- name: Democratic
+roles:
+- start_date: 2023-01-01
+  type: upper
+  jurisdiction: ocd-jurisdiction/country:us/state:nc/government
+  district: '23'
+  end_date: 2026-04-08
+- start_date: 2013-10-30
+  end_date: 2023-01-01
+  type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:nc/government
+  district: '50'
+offices: []
+links:
+- url: https://www.ncleg.gov/Members/Biography/S/437
+- url: https://www.ncleg.gov/Members/Committees/S/437
+- url: https://www.ncleg.gov/Members/IntroducedBills/S/437
+- url: https://www.ncleg.gov/Members/Votes/S/437
+other_names:
+- name: G. Meyer
+- name: G.R. Meyer
+- name: Meyer, G.
+sources:
+- url: https://ballotpedia.org/Graig_Meyer
+- url: https://en.wikipedia.org/wiki/Graig_R._Meyer
+- url: https://www.linkedin.com/in/graigmeyer
+- url: https://www.ncleg.gov/Members/Biography/S/437
+- url: https://www.ncleg.gov/Members/MemberTable/S
+extras:
+  terms in senate: 1 (4+ in House)
+  represented counties: Caswell, Orange, Person
+  legislative assistant: Daphne Quinn
+  legislative assistant email: Daphne.Quinn@ncleg.gov

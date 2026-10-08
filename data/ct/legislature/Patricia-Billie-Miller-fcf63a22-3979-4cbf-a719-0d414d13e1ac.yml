@@ -12,18 +12,13 @@ roles:
   type: upper
   jurisdiction: ocd-jurisdiction/country:us/state:ct/government
   district: '27'
-- end_date: 2021-03-07
-  type: upper
-  jurisdiction: ocd-jurisdiction/country:us/state:ct/government
-  district: '27'
-  start_date: 2021-03-08
 - end_date: 2021-03-01
   type: lower
   jurisdiction: ocd-jurisdiction/country:us/state:ct/government
   district: '145'
 offices:
 - classification: capitol
-  address: Room 2300, Legislative Office Building 300 Capitol Ave., Hartford, CT 06106
+  address: Room 2402, Legislative Office Building 300 Capitol Ave., Hartford, CT 06106
   voice: 860-240-0589
 links:
 - url: https://cga.ct.gov/asp/CGABillStatus/CGAMemberBills.asp?dist_code=%27S27%27&dist_name=Miller,%20Patricia%20Billie
@@ -43,6 +38,7 @@ sources:
 - url: ftp://ftp.cga.ct.gov/pub/data/LegislatorDatabase.csv
 - url: https://ballotpedia.org/Patricia_Miller_(Connecticut)
 - url: https://en.wikipedia.org/wiki/Patricia_Billie_Miller
+- url: https://justfacts.votesmart.org/candidate/biography/105769/patricia-miller
 - url: https://www.senatedems.ct.gov/Miller
 - url: https://www.senatedems.ct.gov/senator/patricia-billie-miller
 - url: https://www.senatedems.ct.gov/senator/patricia-billie-miller/bio

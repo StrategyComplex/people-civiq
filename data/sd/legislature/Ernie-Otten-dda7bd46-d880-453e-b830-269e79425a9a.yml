@@ -13,11 +13,6 @@ roles:
   type: upper
   jurisdiction: ocd-jurisdiction/country:us/state:sd/government
   district: '6'
-- end_date: 2021-01-11
-  type: upper
-  jurisdiction: ocd-jurisdiction/country:us/state:sd/government
-  district: '6'
-  start_date: 2025-01-14
 - start_date: 2021-01-12
   end_date: 2025-01-13
   type: upper
@@ -56,5 +51,6 @@ sources:
 - url: https://sdlegislature.gov/Legislators/Profile/4398/Detail
 - url: https://sdlegislature.gov/Legislators/Profile/4646/Detail
 - url: https://sdlegislature.gov/Legislators/Profile/4798/Detail
+- url: https://www.linkedin.com/in/ernie-otten-3b07ba128
 extras:
   occupation: Retired

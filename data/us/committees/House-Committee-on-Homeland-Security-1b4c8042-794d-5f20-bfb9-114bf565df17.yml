@@ -30,6 +30,9 @@ members:
 - name: Al Green
   role: member
   person_id: ocd-person/2ad84a53-f957-5a9c-861b-413aac608201
+- name: "Analilia Mej\xEDa"
+  role: member
+  person_id: ocd-person/76235fec-99b2-46b9-8632-d4ef1ad24466
 - name: Andy Ogles
   role: member
   person_id: ocd-person/5916e23e-c486-5d60-88c8-56bb65c23763
@@ -48,20 +51,21 @@ members:
 - name: Dan Goldman
   role: member
   person_id: ocd-person/4c77555b-f35d-53ca-8c7d-7950b90a1b60
+- name: Dave Joyce
+  role: member
+  person_id: ocd-person/b7ff0450-1acd-5127-b3f5-7246374119a9
 - name: Delia Ramirez
   role: member
   person_id: ocd-person/34d76857-187b-5f62-a2d1-ddfcd13494cf
 - name: Eli Crane
   role: member
   person_id: ocd-person/e59ccc1e-b5f0-5b86-9b5b-a8fbf6038665
-- name: Eric Swalwell
-  role: member
-  person_id: ocd-person/032302ae-d513-5e31-bafc-8bc3cbb18d7c
 - name: Gabe Evans
   role: member
   person_id: ocd-person/592f328f-6338-45ea-aea8-c996eba98b37
 - name: James Walkinshaw
   role: member
+  person_id: ocd-person/1e692f82-663e-46f8-aa96-88207dab107f
 - name: Josh Brecheen
   role: member
   person_id: ocd-person/68651247-63fc-5dad-8071-4efef949f7fd
@@ -73,6 +77,7 @@ members:
   person_id: ocd-person/86b65fd7-4549-51fa-80e8-eaf3daf3e60e
 - name: Matt Van Epps
   role: member
+  person_id: ocd-person/c0c63ecc-b8fe-42d9-97a5-63f5d65c9c7d
 - name: Michael Guest
   role: member
   person_id: ocd-person/6b015607-c3dd-5867-a1bb-733bf84fe091
@@ -82,6 +87,9 @@ members:
 - name: Nellie Pou
   role: member
   person_id: ocd-person/8bbf0452-cf85-4f36-9cf6-20f232746407
+- name: Nick LaLota
+  role: member
+  person_id: ocd-person/30fe5d74-0224-5d11-92d2-5766471e6cc5
 - name: "Pablo Jos\xE9 Hern\xE1ndez"
   role: member
   person_id: ocd-person/1d2ca024-3e33-4da9-b759-0d4bfdec43e9
@@ -100,9 +108,6 @@ members:
 - name: Tim Kennedy
   role: member
   person_id: ocd-person/7d860788-e85f-5f23-a7dc-133364f9d4e9
-- name: Tony Gonzales
-  role: member
-  person_id: ocd-person/7e086fc4-85ff-58af-a436-5f6fa7bfa527
 - name: Troy Carter
   role: member
   person_id: ocd-person/5e3dc0b5-2afe-5b83-ab42-9352225b2235

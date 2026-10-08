@@ -4,7 +4,7 @@ given_name: Mike
 family_name: Halpin
 gender: Male
 email: senatormikehalpin@gmail.com
-image: https://ilga.gov/images/members/{35F1D456-C798-4A8B-9180-4608CB0FDB78}.jpg
+image: https://cdn.ilga.gov/assets/img/members/{35F1D456-C798-4A8B-9180-4608CB0FDB78}.jpg
 party:
 - name: Democratic
 roles:
@@ -59,6 +59,7 @@ sources:
 - url: https://ilga.gov/house/Rep.asp?GA=103&MemberID=3106
 - url: https://ilga.gov/senate/default.asp?GA=103
 - url: https://ilga.gov/senate/Senator.asp?GA=103&MemberID=3213
+- url: https://justfacts.votesmart.org/candidate/biography/166412/mike-halpin
 - url: https://senatorhalpin.com
 - url: https://www.ilga.gov/Senate/Members/Details/3408
 - url: https://www.ilga.gov/senate/Senator.asp?GA=103&MemberID=3213

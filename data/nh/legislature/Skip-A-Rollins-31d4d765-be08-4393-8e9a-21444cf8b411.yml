@@ -3,8 +3,8 @@ name: Skip Rollins
 given_name: Skip
 family_name: Rollins
 gender: Male
-email: skip@lavalleys.com
-image: https://www.gencourt.state.nh.us/house/images/memberpics/377163.jpg
+email: skip.rollins@gc.nh.gov
+image: https://storage.googleapis.com/enview-dev-public-general/legislative-people-photos/49864.jpg
 party:
 - name: Republican
 roles:
@@ -12,11 +12,6 @@ roles:
   type: lower
   jurisdiction: ocd-jurisdiction/country:us/state:nh/government
   district: Sullivan 3
-- end_date: 2022-12-06
-  type: lower
-  jurisdiction: ocd-jurisdiction/country:us/state:nh/government
-  district: Sullivan 3
-  start_date: 2022-12-07
 - end_date: 2022-12-07
   type: lower
   jurisdiction: ocd-jurisdiction/country:us/state:nh/government

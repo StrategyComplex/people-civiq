@@ -12,9 +12,6 @@ links:
 - url: https://www.ncleg.gov/Committees/CommitteeInfo/SenateStanding/142
   note: homepage
 members:
-- name: Bobby Hanig
-  role: chair
-  person_id: ocd-person/8911db0d-01aa-4e61-a0f5-727d07a5d232
 - name: Carl Ford
   role: chair
   person_id: ocd-person/91615553-5509-4625-ab20-7a81896438e0
@@ -24,15 +21,15 @@ members:
 - name: Chris Measmer
   role: member
   person_id: ocd-person/9dfc9308-ec16-4da8-b5c7-8a9cc55df534
-- name: Graig Meyer
+- name: Haseeb Fatmi
   role: member
-  person_id: ocd-person/dea063a9-3548-4ec7-b226-a126d2eea0b2
+  person_id: ocd-person/e94fc39b-d33c-4d24-81c7-2cd2cc5aa997
+- name: Jonah Garson
+  role: member
+  person_id: ocd-person/3622ded7-77d3-46f8-a62b-dad1c8f3e589
 - name: Steve Jarvis
   role: member
   person_id: ocd-person/d0af18d6-b4e1-4a9a-92f3-a6950961e953
-- name: Terence Everitt
-  role: member
-  person_id: ocd-person/1217dc52-8590-4c6b-832b-666b57ef121c
 - name: Woodson Bradley
   role: member
   person_id: ocd-person/da2ebbae-4f50-4a95-927d-359ed2a9a42b

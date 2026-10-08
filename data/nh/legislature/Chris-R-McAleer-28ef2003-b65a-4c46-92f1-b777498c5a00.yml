@@ -4,7 +4,7 @@ given_name: Chris
 family_name: McAleer
 gender: Male
 email: chris.mcaleer@gc.nh.gov
-image: https://www.gencourt.state.nh.us/house/images/memberpics/408973.jpg
+image: https://storage.googleapis.com/enview-dev-public-general/legislative-people-photos/93730.jpg
 party:
 - name: Democratic
 roles:

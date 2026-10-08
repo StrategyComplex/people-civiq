@@ -5,7 +5,7 @@ family_name: Sweeney
 birth_date: 1993-11-08
 gender: Male
 email: joe.sweeney@gc.nh.gov
-image: https://www.gencourt.state.nh.us/house/images/memberpics/377174.jpg
+image: https://storage.googleapis.com/enview-dev-public-general/legislative-people-photos/49847.jpg
 party:
 - name: Republican
 roles:
@@ -18,11 +18,6 @@ roles:
   type: lower
   jurisdiction: ocd-jurisdiction/country:us/state:nh/government
   district: Rockingham 25
-- end_date: 2016-12-06
-  type: lower
-  jurisdiction: ocd-jurisdiction/country:us/state:nh/government
-  district: Rockingham 25
-  start_date: 2022-12-07
 - start_date: 2013-01-01
   end_date: 2016-12-31
   type: lower

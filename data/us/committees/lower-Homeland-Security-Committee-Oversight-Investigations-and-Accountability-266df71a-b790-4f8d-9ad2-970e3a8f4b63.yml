@@ -33,6 +33,9 @@ members:
 - name: Dale Strong
   role: member
   person_id: ocd-person/e54a4532-aa1e-5e2d-b630-4f35ef10a46f
+- name: Dave Joyce
+  role: member
+  person_id: ocd-person/b7ff0450-1acd-5127-b3f5-7246374119a9
 - name: Delia Ramirez
   role: member
   person_id: ocd-person/34d76857-187b-5f62-a2d1-ddfcd13494cf

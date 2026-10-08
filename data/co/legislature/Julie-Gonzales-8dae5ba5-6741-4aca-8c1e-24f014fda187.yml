@@ -2,9 +2,10 @@ id: ocd-person/8dae5ba5-6741-4aca-8c1e-24f014fda187
 name: Julie Gonzales
 given_name: Julie
 family_name: Gonzales
+birth_date: 1983-03-14
 gender: Female
 email: julie.gonzales.senate@coleg.gov
-image: http://leg.colorado.gov/sites/default/files/styles/width_300/public/2023b_gonzales%2Cjulie.jpg?itok=YD-7SxZl
+image: https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBOXBTQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--f26a08c473c6f23699613abea473f8b3120e976c/Gonzales,%20Julie.jpg
 party:
 - name: Democratic
 roles:
@@ -24,6 +25,11 @@ other_names:
 - name: Gonzales J.
 - name: Gonzales, J.
 - name: J. Gonzales
+- name: J.C. Gonzales
+ids:
+  twitter: SenadoraJulie
+  facebook: senadorajulie
+  instagram: senadorajulie
 sources:
 - url: https://ballotpedia.org/Julie_Gonzales
 - url: https://en.wikipedia.org/wiki/Julie_Gonzales

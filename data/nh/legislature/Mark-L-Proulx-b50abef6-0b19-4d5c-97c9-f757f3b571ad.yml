@@ -5,7 +5,7 @@ family_name: Proulx
 birth_date: 1958-04-21
 gender: Male
 email: mark.proulx@gc.nh.gov
-image: https://www.gencourt.state.nh.us/house/images/memberpics/377007.jpg
+image: https://storage.googleapis.com/enview-dev-public-general/legislative-people-photos/50154.jpg
 party:
 - name: Republican
 roles:
@@ -13,11 +13,6 @@ roles:
   type: lower
   jurisdiction: ocd-jurisdiction/country:us/state:nh/government
   district: Hillsborough 15
-- end_date: 2020-12-01
-  type: lower
-  jurisdiction: ocd-jurisdiction/country:us/state:nh/government
-  district: Hillsborough 15
-  start_date: 2022-12-07
 - start_date: 2010-12-01
   end_date: 2012-12-05
   type: lower

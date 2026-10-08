@@ -1,0 +1,54 @@
+id: ocd-person/23ffff2b-3ce6-46dc-996c-7b4fd71607bc
+name: Nabilah Parkes
+given_name: Nabilah
+family_name: Parkes
+birth_date: 1989-11-27
+gender: Female
+email: nabilah.parkes@senate.ga.gov
+image: https://www.legis.ga.gov/api/images/default-source/portraits/islam-nabilah-5015.jpg
+party:
+- name: Democratic
+roles:
+- start_date: 2023-01-09
+  type: upper
+  jurisdiction: ocd-jurisdiction/country:us/state:ga/government
+  district: '7'
+  end_date: 2026-04-08
+offices: []
+links:
+- url: https://www.legis.ga.gov/members/senate
+  note: HTML members list page
+- url: https://www.legis.ga.gov/members/senate/5015
+- url: https://www.legis.ga.gov/members/senate/5015?session=1031
+  note: HTML member detail page
+- url: https://www.legis.ga.gov/members/senate/5015?session=1032
+other_names:
+- name: ISLAM PARKES, 7TH
+- name: Islam Parkes, N.
+- name: N. Islam Parkes
+- name: N. Parkes
+- name: N.A. Islam Parkes
+- name: N.A.I. Parkes
+- name: Nabilah Aishah Islam Parkes
+- name: Nabilah Islam
+- name: Nabilah Islam Parkes
+- name: PARKES, 7TH
+- name: Parkes, N.
+sources:
+- url: https://ballotpedia.org/Nabilah_Islam
+- url: https://ballotpedia.org/Nabilah_Islam_Parkes
+- url: https://en.wikipedia.org/wiki/Nabilah_Islam
+- url: https://en.wikipedia.org/wiki/Nabilah_Islam_Parkes
+- url: https://www.legis.ga.gov/api/members/detail/5015?session=1031&chamber=2
+  note: API member detail (requires authorization token)
+- url: https://www.legis.ga.gov/api/members/list/1031
+  note: API members list (requires authorization token)
+- url: https://www.legis.ga.gov/members/senate/5015
+- url: https://www.legis.ga.gov/members/senate/5015?session=1031
+- url: https://www.linkedin.com/in/nabilah-islam-7248aa20b
+extras:
+  residence: Lawrenceville
+  city: Lawrenceville
+  georgia_id: 5015
+  staff: Phyllis Williams
+  staff email: phyllis.williams@senate.ga.gov

@@ -1,0 +1,43 @@
+id: ocd-person/3f87732e-d7d9-4a1a-bee5-9a231758a474
+name: Josie Tomkow
+given_name: Josie
+family_name: Tomkow
+birth_date: 1995-10-15
+gender: Female
+email: josie.tomkow@flhouse.gov
+image: https://myfloridahouse.gov//FileStores/Web/Imaging/Member/4704.jpg
+party:
+- name: Republican
+roles:
+- start_date: 2022-11-08
+  type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:fl/government
+  district: '51'
+  end_date: 2026-04-08
+- end_date: 2022-11-08
+  type: lower
+  jurisdiction: ocd-jurisdiction/country:us/state:fl/government
+  district: '39'
+offices: []
+links:
+- url: https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4704&LegislativeTermId=90
+  note: member detail page
+- url: https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4704
+- url: https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4704
+- url: https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4704&LegislativeTermId=88
+other_names:
+- name: J. Tomkow
+- name: Tomkow, J.
+other_identifiers:
+- scheme: legacy_openstates
+  identifier: FLL000513
+sources:
+- url: https://ballotpedia.org/Josie_Tomkow
+- url: https://en.wikipedia.org/wiki/Josie_Tomkow
+- url: https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4704&LegislativeTermId=90
+  note: member detail page
+- url: https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4704
+- url: https://www.myfloridahouse.gov/Representatives
+- url: https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4704
+- url: https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4704&LegislativeTermId=88
+- url: https://www.myfloridahouse.gov/Sections/Representatives/representatives.aspx

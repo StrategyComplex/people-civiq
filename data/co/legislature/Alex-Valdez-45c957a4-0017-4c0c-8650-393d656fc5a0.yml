@@ -5,7 +5,7 @@ family_name: Valdez
 birth_date: 1981-06-03
 gender: Male
 email: alex.valdez.house@coleg.gov
-image: http://leg.colorado.gov/sites/default/files/styles/width_300/public/2023b_valdez%2Calex.jpg?itok=NsEe2BaG
+image: https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMU5UQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--d081dee839aa2f1b43bce42882d1b5e679141a05/Valdez,%20Alex.jpg
 party:
 - name: Democratic
 roles:
@@ -26,12 +26,18 @@ other_names:
 - name: A.J. Valdez
 - name: Valdez A.
 - name: Valdez, A.
+ids:
+  twitter: ValdezforCO
+  facebook: ValdezforCO
 sources:
 - url: https://ballotpedia.org/Alex_Valdez_(Colorado)
 - url: https://en.wikipedia.org/wiki/Alex_Valdez
 - url: https://justfacts.votesmart.org/candidate/biography/181727/alex-valdez
 - url: https://leg.colorado.gov/legislators
 - url: https://leg.colorado.gov/legislators/alex-valdez
+- url: https://ncel.net/personnel/the-honorable-alex-valdez
+- url: https://www.cohousedems.com/team/alex-valdez
+- url: https://www.linkedin.com/in/alex-valdez-a2498b2aa
 extras:
   counties represented:
   - Denver

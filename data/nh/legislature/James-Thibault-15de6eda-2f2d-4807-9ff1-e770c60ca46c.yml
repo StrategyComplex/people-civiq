@@ -5,6 +5,7 @@ family_name: Thibault
 birth_date: 2005-12-27
 gender: Male
 email: james.thibault@gc.nh.gov
+image: https://storage.googleapis.com/enview-dev-public-general/legislative-people-photos/161688.jpg
 party:
 - name: Republican
 roles:

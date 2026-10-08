@@ -4,7 +4,7 @@ given_name: Jim
 family_name: Creighton
 gender: Male
 email: creighton4nh@gmail.com
-image: https://www.gencourt.state.nh.us/house/images/memberpics/409017.jpg
+image: https://storage.googleapis.com/enview-dev-public-general/legislative-people-photos/93924.jpg
 party:
 - name: Republican
 roles:

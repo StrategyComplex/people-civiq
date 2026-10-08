@@ -4,7 +4,7 @@ given_name: Shane
 family_name: Abbott
 gender: Male
 email: shane.abbott@flhouse.gov
-image: https://myfloridahouse.gov//FileStores/Web/Imaging/Member/4864.jpg
+image: https://www.flhouse.gov/FileStores/Web/Imaging/Member/4864.jpg
 party:
 - name: Republican
 roles:
@@ -35,6 +35,8 @@ other_names:
 - name: Shane G. Abbott
 sources:
 - url: https://ballotpedia.org/Shane_Abbott
+- url: https://en.wikipedia.org/wiki/Shane_Abbott
+- url: https://justfacts.votesmart.org/candidate/biography/209333/shane-abbott
 - url: https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4864&LegislativeTermId=90
   note: member detail page
 - url: https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4864

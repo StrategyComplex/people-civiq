@@ -22,6 +22,9 @@ members:
 - name: Cheryl Acton
   role: member
   person_id: ocd-person/54fcc31c-a3e5-47ea-a044-d1223c6bce65
+- name: Grant Pace
+  role: member
+  person_id: ocd-person/83efadab-9aba-4506-96d7-04a79581348c
 - name: Jake Fitisemanu
   role: member
   person_id: ocd-person/e68bfc15-5c1f-4903-ac1f-eb8ca44a816a
@@ -64,9 +67,6 @@ members:
 - name: Stuart Adams
   role: member
   person_id: ocd-person/5b47c889-e555-4d3c-9b30-97d52ee02960
-- name: Tyler Clancy
-  role: member
-  person_id: ocd-person/739625fa-268f-48d6-9ffa-b80fc19797d5
 other_names:
 - name: Joint Committee on Health and Human Services Interim
 - name: Joint Health and Human Services Interim

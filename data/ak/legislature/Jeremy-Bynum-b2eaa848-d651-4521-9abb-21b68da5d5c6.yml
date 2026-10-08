@@ -26,7 +26,11 @@ other_names:
 - name: Bynum, J.
 - name: J. Bynum
 - name: J.T. Bynum
+ids:
+  facebook: votebynum
+  instagram: votebynum
 sources:
 - url: https://ballotpedia.org/Jeremy_Bynum
+- url: https://en.wikipedia.org/wiki/Jeremy_Bynum
 - url: https://justfacts.votesmart.org/candidate/biography/200111/jeremy-bynum
 - url: https://www.akleg.gov/basis/Member/Detail/34?code=byn

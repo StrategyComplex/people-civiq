@@ -4,7 +4,7 @@ given_name: Tim
 family_name: Lang
 gender: Male
 email: timothy.lang@gc.nh.gov
-image: https://www.gencourt.state.nh.us/Senate/images/senators/02.jpg
+image: https://storage.googleapis.com/enview-dev-public-general/legislative-people-photos/59100.jpg
 party:
 - name: Republican
 roles:

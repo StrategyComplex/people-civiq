@@ -5,7 +5,7 @@ family_name: Ulery
 birth_date: 1949-10-19
 gender: Male
 email: repulery@comcast.net
-image: https://www.gencourt.state.nh.us/house/images/memberpics/376635.jpg
+image: https://storage.googleapis.com/enview-dev-public-general/legislative-people-photos/21895.jpg
 party:
 - name: Republican
 roles:
@@ -13,11 +13,6 @@ roles:
   type: lower
   jurisdiction: ocd-jurisdiction/country:us/state:nh/government
   district: Hillsborough 13
-- end_date: 2022-12-06
-  type: lower
-  jurisdiction: ocd-jurisdiction/country:us/state:nh/government
-  district: Hillsborough 13
-  start_date: 2022-12-07
 - end_date: 2022-12-07
   type: lower
   jurisdiction: ocd-jurisdiction/country:us/state:nh/government

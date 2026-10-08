@@ -2,9 +2,10 @@ id: ocd-person/2582d3dd-20c0-4d15-83a0-3b6dab1e98d2
 name: Mandy Lindsay
 given_name: Mandy
 family_name: Lindsay
+birth_date: 1977-10-31
 gender: Female
 email: mandy.lindsay.house@coleg.gov
-image: http://leg.colorado.gov/sites/default/files/styles/width_300/public/2023b_lindsay%2Cmandy.jpg?itok=FHjKFjNG
+image: https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeFpUQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--16f693f706022e86e268da5a37a9a93ff4aef1ba/Lindsay,%20Mandy.jpg
 party:
 - name: Democratic
 roles:
@@ -23,10 +24,17 @@ other_names:
 - name: Lindsay M.
 - name: Lindsay, M.
 - name: M. Lindsay
+ids:
+  twitter: MandyForCO
+  facebook: RepLindsay
+  instagram: rep_lindsay
 sources:
 - url: https://ballotpedia.org/Mandy_Lindsay
+- url: https://en.wikipedia.org/wiki/Mandy_Lindsay
+- url: https://justfacts.votesmart.org/candidate/biography/201403/mandy-lindsay
 - url: https://leg.colorado.gov/legislators
 - url: https://leg.colorado.gov/legislators/mandy-lindsay
+- url: https://www.cohousedems.com/team/mandy-lindsay
 extras:
   title: Majority Caucus Co-Chair
   counties represented:

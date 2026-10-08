@@ -5,7 +5,7 @@ family_name: Rowe
 birth_date: 1991-02-10
 gender: Male
 email: drowe@pahousegop.com
-image: https://www.legis.state.pa.us/images/members/200/1871.jpg?1703415645672
+image: https://www.palegis.us/resources/images/members/300/1871.jpg
 party:
 - name: Republican
 roles:
@@ -42,12 +42,15 @@ other_names:
 - name: Rowe, D.
 sources:
 - url: https://ballotpedia.org/David_Rowe
+- url: https://ballotpedia.org/David_Rowe_(Pennsylvania)
 - url: https://en.wikipedia.org/wiki/David_H._Rowe
+- url: https://justfacts.votesmart.org/candidate/biography/186714/david-rowe
 - url: https://www.legis.state.pa.us/cfdocs/legis/home/member_information/House_bio.cfm?id=1871
 - url: https://www.legis.state.pa.us/cfdocs/legis/home/member_information/mbrList.cfm?body=H&sort=alpha
 - url: https://www.legis.state.pa.us/cfdocs/legis/home/member_information/representatives_alpha.cfm
 - url: https://www.palegis.us/house/members/bio/1871/rep-rowe
 - url: https://www.repdavidrowe.com
+- url: https://www.repdavidrowe.com/about
 extras:
   Education:
   - PA Homeschool - 2009

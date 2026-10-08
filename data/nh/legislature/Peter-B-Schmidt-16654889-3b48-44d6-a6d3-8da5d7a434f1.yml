@@ -4,7 +4,7 @@ given_name: Peter
 family_name: Schmidt
 gender: Male
 email: peterbarrettschmidt@gmail.com
-image: https://www.gencourt.state.nh.us/house/images/memberpics/376521.jpg
+image: https://storage.googleapis.com/enview-dev-public-general/legislative-people-photos/45280.jpg
 party:
 - name: Democratic
 roles:

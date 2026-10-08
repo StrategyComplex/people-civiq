@@ -32,3 +32,11 @@
   id: ocd-jurisdiction/country:us/state:or/place:canby/government
 - name: Saint Helens
   id: ocd-jurisdiction/country:us/state:or/place:saint_helens/government
+- name: Florence
+  id: ocd-jurisdiction/country:us/state:or/place:florence/government
+- name: Sherwood
+  id: ocd-jurisdiction/country:us/state:or/place:sherwood/government
+- name: Scappoose
+  id: ocd-jurisdiction/country:us/state:or/place:scappoose/government
+- name: Harrisburg
+  id: ocd-jurisdiction/country:us/state:or/place:harrisburg/government

@@ -5,7 +5,7 @@ family_name: "L\xF3pez"
 birth_date: 1972-02-18
 gender: Female
 email: johanna.lopez@flhouse.gov
-image: https://myfloridahouse.gov//FileStores/Web/Imaging/Member/4875.jpg
+image: https://www.flhouse.gov/FileStores/Web/Imaging/Member/4875.jpg
 party:
 - name: Democratic
 roles:
@@ -33,6 +33,7 @@ other_names:
 - name: "L\xF3pez, J."
 sources:
 - url: https://ballotpedia.org/Johanna_Lopez
+- url: https://en.wikipedia.org/wiki/Johanna_L%C3%B3pez
 - url: https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4875&LegislativeTermId=90
   note: member detail page
 - url: https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4875

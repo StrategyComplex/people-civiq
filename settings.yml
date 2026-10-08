@@ -1,156 +1,216 @@
 ar:
   vacancies:
   - chamber: lower
-    district: '70'
-    vacant_until: 2026-03-03
+    district: '8'
+    vacant_until: 2027-02-03
   - chamber: upper
-    district: '26'
-    vacant_until: 2026-03-03
+    district: '1'
+    vacant_until: 2027-02-03
+ca:
+  vacancies:
+  - chamber: lower
+    district: '3'
+    vacant_until: 2027-02-03
 fl:
   vacancies:
   - chamber: lower
-    district: '52'
-    vacant_until: 2026-07-15
+    district: '55'
+    vacant_until: 2027-02-03
   - chamber: lower
-    district: '87'
-    vacant_until: 2026-07-15
+    district: '78'
+    vacant_until: 2026-12-05
   - chamber: lower
     district: '113'
-    vacant_until: 2026-07-15
+    vacant_until: 2027-02-03
+  - chamber: lower
+    district: '116'
+    vacant_until: 2027-02-27
   - chamber: upper
-    district: '14'
-    vacant_until: 2026-07-15
+    district: '39'
+    vacant_until: 2027-02-27
 ga:
   vacancies:
   - chamber: upper
-    district: '53'
-    vacant_until: 2026-04-09
-  - chamber: lower
-    district: '94'
-    vacant_until: 2026-07-15
-  - chamber: lower
-    district: '130'
-    vacant_until: 2026-07-15
+    district: '12'
+    vacant_until: 2027-02-03
+hi:
+  vacancies: []
+ia:
+  vacancies:
+  - chamber: upper
+    district: '11'
+    vacant_until: 2027-02-03
+il:
+  vacancies: []
 la:
   vacancies:
-  - chamber: lower
-    district: 69
-    vacant_until: 2026-04-12
-  - chamber: lower
-    district: 100
-    vacant_until: 2026-04-12
   - chamber: upper
-    district: 3
-    vacant_until: 2026-04-12
+    district: '14'
+    vacant_until: 2027-01-10
+  - chamber: lower
+    district: '92'
+    vacant_until: 2026-12-13
 ma:
   vacancies:
   - chamber: lower
     district: 1st Franklin
-    vacant_until: 2026-06-01
+    vacant_until: 2026-11-05
   - chamber: lower
-    district: 5th Essex
-    vacant_until: 2026-03-31
-  - chamber: upper
-    district: First Middlesex
-    vacant_until: 2026-03-03
+    district: 17th Middlesex
+    vacant_until: 2026-12-01
+  - chamber: lower
+    district: 16th Middlesex
+    vacant_until: 2027-02-03
 me:
+  vacancies: []
+mn:
   vacancies:
   - chamber: lower
-    district: 29
-    vacant_until: 2026-05-01
-  - chamber: lower
-    district: 94
-    vacant_until: 2026-02-25
-mi:
-  vacancies:
-  - chamber: upper
-    district: 35
-    vacant_until: 2026-02-15
+    district: 21A
+    vacant_until: 2027-02-03
 mo:
   vacancies:
   - chamber: lower
     district: '95'
-    vacant_until: 2026-02-15
+    vacant_until: 2026-11-04
   - chamber: lower
     district: '110'
-    vacant_until: 2026-02-28
+    vacant_until: 2026-11-04
   - chamber: lower
     district: '114'
-    vacant_until: 2026-02-28
+    vacant_until: 2026-11-04
   - chamber: lower
     district: '149'
-    vacant_until: 2026-02-28
+    vacant_until: 2026-11-04
   - chamber: lower
     district: '160'
-    vacant_until: 2026-02-15
+    vacant_until: 2026-11-04
+  - chamber: upper
+    district: '10'
+    vacant_until: 2027-02-03
+ms:
+  vacancies:
+  - chamber: lower
+    district: '70'
+    vacant_until: 2026-11-04
+  - chamber: lower
+    district: '77'
+    vacant_until: 2026-11-04
+nc:
+  vacancies:
+  - chamber: upper
+    district: '1'
+    vacant_until: 2027-02-27
 nd:
   vacancies: []
 nh:
   vacancies:
   - chamber: lower
-    district: Rockingham 25
-    vacant_until: 2026-02-15
+    district: Belknap 2
+    vacant_until: 2027-02-03
   - chamber: lower
-    district: Carroll 7
-    vacant_until: 2026-03-11
+    district: Belknap 6
+    vacant_until: 2027-01-01
   - chamber: lower
     district: Cheshire 1
-    vacant_until: 2026-03-11
+    vacant_until: 2027-02-03
   - chamber: lower
-    district: Belknap 2
-    vacant_until: 2026-03-11
+    district: Coos 6
+    vacant_until: 2026-11-30
+  - chamber: lower
+    district: Hillsborough 1
+    vacant_until: 2027-01-01
   - chamber: lower
     district: Hillsborough 24
-    vacant_until: 2026-03-11
+    vacant_until: 2027-02-03
   - chamber: lower
     district: Hillsborough 29
-    vacant_until: 2026-03-11
+    vacant_until: 2027-02-03
+  - chamber: lower
+    district: Hillsborough 40
+    vacant_until: 2026-11-30
+  - chamber: lower
+    district: Hillsborough 6
+    vacant_until: 2027-02-03
+  - chamber: lower
+    district: Hillsborough 39
+    vacant_until: 2027-02-03
+  - chamber: lower
+    district: Rockingham 11
+    vacant_until: 2027-02-03
+  - chamber: lower
+    district: Rockingham 24
+    vacant_until: 2027-02-03
+  - chamber: lower
+    district: Rockingham 25
+    vacant_until: 2027-02-03
+  - chamber: lower
+    district: Belknap 5
+    vacant_until: 2026-11-04
+  - chamber: lower
+    district: Grafton 9
+    vacant_until: 2027-02-27
+  - chamber: lower
+    district: Rockingham 22
+    vacant_until: 2027-02-27
+  - chamber: lower
+    district: Hillsborough 41
+    vacant_until: 2027-02-27
+ny:
+  vacancies:
+  - chamber: upper
+    district: '12'
+    vacant_until: 2027-01-01
+nm:
+  vacancies:
+  - chamber: lower
+    district: '37'
+    vacant_until: 2027-02-03
+  - chamber: lower
+    district: '41'
+    vacant_until: 2027-02-03
+oh:
+  vacancies:
+  - chamber: upper
+    district: '13'
+    vacant_until: 2027-02-03
 ok:
   vacancies:
   - chamber: lower
-    district: 35
-    vacant_until: 2026-02-15
-  - chamber: lower
-    district: 92
-    vacant_until: 2026-02-15
-  - chamber: lower
     district: 99
-    vacant_until: 2026-04-15
-pa:
-  vacancies:
-  - chamber: lower
-    district: 22
-    vacant_until: 2026-07-30
-  - chamber: lower
-    district: 42
-    vacant_until: 2026-07-30
-  - chamber: lower
-    district: 79
-    vacant_until: 2026-07-30
-  - chamber: lower
-    district: 193
-    vacant_until: 2026-07-30
-  - chamber: lower
-    district: 196
-    vacant_until: 2026-05-20
+    vacant_until: 2027-02-03
+  - chamber: upper
+    district: '24'
+    vacant_until: 2027-02-03
 tx:
   vacancies:
+  - chamber: lower
+    district: '93'
+    vacant_until: 2027-02-03
   - chamber: upper
-    district: 4
-    vacant_until: 2026-07-30
+    district: '22'
+    vacant_until: 2027-02-03
 us:
   vacancies:
   - chamber: lower
-    district: AZ-7
-    vacant_until: 2026-07-30
+    district: CA-14
+    vacant_until: 2027-01-01
   - chamber: lower
-    district: TX-18
-    vacant_until: 2026-07-30
+    district: FL-20
+    vacant_until: 2027-01-01
   - chamber: lower
-    district: VA-11
-    vacant_until: 2026-07-30
+    district: GA-13
+    vacant_until: 2027-02-03
+  - chamber: lower
+    district: TX-23
+    vacant_until: 2027-01-01
+va:
+  vacancies:
+  - chamber: lower
+    district: '20'
+    vacant_until: 2026-12-05
 wv:
   vacancies:
   - chamber: lower
-    district: 9
-    vacant_until: 2026-07-30
+    district: '50'
+    vacant_until: 2027-02-03

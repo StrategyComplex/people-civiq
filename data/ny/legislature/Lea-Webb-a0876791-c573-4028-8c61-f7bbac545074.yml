@@ -4,7 +4,7 @@ given_name: Lea
 family_name: Webb
 gender: Female
 email: leawebb@nysenate.gov
-image: https://www.nysenate.gov/sites/default/files/styles/160x160/public/senwebbhs.jpg?itok=Tz0a39KS
+image: https://www.nysenate.gov/sites/default/files/styles/senator_hero/public/senwebbhslp_0.jpg
 party:
 - name: Democratic/Working Families
 roles:
@@ -30,5 +30,6 @@ other_names:
 sources:
 - url: https://ballotpedia.org/Lea_Webb
 - url: https://en.wikipedia.org/wiki/Lea_Webb
+- url: https://justfacts.votesmart.org/candidate/biography/106166/lea-webb
 - url: https://www.linkedin.com/in/lea-webb-368947a
 - url: https://www.nysenate.gov/senators/lea-webb

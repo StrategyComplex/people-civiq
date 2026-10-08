@@ -13,11 +13,6 @@ roles:
   type: upper
   jurisdiction: ocd-jurisdiction/country:us/state:ct/government
   district: '9'
-- end_date: 2019-01-08
-  type: upper
-  jurisdiction: ocd-jurisdiction/country:us/state:ct/government
-  district: '9'
-  start_date: 2019-01-09
 offices:
 - classification: capitol
   address: Room 2800, Legislative Office Building 300 Capitol Ave., Hartford, CT 06106
@@ -35,6 +30,7 @@ sources:
 - url: ftp://ftp.cga.ct.gov/pub/data/LegislatorDatabase.csv
 - url: https://ballotpedia.org/Matthew_Lesser
 - url: https://en.wikipedia.org/wiki/Matt_Lesser
+- url: https://justfacts.votesmart.org/candidate/biography/107330/matt-lesser
 - url: https://www.linkedin.com/in/matthew-lesser-bb941414
 - url: https://www.senatedems.ct.gov/lesser
 - url: https://www.senatedems.ct.gov/senator/matt-lesser

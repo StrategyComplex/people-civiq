@@ -14,14 +14,18 @@ roles:
   district: '50'
 offices:
 - classification: capitol
-  address: State Capitol Room 314, 415 S. Beretania St., Honolulu, HI 96813
+  address: State Capitol Room 322, 415 S. Beretania St., Honolulu, HI 96813
   voice: 808-586-6480
+  fax: 808-586-6481
 links:
 - url: https://www.capitol.hawaii.gov/legislature/memberpage.aspx?member=305
 other_names:
 - name: Lee, M.
 - name: M. Lee
+- name: M.G.K. Lee
 sources:
 - url: https://ballotpedia.org/Michael_Lee_(Hawaii)
+- url: https://en.wikipedia.org/wiki/Mike_Lee_(Hawaii_politician)
+- url: https://justfacts.votesmart.org/candidate/biography/208512/michael-lee
 - url: https://mikeleeforhawaii.com/meet-mike
 - url: https://www.capitol.hawaii.gov/legislature/memberpage.aspx?member=305

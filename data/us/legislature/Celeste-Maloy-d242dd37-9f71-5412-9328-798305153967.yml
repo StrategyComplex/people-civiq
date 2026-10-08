@@ -25,9 +25,12 @@ offices:
   voice: 202-225-9730
 - classification: district
   address: 111 E. Tabernacle, St. George, UT 84770
+  voice: 435-703-7720
 - classification: district
   address: '585 W. 500 South #230, Bountiful, UT 84010'
   voice: 801-364-5550
+- classification: district
+  address: 71 S. 200 West, Delta, UT 84624
 links:
 - url: https://maloy.house.gov
   note: website
@@ -57,6 +60,7 @@ other_identifiers:
 sources:
 - url: https://ballotpedia.org/Celeste_Maloy
 - url: https://en.wikipedia.org/wiki/Celeste_Maloy
+- url: https://justfacts.votesmart.org/candidate/biography/212289/celeste-maloy
 - url: https://maloy.house.gov
 - url: https://maloy.house.gov/about
 - url: https://unitedstates.github.io

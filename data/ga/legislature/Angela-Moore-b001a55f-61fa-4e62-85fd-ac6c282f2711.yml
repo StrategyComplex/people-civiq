@@ -2,6 +2,7 @@ id: ocd-person/b001a55f-61fa-4e62-85fd-ac6c282f2711
 name: Angela Moore
 given_name: Angela
 family_name: Moore
+birth_date: 1972-10-04
 gender: Female
 email: angela.moore@house.ga.gov
 image: https://www.legis.ga.gov/api/images/default-source/portraits/moore-angela-5008.jpg
@@ -37,6 +38,8 @@ other_names:
 - name: Moore, A.
 sources:
 - url: https://ballotpedia.org/Angela_Moore_(Georgia)
+- url: https://en.wikipedia.org/wiki/Angela_Moore
+- url: https://justfacts.votesmart.org/candidate/biography/105138/angela-moore
 - url: https://www.legis.ga.gov/api/members/detail/5008?session=1029&chamber=1
   note: Detail page (requires authorization token)
 - url: https://www.legis.ga.gov/api/members/detail/5008?session=1031&chamber=1

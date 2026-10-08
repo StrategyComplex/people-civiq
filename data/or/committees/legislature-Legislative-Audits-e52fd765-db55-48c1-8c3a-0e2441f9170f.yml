@@ -21,9 +21,6 @@ links:
 - url: https://olis.oregonlegislature.gov/liz/2025R1/Committees/JLAUD/Overview
 - url: https://olis.oregonlegislature.gov/liz/2026R1/Committees/JLAUD/Overview
 members:
-- name: Kim Wallan
-  role: vice chair
-  person_id: ocd-person/a2e34475-ba6f-41af-bf61-83c7160d6c10
 - name: Noah Robinson
   role: vice chair
   person_id: ocd-person/15862ba2-3cdd-4a2e-a22e-28acdea73055
@@ -33,6 +30,9 @@ members:
 - name: Tawna Sanchez
   role: co-chair
   person_id: ocd-person/c138ec96-0a6f-4dee-be06-be286b68cfbb
+- name: Kim Wallan
+  role: co-vice chair
+  person_id: ocd-person/a2e34475-ba6f-41af-bf61-83c7160d6c10
 - name: Anthony Broadman
   role: member
   person_id: ocd-person/305e1426-2193-4e49-accf-6b26d224e92b

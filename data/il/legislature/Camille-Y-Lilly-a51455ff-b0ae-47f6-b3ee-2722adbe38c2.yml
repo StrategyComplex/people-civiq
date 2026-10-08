@@ -4,7 +4,7 @@ given_name: Camille
 family_name: Lilly
 gender: Female
 email: staterepcamilleylilly@gmail.com
-image: https://ilga.gov/images/members/{84D8FB64-9F82-405A-9376-A69ADFB46E53}.jpg
+image: https://cdn.ilga.gov/assets/img/members/{84D8FB64-9F82-405A-9376-A69ADFB46E53}.jpg
 party:
 - name: Democratic
 roles:
@@ -28,6 +28,7 @@ links:
 - url: https://www.ilga.gov/House/Members/Details/3279
 - url: https://www.ilga.gov/house/Rep.asp?GA=103&MemberID=3046
 - url: https://www.ilga.gov/house/Rep.asp?MemberID=3279
+- url: https://www.staterepcamilleylilly.com/
 other_names:
 - name: C. Lilly
 - name: C.Y. Lilly
@@ -61,3 +62,6 @@ sources:
 - url: https://www.ilga.gov/house/Rep.asp?GA=103&MemberID=3046
 - url: https://www.ilga.gov/house/Rep.asp?MemberID=3279
 - url: https://www.linkedin.com/in/camille-y-lilly-01b6b717
+- url: https://www.linkedin.com/in/rep-camille-y-lilly-assistant-majority-leader-01b6b717
+- url: https://www.staterepcamilleylilly.com
+- url: https://www.staterepcamilleylilly.com/about

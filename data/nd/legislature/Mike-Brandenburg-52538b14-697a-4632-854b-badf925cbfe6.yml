@@ -13,14 +13,10 @@ roles:
   type: lower
   jurisdiction: ocd-jurisdiction/country:us/state:nd/government
   district: '28'
-- end_date: 2002-11-30
-  type: lower
-  jurisdiction: ocd-jurisdiction/country:us/state:nd/government
-  district: '28'
-  start_date: 2004-12-01
 offices:
 - classification: capitol
   address: State Capitol 600 E. Boulevard Ave., Bismarck, ND 58505
+  voice: 701-328-3373
 - classification: district-mail
   address: ND
   voice: 701-493-2915

@@ -28,9 +28,13 @@ other_names:
 - name: D.C. Mears
 - name: Donna C. Mears
 - name: Mears, D.
+ids:
+  twitter: DonnaMears
+  facebook: Rep.Mears
 sources:
 - url: https://akhouse.org/rep-mears
 - url: https://ballotpedia.org/Donna_Mears
+- url: https://en.wikipedia.org/wiki/Donna_Mears
 - url: https://www.akleg.gov/basis/mbr_info.asp?session=33
   note: member list page
 - url: https://www.akleg.gov/basis/Member/Detail/33?code=MEA
