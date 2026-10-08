@@ -9,6 +9,7 @@ from pathlib import Path
 import yaml
 
 _PERSON_DIRS = ("executive", "legislature", "municipalities", "retired")
+_PERSON_PATH_DEPTH = 3
 
 
 def normalize(value: object) -> str:
@@ -30,28 +31,26 @@ def person_files(data_dir: Path, state: str) -> list[Path]:
 
 def person_file_state(data_dir: Path, path: Path) -> str | None:
     """Return a changed person file's state, or None when the path should be ignored."""
-    if path.is_absolute():
-        try:
-            path = path.relative_to(Path.cwd())
-        except ValueError:
-            return None
+    try:
+        parts = path.resolve().relative_to(data_dir.resolve()).parts
+    except ValueError:
+        return None
 
-    parts = path.parts
-    data_parts = data_dir.parts
-    if len(parts) != len(data_parts) + 3:
+    if len(parts) != _PERSON_PATH_DEPTH:
         return None
-    if parts[: len(data_parts)] != data_parts:
-        return None
-    if parts[len(data_parts) + 1] not in _PERSON_DIRS:
+    if parts[1] not in _PERSON_DIRS:
         return None
     if path.suffix not in (".yml", ".yaml"):
         return None
-    return parts[len(data_parts)]
+    return parts[0]
 
 
-def check_state(data_dir: Path, state: str) -> dict[tuple[str, str], list[Path]]:
-    """Find duplicate person files in one state by normalized given and family name."""
-    people: dict[tuple[str, str], list[Path]] = defaultdict(list)
+def duplicate_groups(
+    data_dir: Path, state: str
+) -> tuple[dict[tuple[str, str], list[Path]], dict[str, list[Path]]]:
+    """Find normalized-name and exact-ID duplicate groups for one state."""
+    names: dict[tuple[str, str], list[Path]] = defaultdict(list)
+    ids: dict[str, list[Path]] = defaultdict(list)
 
     for path in person_files(data_dir, state):
         with path.open() as file:
@@ -59,12 +58,62 @@ def check_state(data_dir: Path, state: str) -> dict[tuple[str, str], list[Path]]
 
         given_name = normalize(record.get("given_name"))
         family_name = normalize(record.get("family_name"))
-        if not given_name or not family_name:
+        if given_name and family_name:
+            names[(given_name, family_name)].append(path.resolve())
+
+        person_id = record.get("id")
+        if isinstance(person_id, str) and person_id:
+            ids[person_id].append(path.resolve())
+
+    name_duplicates = {
+        key: paths for key, paths in sorted(names.items()) if len(paths) > 1
+    }
+    id_duplicates = {key: paths for key, paths in sorted(ids.items()) if len(paths) > 1}
+    return name_duplicates, id_duplicates
+
+
+def report_name_duplicates(
+    state: str,
+    duplicates: dict[tuple[str, str], list[Path]],
+    changed_paths: set[Path] | None,
+) -> None:
+    """Print name-only duplicate groups as review warnings."""
+    for (given_name, family_name), paths in duplicates.items():
+        if changed_paths is not None and not changed_paths.intersection(paths):
             continue
+        print(
+            f"WARNING: {state}: possible duplicate person records for "
+            f"given_name={given_name!r}, family_name={family_name!r}"
+        )
+        for path in paths:
+            marker = (
+                " (changed)"
+                if changed_paths is not None and path in changed_paths
+                else ""
+            )
+            print(f"  - {path}{marker}")
 
-        people[(given_name, family_name)].append(path)
 
-    return {key: paths for key, paths in sorted(people.items()) if len(paths) > 1}
+def report_id_duplicates(
+    state: str,
+    duplicates: dict[str, list[Path]],
+    changed_paths: set[Path] | None,
+) -> bool:
+    """Print exact-ID duplicate groups and report whether any were in scope."""
+    found_duplicates = False
+    for person_id, paths in duplicates.items():
+        if changed_paths is not None and not changed_paths.intersection(paths):
+            continue
+        found_duplicates = True
+        print(f"ERROR: {state}: duplicate person id={person_id!r}")
+        for path in paths:
+            marker = (
+                " (changed)"
+                if changed_paths is not None and path in changed_paths
+                else ""
+            )
+            print(f"  - {path}{marker}")
+    return found_duplicates
 
 
 def changed_person_files(
@@ -73,7 +122,7 @@ def changed_person_files(
     """Group changed person files by state for CI-scoped duplicate checks."""
     changed_by_state: dict[str, set[Path]] = defaultdict(set)
     for changed_file in changed_files:
-        path = Path(changed_file)
+        path = Path(changed_file).resolve()
         state = person_file_state(data_dir, path)
         if state is None or not path.exists():
             continue
@@ -85,8 +134,8 @@ def main() -> int:
     """Run either a full-state duplicate scan or a changed-file-scoped CI scan."""
     parser = argparse.ArgumentParser(
         description=(
-            "Fail if person files have duplicate given_name and family_name "
-            "in the same state."
+            "Warn about normalized-name matches and fail on exact duplicate "
+            "person IDs within the same state."
         )
     )
     parser.add_argument(
@@ -103,7 +152,7 @@ def main() -> int:
     )
     args = parser.parse_args()
 
-    found_duplicates = False
+    found_duplicate_ids = False
     changed_by_state = changed_person_files(args.data_dir, args.changed_files or [])
 
     if args.changed_files is not None:
@@ -114,39 +163,24 @@ def main() -> int:
         # Existing historical duplicate groups are allowed unless this change
         # touches one of them.
         for state, changed_paths in sorted(changed_by_state.items()):
-            duplicates = check_state(args.data_dir, state)
-            for (given_name, family_name), paths in duplicates.items():
-                if not changed_paths.intersection(paths):
-                    continue
-                found_duplicates = True
-                print(
-                    f"{state}: changed file violates duplicate person rule for "
-                    f"given_name={given_name!r}, family_name={family_name!r}"
-                )
-                for path in paths:
-                    marker = " (changed)" if path in changed_paths else ""
-                    print(f"  - {path}{marker}")
+            name_duplicates, id_duplicates = duplicate_groups(args.data_dir, state)
+            report_name_duplicates(state, name_duplicates, changed_paths)
+            found_duplicate_ids |= report_id_duplicates(
+                state, id_duplicates, changed_paths
+            )
     else:
         if not args.states:
             parser.error("provide states to check, or use --changed-files")
 
         for state in sorted(set(args.states)):
-            duplicates = check_state(args.data_dir, state)
-            for (given_name, family_name), paths in duplicates.items():
-                found_duplicates = True
-                print(
-                    f"{state}: duplicate person records for given_name={given_name!r}, "
-                    f"family_name={family_name!r}"
-                )
-                for path in paths:
-                    print(f"  - {path}")
+            name_duplicates, id_duplicates = duplicate_groups(args.data_dir, state)
+            report_name_duplicates(state, name_duplicates, None)
+            found_duplicate_ids |= report_id_duplicates(state, id_duplicates, None)
 
-    if found_duplicates:
+    if found_duplicate_ids:
         print(
-            "\nDuplicate person records found. A person is considered "
-            "duplicate when given_name and family_name match within the "
-            "same state. In CI, only duplicate groups containing changed "
-            "person files fail.",
+            "\nDuplicate person IDs found. In CI, only duplicate groups containing "
+            "changed person files fail.",
             file=sys.stderr,
         )
         return 1
