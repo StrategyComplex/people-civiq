@@ -91,12 +91,11 @@ def person_files(data_dir: Path) -> list[Path]:
 
 
 def check_role_integrity(record: dict) -> list[str]:
-    """Flag roles with end_date before start_date, or exact-duplicate role entries."""
+    """Flag blocking role defects: reversed dates and identical full mappings."""
     problems: list[str] = []
     roles = record.get("roles") or []
-    seen: dict[tuple, int] = {}
 
-    for role in roles:
+    for index, role in enumerate(roles):
         start = role.get("start_date")
         end = role.get("end_date")
         if start and end and str(end) < str(start):
@@ -105,23 +104,54 @@ def check_role_integrity(record: dict) -> list[str]:
                 f"(district={role.get('district')!r}, type={role.get('type')!r})"
             )
 
-        key = (role.get("type"), role.get("jurisdiction"), role.get("district"), start)
-        seen[key] = seen.get(key, 0) + 1
-
-    for (rtype, jurisdiction, district, start), count in seen.items():
-        if count > 1:
+        if any(role == earlier_role for earlier_role in roles[:index]):
             problems.append(
-                f"{count} role entries share type={rtype!r}, "
-                f"jurisdiction={jurisdiction!r}, district={district!r}, "
-                f"start_date={start} - likely a duplicate entry rather than a "
-                "real repeated term"
+                "role has an identical full mapping to an earlier role entry "
+                f"(district={role.get('district')!r}, type={role.get('type')!r})"
             )
 
     return problems
 
 
+def check_ambiguous_role_signatures(record: dict) -> list[str]:
+    """Warn when one office/start signature has different full role mappings.
+
+    These records may be overlapping terms or incomplete corrections. Their
+    difference is not sufficient evidence to reject them automatically.
+    """
+    warnings: list[str] = []
+    signatures: list[list[dict]] = []
+
+    for role in record.get("roles") or []:
+        for signature in signatures:
+            sample = signature[0]
+            if (
+                role.get("type") == sample.get("type")
+                and role.get("jurisdiction") == sample.get("jurisdiction")
+                and role.get("district") == sample.get("district")
+                and role.get("start_date") == sample.get("start_date")
+            ):
+                signature.append(role)
+                break
+        else:
+            signatures.append([role])
+
+    for signature in signatures:
+        if len(signature) > 1 and any(role != signature[0] for role in signature[1:]):
+            role = signature[0]
+            warnings.append(
+                f"{len(signature)} role entries share type={role.get('type')!r}, "
+                f"jurisdiction={role.get('jurisdiction')!r}, "
+                f"district={role.get('district')!r}, "
+                f"start_date={role.get('start_date')} but have different full "
+                "mappings - review whether they are distinct terms"
+            )
+
+    return warnings
+
+
 def check_missing_start_date(record: dict) -> list[str]:
-    """Flag roles that have an end_date but no start_date.
+    """Warn about roles that have an end_date but no start_date.
 
     A role's term boundary is undefined without a start_date, and this has
     shown up repeatedly across unrelated states' executive records (GA's
@@ -422,9 +452,10 @@ def main() -> int:
         for problem in check_role_integrity(record):
             found_problems = True
             print(f"{path}: {problem}")
+        for warning in check_ambiguous_role_signatures(record):
+            print(f"warning: {path}: {warning}")
         for problem in check_missing_start_date(record):
-            found_problems = True
-            print(f"{path}: {problem}")
+            print(f"warning: {path}: {problem}")
 
     # Scoped to changed files only - see find_shared_end_dates' docstring for why
     # comparing against the whole repo is the wrong check (a seat like a US House
@@ -435,7 +466,8 @@ def main() -> int:
 
     if found_problems:
         print(
-            "\nRole date integrity problems found (duplicate/dangling role entries).",
+            "\nRole date integrity problems found (reversed dates or identical "
+            "role mappings).",
             file=sys.stderr,
         )
         return 1
