@@ -50,5 +50,13 @@ select = [
     "PL",   # Pylint
 ]
 
+[tool.ruff.lint.per-file-ignores]
+# Accepted legacy risks: pickle loading (S301), unsafe YAML loading (S506),
+# unrestricted URL opening (S310), and SHA-1 cache hashes (S324).
+# No current caller was found in inspected converter/CI paths; this is not
+# assurance that the utility is safe. These ignores also suppress future
+# findings for these four rules in this file; global S rules remain enabled.
+"scripts/utils.py" = ["S301", "S506", "S310", "S324"]
+
 [tool.ty.environment]
 python-version = "3.13"
